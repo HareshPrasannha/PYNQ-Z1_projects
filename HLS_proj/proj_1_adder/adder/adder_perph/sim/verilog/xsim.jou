@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Mar 23 14:46:17 2020
+# Process ID: 7016
+# Current directory: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/add/xsim_script.tcl}
+# Log file: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/xsim.log
+# Journal file: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/add/xsim_script.tcl
+source add.tcl

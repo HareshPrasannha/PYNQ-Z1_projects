@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="read_ocm.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_2_ocm\read_ocm.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="read_ocm_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_2_ocm\read_ocm_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

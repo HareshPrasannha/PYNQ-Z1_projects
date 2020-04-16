@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName fetch_log.cpp_pre.cpp.tb.cpp

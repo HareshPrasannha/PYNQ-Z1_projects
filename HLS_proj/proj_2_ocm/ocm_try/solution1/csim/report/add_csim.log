@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+WARNING: [SIM 51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../read_ocm_test.cpp in debug mode
+   Compiling ../../../../read_ocm.cpp in debug mode
+   Generating csim.exe
+Status value:100
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

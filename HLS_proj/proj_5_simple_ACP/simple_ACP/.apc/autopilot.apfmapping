@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mod_data.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_5_simple_ACP\mod_data.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="mod_data_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_5_simple_ACP\mod_data_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,27 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="fetch_log" label="">
+<pragma name="INTERFACE">
+<option name="m_axi" positionalBoolean="mode" value=""/>
+<option name="depth" value="len"/>
+<option name="port" positionalBoolean="4" value="a"/>
+<option name="offset" value="slave"/>
+<option name="bundle" value="A_BUS"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fetch_log" label="">
+<pragma name="INTERFACE">
+<option name="m_axi" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="log"/>
+<option name="offset" value="slave"/>
+<option name="bundle" value="LOG_BUS"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fetch_log" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

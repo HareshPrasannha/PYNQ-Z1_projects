@@ -1,0 +1,225 @@
+
+
+================================================================
+== Vivado HLS Report for 'read_ocm'
+================================================================
+* Date:           Thu Mar 26 12:07:17 2020
+
+* Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
+* Project:        ocm_try
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.75|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    1|   15|    2|   16|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     43|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        2|      -|     686|    852|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     87|
+|Register         |        -|      -|     146|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        2|      0|     832|    982|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |    ~0   |      0|   ~0   |      1|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +-----------------------------+---------------------------+---------+-------+-----+-----+
+    |           Instance          |           Module          | BRAM_18K| DSP48E|  FF | LUT |
+    +-----------------------------+---------------------------+---------+-------+-----+-----+
+    |read_ocm_AXILiteS_s_axi_U    |read_ocm_AXILiteS_s_axi    |        0|      0|  106|  168|
+    |read_ocm_CTRL_BUS_s_axi_U    |read_ocm_CTRL_BUS_s_axi    |        0|      0|   68|  104|
+    |read_ocm_SOURCE_BUS_m_axi_U  |read_ocm_SOURCE_BUS_m_axi  |        2|      0|  512|  580|
+    +-----------------------------+---------------------------+---------+-------+-----+-----+
+    |Total                        |                           |        2|      0|  686|  852|
+    +-----------------------------+---------------------------+---------+-------+-----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+-------+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+-------+---+----+------------+------------+
+    |tmp_1_fu_126_p2  |     +    |      0|  0|  32|          32|           4|
+    |tmp_fu_120_p2    |   icmp   |      0|  0|  11|          32|           1|
+    +-----------------+----------+-------+---+----+------------+------------+
+    |Total            |          |      0|  0|  43|          64|           5|
+    +-----------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------------------+----+-----------+-----+-----------+
+    |                Name               | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------------+----+-----------+-----+-----------+
+    |SOURCE_BUS_blk_n_AR                |   1|          2|    1|          2|
+    |SOURCE_BUS_blk_n_AW                |   1|          2|    1|          2|
+    |SOURCE_BUS_blk_n_B                 |   1|          2|    1|          2|
+    |SOURCE_BUS_blk_n_R                 |   1|          2|    1|          2|
+    |SOURCE_BUS_blk_n_W                 |   1|          2|    1|          2|
+    |ap_NS_fsm                          |  15|         17|    1|         17|
+    |ap_sig_ioackin_SOURCE_BUS_ARREADY  |   1|          2|    1|          2|
+    |ap_sig_ioackin_SOURCE_BUS_AWREADY  |   1|          2|    1|          2|
+    |ap_sig_ioackin_SOURCE_BUS_WREADY   |   1|          2|    1|          2|
+    |p_0_phi_fu_93_p4                   |  32|          2|   32|         64|
+    |p_0_reg_89                         |  32|          2|   32|         64|
+    +-----------------------------------+----+-----------+-----+-----------+
+    |Total                              |  87|         37|   73|        161|
+    +-----------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------------+----+----+-----+-----------+
+    |                Name               | FF | LUT| Bits| Const Bits|
+    +-----------------------------------+----+----+-----+-----------+
+    |SOURCE_BUS_addr_read_reg_141       |  32|   0|   32|          0|
+    |SOURCE_BUS_addr_reg_131            |  30|   0|   32|          2|
+    |ap_CS_fsm                          |  16|   0|   16|          0|
+    |ap_reg_ioackin_SOURCE_BUS_ARREADY  |   1|   0|    1|          0|
+    |ap_reg_ioackin_SOURCE_BUS_AWREADY  |   1|   0|    1|          0|
+    |ap_reg_ioackin_SOURCE_BUS_WREADY   |   1|   0|    1|          0|
+    |p_0_reg_89                         |  32|   0|   32|          0|
+    |tmp_1_reg_146                      |  32|   0|   32|          0|
+    |tmp_reg_137                        |   1|   0|    1|          0|
+    +-----------------------------------+----+----+-----+-----------+
+    |Total                              | 146|   0|  148|          2|
+    +-----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------+-----+-----+------------+--------------+--------------+
+|         RTL Ports         | Dir | Bits|  Protocol  | Source Object|    C Type    |
++---------------------------+-----+-----+------------+--------------+--------------+
+|s_axi_AXILiteS_AWVALID     |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_AWREADY     | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_AWADDR      |  in |    5|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WVALID      |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WREADY      | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WDATA       |  in |   32|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WSTRB       |  in |    4|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_ARVALID     |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_ARREADY     | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_ARADDR      |  in |    5|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RVALID      | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RREADY      |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RDATA       | out |   32|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RRESP       | out |    2|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_BVALID      | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_BREADY      |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_BRESP       | out |    2|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_CTRL_BUS_AWVALID     |  in |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_AWREADY     | out |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_AWADDR      |  in |    5|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_WVALID      |  in |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_WREADY      | out |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_WDATA       |  in |   32|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_WSTRB       |  in |    4|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_ARVALID     |  in |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_ARREADY     | out |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_ARADDR      |  in |    5|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_RVALID      | out |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_RREADY      |  in |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_RDATA       | out |   32|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_RRESP       | out |    2|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_BVALID      | out |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_BREADY      |  in |    1|    s_axi   |   CTRL_BUS   |    scalar    |
+|s_axi_CTRL_BUS_BRESP       | out |    2|    s_axi   |   CTRL_BUS   |    scalar    |
+|ap_clk                     |  in |    1| ap_ctrl_hs |   read_ocm   | return value |
+|ap_rst_n                   |  in |    1| ap_ctrl_hs |   read_ocm   | return value |
+|interrupt                  | out |    1| ap_ctrl_hs |   read_ocm   | return value |
+|m_axi_SOURCE_BUS_AWVALID   | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWREADY   |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWADDR    | out |   32|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWID      | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWLEN     | out |    8|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWSIZE    | out |    3|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWBURST   | out |    2|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWLOCK    | out |    2|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWCACHE   | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWPROT    | out |    3|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWQOS     | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWREGION  | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_AWUSER    | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WVALID    | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WREADY    |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WDATA     | out |   32|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WSTRB     | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WLAST     | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WID       | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_WUSER     | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARVALID   | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARREADY   |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARADDR    | out |   32|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARID      | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARLEN     | out |    8|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARSIZE    | out |    3|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARBURST   | out |    2|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARLOCK    | out |    2|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARCACHE   | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARPROT    | out |    3|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARQOS     | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARREGION  | out |    4|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_ARUSER    | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RVALID    |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RREADY    | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RDATA     |  in |   32|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RLAST     |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RID       |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RUSER     |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_RRESP     |  in |    2|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_BVALID    |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_BREADY    | out |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_BRESP     |  in |    2|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_BID       |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
+|m_axi_SOURCE_BUS_BUSER     |  in |    1|    m_axi   |  SOURCE_BUS  |    pointer   |
++---------------------------+-----+-----+------------+--------------+--------------+
+

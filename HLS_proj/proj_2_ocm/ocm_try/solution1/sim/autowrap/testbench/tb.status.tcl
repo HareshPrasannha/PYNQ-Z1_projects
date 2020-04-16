@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName read_ocm.cpp_pre.cpp.tb.cpp

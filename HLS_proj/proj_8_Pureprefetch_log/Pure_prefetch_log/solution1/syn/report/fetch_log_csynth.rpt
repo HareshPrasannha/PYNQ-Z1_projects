@@ -1,0 +1,263 @@
+
+
+================================================================
+== Vivado HLS Report for 'fetch_log'
+================================================================
+* Date:           Thu Apr 09 15:07:21 2020
+
+* Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
+* Project:        Pure_prefetch_log
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.75|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-------+-------+-------+-------+---------+
+    |    Latency    |    Interval   | Pipeline|
+    |  min  |  max  |  min  |  max  |   Type  |
+    +-------+-------+-------+-------+---------+
+    |  80001|  80001|  80002|  80002|   none  |
+    +-------+-------+-------+-------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-------+-------+----------+-----------+-----------+------+----------+
+        |          |    Latency    | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|  min  |  max  |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-------+-------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  80000|  80000|        10|          -|          -|  8000|    no    |
+        +----------+-------+-------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     85|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        4|      -|    1168|   1392|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     62|
+|Register         |        -|      -|     217|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        4|      0|    1385|   1539|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        1|      0|       1|      2|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------+--------------------------+---------+-------+-----+-----+
+    |          Instance          |          Module          | BRAM_18K| DSP48E|  FF | LUT |
+    +----------------------------+--------------------------+---------+-------+-----+-----+
+    |fetch_log_AXILiteS_s_axi_U  |fetch_log_AXILiteS_s_axi  |        0|      0|  144|  232|
+    |fetch_log_A_BUS_m_axi_U     |fetch_log_A_BUS_m_axi     |        2|      0|  512|  580|
+    |fetch_log_LOG_BUS_m_axi_U   |fetch_log_LOG_BUS_m_axi   |        2|      0|  512|  580|
+    +----------------------------+--------------------------+---------+-------+-----+-----+
+    |Total                       |                          |        4|      0| 1168| 1392|
+    +----------------------------+--------------------------+---------+-------+-----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------+----------+-------+---+----+------------+------------+
+    |   Variable Name  | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------+----------+-------+---+----+------------+------------+
+    |a2_sum_fu_180_p2  |     +    |      0|  0|  31|          31|          31|
+    |i_1_fu_185_p2     |     +    |      0|  0|  16|          16|           4|
+    |sum_1_fu_201_p2   |     +    |      0|  0|  32|          32|          32|
+    |tmp_fu_174_p2     |   icmp   |      0|  0|   6|          16|          12|
+    +------------------+----------+-------+---+----+------------+------------+
+    |Total             |          |      0|  0|  85|          95|          79|
+    +------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------------+----+-----------+-----+-----------+
+    |              Name              | LUT| Input Size| Bits| Total Bits|
+    +--------------------------------+----+-----------+-----+-----------+
+    |A_BUS_blk_n_AR                  |   1|          2|    1|          2|
+    |A_BUS_blk_n_R                   |   1|          2|    1|          2|
+    |LOG_BUS_blk_n_AW                |   1|          2|    1|          2|
+    |LOG_BUS_blk_n_B                 |   1|          2|    1|          2|
+    |LOG_BUS_blk_n_W                 |   1|          2|    1|          2|
+    |ap_NS_fsm                       |   6|         12|    1|         12|
+    |ap_sig_ioackin_A_BUS_ARREADY    |   1|          2|    1|          2|
+    |ap_sig_ioackin_LOG_BUS_AWREADY  |   1|          2|    1|          2|
+    |ap_sig_ioackin_LOG_BUS_WREADY   |   1|          2|    1|          2|
+    |i_reg_121                       |  16|          2|   16|         32|
+    |sum_reg_109                     |  32|          2|   32|         64|
+    +--------------------------------+----+-----------+-----+-----------+
+    |Total                           |  62|         32|   57|        124|
+    +--------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------+----+----+-----+-----------+
+    |              Name              | FF | LUT| Bits| Const Bits|
+    +--------------------------------+----+----+-----+-----------+
+    |LOG_BUS_addr_reg_206            |  30|   0|   32|          2|
+    |a2_sum_reg_224                  |  31|   0|   31|          0|
+    |ap_CS_fsm                       |  11|   0|   11|          0|
+    |ap_reg_ioackin_A_BUS_ARREADY    |   1|   0|    1|          0|
+    |ap_reg_ioackin_LOG_BUS_AWREADY  |   1|   0|    1|          0|
+    |ap_reg_ioackin_LOG_BUS_WREADY   |   1|   0|    1|          0|
+    |i_1_reg_229                     |  16|   0|   16|          0|
+    |i_cast1_reg_216                 |  16|   0|   32|         16|
+    |i_reg_121                       |  16|   0|   16|          0|
+    |sum_reg_109                     |  32|   0|   32|          0|
+    |temp_reg_240                    |  32|   0|   32|          0|
+    |tmp_2_cast_reg_211              |  30|   0|   31|          1|
+    +--------------------------------+----+----+-----+-----------+
+    |Total                           | 217|   0|  236|         19|
+    +--------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+------------+--------------+--------------+
+|        RTL Ports       | Dir | Bits|  Protocol  | Source Object|    C Type    |
++------------------------+-----+-----+------------+--------------+--------------+
+|s_axi_AXILiteS_AWVALID  |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_AWREADY  | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_AWADDR   |  in |    6|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WVALID   |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WREADY   | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WDATA    |  in |   32|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_WSTRB    |  in |    4|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_ARVALID  |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_ARREADY  | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_ARADDR   |  in |    6|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RVALID   | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RREADY   |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RDATA    | out |   32|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_RRESP    | out |    2|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_BVALID   | out |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_BREADY   |  in |    1|    s_axi   |   AXILiteS   |    scalar    |
+|s_axi_AXILiteS_BRESP    | out |    2|    s_axi   |   AXILiteS   |    scalar    |
+|ap_clk                  |  in |    1| ap_ctrl_hs |   fetch_log  | return value |
+|ap_rst_n                |  in |    1| ap_ctrl_hs |   fetch_log  | return value |
+|interrupt               | out |    1| ap_ctrl_hs |   fetch_log  | return value |
+|m_axi_A_BUS_AWVALID     | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWREADY     |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWADDR      | out |   32|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWID        | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWLEN       | out |    8|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWSIZE      | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWBURST     | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWLOCK      | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWCACHE     | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWPROT      | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWQOS       | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWREGION    | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWUSER      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WVALID      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WREADY      |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WDATA       | out |   32|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WSTRB       | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WLAST       | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WID         | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WUSER       | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARVALID     | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARREADY     |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARADDR      | out |   32|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARID        | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARLEN       | out |    8|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARSIZE      | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARBURST     | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARLOCK      | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARCACHE     | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARPROT      | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARQOS       | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARREGION    | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARUSER      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RVALID      |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RREADY      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RDATA       |  in |   32|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RLAST       |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RID         |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RUSER       |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RRESP       |  in |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BVALID      |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BREADY      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BRESP       |  in |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BID         |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BUSER       |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_LOG_BUS_AWVALID   | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWREADY   |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWADDR    | out |   32|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWID      | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWLEN     | out |    8|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWSIZE    | out |    3|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWBURST   | out |    2|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWLOCK    | out |    2|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWCACHE   | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWPROT    | out |    3|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWQOS     | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWREGION  | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_AWUSER    | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WVALID    | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WREADY    |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WDATA     | out |   32|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WSTRB     | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WLAST     | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WID       | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_WUSER     | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARVALID   | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARREADY   |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARADDR    | out |   32|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARID      | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARLEN     | out |    8|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARSIZE    | out |    3|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARBURST   | out |    2|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARLOCK    | out |    2|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARCACHE   | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARPROT    | out |    3|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARQOS     | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARREGION  | out |    4|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_ARUSER    | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RVALID    |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RREADY    | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RDATA     |  in |   32|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RLAST     |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RID       |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RUSER     |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_RRESP     |  in |    2|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_BVALID    |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_BREADY    | out |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_BRESP     |  in |    2|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_BID       |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
+|m_axi_LOG_BUS_BUSER     |  in |    1|    m_axi   |    LOG_BUS   |    pointer   |
++------------------------+-----+-----+------------+--------------+--------------+
+

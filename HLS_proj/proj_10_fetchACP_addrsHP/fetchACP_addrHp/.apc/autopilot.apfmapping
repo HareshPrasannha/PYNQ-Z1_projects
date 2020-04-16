@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fetchACP_addrHP.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_10_fetchACP_addrsHP\fetchACP_addrHP.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fetchACP_addrHP_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_10_fetchACP_addrsHP\fetchACP_addrHP_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

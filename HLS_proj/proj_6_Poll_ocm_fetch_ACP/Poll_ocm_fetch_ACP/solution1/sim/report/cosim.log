@@ -1,0 +1,12 @@
+@I [SIM-47] Using XSIM for RTL simulation.
+@I [SIM-14] Instrumenting C test bench ...
+@W [SIM-368] AXI_master port 'ADDR_BUS' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+   Build using "C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe"
+   Compiling apatb_poll_ocm.cpp
+   Compiling poll_ocm.cpp_pre.cpp.tb.cpp
+   Compiling poll_ocm_test.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+@I [SIM-302] Starting C TB testing ... 
+@E [SIM-360] Aborting co-simulation: C TB simulation failed.
+@E [SIM-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.
+@E [SIM-4] *** C/RTL co-simulation finished: FAIL ***

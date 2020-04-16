@@ -1,0 +1,7 @@
+sv xil_defaultlib "AESL_axi_master_A_BUS.v"
+sv xil_defaultlib "AESL_axi_slave_CFG.v"
+sv xil_defaultlib "fetch_Retvoid.autotb.v"
+sv xil_defaultlib "fetch_Retvoid.v"
+sv xil_defaultlib "fetch_Retvoid_A_BUS_m_axi.v"
+sv xil_defaultlib "fetch_Retvoid_CFG_s_axi.v"
+

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# xsim v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Mar 23 14:46:17 2020
+# Process ID: 7016
+# Current directory: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/add/xsim_script.tcl}
+# Log file: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/xsim.log
+# Journal file: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/add/xsim_script.tcl
+# xsim {add} -autoloadwcfg -tclbatch {add.tcl}
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source add.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [0.00%] @ "10515000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 10555 ns : File "A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/add.autotb.v" Line 467
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Mar 23 14:46:25 2020...

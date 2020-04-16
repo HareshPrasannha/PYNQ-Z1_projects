@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="WARNING: [COSIM 212-368] AXI_master port 'LOG_BUS' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.&#xD;&#xA;   Build using &quot;C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe&quot;&#xD;&#xA;   Compiling Pureprefetch_log.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling Pureprefetch_log_test.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling apatb_fetch_log.cpp&#xD;&#xA;   Generating cosim.tv.exe" projectName="Pure_prefetch_log" solutionName="solution1" date="2020-04-09T15:12:56.106+0800" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'A_BUS' has a depth of '64000'. Insufficient depth may result in simulation mismatch or freeze." projectName="Pure_prefetch_log" solutionName="solution1" date="2020-04-09T15:12:43.088+0800" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="Pure_prefetch_log" solutionName="solution1" date="2020-04-13T12:12:05.779+0800" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

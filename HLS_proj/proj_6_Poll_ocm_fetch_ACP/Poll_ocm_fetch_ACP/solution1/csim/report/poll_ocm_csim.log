@@ -1,0 +1,27 @@
+INFO: [SIM 2] *************** CSIM start ***************
+WARNING: [SIM 51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../poll_ocm.cpp in debug mode
+   Generating csim.exe
+Value = 1
+Value = 2
+Value = 3
+Value = 4
+Value = 5
+Value = 6
+Value = 7
+Value = 8
+Value = 9
+Value = 10
+Value = 11
+Value = 12
+Value = 13
+Value = 14
+Value = 15
+Value = 16
+Value = 17
+Value = 18
+Value = 19
+Value = 20
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

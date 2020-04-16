@@ -1,0 +1,5 @@
+   Build using "C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe"
+   Compiling apatb_fetch_readalloc.cpp
+   Compiling fetchACP_withReadalloc.cpp_pre.cpp.tb.cpp
+   Compiling fetchACP_withReadalloc_test.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

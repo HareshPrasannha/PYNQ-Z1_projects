@@ -1,0 +1,34 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Haresh Prasannha' on host 'desktop-u9mk50b' (Windows NT_amd64 version 6.2) on Wed Apr 01 14:19:29 +0800 2020
+INFO: [HLS 200-10] In directory 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_6_Poll_ocm_fetch_ACP'
+INFO: [HLS 200-10] Opening project 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_6_Poll_ocm_fetch_ACP/Poll_ocm_fetch_ACP'.
+INFO: [HLS 200-10] Opening solution 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_6_Poll_ocm_fetch_ACP/Poll_ocm_fetch_ACP/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../poll_ocm.cpp in debug mode
+   Generating csim.exe
+Value = 1
+Value = 2
+Value = 3
+Value = 4
+Value = 5
+Value = 6
+Value = 7
+Value = 8
+Value = 9
+Value = 10
+Value = 11
+Value = 12
+Value = 13
+Value = 14
+Value = 15
+Value = 16
+Value = 17
+Value = 18
+Value = 19
+Value = 20
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

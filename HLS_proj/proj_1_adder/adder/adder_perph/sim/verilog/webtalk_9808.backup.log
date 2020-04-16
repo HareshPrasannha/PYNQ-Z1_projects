@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Mar 23 14:46:10 2020
+# Process ID: 9808
+# Current directory: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog
+# Command line: wbtcv.exe -mode batch -source A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/xsim.dir/add/webtalk/xsim_webtalk.tcl -notrace
+# Log file: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/webtalk.log
+# Journal file: A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/xsim.dir/add/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Mar 23 14:46:14 2020...

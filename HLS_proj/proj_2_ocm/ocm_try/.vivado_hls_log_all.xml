@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:26:35.492+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:25:49.720+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:24:21.588+0800"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="WARNING: [COSIM 212-368] AXI_master port 'SOURCE_BUS' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.&#xD;&#xA;   Build using &quot;C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe&quot;&#xD;&#xA;   Compiling apatb_read_ocm.cpp&#xD;&#xA;   Compiling read_ocm.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling read_ocm_test.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Generating cosim.tv.exe" projectName="ocm_try" solutionName="solution1" date="2020-03-26T12:08:20.307+0800" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:32:54.628+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:26:34.486+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:25:48.876+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="ocm_try" solutionName="solution1" date="2020-03-26T15:24:19.905+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="ocm_try" solutionName="solution1" date="2020-03-26T12:07:30.146+0800" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

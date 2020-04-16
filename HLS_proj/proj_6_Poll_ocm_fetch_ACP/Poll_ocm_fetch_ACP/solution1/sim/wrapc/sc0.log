@@ -1,0 +1,5 @@
+   Build using "C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe"
+   Compiling apatb_poll_ocm.cpp
+   Compiling poll_ocm.cpp_pre.cpp.tb.cpp
+   Compiling poll_ocm_test.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="poll_ocm.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_6_Poll_ocm_fetch_ACP\poll_ocm.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="poll_ocm_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_6_Poll_ocm_fetch_ACP\poll_ocm_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

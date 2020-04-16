@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Pureprefetch_log.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_8_Pureprefetch_log\Pureprefetch_log.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="Pureprefetch_log_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_8_Pureprefetch_log\Pureprefetch_log_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

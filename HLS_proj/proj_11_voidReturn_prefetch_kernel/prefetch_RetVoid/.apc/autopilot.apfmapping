@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fetch_RetVoid.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_11_voidReturn_prefetch_kernel\fetch_RetVoid.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fetch_RetVoid_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_11_voidReturn_prefetch_kernel\fetch_RetVoid_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

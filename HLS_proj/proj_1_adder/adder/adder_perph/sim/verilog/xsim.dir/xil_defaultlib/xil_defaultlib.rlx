@@ -1,0 +1,12 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/AESL_axi_s_inStream.v,1584945945,systemVerilog,,,,AESL_axi_s_inStream,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/AESL_axi_s_outStream.v,1584945945,systemVerilog,,,,AESL_axi_s_outStream,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/AESL_axi_slave_CRTL_BUS.v,1584945945,systemVerilog,,,,AESL_axi_slave_CRTL_BUS,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/AESL_fifo.v,1584945945,systemVerilog,,,,fifo,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/add.autotb.v,1584945946,systemVerilog,,,,apatb_add_top,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/add.v,1584513695,systemVerilog,,,,add,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/add_CRTL_BUS_s_axi.v,1584513696,systemVerilog,,,,add_CRTL_BUS_s_axi,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/PYNQ_Projects/HLS_proj/adder/adder_perph/sim/verilog/add_mul_32s_32s_3bkb.v,1584513696,systemVerilog,,,,add_mul_32s_32s_3bkb;add_mul_32s_32s_3bkb_MulnS_0,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,

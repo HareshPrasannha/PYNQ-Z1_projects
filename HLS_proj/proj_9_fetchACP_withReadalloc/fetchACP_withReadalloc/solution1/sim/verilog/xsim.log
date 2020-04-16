@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Apr 14 17:37:00 2020
+# Process ID: 8108
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_9_fetchACP_withReadalloc/fetchACP_withReadalloc/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/fetch_readalloc/xsim_script.tcl}
+# Log file: A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_9_fetchACP_withReadalloc/fetchACP_withReadalloc/solution1/sim/verilog/xsim.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_9_fetchACP_withReadalloc/fetchACP_withReadalloc/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/fetch_readalloc/xsim_script.tcl
+# xsim {fetch_readalloc} -autoloadwcfg -tclbatch {fetch_readalloc.tcl}
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source fetch_readalloc.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [0.00%] @ "1319015000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 1319055 ns : File "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_9_fetchACP_withReadalloc/fetchACP_withReadalloc/solution1/sim/verilog/fetch_readalloc.autotb.v" Line 617
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:19 . Memory (MB): peak = 207.191 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Apr 14 17:37:27 2020...

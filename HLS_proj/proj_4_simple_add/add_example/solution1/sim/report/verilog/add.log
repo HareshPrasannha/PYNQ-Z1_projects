@@ -1,0 +1,99 @@
+@I [SIM-47] Using XSIM for RTL simulation.
+@I [SIM-14] Instrumenting C test bench ...
+@W [SIM-369] AXI_master port 'A_BUS' has a depth of '64000'. Insufficient depth may result in simulation mismatch or freeze.
+   Build using "C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe"
+   Compiling add.cpp_pre.cpp.tb.cpp
+   Compiling add_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_add.cpp
+   Generating cosim.tv.exe
+@I [SIM-302] Starting C TB testing ... 
+@I [SIM-333] Generating C post check test bench ...
+@I [SIM-12] Generating RTL test bench ...
+@I [SIM-323] Starting verilog simulation. 
+@I [SIM-15] Starting XSIM ...
+@I [SIM-316] Starting C post checking ...
+Returned value = 26
+
+A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_4_simple_add\add_example\solution1\sim\verilog>call xelab xil_defaultlib.apatb_add_top -prj add.prj --initfile "C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s add  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_add_top -prj add.prj --initfile C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s add 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/add.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_add_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/add_AXILiteS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_AXILiteS_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/add_A_BUS_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_read
+INFO: [VRFC 10-311] analyzing module add_A_BUS_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/add_A_BUS_m_axi.v:2009]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/AESL_axi_master_A_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_A_BUS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/AESL_axi_slave_AXILiteS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_AXILiteS
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add_AXILiteS_s_axi(C_S_AXI_ADDR_...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_throttl_default
+Compiling module xil_defaultlib.add_A_BUS_m_axi_fifo(DATA_BITS=6...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_buffer(DATA_WIDT...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_fifo(DEPTH=5,DEP...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_fifo(DATA_BITS=2...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_fifo(DATA_BITS=2...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_write(NUM_WRITE_...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_buffer(DATA_WIDT...
+Compiling module xil_defaultlib.add_A_BUS_m_axi_reg_slice(N=34)
+Compiling module xil_defaultlib.add_A_BUS_m_axi_read(NUM_READ_OU...
+Compiling module xil_defaultlib.add_A_BUS_m_axi(NUM_READ_OUTSTAN...
+Compiling module xil_defaultlib.add_default
+Compiling module xil_defaultlib.AESL_axi_master_A_BUS
+Compiling module xil_defaultlib.AESL_axi_slave_AXILiteS
+Compiling module xil_defaultlib.apatb_add_top
+Built simulation snapshot add
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/xsim.dir/add/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 50.055 ; gain = 0.176
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 08 12:10:26 2020...
+
+****** xsim v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/add/xsim_script.tcl
+# xsim {add} -autoloadwcfg -tclbatch {add.tcl}
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source add.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [0.00%] @ "845000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 885 ns : File "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_4_simple_add/add_example/solution1/sim/verilog/add.autotb.v" Line 459
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Apr 08 12:10:35 2020...
+Returned value = 26
+@I [SIM-1000] *** C/RTL co-simulation finished: PASS ***

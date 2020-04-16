@@ -1,0 +1,4 @@
+fetch_log_AXILiteS_s_axi
+fetch_log_A_BUS_m_axi
+fetch_log_LOG_BUS_m_axi
+fetch_log

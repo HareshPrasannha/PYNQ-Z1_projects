@@ -1,0 +1,12 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/AESL_axi_master_SOURCE_BUS.v,1585195701,systemVerilog,,,,AESL_axi_master_SOURCE_BUS,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/AESL_axi_slave_AXILiteS.v,1585195701,systemVerilog,,,,AESL_axi_slave_AXILiteS,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/AESL_axi_slave_CTRL_BUS.v,1585195701,systemVerilog,,,,AESL_axi_slave_CTRL_BUS,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/read_ocm.autotb.v,1585195701,systemVerilog,,,,apatb_read_ocm_top,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/read_ocm.v,1585195637,systemVerilog,,,,read_ocm,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/read_ocm_AXILiteS_s_axi.v,1585195638,systemVerilog,,,,read_ocm_AXILiteS_s_axi,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/read_ocm_CTRL_BUS_s_axi.v,1585195638,systemVerilog,,,,read_ocm_CTRL_BUS_s_axi,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_2_ocm/ocm_try/solution1/sim/verilog/read_ocm_SOURCE_BUS_m_axi.v,1585195638,systemVerilog,,,,read_ocm_SOURCE_BUS_m_axi;read_ocm_SOURCE_BUS_m_axi_buffer;read_ocm_SOURCE_BUS_m_axi_decoder;read_ocm_SOURCE_BUS_m_axi_fifo;read_ocm_SOURCE_BUS_m_axi_read;read_ocm_SOURCE_BUS_m_axi_reg_slice;read_ocm_SOURCE_BUS_m_axi_throttl;read_ocm_SOURCE_BUS_m_axi_write,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,

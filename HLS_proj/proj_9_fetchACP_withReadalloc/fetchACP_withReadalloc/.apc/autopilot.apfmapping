@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fetchACP_withReadalloc.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_9_fetchACP_withReadalloc\fetchACP_withReadalloc.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fetchACP_withReadalloc_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_9_fetchACP_withReadalloc\fetchACP_withReadalloc_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
