@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# 
+# Start of session at: Sat Mar 21 19:28:20 2020
+# Process ID: 16472
+# Current directory: A:/PYNQ_Projects/ACP_try/ACP_try.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: A:/PYNQ_Projects/ACP_try/ACP_try.sdk/webtalk/webtalk.log
+# Journal file: A:/PYNQ_Projects/ACP_try/ACP_try.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

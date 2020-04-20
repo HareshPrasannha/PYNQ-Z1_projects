@@ -1,0 +1,2523 @@
+15:17:23 **** Build of project log_after_read_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/fetch_log_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/fetch_log_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/fetch_log_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/fetch_log_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling fetch_log"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+15:17:52 **** Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:25:12 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:56:1: error: unknown type name 'XAdd'
+ XAdd copiaMem;
+ ^
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:61:2: error: unknown type name 'XAdd_Config'
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+  ^
+../src/helloworld.c:61:24: warning: implicit declaration of function 'XAdd_LookupConfig' [-Wimplicit-function-declaration]
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+                        ^
+../src/helloworld.c:61:42: error: 'XPAR_ADD_0_DEVICE_ID' undeclared (first use in this function)
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+                                          ^
+../src/helloworld.c:61:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:67:15: warning: implicit declaration of function 'XAdd_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XAdd_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:95:5: warning: implicit declaration of function 'XAdd_Set_a' [-Wimplicit-function-declaration]
+     XAdd_Set_a(&copiaMem, (u32)(data));
+     ^
+../src/helloworld.c:96:5: warning: implicit declaration of function 'XAdd_Set_log' [-Wimplicit-function-declaration]
+     XAdd_Set_log(&copiaMem,(u32)(log));
+     ^
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+make: *** [src/helloworld.o] Error 1
+15:25:22 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:56:1: error: unknown type name 'Xfetch_log'
+ Xfetch_log copiaMem;
+ ^
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:61:2: error: unknown type name 'XAdd_Config'
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+  ^
+../src/helloworld.c:61:24: warning: implicit declaration of function 'XAdd_LookupConfig' [-Wimplicit-function-declaration]
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+                        ^
+../src/helloworld.c:61:42: error: 'XPAR_ADD_0_DEVICE_ID' undeclared (first use in this function)
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+                                          ^
+../src/helloworld.c:61:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:67:15: warning: implicit declaration of function 'XAdd_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XAdd_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:95:5: warning: implicit declaration of function 'XAdd_Set_a' [-Wimplicit-function-declaration]
+     XAdd_Set_a(&copiaMem, (u32)(data));
+     ^
+../src/helloworld.c:96:5: warning: implicit declaration of function 'XAdd_Set_log' [-Wimplicit-function-declaration]
+     XAdd_Set_log(&copiaMem,(u32)(log));
+     ^
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+make: *** [src/helloworld.o] Error 1
+15:25:29 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:61:2: error: unknown type name 'XAdd_Config'
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+  ^
+../src/helloworld.c:61:24: warning: implicit declaration of function 'XAdd_LookupConfig' [-Wimplicit-function-declaration]
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+                        ^
+../src/helloworld.c:61:42: error: 'XPAR_ADD_0_DEVICE_ID' undeclared (first use in this function)
+  XAdd_Config *CfgPtr = XAdd_LookupConfig(XPAR_ADD_0_DEVICE_ID);
+                                          ^
+../src/helloworld.c:61:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:67:15: warning: implicit declaration of function 'XAdd_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XAdd_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:95:5: warning: implicit declaration of function 'XAdd_Set_a' [-Wimplicit-function-declaration]
+     XAdd_Set_a(&copiaMem, (u32)(data));
+     ^
+../src/helloworld.c:96:5: warning: implicit declaration of function 'XAdd_Set_log' [-Wimplicit-function-declaration]
+     XAdd_Set_log(&copiaMem,(u32)(log));
+     ^
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+make: *** [src/helloworld.o] Error 1
+15:26:00 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:67:15: warning: implicit declaration of function 'XAdd_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XAdd_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:95:5: warning: implicit declaration of function 'XAdd_Set_a' [-Wimplicit-function-declaration]
+     XAdd_Set_a(&copiaMem, (u32)(data));
+     ^
+../src/helloworld.c:96:5: warning: implicit declaration of function 'XAdd_Set_log' [-Wimplicit-function-declaration]
+     XAdd_Set_log(&copiaMem,(u32)(log));
+     ^
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `initialize_ip':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:67: undefined reference to `XAdd_CfgInitialize'
+./src/helloworld.o: In function `main':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:95: undefined reference to `XAdd_Set_a'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:96: undefined reference to `XAdd_Set_log'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:97: undefined reference to `XAdd_Start'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:98: undefined reference to `XAdd_IsDone'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:100: undefined reference to `XAdd_Get_return'
+collect2.exe: error: ld returned 1 exit status
+make: *** [log_after_read.elf] Error 1
+15:26:15 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:95:5: warning: implicit declaration of function 'XAdd_Set_a' [-Wimplicit-function-declaration]
+     XAdd_Set_a(&copiaMem, (u32)(data));
+     ^
+../src/helloworld.c:96:5: warning: implicit declaration of function 'XAdd_Set_log' [-Wimplicit-function-declaration]
+     XAdd_Set_log(&copiaMem,(u32)(log));
+     ^
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:95: undefined reference to `XAdd_Set_a'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:96: undefined reference to `XAdd_Set_log'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:97: undefined reference to `XAdd_Start'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:98: undefined reference to `XAdd_IsDone'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:100: undefined reference to `XAdd_Get_return'
+collect2.exe: error: ld returned 1 exit status
+make: *** [log_after_read.elf] Error 1
+15:26:30 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:95:5: warning: implicit declaration of function 'XAdd_Set_a' [-Wimplicit-function-declaration]
+     XAdd_Set_a(&copiaMem, (u32)(data));
+     ^
+../src/helloworld.c:96:5: warning: implicit declaration of function 'XAdd_Set_log' [-Wimplicit-function-declaration]
+     XAdd_Set_log(&copiaMem,(u32)(log));
+     ^
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:95: undefined reference to `XAdd_Set_a'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:96: undefined reference to `XAdd_Set_log'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:97: undefined reference to `XAdd_Start'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:98: undefined reference to `XAdd_IsDone'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:100: undefined reference to `XAdd_Get_return'
+collect2.exe: error: ld returned 1 exit status
+make: *** [log_after_read.elf] Error 1
+15:26:50 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:97:5: warning: implicit declaration of function 'XAdd_Start' [-Wimplicit-function-declaration]
+     XAdd_Start(&copiaMem);
+     ^
+../src/helloworld.c:98:12: warning: implicit declaration of function 'XAdd_IsDone' [-Wimplicit-function-declaration]
+     while(!XAdd_IsDone(&copiaMem));
+            ^
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:97: undefined reference to `XAdd_Start'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:98: undefined reference to `XAdd_IsDone'
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:100: undefined reference to `XAdd_Get_return'
+collect2.exe: error: ld returned 1 exit status
+make: *** [log_after_read.elf] Error 1
+15:27:07 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:11: warning: implicit declaration of function 'XAdd_Get_return' [-Wimplicit-function-declaration]
+     res = XAdd_Get_return(&copiaMem);
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:100: undefined reference to `XAdd_Get_return'
+collect2.exe: error: ld returned 1 exit status
+make: *** [log_after_read.elf] Error 1
+15:27:16 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79804	   2596	  23344	 105744	  19d10	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:35:41 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;//malloc(1*sizeof(int));
+                ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79804	   2596	  23344	 105744	  19d10	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:36:01 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:89:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79804	   2596	  23344	 105744	  19d10	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:36:39 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:90:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	  23344	 105776	  19d30	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:37:57 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %x\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:90:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	  23344	 105776	  19d30	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:40:15 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:41:38 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %x\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	  23344	 105776	  19d30	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:41:47 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	  23344	 105776	  19d30	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:41:55 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:48:29 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFC0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	  23344	 105776	  19d30	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:48:33 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:49:07 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	  23344	 105776	  19d30	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:49:11 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:49:49 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2596	  23344	 105840	  19d70	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:50:04 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:54:54 **** Clean-only build of configuration Debug for project log_after_read ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  log_after_read.elf.size  log_after_read.elf
+' '
+15:54:55 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2596	10493744	10576240	 a16170	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:55:01 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:58:10 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:91:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	10493744	10576176	 a16130	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+15:58:14 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:15:15 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79836	   2596	10493744	10576176	 a16130	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:25:13 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:97:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+                        ^
+../src/helloworld.c:97:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+../src/helloworld.c:98:5: error: expected ';' before 'sum'
+     sum = 0;
+     ^
+../src/helloworld.c:100:6: error: 'sum' undeclared (first use in this function)
+      sum = sum + a[i];
+      ^
+../src/helloworld.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:100:18: error: 'a' undeclared (first use in this function)
+      sum = sum + a[i];
+                  ^
+make: *** [src/helloworld.o] Error 1
+16:25:29 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:97:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+                        ^
+../src/helloworld.c:97:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+../src/helloworld.c:98:5: error: expected ';' before 'int'
+     int sum = 0;
+     ^
+../src/helloworld.c:100:6: error: 'sum' undeclared (first use in this function)
+      sum = sum + a[i];
+      ^
+../src/helloworld.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:100:18: error: 'a' undeclared (first use in this function)
+      sum = sum + a[i];
+                  ^
+make: *** [src/helloworld.o] Error 1
+16:25:42 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:95:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:97:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+                        ^
+../src/helloworld.c:97:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+../src/helloworld.c:98:5: error: expected ';' before 'int'
+     int sum = 0;
+     ^
+../src/helloworld.c:100:6: error: 'sum' undeclared (first use in this function)
+      sum = sum + data[i];
+      ^
+../src/helloworld.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+16:26:06 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:98:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+                        ^
+../src/helloworld.c:98:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1)
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+../src/helloworld.c:99:5: error: expected ';' before 'for'
+     for(int i=0;i<len;i++){
+     ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+make: *** [src/helloworld.o] Error 1
+16:26:12 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:98:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+                        ^
+../src/helloworld.c:98:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:27:14 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:98:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 0x2 s32 0x3);
+                        ^
+../src/helloworld.c:98:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 0x2 s32 0x3);
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:28:45 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:98:24: error: expected expression before 's32'
+     XL2cc_EventCtrInit(s32 (XL2CC_DRHIT), s32 (XL2CC_DWHIT));
+                        ^
+../src/helloworld.c:98:5: error: too few arguments to function 'XL2cc_EventCtrInit'
+     XL2cc_EventCtrInit(s32 (XL2CC_DRHIT), s32 (XL2CC_DWHIT));
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:100:6: note: declared here
+ void XL2cc_EventCtrInit(s32 Event0, s32 Event1);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:29:00 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80092	   2596	10493744	10576432	 a16230	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:32:32 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:96:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80092	   2596	10493744	10576432	 a16230	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:34:55 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:106:24: error: expected expression before 'u32'
+     XL2cc_EventCtrStop(u32 hit_count, u32 req_count)
+                        ^
+../src/helloworld.c:106:5: error: too few arguments to function 'XL2cc_EventCtrStop'
+     XL2cc_EventCtrStop(u32 hit_count, u32 req_count)
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:102:6: note: declared here
+ void XL2cc_EventCtrStop(u32 *EveCtr0, u32 *EveCtr1);
+      ^
+../src/helloworld.c:107:5: error: expected ';' before 'if'
+     if(initialize_ip() == XST_FAILURE)
+     ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+make: *** [src/helloworld.o] Error 1
+16:35:00 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:106:24: error: expected expression before 'u32'
+     XL2cc_EventCtrStop(u32 hit_count, u32 req_count);
+                        ^
+../src/helloworld.c:106:5: error: too few arguments to function 'XL2cc_EventCtrStop'
+     XL2cc_EventCtrStop(u32 hit_count, u32 req_count);
+     ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:102:6: note: declared here
+ void XL2cc_EventCtrStop(u32 *EveCtr0, u32 *EveCtr1);
+      ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+make: *** [src/helloworld.o] Error 1
+16:37:13 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:106:58: error: expected ')' before ';' token
+     XL2cc_EventCtrStop((u32)(hit_count), (u32)(req_count);
+                                                          ^
+../src/helloworld.c:106:24: warning: passing argument 1 of 'XL2cc_EventCtrStop' makes pointer from integer without a cast [-Wint-conversion]
+     XL2cc_EventCtrStop((u32)(hit_count), (u32)(req_count);
+                        ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:102:6: note: expected 'u32 * {aka long unsigned int *}' but argument is of type 'long unsigned int'
+ void XL2cc_EventCtrStop(u32 *EveCtr0, u32 *EveCtr1);
+      ^
+../src/helloworld.c:106:42: warning: passing argument 2 of 'XL2cc_EventCtrStop' makes pointer from integer without a cast [-Wint-conversion]
+     XL2cc_EventCtrStop((u32)(hit_count), (u32)(req_count);
+                                          ^
+In file included from ../src/helloworld.c:55:0:
+../../log_after_read_bsp/ps7_cortexa9_0/include/xl2cc_counter.h:102:6: note: expected 'u32 * {aka long unsigned int *}' but argument is of type 'long unsigned int'
+ void XL2cc_EventCtrStop(u32 *EveCtr0, u32 *EveCtr1);
+      ^
+../src/helloworld.c:126:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+16:37:53 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:106:62: error: expected ')' before ';' token
+     XL2cc_EventCtrStop((u32 *)(hit_count), (u32 *)(req_count);
+                                                              ^
+../src/helloworld.c:126:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+16:38:10 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:106:61: error: expected ')' before ';' token
+     XL2cc_EventCtrStop((u32*)(hit_count), (u32 *)(req_count);
+                                                             ^
+../src/helloworld.c:126:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+16:38:39 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80156	   2596	10493744	10576496	 a16270	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:38:47 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80156	   2596	10493744	10576496	 a16270	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:39:37 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:120:5: warning: "/*" within comment [-Wcomment]
+     /*while (test_res <= end_test_res){
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79868	   2596	10493744	10576208	 a16150	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:39:58 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:120:5: warning: "/*" within comment [-Wcomment]
+     /*while (test_res <= end_test_res){
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79804	   2596	10493744	10576144	 a16110	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:41:56 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:45:53 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:107:69: error: 'req_counts' undeclared (first use in this function)
+     xil_printf("\nHits: %d Requests: %d\n",(int)(*hit_count),(int)(*req_counts));
+                                                                     ^
+../src/helloworld.c:107:69: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:121:5: warning: "/*" within comment [-Wcomment]
+     /*while (test_res <= end_test_res){
+     ^
+make: *** [src/helloworld.o] Error 1
+16:46:08 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+      printf("address: %x Value: %d\n",(data+i),data[i]);
+             ^
+../src/helloworld.c:98:13: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+../src/helloworld.c:121:5: warning: "/*" within comment [-Wcomment]
+     /*while (test_res <= end_test_res){
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79892	   2596	10493744	10576232	 a16168	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:46:12 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:50:06 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:121:5: warning: "/*" within comment [-Wcomment]
+     /*while (test_res <= end_test_res){
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31272	   2204	10493048	10526524	 a09f3c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:50:11 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:50:20 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:50:29 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:51:40 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:120:6: warning: implicit declaration of function 'xil_pintf' [-Wimplicit-function-declaration]
+      xil_pintf("Values: %d\n",data[i]);
+      ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetch_log\prefetch_log.sdk\log_after_read\Debug/../src/helloworld.c:120: undefined reference to `xil_pintf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [log_after_read.elf] Error 1
+16:51:52 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31356	   2204	10493048	10526608	 a09f90	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:51:56 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:52:21 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31432	   2204	10493048	10526684	 a09fdc	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:52:26 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:53:12 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31344	   2204	10493048	10526596	 a09f84	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:53:31 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31536	   2204	10493048	10526788	 a0a044	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:53:47 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31560	   2204	10493048	10526812	 a0a05c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+16:54:01 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:54:19 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:54:26 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:54:32 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:01:24 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:119:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+     u32 res;
+         ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31464	   2204	10493048	10526716	 a09ffc	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:01:30 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:02:05 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:02:10 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:02:14 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:02:17 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:07:31 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:119:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+     u32 res;
+         ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31464	   2204	10493048	10526716	 a09ffc	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:07:35 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:09:52 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:100:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:124:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31272	   2204	10493048	10526524	 a09f3c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:09:57 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:08 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:12 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:17 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:22 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:25 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:29 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:13:00 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:124:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:89:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:88:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30992	   2204	10493048	10526244	 a09e24	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:15:06 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:133:38: error: expected expression before '/' token
+     xil_printf("Log : %d\n",*(log));*/
+                                      ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+make: *** [src/helloworld.o] Error 1
+17:15:10 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   2204	10493048	10526748	 a0a01c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:15:36 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:115:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:85:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   2204	10493048	10526748	 a0a01c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:15:59 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:16:06 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:16:11 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:17:54 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:116:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:86:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   2204	10493048	10526748	 a0a01c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:22:08 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:126:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:90:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:89:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:86:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30992	   2204	10493048	10526244	 a09e24	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:26:53 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:101:19: error: expected expression before 's32'
+     Xpm_SetEvents(s32 PmcrCfg);
+                   ^
+../src/helloworld.c:102:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:108:26: error: expected expression before 'u32'
+     Xpm_GetEventCounters(u32 *PmCtrValue);
+                          ^
+../src/helloworld.c:128:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+make: *** [src/helloworld.o] Error 1
+17:27:25 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int l1_hits = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:92:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int li_reqs = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:103:19: error: expected expression before 's32'
+     Xpm_SetEvents(s32 PmcrCfg);
+                   ^
+../src/helloworld.c:104:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:110:26: error: expected expression before 'u32'
+     Xpm_GetEventCounters(u32 *PmCtrValue);
+                          ^
+../src/helloworld.c:130:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:9: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int li_reqs = malloc(1*sizeof(int));
+         ^
+../src/helloworld.c:91:9: warning: unused variable 'l1_hits' [-Wunused-variable]
+     int l1_hits = malloc(1*sizeof(int));
+         ^
+make: *** [src/helloworld.o] Error 1
+17:27:53 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int l1_hits = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:92:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int li_reqs = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:103:19: error: expected expression before 's32'
+     Xpm_SetEvents(s32 PmcrCfg);
+                   ^
+../src/helloworld.c:104:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:130:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:9: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int li_reqs = malloc(1*sizeof(int));
+         ^
+make: *** [src/helloworld.o] Error 1
+17:29:42 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int l1_hits = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:92:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int li_reqs = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:104:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:130:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:9: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int li_reqs = malloc(1*sizeof(int));
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31792	   2204	10493048	10527044	 a0a144	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:32:10 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:91:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int l1_hits = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:92:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     int li_reqs = malloc(1*sizeof(int));
+                   ^
+../src/helloworld.c:104:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:112:39: error: invalid type argument of unary '*' (have 'int')
+     xil_printf("L1_hits : %d\n",(int)(*l1_hits));
+                                       ^
+../src/helloworld.c:131:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:9: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int li_reqs = malloc(1*sizeof(int));
+         ^
+make: *** [src/helloworld.o] Error 1
+17:32:21 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:104:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:131:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:10: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int *li_reqs = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31808	   2204	10493048	10527060	 a0a154	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:32:27 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:37:19 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:105:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:132:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:10: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int *li_reqs = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31808	   2204	10493048	10527060	 a0a154	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:37:33 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:105:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:112:33: error: 'l1_reqs' undeclared (first use in this function)
+     Xpm_GetEventCounters((u32*)(l1_reqs));
+                                 ^
+../src/helloworld.c:112:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:133:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:10: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int *li_reqs = malloc(1*sizeof(int));
+          ^
+make: *** [src/helloworld.o] Error 1
+17:38:08 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:105:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:112:33: error: 'l1_reqs' undeclared (first use in this function)
+     Xpm_GetEventCounters((u32*)(l1_reqs));
+                                 ^
+../src/helloworld.c:112:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:133:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+../src/helloworld.c:92:10: warning: unused variable 'li_reqs' [-Wunused-variable]
+     int *li_reqs = malloc(1*sizeof(int));
+          ^
+make: *** [src/helloworld.o] Error 1
+17:38:18 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:105:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:133:5: warning: "/*" within comment [-Wcomment]
+     /*XL2cc_EventCtrInit((XL2CC_DRHIT),(XL2CC_DRREQ));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31824	   2204	10493048	10527076	 a0a164	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:38:23 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:35 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:125:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:130:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+     u32 res;
+         ^
+../src/helloworld.c:86:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32016	   2204	10493048	10527268	 a0a224	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+17:41:38 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:03:25 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:130:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+     u32 res;
+         ^
+../src/helloworld.c:92:10: warning: unused variable 'l1_reqs' [-Wunused-variable]
+     int *l1_reqs = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:91:10: warning: unused variable 'l1_hits' [-Wunused-variable]
+     int *l1_hits = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31528	   2204	10493048	10526780	 a0a03c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+18:03:32 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:04:13 **** Auto Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../log_after_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *log = 0xFFFF0000;
+                ^
+../src/helloworld.c:125:5: warning: implicit declaration of function 'XL2cc_EventCtrReset' [-Wimplicit-function-declaration]
+     XL2cc_EventCtrReset();
+     ^
+../src/helloworld.c:130:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+     u32 res;
+         ^
+../src/helloworld.c:92:10: warning: unused variable 'l1_reqs' [-Wunused-variable]
+     int *l1_reqs = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:91:10: warning: unused variable 'l1_hits' [-Wunused-variable]
+     int *l1_hits = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: log_after_read.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../log_after_read_bsp/ps7_cortexa9_0/lib -o "log_after_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: log_after_read.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size log_after_read.elf  |tee "log_after_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31528	   2204	10493048	10526780	 a0a03c	log_after_read.elf
+'Finished building: log_after_read.elf.size'
+' '
+18:04:21 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:04:39 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:04:43 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:07:02 **** Incremental Build of configuration Debug for project log_after_read ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

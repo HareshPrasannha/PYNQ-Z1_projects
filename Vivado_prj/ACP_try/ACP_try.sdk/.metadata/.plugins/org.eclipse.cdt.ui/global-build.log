@@ -1,0 +1,1193 @@
+15:54:19 **** Build of project ACP_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/add_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/add_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_3/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/add_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/add_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling add"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_3/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling axidma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+15:55:00 **** Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+15:55:29 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:3:21: fatal error: xdogain.h: No such file or directory
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+15:55:52 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:6:1: error: unknown type name 'XDogain'
+ XDogain doGain;
+ ^
+../src/helloworld.c:7:1: error: unknown type name 'XDogain_Config'
+ XDogain_Config *doGain_cfg;
+ ^
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:20:15: warning: implicit declaration of function 'XDogain_LookupConfig' [-Wimplicit-function-declaration]
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+               ^
+../src/helloworld.c:20:36: error: 'XPAR_DOGAIN_0_DEVICE_ID' undeclared (first use in this function)
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+                                    ^
+../src/helloworld.c:20:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:16: warning: implicit declaration of function 'XDogain_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = XDogain_CfgInitialize(&doGain, doGain_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+15:56:52 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:6:1: error: unknown type name 'Xadd'
+ Xadd add;
+ ^
+../src/helloworld.c:7:1: error: unknown type name 'Xadd_Config'
+ Xadd_Config *add_cfg;
+ ^
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:20:12: warning: implicit declaration of function 'Xadd_LookupConfig' [-Wimplicit-function-declaration]
+  add_cfg = Xadd_LookupConfig(XPAR_add_0_DEVICE_ID);
+            ^
+../src/helloworld.c:20:30: error: 'XPAR_add_0_DEVICE_ID' undeclared (first use in this function)
+  add_cfg = Xadd_LookupConfig(XPAR_add_0_DEVICE_ID);
+                              ^
+../src/helloworld.c:20:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:16: warning: implicit declaration of function 'Xadd_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = Xadd_CfgInitialize(&add, add_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:53:3: warning: implicit declaration of function 'Xadd_Set_gain' [-Wimplicit-function-declaration]
+   Xadd_Set_gain(&add, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'Xadd_Start' [-Wimplicit-function-declaration]
+   Xadd_Start(&add);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'Xadd_IsDone' [-Wimplicit-function-declaration]
+   while (!Xadd_IsDone(&add))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+15:58:16 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:3:21: fatal error: xdogain.h: No such file or directory
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+15:58:47 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:6:1: error: unknown type name 'Xadd'
+ Xadd doGain;
+ ^
+../src/helloworld.c:7:1: error: unknown type name 'Xadd_Config'
+ Xadd_Config *doGain_cfg;
+ ^
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:20:15: warning: implicit declaration of function 'XDogain_LookupConfig' [-Wimplicit-function-declaration]
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+               ^
+../src/helloworld.c:20:36: error: 'XPAR_DOGAIN_0_DEVICE_ID' undeclared (first use in this function)
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+                                    ^
+../src/helloworld.c:20:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:16: warning: implicit declaration of function 'XDogain_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = XDogain_CfgInitialize(&doGain, doGain_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+15:59:19 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:6:1: error: unknown type name 'Xadd'
+ Xadd doGain;
+ ^
+../src/helloworld.c:7:1: error: unknown type name 'Xadd_Config'
+ Xadd_Config *doGain_cfg;
+ ^
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:20:15: warning: implicit declaration of function 'XDogain_LookupConfig' [-Wimplicit-function-declaration]
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+               ^
+../src/helloworld.c:20:36: error: 'XPAR_DOGAIN_0_DEVICE_ID' undeclared (first use in this function)
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+                                    ^
+../src/helloworld.c:20:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:16: warning: implicit declaration of function 'XDogain_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = XDogain_CfgInitialize(&doGain, doGain_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+15:59:28 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:20:15: warning: implicit declaration of function 'XDogain_LookupConfig' [-Wimplicit-function-declaration]
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+               ^
+../src/helloworld.c:20:36: error: 'XPAR_DOGAIN_0_DEVICE_ID' undeclared (first use in this function)
+  doGain_cfg = XDogain_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+                                    ^
+../src/helloworld.c:20:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:16: warning: implicit declaration of function 'XDogain_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = XDogain_CfgInitialize(&doGain, doGain_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+15:59:43 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:20:33: error: 'XPAR_DOGAIN_0_DEVICE_ID' undeclared (first use in this function)
+  doGain_cfg = XAdd_LookupConfig(XPAR_DOGAIN_0_DEVICE_ID);
+                                 ^
+../src/helloworld.c:20:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:16: warning: implicit declaration of function 'XDogain_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = XDogain_CfgInitialize(&doGain, doGain_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:00:12 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initPeripherals':
+../src/helloworld.c:22:16: warning: implicit declaration of function 'XDogain_CfgInitialize' [-Wimplicit-function-declaration]
+   int status = XDogain_CfgInitialize(&doGain, doGain_cfg);
+                ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:49:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:00:47 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:49:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:69:11: warning: implicit declaration of function 'XDogain_IsDone' [-Wimplicit-function-declaration]
+   while (!XDogain_IsDone(&doGain))
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:01:06 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:49:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:53:3: warning: implicit declaration of function 'XDogain_Set_gain' [-Wimplicit-function-declaration]
+   XDogain_Set_gain(&doGain, gain);
+   ^
+../src/helloworld.c:54:3: warning: implicit declaration of function 'XDogain_Start' [-Wimplicit-function-declaration]
+   XDogain_Start(&doGain);
+   ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:01:34 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:9: error: 'true' undeclared (first use in this function)
+  while (true) {
+         ^
+../src/helloworld.c:49:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:02:02 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137336	   2660	  29088	 169084	  2947c	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:02:14 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137336	   2660	  29088	 169084	  2947c	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:08:19 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:11:02 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:13: error: expected expression before '[' token
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+             ^
+../src/helloworld.c:61:15: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+               ^
+../src/helloworld.c:61:17: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                 ^
+../src/helloworld.c:61:19: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                   ^
+../src/helloworld.c:61:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                     ^
+../src/helloworld.c:61:23: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                       ^
+../src/helloworld.c:61:25: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                         ^
+../src/helloworld.c:61:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                           ^
+../src/helloworld.c:61:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                             ^
+../src/helloworld.c:61:31: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+                               ^
+../src/helloworld.c:61:7: warning: unused variable 'a' [-Wunused-variable]
+   int a[] = [1,2,3,4,5,6,7,8,9,10];
+       ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:11:07 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:15: error: expected expression before '[' token
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+               ^
+../src/helloworld.c:61:17: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                 ^
+../src/helloworld.c:61:19: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                   ^
+../src/helloworld.c:61:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                     ^
+../src/helloworld.c:61:23: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                       ^
+../src/helloworld.c:61:25: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                         ^
+../src/helloworld.c:61:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                           ^
+../src/helloworld.c:61:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                             ^
+../src/helloworld.c:61:31: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                               ^
+../src/helloworld.c:61:33: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+                                 ^
+../src/helloworld.c:61:7: warning: unused variable 'a' [-Wunused-variable]
+   int a[10] = [1,2,3,4,5,6,7,8,9,10];
+       ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:11:25 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:15: error: expected expression before '[' token
+   int a[10] = [1 2 3 4 5 6 7 8 9 10];
+               ^
+../src/helloworld.c:61:7: warning: unused variable 'a' [-Wunused-variable]
+   int a[10] = [1 2 3 4 5 6 7 8 9 10];
+       ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:11:48 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:7: warning: unused variable 'a' [-Wunused-variable]
+   int a[10] = {1,2,3,4,5,6,7,8,9,10};
+       ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137440	   2660	  29088	 169188	  294e4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:13:32 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:7: error: 'i' undeclared (first use in this function)
+   for(i = 0;i<10;i++){
+       ^
+../src/helloworld.c:62:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:64:11: warning: implicit declaration of function 'mod' [-Wimplicit-function-declaration]
+    a[i] = mod(a[i],100);
+           ^
+../src/helloworld.c:61:7: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+   int a[10] = {1,2,3,4,5,6,7,8,9,10};
+       ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+make: *** [src/helloworld.o] Error 1
+16:13:43 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:11: warning: implicit declaration of function 'mod' [-Wimplicit-function-declaration]
+    a[i] = mod(a[i],100);
+           ^
+../src/helloworld.c:40:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\PYNQ_Projects\ACP_try\ACP_try.sdk\ACP_test\Debug/../src/helloworld.c:64: undefined reference to `mod'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ACP_test.elf] Error 1
+16:14:00 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:11: warning: implicit declaration of function 'mod' [-Wimplicit-function-declaration]
+    a[i] = mod(a[i],100);
+           ^
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\PYNQ_Projects\ACP_try\ACP_try.sdk\ACP_test\Debug/../src/helloworld.c:65: undefined reference to `mod'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ACP_test.elf] Error 1
+16:14:20 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137712	   2660	  29088	 169460	  295f4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:14:38 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137712	   2660	  29088	 169460	  295f4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:16:44 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:18:11 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137712	   2660	  29088	 169460	  295f4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:23:53 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137712	   2660	  29088	 169460	  295f4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:31:45 **** Clean-only build of project ACP_test_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+16:31:45 **** Clean-only build of configuration Debug for project ACP_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ACP_test.elf.size  ACP_test.elf
+' '
+16:31:46 **** Build of project ACP_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/add_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/add_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_3/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/add_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/add_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling add"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_3/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling axidma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+16:32:17 **** Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137712	   2660	  29088	 169460	  295f4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:34:30 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:59:32 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137648	   2660	  29088	 169396	  295b4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:59:37 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137648	   2660	  29088	 169396	  295b4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+16:59:41 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:00:38 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137584	   2660	  29088	 169332	  29574	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+17:00:40 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:01:32 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137648	   2660	  29088	 169396	  295b4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+17:01:36 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:03:48 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:3: warning: implicit declaration of function 'Xil_DcacheDisable' [-Wimplicit-function-declaration]
+   Xil_DcacheDisable();
+   ^
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\PYNQ_Projects\ACP_try\ACP_try.sdk\ACP_test\Debug/../src/helloworld.c:59: undefined reference to `Xil_DcacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ACP_test.elf] Error 1
+17:03:54 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:3: warning: implicit declaration of function 'Xil_Dcachedisable' [-Wimplicit-function-declaration]
+   Xil_Dcachedisable();
+   ^
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+A:\PYNQ_Projects\ACP_try\ACP_try.sdk\ACP_test\Debug/../src/helloworld.c:59: undefined reference to `Xil_Dcachedisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ACP_test.elf] Error 1
+17:04:18 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137648	   2660	  29088	 169396	  295b4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+17:04:22 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:05:09 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137648	   2660	  29088	 169396	  295b4	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '
+17:05:12 **** Incremental Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:43:00 **** Auto Build of configuration Debug for project ACP_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*) TX_BUFFER_BASE;
+       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_test_bsp/ps7_cortexa9_0/lib -o "ACP_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_test.elf  |tee "ACP_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137648	   2660	  65088	 205396	  32254	ACP_test.elf
+'Finished building: ACP_test.elf.size'
+' '

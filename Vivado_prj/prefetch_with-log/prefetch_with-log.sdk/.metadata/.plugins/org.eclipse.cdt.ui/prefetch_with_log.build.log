@@ -1,0 +1,8 @@
+18:06:09 **** Incremental Build of configuration Debug for project prefetch_with_log ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+18:06:09 Build Finished (took 279ms)
+

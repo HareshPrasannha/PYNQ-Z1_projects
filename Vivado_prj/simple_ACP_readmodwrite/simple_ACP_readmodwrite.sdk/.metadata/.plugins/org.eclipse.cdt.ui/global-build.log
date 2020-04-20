@@ -1,0 +1,948 @@
+18:08:14 **** Build of project ACP_prefetch_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/mod_data_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mod_data_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/mod_data_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mod_data_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling mod_data"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+18:08:45 **** Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:97:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30980	   2204	  22648	  55832	   da18	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:09:51 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:98:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:98:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30980	   2204	  22648	  55832	   da18	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:10:21 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:95:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30980	   2204	  22648	  55832	   da18	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:10:57 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:95:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:84:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:83:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:12:40 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:12:57 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:95:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:84:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:83:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:13:01 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:13:23 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:95:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30952	   2204	  22648	  55804	   d9fc	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:13:26 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:13:39 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:95:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:84:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:83:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:16:03 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:100:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:100:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:84:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:83:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30928	   2204	  22648	  55780	   d9e4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:16:29 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:102:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:102:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:80:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                  ^
+../src/helloworld.c:80:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30928	   2204	  22648	  55780	   d9e4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:17:02 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:18:08 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:18:14 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:19:29 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:19:33 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:19:57 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:20:02 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:21:02 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:22:02 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:80:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                  ^
+../src/helloworld.c:80:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:22:05 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:22:27 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:80:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                  ^
+../src/helloworld.c:80:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:22:30 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:22:59 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:23:08 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:23:35 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:88:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:23:39 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:25:00 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:88:9: warning: unused variable 'sum' [-Wunused-variable]
+     int sum = 0;
+         ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80568	   2596	  23344	 106508	  1a00c	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:25:14 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:80:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                  ^
+../src/helloworld.c:80:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:25:25 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:25:48 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:80:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                  ^
+../src/helloworld.c:80:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '
+18:25:51 **** Incremental Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:30:40 **** Auto Build of configuration Debug for project ACP_prefetch_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ACP_prefetch_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *res_addrs = 0x43C00010;
+                      ^
+../src/helloworld.c:107:10: warning: unused variable 'res_addrs' [-Wunused-variable]
+     int *res_addrs = 0x43C00010;
+          ^
+../src/helloworld.c:86:10: warning: unused variable 'end_test_res' [-Wunused-variable]
+     int *end_test_res = (int *)0xF8F02FFF;
+          ^
+../src/helloworld.c:85:10: warning: unused variable 'test_res' [-Wunused-variable]
+     int *test_res = (int *)0xF8F02000;
+          ^
+../src/helloworld.c:80:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:80:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:80:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                  ^
+../src/helloworld.c:80:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+           ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ACP_prefetch_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ACP_prefetch_test_bsp/ps7_cortexa9_0/lib -o "ACP_prefetch_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ACP_prefetch_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ACP_prefetch_test.elf  |tee "ACP_prefetch_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30864	   2204	  22648	  55716	   d9a4	ACP_prefetch_test.elf
+'Finished building: ACP_prefetch_test.elf.size'
+' '

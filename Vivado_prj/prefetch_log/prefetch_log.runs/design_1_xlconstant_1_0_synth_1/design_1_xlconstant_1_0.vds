@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Apr 08 14:54:57 2020
+# Process ID: 11516
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.runs/design_1_xlconstant_1_0_synth_1
+# Command line: vivado.exe -log design_1_xlconstant_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xlconstant_1_0.tcl
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.runs/design_1_xlconstant_1_0_synth_1/design_1_xlconstant_1_0.vds
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.runs/design_1_xlconstant_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_xlconstant_1_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 338.027 ; gain = 127.855
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_1_0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'xlconstant' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.srcs/sources_1/bd/design_1/ipshared/e147/xlconstant.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant' (1#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.srcs/sources_1/bd/design_1/ipshared/e147/xlconstant.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xlconstant_1_0' (2#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/prefetch_log/prefetch_log.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v:56]
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 376.332 ; gain = 166.160
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 376.332 ; gain = 166.160
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 587.824 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 587.824 ; gain = 377.652
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 587.824 ; gain = 377.652
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 587.824 ; gain = 377.652
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 587.824 ; gain = 377.652
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 587.824 ; gain = 377.652
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 627.391 ; gain = 417.219
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 627.391 ; gain = 417.219
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 637.016 ; gain = 426.844
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 637.016 ; gain = 426.844
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 637.016 ; gain = 426.844
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 637.016 ; gain = 426.844
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 637.016 ; gain = 426.844
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 637.016 ; gain = 426.844
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 637.016 ; gain = 426.844
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 637.016 ; gain = 426.844
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 660.223 ; gain = 399.473

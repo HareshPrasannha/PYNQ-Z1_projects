@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# 
+# Start of session at: Wed Apr 01 17:15:59 2020
+# Process ID: 12228
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_ACP_agrs64k_stp16/simple_ACP_agrs64k_stp16.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_ACP_agrs64k_stp16/simple_ACP_agrs64k_stp16.sdk/webtalk/webtalk.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_ACP_agrs64k_stp16/simple_ACP_agrs64k_stp16.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

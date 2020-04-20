@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Apr 01 14:17:49 2020
+# Process ID: 3236
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.runs/design_1_auto_us_2_synth_1
+# Command line: vivado.exe -log design_1_auto_us_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_us_2.tcl
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.runs/design_1_auto_us_2_synth_1/design_1_auto_us_2.vds
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.runs/design_1_auto_us_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_us_2.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 349.660 ; gain = 140.234
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_us_2' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ip/design_1_auto_us_2/synth/design_1_auto_us_2.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_top' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_axi_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_w_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_w_upsizer' (1#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (2#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer' (3#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_r_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_r_upsizer' (4#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (5#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (7#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_axi_upsizer' (9#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_top' (10#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_us_2' (11#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/poll_OCM/poll_OCM.srcs/sources_1/bd/design_1/ip/design_1_auto_us_2/synth/design_1_auto_us_2.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:02:55 ; elapsed = 00:03:28 . Memory (MB): peak = 469.160 ; gain = 259.734
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:55 ; elapsed = 00:03:28 . Memory (MB): peak = 469.160 ; gain = 259.734
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.200 . Memory (MB): peak = 715.527 ; gain = 0.125
+Finished Constraint Validation : Time (s): cpu = 00:03:16 ; elapsed = 00:03:51 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished Loading Part and Timing Information : Time (s): cpu = 00:03:16 ; elapsed = 00:03:51 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:16 ; elapsed = 00:03:51 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:17 ; elapsed = 00:03:52 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:31 ; elapsed = 00:04:07 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:50 ; elapsed = 00:04:27 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished Timing Optimization : Time (s): cpu = 00:03:51 ; elapsed = 00:04:28 . Memory (MB): peak = 715.527 ; gain = 506.102
+Finished Technology Mapping : Time (s): cpu = 00:03:52 ; elapsed = 00:04:29 . Memory (MB): peak = 726.371 ; gain = 516.945
+Finished IO Insertion : Time (s): cpu = 00:03:53 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:53 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:53 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:53 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:54 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:54 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     6|
+|2     |LUT2    |    33|
+|3     |LUT3    |   109|
+|4     |LUT4    |    40|
+|5     |LUT5    |   134|
+|6     |LUT6    |   213|
+|7     |SRLC32E |    56|
+|8     |FDRE    |   581|
+|9     |FDSE    |     4|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:54 ; elapsed = 00:04:30 . Memory (MB): peak = 726.371 ; gain = 516.945
+synth_design: Time (s): cpu = 00:03:45 ; elapsed = 00:04:08 . Memory (MB): peak = 730.266 ; gain = 469.238

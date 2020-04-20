@@ -1,0 +1,1996 @@
+16:30:36 **** Build of project applcn_prefetch_trail_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/prefetch_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/prefetch_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/prefetch_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/prefetch_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling prefetch"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+16:31:13 **** Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:31:54 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:32:48 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:57:2: error: unknown type name 'XRead_ocm_Config'
+  XRead_ocm_Config *CfgPtr = XRead_ocm_LookupConfig(XPAR_READ_OCM_0_DEVICE_ID);
+  ^
+../src/helloworld.c:57:29: warning: implicit declaration of function 'XRead_ocm_LookupConfig' [-Wimplicit-function-declaration]
+  XRead_ocm_Config *CfgPtr = XRead_ocm_LookupConfig(XPAR_READ_OCM_0_DEVICE_ID);
+                             ^
+../src/helloworld.c:57:52: error: 'XPAR_READ_OCM_0_DEVICE_ID' undeclared (first use in this function)
+  XRead_ocm_Config *CfgPtr = XRead_ocm_LookupConfig(XPAR_READ_OCM_0_DEVICE_ID);
+                                                    ^
+../src/helloworld.c:57:52: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:63:15: warning: implicit declaration of function 'XRead_ocm_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XRead_ocm_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+make: *** [src/helloworld.o] Error 1
+16:33:16 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:63:15: warning: implicit declaration of function 'XRead_ocm_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XRead_ocm_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `initialize_ip':
+A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\prefetcher_ACP\prefetcher_ACP.sdk\applcn_prefetch_trail\Debug/../src/helloworld.c:63: undefined reference to `XRead_ocm_CfgInitialize'
+collect2.exe: error: ld returned 1 exit status
+make: *** [applcn_prefetch_trail.elf] Error 1
+16:33:31 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27252	   1164	  22584	  51000	   c738	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:35:01 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:9: warning: unused variable 'data' [-Wunused-variable]
+     int data[10];
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27356	   1164	  22584	  51104	   c7a0	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:36:25 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:5: warning: implicit declaration of function 'XRead_ocm_Set_source' [-Wimplicit-function-declaration]
+     XRead_ocm_Set_source(&copiaMem, a);
+     ^
+../src/helloworld.c:83:37: error: 'a' undeclared (first use in this function)
+     XRead_ocm_Set_source(&copiaMem, a);
+                                     ^
+../src/helloworld.c:83:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:84:5: warning: implicit declaration of function 'XRead_ocm_Start' [-Wimplicit-function-declaration]
+     XRead_ocm_Start(&copiaMem);
+     ^
+../src/helloworld.c:85:5: error: 'value' undeclared (first use in this function)
+     value = XRead_ocm_Get_return(&copiaMem);
+     ^
+../src/helloworld.c:85:13: warning: implicit declaration of function 'XRead_ocm_Get_return' [-Wimplicit-function-declaration]
+     value = XRead_ocm_Get_return(&copiaMem);
+             ^
+../src/helloworld.c:75:9: warning: variable 'data' set but not used [-Wunused-but-set-variable]
+     int data[10];
+         ^
+make: *** [src/helloworld.o] Error 1
+16:36:40 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:37: warning: passing argument 2 of 'XPrefetch_Set_source' makes integer from pointer without a cast [-Wint-conversion]
+     XPrefetch_Set_source(&copiaMem, data);
+                                     ^
+In file included from ../src/helloworld.c:51:0:
+../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include/xprefetch.h:91:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int *'
+ void XPrefetch_Set_source(XPrefetch *InstancePtr, u32 Data);
+      ^
+../src/helloworld.c:84:5: warning: implicit declaration of function 'XRead_ocm_Start' [-Wimplicit-function-declaration]
+     XRead_ocm_Start(&copiaMem);
+     ^
+../src/helloworld.c:85:5: error: 'value' undeclared (first use in this function)
+     value = XRead_ocm_Get_return(&copiaMem);
+     ^
+../src/helloworld.c:85:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:13: warning: implicit declaration of function 'XRead_ocm_Get_return' [-Wimplicit-function-declaration]
+     value = XRead_ocm_Get_return(&copiaMem);
+             ^
+make: *** [src/helloworld.o] Error 1
+16:36:50 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:37: warning: passing argument 2 of 'XPrefetch_Set_source' makes integer from pointer without a cast [-Wint-conversion]
+     XPrefetch_Set_source(&copiaMem, data);
+                                     ^
+In file included from ../src/helloworld.c:51:0:
+../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include/xprefetch.h:91:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int *'
+ void XPrefetch_Set_source(XPrefetch *InstancePtr, u32 Data);
+      ^
+../src/helloworld.c:85:5: error: 'value' undeclared (first use in this function)
+     value = XRead_ocm_Get_return(&copiaMem);
+     ^
+../src/helloworld.c:85:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:13: warning: implicit declaration of function 'XRead_ocm_Get_return' [-Wimplicit-function-declaration]
+     value = XRead_ocm_Get_return(&copiaMem);
+             ^
+make: *** [src/helloworld.o] Error 1
+16:36:58 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:5: error: 'value' undeclared (first use in this function)
+     value = XRead_ocm_Get_return(&copiaMem);
+     ^
+../src/helloworld.c:85:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:13: warning: implicit declaration of function 'XRead_ocm_Get_return' [-Wimplicit-function-declaration]
+     value = XRead_ocm_Get_return(&copiaMem);
+             ^
+make: *** [src/helloworld.o] Error 1
+16:37:10 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:5: error: 'value' undeclared (first use in this function)
+     value = XPrefetch_Get_return(&copiaMem);
+     ^
+../src/helloworld.c:85:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+16:37:35 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:9: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     int value = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27484	   1164	  22584	  51232	   c820	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:38:15 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:9: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     int value = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27484	   1164	  22584	  51232	   c820	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:38:20 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:9: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     int value = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27484	   1164	  22584	  51232	   c820	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:39:00 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:9: warning: variable 'value' set but not used [-Wunused-but-set-variable]
+     int value = 0;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27484	   1164	  22584	  51232	   c820	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:40:26 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:40:37 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:40:46 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:43:17 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:45:03 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:49:37 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:50:22 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:50:28 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:50:48 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:50:51 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:50:56 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:51:01 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:51:06 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:58:59 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:77:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *data = 0x40000000;
+                 ^
+../src/helloworld.c:75:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+16:59:06 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:04:02 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:77:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+     int *data = 0x5E000000;
+                 ^
+../src/helloworld.c:75:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27536	   1164	  22584	  51284	   c854	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:04:06 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:18:22 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:17: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+     int *data = malloc(10*sizeof(int));
+                 ^
+../src/helloworld.c:76:17: warning: incompatible implicit declaration of built-in function 'malloc'
+../src/helloworld.c:76:17: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/helloworld.c:75:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:18:48 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:19:05 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:20:06 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:20:22 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:20:40 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:24:29 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:24:32 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:24:42 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:77:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:24:45 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:27:54 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:29:07 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:21: fatal error: xtmrctr.h: No such file or directory
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+17:33:56 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30848	   2204	  22648	  55700	   d994	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:39:28 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31324	   2204	  22656	  56184	   db78	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:39:40 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:40:29 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32284	   2204	  22656	  57144	   df38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:40:37 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:101:16: warning: unknown escape sequence: '\N'
+     xil_printf("Time taken: %.2f us\N",1.0*((stop-start)/(COUNTS_PER_SECOND/1000000)));
+                ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32288	   2204	  22656	  57148	   df3c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:40:40 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+'Finished building: ../src/helloworld.c'
+     int b;
+' '
+         ^
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32288	   2204	  22656	  57148	   df3c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:40:44 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:08 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32284	   2204	  22656	  57144	   df38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:41:11 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:32 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32284	   2204	  22656	  57144	   df38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:41:35 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:42:13 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:101:56: error: expected ')' before ';' token
+     xil_printf("Time taken: %llu us\n",2*((stop-start));
+                                                        ^
+../src/helloworld.c:110:1: error: expected ';' before '}' token
+ }
+ ^
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+make: *** [src/helloworld.o] Error 1
+17:42:19 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31000	   2204	  22648	  55852	   da2c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:42:23 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:43:37 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30996	   2204	  22648	  55848	   da28	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:43:49 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:46:06 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30996	   2204	  22648	  55848	   da28	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:46:08 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:48:06 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31004	   2204	  22648	  55856	   da30	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:48:10 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31012	   2204	  22648	  55864	   da38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:48:15 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31012	   2204	  22648	  55864	   da38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:48:18 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:48:34 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31012	   2204	  22648	  55864	   da38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:48:36 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:49:16 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31012	   2204	  22648	  55864	   da38	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:49:20 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:52:56 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79544	   2596	  23344	 105484	  19c0c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:53:01 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79544	   2596	  23344	 105484	  19c0c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:53:04 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:53:37 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:104:12: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 2 has type 'double' [-Wformat=]
+     printf("Time taken: %llu us\n",1.0*((stop-start)/(COUNTS_PER_SECOND/1000000)));
+            ^
+../src/helloworld.c:104:12: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 2 has type 'double' [-Wformat=]
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80544	   2596	  23344	 106484	  19ff4	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:53:45 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:104:12: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 2 has type 'double' [-Wformat=]
+     printf("Time taken: %llu us\n",1.0*((stop-start)/(COUNTS_PER_SECOND/1000000)));
+            ^
+../src/helloworld.c:104:12: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 2 has type 'double' [-Wformat=]
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80552	   2596	  23344	 106492	  19ffc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:53:49 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:06 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80552	   2596	  23344	 106492	  19ffc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:54:09 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:22 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:29 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:56:51 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80680	   2596	  23344	 106620	  1a07c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:56:56 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:58:25 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80680	   2596	  23344	 106620	  1a07c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:58:28 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:59:03 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80552	   2596	  23344	 106492	  19ffc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:59:07 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:59:21 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:59:27 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:59:42 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80424	   2596	  23344	 106364	  19f7c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+17:59:45 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:02:05 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80680	   2596	  23344	 106620	  1a07c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:02:19 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80752	   2596	  23344	 106692	  1a0c4	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:02:22 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:03:07 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80552	   2596	  23344	 106492	  19ffc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:03:19 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80488	   2596	  23344	 106428	  19fbc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:03:22 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:17:50 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80420	   2596	  23344	 106360	  19f78	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:18:16 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80484	   2596	  23344	 106424	  19fb8	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:18:23 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:19:02 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80420	   2596	  23344	 106360	  19f78	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:19:09 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:19:27 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80484	   2596	  23344	 106424	  19fb8	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:20:55 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80552	   2596	  23344	 106492	  19ffc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:21:18 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80424	   2596	  23344	 106364	  19f7c	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:21:22 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:21:31 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:21:35 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:21:49 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80552	   2596	  23344	 106492	  19ffc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:21:54 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:22:28 **** Auto Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^
+../src/helloworld.c:83:31: warning: unused variable 'stop1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                               ^
+../src/helloworld.c:83:23: warning: unused variable 'start1' [-Wunused-variable]
+     XTime start, stop,start1, stop1;
+                       ^
+../src/helloworld.c:79:9: warning: unused variable 'b' [-Wunused-variable]
+     int b;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: applcn_prefetch_trail.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../applcn_prefetch_trail_bsp/ps7_cortexa9_0/lib -o "applcn_prefetch_trail.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: applcn_prefetch_trail.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size applcn_prefetch_trail.elf  |tee "applcn_prefetch_trail.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80488	   2596	  23344	 106428	  19fbc	applcn_prefetch_trail.elf
+'Finished building: applcn_prefetch_trail.elf.size'
+' '
+18:22:31 **** Incremental Build of configuration Debug for project applcn_prefetch_trail ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

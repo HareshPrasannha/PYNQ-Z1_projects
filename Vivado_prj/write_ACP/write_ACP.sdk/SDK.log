@@ -1,0 +1,6 @@
+12:23:48 INFO  : Registering command handlers for SDK TCF services
+12:23:49 INFO  : Launching XSCT server: xsct.bat -interactive A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\write_ACP\write_ACP.sdk\temp_xsdb_launch_script.tcl
+12:23:58 INFO  : XSCT server has started successfully.
+12:23:58 INFO  : Successfully done setting XSCT server connection channel  
+12:24:13 INFO  : Successfully done setting SDK workspace  
+12:24:13 INFO  : Processing command line option -hwspec A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/write_ACP/write_ACP.sdk/design_1_wrapper.hdf.
