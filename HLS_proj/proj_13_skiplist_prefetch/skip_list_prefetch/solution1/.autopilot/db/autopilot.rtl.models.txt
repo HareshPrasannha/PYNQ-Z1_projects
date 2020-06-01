@@ -1,0 +1,4 @@
+skip_list_prefetcbkb
+skip_list_prefetch_CFG_s_axi
+skip_list_prefetch_A_BUS_m_axi
+skip_list_prefetch

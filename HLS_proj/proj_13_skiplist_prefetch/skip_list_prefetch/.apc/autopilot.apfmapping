@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="skip_list_prefetch.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_13_skiplist_prefetch\skip_list_prefetch.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="skip_list_prefetch_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_13_skiplist_prefetch\skip_list_prefetch_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

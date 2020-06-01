@@ -1,0 +1,7 @@
+sv xil_defaultlib "AESL_axi_master_A_BUS.v"
+sv xil_defaultlib "AESL_axi_slave_CFG.v"
+sv xil_defaultlib "skip_list_prefetch.autotb.v"
+sv xil_defaultlib "skip_list_prefetch.v"
+sv xil_defaultlib "skip_list_prefetch_A_BUS_m_axi.v"
+sv xil_defaultlib "skip_list_prefetch_CFG_s_axi.v"
+
