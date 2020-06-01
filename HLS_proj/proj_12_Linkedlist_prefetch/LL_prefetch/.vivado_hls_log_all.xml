@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Synthesizability check failed.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_12_Linkedlist_prefetch/LL_prefetch/solution1/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_12_Linkedlist_prefetch/LL_prefetch/solution1/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T12:57:36.158+0800"/>
+        <logs message="ERROR: [SYNCHK 200-41] LL_prefetch.cpp:37: unsupported pointer reinterpretation from type '%struct.node.1.2.3 = type { i32, i16, i16 }*' to type 'i32' on variable 'a'." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T12:57:35.773+0800"/>
+        <logs message="ERROR: [SYNCHK 200-11] LL_prefetch.cpp:19: Argument 'a' of function 'LL_prefetch' (LL_prefetch.cpp:19) has an unsynthesizable type (possible cause(s): structure variable cannot be decomposed due to (1) unsupported type conversion; (2) memory copy operation; (3) function pointer used in struct; (4) unsupported pointer comparison)." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T12:57:35.751+0800"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:05:39.162+0800"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:05:39.128+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:05:14.247+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:04:41.078+0800"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-40] " projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T12:57:31.235+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] LL_prefetch.cpp:32:19: warning: format specifies type 'int' but the argument has type 'volatile struct node *' [-Wformat]&#xD;&#xA;                printf(&quot;Addrs1:%d\n&quot;,a);&#xD;&#xA;                               ~^    ~&#xD;&#xA;LL_prefetch.cpp:36:19: warning: format specifies type 'int' but the argument has type 'volatile struct node *' [-Wformat]&#xD;&#xA;                printf(&quot;Addrs2:%d\n&quot;,(a+offset/16));&#xD;&#xA;                               ~^    ~~~~~~~~~~~~~&#xD;&#xA;2 warnings generated." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T12:57:26.208+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="LL_prefetch" solutionName="solution1" date="2020-06-01T11:42:40.783+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="LL_prefetch" solutionName="solution1" date="2020-06-01T11:33:03.877+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="LL_prefetch" solutionName="solution1" date="2020-06-01T11:31:37.423+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:05:36.627+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:05:12.930+0800" type="Warning"/>
+        <logs message="WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux." projectName="LL_prefetch" solutionName="solution1" date="2020-05-28T13:04:39.993+0800" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

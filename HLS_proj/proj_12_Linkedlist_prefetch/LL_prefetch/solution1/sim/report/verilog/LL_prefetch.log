@@ -1,0 +1,11 @@
+@I [SIM-47] Using XSIM for RTL simulation.
+@I [SIM-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe"
+   Compiling LL_prefetch.cpp_pre.cpp.tb.cpp
+   Compiling LL_prefetch_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_LL_prefetch.cpp
+   Generating cosim.tv.exe
+@I [SIM-302] Starting C TB testing ... 
+@E [SIM-360] Aborting co-simulation: C TB simulation failed.
+@E [SIM-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.
+@E [SIM-4] *** C/RTL co-simulation finished: FAIL ***
