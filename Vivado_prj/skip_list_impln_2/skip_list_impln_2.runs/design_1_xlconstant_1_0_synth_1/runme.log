@@ -1,0 +1,42 @@
+
+*** Running vivado
+    with args -log design_1_xlconstant_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xlconstant_1_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_xlconstant_1_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 335.805 ; gain = 126.219
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_1_0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'xlconstant' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ipshared/e147/xlconstant.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant' (1#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ipshared/e147/xlconstant.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xlconstant_1_0' (2#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v:56]
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 372.977 ; gain = 163.391
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 372.977 ; gain = 163.391
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 586.465 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:00:58 . Memory (MB): peak = 586.465 ; gain = 376.879
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:00:58 . Memory (MB): peak = 586.465 ; gain = 376.879
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:58 . Memory (MB): peak = 586.465 ; gain = 376.879
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:00:58 . Memory (MB): peak = 586.465 ; gain = 376.879
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:59 . Memory (MB): peak = 586.465 ; gain = 376.879
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:26 . Memory (MB): peak = 625.867 ; gain = 416.281
+Finished Timing Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:26 . Memory (MB): peak = 625.867 ; gain = 416.281
+Finished Technology Mapping : Time (s): cpu = 00:01:09 ; elapsed = 00:01:26 . Memory (MB): peak = 635.539 ; gain = 425.953
+Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:28 . Memory (MB): peak = 635.539 ; gain = 425.953
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 658.660 ; gain = 398.367
