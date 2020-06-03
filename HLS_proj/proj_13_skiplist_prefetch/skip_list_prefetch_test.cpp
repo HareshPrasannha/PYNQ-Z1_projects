@@ -6,7 +6,7 @@ typedef int dat_typ;
 typedef short dat_typ1;
 
 #define level 2
-#define skip_intr 20
+#define skip_intr 50
 
 struct node{
 	dat_typ val;
@@ -19,7 +19,8 @@ void skip_list_prefetch(volatile struct node* a);
 
 int main()
 {
-	printf("Into main function\n");
+	//printf("Into main function\n");
+	/* Debugging part of code */
 	/*printf("Size of node: %d\n",sizeof(struct node));
 	struct node *newnode = (struct node *)malloc(sizeof(struct node));
 	newnode->val = 10;
@@ -40,6 +41,7 @@ int main()
 	prevnode->offs = ((int)newnode - (int)prevnode);
 	printf("prevnode offs:%d\n",prevnode->offs);
 	LL_prefetch(head);*/
+
 	struct node *head = NULL;
 	struct node *prevnode;
 	struct node *skip_prevnode;

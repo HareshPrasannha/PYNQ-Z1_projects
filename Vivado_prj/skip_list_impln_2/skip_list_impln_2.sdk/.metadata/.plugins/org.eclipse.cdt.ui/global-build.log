@@ -1,4 +1,4 @@
-16:11:06 **** Build of project PL_alone_bsp ****
+13:24:44 **** Build of project skip_list_prefetch_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
@@ -87,640 +87,303 @@ make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-
 make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
 "Compiling xadcps"
 'Finished building libraries'
-16:11:54 **** Build of configuration Debug for project PL_alone ****
+13:25:14 **** Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 'Building file: ../src/helloworld.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
 ' '
-'Building target: PL_alone.elf'
+'Building target: skip_list_prefetch.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PL_alone.elf'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
 ' '
 'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PL_alone.elf  |tee "PL_alone.elf.size"
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  22332	   1148	  22568	  46048	   b3e0	PL_alone.elf
-'Finished building: PL_alone.elf.size'
+  22332	   1148	  22568	  46048	   b3e0	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
 ' '
-16:11:58 **** Auto Build of configuration Debug for project PL_alone ****
+13:25:16 **** Auto Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:12:17 **** Auto Build of configuration Debug for project PL_alone ****
+13:25:44 **** Auto Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:25:51 **** Auto Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 'Building file: ../src/helloworld.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:77:1: error: unknown type name 'XLl_prefetch'
- XLl_prefetch copiaMem;
- ^
-../src/helloworld.c: In function 'initialize_ip':
-../src/helloworld.c:82:2: error: unknown type name 'XLl_prefetch_Config'
-  XLl_prefetch_Config *CfgPtr = XLl_prefetch_LookupConfig(XPAR_LL_PREFETCH_0_DEVICE_ID);
-  ^
-../src/helloworld.c:82:32: warning: implicit declaration of function 'XLl_prefetch_LookupConfig' [-Wimplicit-function-declaration]
-  XLl_prefetch_Config *CfgPtr = XLl_prefetch_LookupConfig(XPAR_LL_PREFETCH_0_DEVICE_ID);
-                                ^
-../src/helloworld.c:82:58: error: 'XPAR_LL_PREFETCH_0_DEVICE_ID' undeclared (first use in this function)
-  XLl_prefetch_Config *CfgPtr = XLl_prefetch_LookupConfig(XPAR_LL_PREFETCH_0_DEVICE_ID);
-                                                          ^
-../src/helloworld.c:82:58: note: each undeclared identifier is reported only once for each function it appears in
-../src/helloworld.c:88:15: warning: implicit declaration of function 'XLl_prefetch_CfgInitialize' [-Wimplicit-function-declaration]
-  int Status = XLl_prefetch_CfgInitialize(&copiaMem, CfgPtr);
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:139:16: warning: unused variable 'dummy_node' [-Wunused-variable]
+   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+                ^
+../src/helloworld.c:191:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = NULL;
                ^
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:187:5: warning: implicit declaration of function 'XLl_prefetch_Set_a' [-Wimplicit-function-declaration]
-     XLl_prefetch_Set_a(&copiaMem,(u32)head);
-     ^
-../src/helloworld.c:195:2: warning: implicit declaration of function 'XLl_prefetch_Start' [-Wimplicit-function-declaration]
-  XLl_prefetch_Start(&copiaMem);
-  ^
-../src/helloworld.c:196:12: warning: implicit declaration of function 'XLl_prefetch_IsDone' [-Wimplicit-function-declaration]
-     while(!XLl_prefetch_IsDone(&copiaMem));
-            ^
-make: *** [src/helloworld.o] Error 1
-16:12:33 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'initialize_ip':
-../src/helloworld.c:82:2: error: unknown type name 'XLl_prefetch_Config'
-  XLl_prefetch_Config *CfgPtr = XLl_prefetch_LookupConfig(XPAR_LL_PREFETCH_0_DEVICE_ID);
-  ^
-../src/helloworld.c:82:32: warning: implicit declaration of function 'XLl_prefetch_LookupConfig' [-Wimplicit-function-declaration]
-  XLl_prefetch_Config *CfgPtr = XLl_prefetch_LookupConfig(XPAR_LL_PREFETCH_0_DEVICE_ID);
-                                ^
-../src/helloworld.c:82:58: error: 'XPAR_LL_PREFETCH_0_DEVICE_ID' undeclared (first use in this function)
-  XLl_prefetch_Config *CfgPtr = XLl_prefetch_LookupConfig(XPAR_LL_PREFETCH_0_DEVICE_ID);
-                                                          ^
-../src/helloworld.c:82:58: note: each undeclared identifier is reported only once for each function it appears in
-../src/helloworld.c:88:15: warning: implicit declaration of function 'XLl_prefetch_CfgInitialize' [-Wimplicit-function-declaration]
-  int Status = XLl_prefetch_CfgInitialize(&copiaMem, CfgPtr);
-               ^
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:187:5: warning: implicit declaration of function 'XLl_prefetch_Set_a' [-Wimplicit-function-declaration]
-     XLl_prefetch_Set_a(&copiaMem,(u32)head);
-     ^
-../src/helloworld.c:195:2: warning: implicit declaration of function 'XLl_prefetch_Start' [-Wimplicit-function-declaration]
-  XLl_prefetch_Start(&copiaMem);
-  ^
-../src/helloworld.c:196:12: warning: implicit declaration of function 'XLl_prefetch_IsDone' [-Wimplicit-function-declaration]
-     while(!XLl_prefetch_IsDone(&copiaMem));
-            ^
-make: *** [src/helloworld.o] Error 1
-16:13:17 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:187:5: warning: implicit declaration of function 'XLl_prefetch_Set_a' [-Wimplicit-function-declaration]
-     XLl_prefetch_Set_a(&copiaMem,(u32)head);
-     ^
-../src/helloworld.c:195:2: warning: implicit declaration of function 'XLl_prefetch_Start' [-Wimplicit-function-declaration]
-  XLl_prefetch_Start(&copiaMem);
-  ^
-../src/helloworld.c:196:12: warning: implicit declaration of function 'XLl_prefetch_IsDone' [-Wimplicit-function-declaration]
-     while(!XLl_prefetch_IsDone(&copiaMem));
-            ^
 'Finished building: ../src/helloworld.c'
 ' '
-'Building target: PL_alone.elf'
+'Building target: skip_list_prefetch.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/helloworld.o: In function `main':
-A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skip_list_impln_2\skip_list_impln_2.sdk\PL_alone\Debug/../src/helloworld.c:187: undefined reference to `XLl_prefetch_Set_a'
-A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skip_list_impln_2\skip_list_impln_2.sdk\PL_alone\Debug/../src/helloworld.c:195: undefined reference to `XLl_prefetch_Start'
-A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skip_list_impln_2\skip_list_impln_2.sdk\PL_alone\Debug/../src/helloworld.c:196: undefined reference to `XLl_prefetch_IsDone'
-collect2.exe: error: ld returned 1 exit status
-make: *** [PL_alone.elf] Error 1
-16:13:46 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:195:2: warning: implicit declaration of function 'XLl_prefetch_Start' [-Wimplicit-function-declaration]
-  XLl_prefetch_Start(&copiaMem);
-  ^
-../src/helloworld.c:196:12: warning: implicit declaration of function 'XLl_prefetch_IsDone' [-Wimplicit-function-declaration]
-     while(!XLl_prefetch_IsDone(&copiaMem));
-            ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PL_alone.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/helloworld.o: In function `main':
-A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skip_list_impln_2\skip_list_impln_2.sdk\PL_alone\Debug/../src/helloworld.c:195: undefined reference to `XLl_prefetch_Start'
-A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skip_list_impln_2\skip_list_impln_2.sdk\PL_alone\Debug/../src/helloworld.c:196: undefined reference to `XLl_prefetch_IsDone'
-collect2.exe: error: ld returned 1 exit status
-make: *** [PL_alone.elf] Error 1
-16:13:58 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:196:12: warning: implicit declaration of function 'XLl_prefetch_IsDone' [-Wimplicit-function-declaration]
-     while(!XLl_prefetch_IsDone(&copiaMem));
-            ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PL_alone.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/helloworld.o: In function `main':
-A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skip_list_impln_2\skip_list_impln_2.sdk\PL_alone\Debug/../src/helloworld.c:196: undefined reference to `XLl_prefetch_IsDone'
-collect2.exe: error: ld returned 1 exit status
-make: *** [PL_alone.elf] Error 1
-16:14:04 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PL_alone.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PL_alone.elf'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
 ' '
 'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PL_alone.elf  |tee "PL_alone.elf.size"
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  82276	   2596	  23344	 108216	  1a6b8	PL_alone.elf
-'Finished building: PL_alone.elf.size'
+  82252	   2596	  23344	 108192	  1a6a0	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
 ' '
-16:14:29 **** Clean-only build of configuration Debug for project PL_alone ****
+13:26:25 **** Auto Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:139:16: warning: unused variable 'dummy_node' [-Wunused-variable]
+   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+                ^
+../src/helloworld.c:191:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = NULL;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_list_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82180	   2596	  23344	 108120	  1a658	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
+' '
+13:27:11 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:28:15 **** Clean-only build of configuration Debug for project skip_list_prefetch ****
 make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  PL_alone.elf.size  PL_alone.elf
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  skip_list_prefetch.elf.size  skip_list_prefetch.elf
 ' '
-16:14:30 **** Auto Build of configuration Debug for project PL_alone ****
+13:28:15 **** Auto Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 'Building file: ../src/helloworld.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 ../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
+../src/helloworld.c:139:16: warning: unused variable 'dummy_node' [-Wunused-variable]
    struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
                 ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: PL_alone.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PL_alone.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PL_alone.elf  |tee "PL_alone.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  82276	   2596	20978480	21063352	14166b8	PL_alone.elf
-'Finished building: PL_alone.elf.size'
-' '
-16:16:04 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:117:17: error: assignment to expression with array type
-   newnode->offs = 0;
-                 ^
-../src/helloworld.c:118:10: error: 'struct node' has no member named 'skip_offs'
-   newnode->skip_offs = 0;
-          ^
-../src/helloworld.c:124:19: error: assignment to expression with array type
-    prevnode->offs = (newnode - prevnode);
-                   ^
-../src/helloworld.c:127:17: error: 'struct node' has no member named 'skip_offs'
-    skip_prevnode->skip_offs = (newnode - skip_prevnode);
-                 ^
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-make: *** [src/helloworld.o] Error 1
-16:17:35 **** Auto Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PL_alone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PL_alone.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PL_alone_bsp/ps7_cortexa9_0/lib -o "PL_alone.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PL_alone.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PL_alone.elf  |tee "PL_alone.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  82276	   2596	20978480	21063352	14166b8	PL_alone.elf
-'Finished building: PL_alone.elf.size'
-' '
-16:18:12 **** Incremental Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for `main-build'.
-16:19:24 **** Incremental Build of configuration Debug for project PL_alone ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for `main-build'.
-16:20:43 **** Build of project PS_PL_bsp ****
-make -k all 
-"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
-make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/skip_list_prefetch_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/skip_list_prefetch_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling coresightps_dcc"
-arm-none-eabi-ar: creating ../../../lib/libxil.a
-"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling cpu_cortexa9"
-"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling ddrps"
-"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling devcfg"
-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling dmaps"
-"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling emacps"
-"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
-make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling gpiops"
-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling qspips"
-"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling scugic"
-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling scutimer"
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling scuwdt"
-"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/skip_list_prefetch_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/skip_list_prefetch_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling skip_list_prefetch"
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling standalone"
-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
-"Compiling xadcps"
-'Finished building libraries'
-16:21:22 **** Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: PS_PL.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PS_PL_bsp/ps7_cortexa9_0/lib -o "PS_PL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PS_PL.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PS_PL.elf  |tee "PS_PL.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  22332	   1148	  22568	  46048	   b3e0	PS_PL.elf
-'Finished building: PS_PL.elf.size'
-' '
-16:21:25 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for `main-build'.
-16:22:10 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PS_PL.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PS_PL_bsp/ps7_cortexa9_0/lib -o "PS_PL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PS_PL.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PS_PL.elf  |tee "PS_PL.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  82276	   2596	  23344	 108216	  1a6b8	PS_PL.elf
-'Finished building: PS_PL.elf.size'
-' '
-16:23:20 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:199:8: error: 'temp1' undeclared (first use in this function)
-  while(temp1->offs != 0){
-        ^
-../src/helloworld.c:199:8: note: each undeclared identifier is reported only once for each function it appears in
-make: *** [src/helloworld.o] Error 1
-16:23:41 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:206:17: error: invalid operands to binary + (have 'struct node *' and 'dat_typ1 * {aka short int *}')
-   temp1 = temp1 + temp1->offs;
-                 ^
-../src/helloworld.c:185:6: warning: unused variable 'sum' [-Wunused-variable]
-  int sum = 0;
-      ^
-../src/helloworld.c:184:15: warning: unused variable 'old_temp1' [-Wunused-variable]
-  struct node *old_temp1 = NULL;
-               ^
-make: *** [src/helloworld.o] Error 1
-16:24:02 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:185:6: warning: unused variable 'sum' [-Wunused-variable]
-  int sum = 0;
-      ^
-../src/helloworld.c:184:15: warning: unused variable 'old_temp1' [-Wunused-variable]
-  struct node *old_temp1 = NULL;
-               ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PS_PL.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PS_PL_bsp/ps7_cortexa9_0/lib -o "PS_PL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PS_PL.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PS_PL.elf  |tee "PS_PL.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  82340	   2596	  23344	 108280	  1a6f8	PS_PL.elf
-'Finished building: PS_PL.elf.size'
-' '
-16:24:10 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:185:6: warning: unused variable 'sum' [-Wunused-variable]
-  int sum = 0;
-      ^
-../src/helloworld.c:184:15: warning: unused variable 'old_temp1' [-Wunused-variable]
-  struct node *old_temp1 = NULL;
-               ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: PS_PL.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PS_PL_bsp/ps7_cortexa9_0/lib -o "PS_PL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PS_PL.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PS_PL.elf  |tee "PS_PL.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  82340	   2596	  23344	 108280	  1a6f8	PS_PL.elf
-'Finished building: PS_PL.elf.size'
-' '
-16:24:37 **** Clean-only build of configuration Debug for project PS_PL ****
-make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  PS_PL.elf.size  PS_PL.elf
-' '
-16:24:37 **** Auto Build of configuration Debug for project PS_PL ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:132:16: warning: unused variable 'dummy_node' [-Wunused-variable]
-   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
-                ^
-../src/helloworld.c:185:6: warning: unused variable 'sum' [-Wunused-variable]
-  int sum = 0;
-      ^
-../src/helloworld.c:184:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+../src/helloworld.c:191:15: warning: unused variable 'old_temp1' [-Wunused-variable]
   struct node *old_temp1 = NULL;
                ^
 'Finished building: ../src/helloworld.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_PL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
 ' '
-'Building target: PS_PL.elf'
+'Building target: skip_list_prefetch.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PS_PL_bsp/ps7_cortexa9_0/lib -o "PS_PL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: PS_PL.elf'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
 ' '
 'Invoking: ARM v7 Print Size'
-arm-none-eabi-size PS_PL.elf  |tee "PS_PL.elf.size"
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  82340	   2596	20978480	21063416	14166f8	PS_PL.elf
-'Finished building: PS_PL.elf.size'
+  82180	   2596	20978480	21063256	1416658	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
 ' '
-16:24:57 **** Incremental Build of configuration Debug for project PL_alone ****
+13:28:23 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:24:58 **** Incremental Build of configuration Debug for project PS_PL ****
+13:28:39 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:25:37 **** Incremental Build of configuration Debug for project PL_alone ****
+13:28:45 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:25:38 **** Incremental Build of configuration Debug for project PS_PL ****
+13:28:51 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:26:03 **** Incremental Build of configuration Debug for project PL_alone ****
+13:28:58 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:26:04 **** Incremental Build of configuration Debug for project PS_PL ****
+13:29:04 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:39:50 **** Incremental Build of configuration Debug for project PL_alone ****
+13:29:11 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:39:51 **** Incremental Build of configuration Debug for project PS_PL ****
+13:29:18 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:41:35 **** Incremental Build of configuration Debug for project PL_alone ****
+13:30:05 **** Auto Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:139:16: warning: unused variable 'dummy_node' [-Wunused-variable]
+   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+                ^
+../src/helloworld.c:191:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = NULL;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_list_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82180	   2596	20978480	21063256	1416658	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
+' '
+13:30:08 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:41:36 **** Incremental Build of configuration Debug for project PS_PL ****
+13:30:12 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:41:46 **** Incremental Build of configuration Debug for project PL_alone ****
+13:30:18 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-16:41:47 **** Incremental Build of configuration Debug for project PS_PL ****
+13:30:45 **** Auto Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:139:16: warning: unused variable 'dummy_node' [-Wunused-variable]
+   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+                ^
+../src/helloworld.c:191:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = NULL;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_list_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82180	   2596	20978480	21063256	1416658	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
+' '
+13:30:49 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:30:54 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:30:58 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:31:54 **** Auto Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_list_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:139:16: warning: unused variable 'dummy_node' [-Wunused-variable]
+   struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+                ^
+../src/helloworld.c:191:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = NULL;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_list_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_list_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_list_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_list_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_list_prefetch.elf  |tee "skip_list_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82252	   2596	20978480	21063328	14166a0	skip_list_prefetch.elf
+'Finished building: skip_list_prefetch.elf.size'
+' '
+13:31:56 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:32:01 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:32:05 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:32:10 **** Incremental Build of configuration Debug for project skip_list_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '

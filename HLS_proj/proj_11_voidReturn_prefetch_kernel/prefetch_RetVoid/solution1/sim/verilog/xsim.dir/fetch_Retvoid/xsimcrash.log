@@ -1,42 +1,41 @@
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Unable to capture context for thread 16900 in process 9292, can not generate back trace
-Unable to capture context for thread 4952 in process 9292, can not generate back trace
-Unable to capture context for thread 8060 in process 9292, can not generate back trace
-Unable to capture context for thread 16900 in process 9292, can not generate back trace
-Unable to capture context for thread 4952 in process 9292, can not generate back trace
-Unable to capture context for thread 8060 in process 9292, can not generate back trace
-Exception at PC 0x00007FFFFC55BB93
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Unable to capture context for thread 4684 in process 6676, can not generate back trace
+Unable to capture context for thread 11612 in process 6676, can not generate back trace
+Exception at PC 0x00007FFC61F5A859
+Unable to capture context for thread 4684 in process 6676, can not generate back trace
+Unable to capture context for thread 4188 in process 6676, can not generate back trace
+Exception at PC 0x00007FFBF9A7BB93
 Printing stacktrace...
 
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-[0]  [0x00007FFFFC55BB93]
-[1]  [0x00007FFFFC55BB93]
-[2]  [0x00007FFFFC55B4A1]
-[3]  [0x00007FFFFC55B3EF]
-[4]  [0x00007FFFFC5419FE]
-[5]  [0x00007FFFFC540ED1]
-[6]  [0x00007FFFFC540D76]
-[7]  [0x00007FFFFC4E79F6]
-[8]  [0x00007FFFFC4D7AFB]
-[9]  [0x00007FFFFC5FE90A]
-[10]  [0x00007FFFFC619F87]
-[11]  [0x00007FFFFC61A05F]
-[12] (BaseThreadInitThunk+0x14) [0x00007FF87F177BD4]
-[13] (RtlUserThreadStart+0x21) [0x00007FF87F2CCED1]
+Unable to capture context for thread 4188 in process 6676, can not generate back trace
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+[0]  [0x00007FFBF9A7BB93]
+[1]  [0x00007FFBF9A7BB93]
+[2]  [0x00007FFBF9A7B4A1]
+[3]  [0x00007FFBF9A7B3EF]
+[4]  [0x00007FFBF9A619FE]
+[5]  [0x00007FFBF9A60ED1]
+[6]  [0x00007FFBF9A60D76]
+[7]  [0x00007FFBF9A079F6]
+[8]  [0x00007FFBF99F7AFB]
+[9]  [0x00007FFBF9B1E90A]
+[10]  [0x00007FFBF9B39F87]
+[11]  [0x00007FFBF9B3A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFC63777BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFC64DCCED1]
 Done
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
-Exception at PC 0x00007FF87C31A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859
+Exception at PC 0x00007FFC61F5A859

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'fetch_Retvoid'" level="0">
-<item name = "Date">Wed Apr 15 18:46:26 2020
+<item name = "Date">Fri Apr 17 13:51:21 2020
 </item>
 <item name = "Version">2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)</item>
 <item name = "Project">prefetch_RetVoid</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">960129, 960129, 960130, 960130, none</column>
+<column name="">960257, 960257, 960258, 960258, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">960128, 960128, 7501, -, -, 128, no</column>
+<column name="- Loop 1">960256, 960256, 3751, -, -, 256, no</column>
 </table>
 </item>
 </section>

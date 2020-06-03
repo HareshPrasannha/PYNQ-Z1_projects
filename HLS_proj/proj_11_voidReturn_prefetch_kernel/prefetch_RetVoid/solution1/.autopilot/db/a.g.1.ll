@@ -31,7 +31,7 @@ define void @fetch_Retvoid(i32* %a) nounwind {
 
 ; <label>:2                                       ; preds = %1
   %rbegin = call i32 (...)* @_ssdm_op_SpecRegionBegin(i8* getelementptr inbounds ([12 x i8]* @.str6, i32 0, i32 0)) nounwind, !dbg !50 ; [#uses=1 type=i32] [debug line = 9:33]
-  call void (...)* @_ssdm_Unroll(i32 1, i32 0, i32 500, i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0)) nounwind, !dbg !52 ; [debug line = 10:1]
+  call void (...)* @_ssdm_Unroll(i32 1, i32 0, i32 250, i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0)) nounwind, !dbg !52 ; [debug line = 10:1]
   %a.addr = getelementptr inbounds i32* %a, i32 %i, !dbg !53 ; [#uses=2 type=i32*] [debug line = 11:2]
   %temp.1 = load volatile i32* %a.addr, align 4, !dbg !53 ; [#uses=1 type=i32] [debug line = 11:2]
   call void @llvm.dbg.value(metadata !{i32 %temp.1}, i64 0, metadata !54), !dbg !53 ; [debug line = 11:2] [debug variable = temp]

@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:hls:LL_prefetch:1.0
-// IP Revision: 2005272049
+// IP Revision: 2006011444
 
 (* X_CORE_INFO = "LL_prefetch,Vivado 2016.3" *)
 (* CHECK_LICENSE_TYPE = "design_1_LL_prefetch_0_1,LL_prefetch,{}" *)
-(* CORE_GENERATION_INFO = "design_1_LL_prefetch_0_1,LL_prefetch,{x_ipProduct=Vivado 2016.3,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=LL_prefetch,x_ipVersion=1.0,x_ipCoreRevision=2005272049,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CFG_ADDR_WIDTH=5,C_S_AXI_CFG_DATA_WIDTH=32,C_M_AXI_A_BUS_ID_WIDTH=1,C_M_AXI_A_BUS_ADDR_WIDTH=32,C_M_AXI_A_BUS_DATA_WIDTH=64,C_M_AXI_A_BUS_AWUSER_WIDTH=1,C_M_AXI_A_BUS_ARUSER_WIDTH=1,C_M_AXI_A_BUS_WUSER_WIDTH=1,C_M_AXI_A_BUS_RUSER_WIDTH=1,C_M_AXI_A_BUS_BUSER_WIDTH=1,C_M_AXI_A_BUS_US\
+(* CORE_GENERATION_INFO = "design_1_LL_prefetch_0_1,LL_prefetch,{x_ipProduct=Vivado 2016.3,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=LL_prefetch,x_ipVersion=1.0,x_ipCoreRevision=2006011444,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CFG_ADDR_WIDTH=5,C_S_AXI_CFG_DATA_WIDTH=32,C_M_AXI_A_BUS_ID_WIDTH=1,C_M_AXI_A_BUS_ADDR_WIDTH=32,C_M_AXI_A_BUS_DATA_WIDTH=64,C_M_AXI_A_BUS_AWUSER_WIDTH=1,C_M_AXI_A_BUS_ARUSER_WIDTH=1,C_M_AXI_A_BUS_WUSER_WIDTH=1,C_M_AXI_A_BUS_RUSER_WIDTH=1,C_M_AXI_A_BUS_BUSER_WIDTH=1,C_M_AXI_A_BUS_US\
 ER_VALUE=0x00000000,C_M_AXI_A_BUS_PROT_VALUE=000,C_M_AXI_A_BUS_CACHE_VALUE=0011}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_LL_prefetch_0_1 (

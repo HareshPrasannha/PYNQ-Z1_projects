@@ -1,7 +1,7 @@
-Running: xsim.dir/fetch_Retvoid/xsimk.exe -simmode gui -wdb fetch_Retvoid.wdb -simrunnum 0 -socket 65440
+Running: xsim.dir/fetch_Retvoid/xsimk.exe -simmode gui -wdb fetch_Retvoid.wdb -simrunnum 0 -socket 50404
 Design successfully loaded
-Design Loading Memory Usage: 59904 KB (Peak: 59904 KB)
-Design Loading CPU Usage: 202 ms
+Design Loading Memory Usage: 24580 KB (Peak: 24580 KB)
+Design Loading CPU Usage: 109 ms
 Simulation completed
-Simulation Memory Usage: 82720 KB (Peak: 82720 KB)
-Simulation CPU Usage: 3244311 ms
+Simulation Memory Usage: 33264 KB (Peak: 33264 KB)
+Simulation CPU Usage: 1007749 ms

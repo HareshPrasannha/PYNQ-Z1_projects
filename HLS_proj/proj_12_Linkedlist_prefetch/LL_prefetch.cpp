@@ -3,7 +3,7 @@
 //#include "ap_int.h"
 
 typedef int dat_typ;
-typedef int dat_typ1;
+typedef short dat_typ1;
 
 const int n = 10000;
 const int skip_intr = 20;
@@ -22,11 +22,11 @@ void LL_prefetch(volatile struct node* a)
 #pragma HLS INTERFACE s_axilite port=return bundle=CFG
 #pragma HLS data_pack variable=a
 
-		printf("Into HLS ip main function\n");
+		//printf("Into HLS ip main function\n");
 		volatile int temp;
-		int buff[buff_len];
-		int cum_offs = 0;
-		int skip_cum_offs = a->skip_offs;
+		volatile int buff[buff_len];
+		volatile int cum_offs = 0;
+		volatile int skip_cum_offs = a->skip_offs;
 		/*temp = a->val+10;
 		a->val = temp;
 		printf("Addrs1:%d\n",a);
@@ -60,7 +60,7 @@ void LL_prefetch(volatile struct node* a)
 					//printf("Into loop\n");
 					//printf("Value: %d, offs: %d, cum_offs: %d\n",(a+cum_offs)->val,(a+cum_offs)->offs,cum_offs);
 					temp = (a+cum_offs)->val;
-					(a+cum_offs)->val = temp + 10;
+					//(a+cum_offs)->val = temp + 10;
 					buff[0] = cum_offs;
 					cum_offs = cum_offs+((a+cum_offs)->offs);
 				}
@@ -68,24 +68,24 @@ void LL_prefetch(volatile struct node* a)
 					buff[i] = skip_cum_offs;
 					//printf("Value: %d, offs: %d, skip_cum_offs: %d\n",(a+skip_cum_offs)->val,(a+skip_cum_offs)->skip_offs,skip_cum_offs);
 					temp = (a+skip_cum_offs)->val;
-					(a+skip_cum_offs)->val = temp + 10;
+					//(a+skip_cum_offs)->val = temp + 10;
 					skip_cum_offs = skip_cum_offs+((a+skip_cum_offs)->skip_offs);
 				}
 			}
 		}
 		temp = (a+skip_cum_offs)->val;
-		(a+skip_cum_offs)->val = temp + 10;
+		//(a+skip_cum_offs)->val = temp + 10;
 		//printf("buffer length: %d\n\n",buff_len);
-		int seq_skip_offs;
+		volatile int seq_skip_offs;
 		for (int j=0;j<skip_intr-1;j++){
 			for(int i=(buff_len/skip_intr);i<buff_len;i++){
-				#pragma HLS pipeline
+				#pragma HLS unroll factor=50
 				//if((a+buff[i])->offs!=0){
 					//printf("index: %d, Value: %d, offs: %d\n",i,(a+buff[i])->val,(a+buff[i])->offs);
 					seq_skip_offs = buff[i] +(a+buff[i])->offs;
 					//printf("index: %d, Value: %d, offs: %d\n",i,(a+seq_skip_offs)->val,(a+seq_skip_offs)->offs);
 					temp = ((a+seq_skip_offs))->val;
-					(a+seq_skip_offs)->val = temp + 10;
+					//(a+seq_skip_offs)->val = temp + 10;
 					buff[i] = seq_skip_offs;
 				//}
 			}

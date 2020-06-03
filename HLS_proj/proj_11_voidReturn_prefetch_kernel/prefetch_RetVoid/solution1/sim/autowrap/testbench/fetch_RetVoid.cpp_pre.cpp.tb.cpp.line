@@ -248,7 +248,7 @@ void fetch_Retvoid(volatile int *a)
 #pragma empty_line
   volatile int temp;
   for (int i = 0;i<len;i = i+1){
-#pragma HLS unroll factor = 500
+#pragma HLS unroll factor = 250
    temp = *(a+i);
    *(a+i) = temp;
   }

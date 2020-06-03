@@ -3,7 +3,7 @@
 const int n = 10000;
 
 typedef int dat_typ;
-typedef int dat_typ1;
+typedef short dat_typ1;
 
 #define level 2
 #define skip_intr 20

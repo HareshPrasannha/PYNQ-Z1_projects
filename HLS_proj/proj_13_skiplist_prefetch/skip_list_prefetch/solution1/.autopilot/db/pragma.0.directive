@@ -21,12 +21,10 @@
 </pragma>
 </directive>
 <directive functionLabel="" functionName="skip_list_prefetch" label="">
-<pragma name="UNROLL"/>
+<pragma name="PIPELINE"/>
 </directive>
 <directive functionLabel="" functionName="skip_list_prefetch" label="">
-<pragma name="UNROLL">
-<option name="factor" value="50"/>
-</pragma>
+<pragma name="PIPELINE"/>
 </directive>
 </sourceFile>
 </AutoPilot:ProjectResources>

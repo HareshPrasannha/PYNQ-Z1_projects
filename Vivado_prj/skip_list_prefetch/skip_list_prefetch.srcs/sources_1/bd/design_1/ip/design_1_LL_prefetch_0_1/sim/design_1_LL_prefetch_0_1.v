@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:LL_prefetch:1.0
-// IP Revision: 2005272049
+// IP Revision: 2006011444
 
 `timescale 1ns/1ps
 

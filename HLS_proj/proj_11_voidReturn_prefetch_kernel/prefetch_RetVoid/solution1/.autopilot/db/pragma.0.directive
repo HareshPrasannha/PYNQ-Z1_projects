@@ -18,7 +18,7 @@
 </directive>
 <directive functionLabel="" functionName="fetch_Retvoid" label="">
 <pragma name="UNROLL">
-<option name="factor" value="500"/>
+<option name="factor" value="250"/>
 </pragma>
 </directive>
 </sourceFile>

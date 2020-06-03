@@ -20,5 +20,13 @@
 <option name="variable" positionalBoolean="4" value="a"/>
 </pragma>
 </directive>
+<directive functionLabel="" functionName="LL_prefetch" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="LL_prefetch" label="">
+<pragma name="UNROLL">
+<option name="factor" value="50"/>
+</pragma>
+</directive>
 </sourceFile>
 </AutoPilot:ProjectResources>

@@ -1,8 +1,8 @@
 set C_TypeInfoList {{ 
 "skip_list_prefetch" : [[], { "return": [[], "void"]} , [{"ExternC" : 0}], [ {"a": [[],{ "pointer": "0"}] }],[],""], 
 "0": [ "node", {"struct": [[],[],[{ "val": [[32], "1"]},{ "offs": [[],  {"array": ["2", [2]]}]}],""]}], 
-"1": [ "dat_typ", {"typedef": [[[], {"scalar": "int"}],""]}], 
-"2": [ "dat_typ1", {"typedef": [[[], {"scalar": "short"}],""]}]
+"2": [ "dat_typ1", {"typedef": [[[], {"scalar": "short"}],""]}], 
+"1": [ "dat_typ", {"typedef": [[[], {"scalar": "int"}],""]}]
 }}
 set moduleName skip_list_prefetch
 set isCombinational 0
@@ -180,8 +180,8 @@ set RtlHierarchyInfo {[
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "99853", "Max" : "99853"}
-	, {"Name" : "Interval", "Min" : "99854", "Max" : "99854"}
+	{"Name" : "Latency", "Min" : "11373", "Max" : "11373"}
+	, {"Name" : "Interval", "Min" : "11374", "Max" : "11374"}
 ]}
 
 set Spec2ImplPortList { 

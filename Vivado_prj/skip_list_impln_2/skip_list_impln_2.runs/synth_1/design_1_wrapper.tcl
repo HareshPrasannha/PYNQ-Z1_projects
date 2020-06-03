@@ -22,10 +22,10 @@ set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
 add_files A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_skip_list_prefetch_0_0/constraints/skip_list_prefetch_ooc.xdc]
 set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc]
 set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc]
 set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_skip_list_prefetch_0_1/constraints/skip_list_prefetch_ooc.xdc]
 set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.srcs/sources_1/bd/design_1/design_1_ooc.xdc]

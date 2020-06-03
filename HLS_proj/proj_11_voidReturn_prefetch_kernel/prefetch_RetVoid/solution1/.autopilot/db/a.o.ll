@@ -38,7 +38,7 @@ define void @_Z13fetch_RetvoidPVi(i32* %a) nounwind {
 
 ; <label>:6                                       ; preds = %3
   call void (...)* @_ssdm_RegionBegin(i8* getelementptr inbounds ([12 x i8]* @.str6, i32 0, i32 0)) nounwind, !dbg !55 ; [debug line = 9:33]
-  call void (...)* @_ssdm_Unroll(i32 1, i32 0, i32 500, i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0)) nounwind, !dbg !57 ; [debug line = 10:1]
+  call void (...)* @_ssdm_Unroll(i32 1, i32 0, i32 250, i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0)) nounwind, !dbg !57 ; [debug line = 10:1]
   %7 = load i32** %1, align 4, !dbg !58           ; [#uses=1 type=i32*] [debug line = 11:2]
   %8 = load i32* %i, align 4, !dbg !58            ; [#uses=1 type=i32] [debug line = 11:2]
   %9 = getelementptr inbounds i32* %7, i32 %8, !dbg !58 ; [#uses=1 type=i32*] [debug line = 11:2]

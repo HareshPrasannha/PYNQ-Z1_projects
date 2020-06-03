@@ -1327,7 +1327,7 @@ _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "CFG", "", "", 0, 0, 0, 0
 
  volatile int temp;
   for (int i = 0;i<len;i = i+1){
-_ssdm_Unroll(1, 0, 500, "");
+_ssdm_Unroll(1, 0, 250, "");
  temp = *(a+i);
    *(a+i) = temp;
   }

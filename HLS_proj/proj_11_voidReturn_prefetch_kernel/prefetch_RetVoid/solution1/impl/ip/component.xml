@@ -2531,7 +2531,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="17">960129</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="17">960257</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -2548,8 +2548,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Fetch_retvoid</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2004152302</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-04-15T15:02:51Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2004171439</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2020-04-17T06:40:05Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2016.3</xilinx:xilinxVersion>
