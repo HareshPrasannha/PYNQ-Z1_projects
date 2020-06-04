@@ -1,0 +1,215 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Haresh Prasannha' on host 'desktop-u9mk50b' (Windows NT_amd64 version 6.2) on Fri May 22 17:22:29 +0800 2020
+INFO: [HLS 200-10] In directory 'A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list'
+INFO: [HLS 200-10] Opening project 'A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try'.
+INFO: [HLS 200-10] Opening solution 'A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+WARNING: [COSIM 212-369] AXI_master port 'a.val' has a depth of '500'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM 212-369] AXI_master port 'a.offs' has a depth of '500'. Insufficient depth may result in simulation mismatch or freeze.
+   Build using "C:/Xilinx/Vivado_HLS/2016.3/msys/bin/g++.exe"
+   Compiling apatb_link_list.cpp
+   Compiling link_list.cpp_pre.cpp.tb.cpp
+   Compiling link_list_test.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Value: 1, Address: 9086456, Offset: 2
+Value: 2, Address: 9086472, Offset: 4
+Value: 3, Address: 9086504, Offset: 66
+Value: 4, Address: 9087032, Offset: 4
+Value: 5, Address: 9087064, Offset: -50
+Value: 6, Address: 9086664, Offset: 40
+Value: 7, Address: 9086984, Offset: -38
+Value: 8, Address: 9086680, Offset: 8
+Value: 9, Address: 9086744, Offset: -2
+Value: 10, Address: 9086728, Offset: 30
+Value: 11, Address: 9086968, Offset: -10
+Value: 12, Address: 9086888, Offset: 14
+Value: 13, Address: 9087000, Offset: -20
+Value: 14, Address: 9086840, Offset: 22
+Value: 15, Address: 9087016, Offset: 10
+Value: 16, Address: 9087096, Offset: -36
+Value: 17, Address: 9086808, Offset: 34
+Value: 18, Address: 9087080, Offset: 4
+Value: 19, Address: 9087112, Offset: -36
+Value: 20, Address: 9086824, Offset: -16
+Value: 21, Address: 9086696, Offset: 2
+Value: 22, Address: 9086712, Offset: 42
+Value: 23, Address: 9087048, Offset: -36
+Value: 24, Address: 9086760, Offset: 2
+Value: 25, Address: 9086776, Offset: 18
+Value: 26, Address: 9086920, Offset: -16
+Value: 27, Address: 9086792, Offset: 14
+Value: 28, Address: 9086904, Offset: -6
+Value: 29, Address: 9086856, Offset: 10
+Value: 30, Address: 9086936, Offset: 2
+Value: 31, Address: 9086952, Offset: -10
+Value: 32, Address: 9086872, Offset: 2193
+Value: 33, Address: 9104416, Offset: 6
+Value: 34, Address: 9104464, Offset: 4
+Value: 35, Address: 9104496, Offset: 12
+Value: 36, Address: 9104592, Offset: -10
+Value: 37, Address: 9104512, Offset: 4
+Value: 38, Address: 9104544, Offset: -2
+Value: 39, Address: 9104528, Offset: 6
+Value: 40, Address: 9104576, Offset: -32
+Value: 41, Address: 9104320, Offset: 30
+Value: 42, Address: 9104560, Offset: -40
+Value: 43, Address: 9104240, Offset: 4
+Value: 44, Address: 9104272, Offset: 8
+Value: 45, Address: 9104336, Offset: -20
+Value: 46, Address: 9104176, Offset: -6
+Value: 47, Address: 9104128, Offset: 60
+Value: 48, Address: 9104608, Offset: -16
+Value: 49, Address: 9104480, Offset: 18
+
+
+val 21 :: addrs 9086456 :: offset 2
+val 22 :: addrs 9086472 :: offset 4
+val 23 :: addrs 9086504 :: offset 66
+val 24 :: addrs 9087032 :: offset 4
+val 25 :: addrs 9087064 :: offset -50
+val 26 :: addrs 9086664 :: offset 40
+val 27 :: addrs 9086984 :: offset -38
+val 28 :: addrs 9086680 :: offset 8
+val 29 :: addrs 9086744 :: offset -2
+val 30 :: addrs 9086728 :: offset 30
+val 31 :: addrs 9086968 :: offset -10
+val 32 :: addrs 9086888 :: offset 14
+val 33 :: addrs 9087000 :: offset -20
+val 34 :: addrs 9086840 :: offset 22
+val 35 :: addrs 9087016 :: offset 10
+val 36 :: addrs 9087096 :: offset -36
+val 37 :: addrs 9086808 :: offset 34
+val 38 :: addrs 9087080 :: offset 4
+val 39 :: addrs 9087112 :: offset -36
+val 40 :: addrs 9086824 :: offset -16
+val 41 :: addrs 9086696 :: offset 2
+val 42 :: addrs 9086712 :: offset 42
+val 43 :: addrs 9087048 :: offset -36
+val 44 :: addrs 9086760 :: offset 2
+val 45 :: addrs 9086776 :: offset 18
+val 46 :: addrs 9086920 :: offset -16
+val 47 :: addrs 9086792 :: offset 14
+val 48 :: addrs 9086904 :: offset -6
+val 49 :: addrs 9086856 :: offset 10
+val 50 :: addrs 9086936 :: offset 2
+val 51 :: addrs 9086952 :: offset -10
+val 52 :: addrs 9086872 :: offset 2193
+val 53 :: addrs 9104416 :: offset 6
+val 54 :: addrs 9104464 :: offset 4
+val 55 :: addrs 9104496 :: offset 12
+val 56 :: addrs 9104592 :: offset -10
+val 57 :: addrs 9104512 :: offset 4
+val 58 :: addrs 9104544 :: offset -2
+val 59 :: addrs 9104528 :: offset 6
+val 60 :: addrs 9104576 :: offset -32
+val 61 :: addrs 9104320 :: offset 30
+val 62 :: addrs 9104560 :: offset -40
+val 63 :: addrs 9104240 :: offset 4
+val 64 :: addrs 9104272 :: offset 8
+val 65 :: addrs 9104336 :: offset -20
+val 66 :: addrs 9104176 :: offset -6
+val 67 :: addrs 9104128 :: offset 60
+val 68 :: addrs 9104608 :: offset -16
+val 69 :: addrs 9104480 :: offset 18
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+A:\COMP_ARCH\PYNQ_Projects\LL_trials\HLS_proj\link_list\link_list_try\solution1\sim\verilog>call xelab xil_defaultlib.apatb_link_list_top -prj link_list.prj --initfile "C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s link_list  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_link_list_top -prj link_list.prj --initfile C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s link_list 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_master_A_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_A_BUS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_slave_CFG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CFG
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_link_list_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module link_list
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_A_BUS_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_read
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_A_BUS_m_axi.v:2009]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_CFG_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module link_list_CFG_s_axi
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.link_list_CFG_s_axi(C_S_AXI_ADDR...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_throttl_de...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DATA_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_buffer(DAT...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DEPTH...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DATA_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DATA_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_write(NUM_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_buffer(DAT...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_reg_slice(...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_read(NUM_R...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi(NUM_READ_O...
+Compiling module xil_defaultlib.link_list_default
+Compiling module xil_defaultlib.AESL_axi_master_A_BUS
+Compiling module xil_defaultlib.AESL_axi_slave_CFG
+Compiling module xil_defaultlib.apatb_link_list_top
+Built simulation snapshot link_list
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/xsim.dir/link_list/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May 22 17:22:51 2020...
+
+****** xsim v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/link_list/xsim_script.tcl
+# xsim {link_list} -autoloadwcfg -tclbatch {link_list.tcl}
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source link_list.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_master_A_BUS.v: Read request address       2245 exceed AXI master A_BUS array depth:        500
+$finish called at time : 13875 ns : File "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_master_A_BUS.v" Line 685
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri May 22 17:23:00 2020...
+ERROR: [COSIM 212-303] Aborting co-simulation: RTL simulation failed.  
+ERROR: [COSIM 212-344] Rtl simulation failed.
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+could not read "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/tv/rtldatafile/sim/report/cosim.log": no such file or directory
+    while executing
+"source A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/cosim.tcl"
+    invoked from within
+"hls::main A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/cosim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

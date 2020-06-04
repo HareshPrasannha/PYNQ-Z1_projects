@@ -1,0 +1,26 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="link_list" label="">
+<pragma name="INTERFACE">
+<option name="m_axi" positionalBoolean="mode" value=""/>
+<option name="depth" value="500"/>
+<option name="port" positionalBoolean="4" value="a"/>
+<option name="offset" value="slave"/>
+<option name="bundle" value="A_BUS"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="link_list" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+<option name="bundle" value="CFG"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="link_list" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="a"/>
+<option name="struct_level" positionalBoolean="byte_pad" value=""/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="link_list" xd:componentRef="link_list" xd:initiationInterval="x" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CFG" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="a-&gt;val" xd:originalName="a" xd:direction="inout" xd:interfaceRef="m_axi_A_BUS" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="31:0" xd:arraySize="1000" xd:dataWidth="32" xd:bufferDirection="inout"/>
+  <xd:arg xd:name="a-&gt;offs" xd:originalName="a" xd:direction="inout" xd:interfaceRef="m_axi_A_BUS" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="63:32" xd:arraySize="1000" xd:dataWidth="32" xd:bufferDirection="inout"/>
+  <xd:arg xd:name="a" xd:originalName="a" xd:direction="in" xd:interfaceRef="s_axi_CFG" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_A_BUS" xd:dataWidth="32" xd:offset="0x10" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="1173" xd:FF="1055" xd:BRAM="4" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,223 @@
+
+
+================================================================
+== Vivado HLS Report for 'link_list'
+================================================================
+* Date:           Fri May 22 17:21:28 2020
+
+* Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
+* Project:        link_list_try
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.75|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |    ?|    ?|        24|          -|          -|     ?|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|    139|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        4|      -|     640|    870|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|    164|
+|Register         |        -|      -|     415|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        4|      0|    1055|   1173|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        1|      0|   ~0   |      2|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+-----------------------+---------+-------+-----+-----+
+    |         Instance        |         Module        | BRAM_18K| DSP48E|  FF | LUT |
+    +-------------------------+-----------------------+---------+-------+-----+-----+
+    |link_list_A_BUS_m_axi_U  |link_list_A_BUS_m_axi  |        4|      0|  566|  766|
+    |link_list_CFG_s_axi_U    |link_list_CFG_s_axi    |        0|      0|   74|  104|
+    +-------------------------+-----------------------+---------+-------+-----+-----+
+    |Total                    |                       |        4|      0|  640|  870|
+    +-------------------------+-----------------------+---------+-------+-----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------+----------+-------+---+----+------------+------------+
+    |     Variable Name    | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------+----------+-------+---+----+------------+------------+
+    |a2_sum3_fu_169_p2     |     +    |      0|  0|  32|          32|          32|
+    |a2_sum_fu_144_p2      |     +    |      0|  0|  32|          32|          32|
+    |cum_offs_1_fu_164_p2  |     +    |      0|  0|  32|          32|          32|
+    |temp_1_fu_159_p2      |     +    |      0|  0|  32|           5|          32|
+    |tmp_fu_138_p2         |   icmp   |      0|  0|  11|          32|           1|
+    +----------------------+----------+-------+---+----+------------+------------+
+    |Total                 |          |      0|  0| 139|         133|         129|
+    +----------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------------+----+-----------+-----+-----------+
+    |             Name             | LUT| Input Size| Bits| Total Bits|
+    +------------------------------+----+-----------+-----+-----------+
+    |A_BUS_ARADDR                  |  32|          4|   32|        128|
+    |A_BUS_blk_n_AR                |   1|          2|    1|          2|
+    |A_BUS_blk_n_AW                |   1|          2|    1|          2|
+    |A_BUS_blk_n_B                 |   1|          2|    1|          2|
+    |A_BUS_blk_n_R                 |   1|          2|    1|          2|
+    |A_BUS_blk_n_W                 |   1|          2|    1|          2|
+    |ap_NS_fsm                     |  60|         35|    1|         35|
+    |ap_sig_ioackin_A_BUS_ARREADY  |   1|          2|    1|          2|
+    |ap_sig_ioackin_A_BUS_AWREADY  |   1|          2|    1|          2|
+    |ap_sig_ioackin_A_BUS_WREADY   |   1|          2|    1|          2|
+    |cum_offs_reg_87               |  32|          2|   32|         64|
+    |curr_offs_reg_99              |  32|          2|   32|         64|
+    +------------------------------+----+-----------+-----+-----------+
+    |Total                         | 164|         59|  105|        307|
+    +------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------+----+----+-----+-----------+
+    |             Name             | FF | LUT| Bits| Const Bits|
+    +------------------------------+----+----+-----+-----------+
+    |A_BUS_addr_1_reg_214          |  32|   0|   32|          0|
+    |a1_reg_184                    |  29|   0|   29|          0|
+    |a2_sum3_reg_240               |  32|   0|   32|          0|
+    |a2_sum_reg_209                |  32|   0|   32|          0|
+    |a_offs_load_new_reg_225       |  32|   0|   32|          0|
+    |ap_CS_fsm                     |  34|   0|   34|          0|
+    |ap_reg_ioackin_A_BUS_ARREADY  |   1|   0|    1|          0|
+    |ap_reg_ioackin_A_BUS_AWREADY  |   1|   0|    1|          0|
+    |ap_reg_ioackin_A_BUS_WREADY   |   1|   0|    1|          0|
+    |cum_offs_1_reg_235            |  32|   0|   32|          0|
+    |cum_offs_reg_87               |  32|   0|   32|          0|
+    |curr_offs_new9_reg_201        |  32|   0|   32|          0|
+    |curr_offs_reg_99              |  32|   0|   32|          0|
+    |temp_1_reg_230                |  32|   0|   32|          0|
+    |temp_reg_220                  |  32|   0|   32|          0|
+    |tmp_1_reg_189                 |  29|   0|   32|          3|
+    +------------------------------+----+----+-----+-----------+
+    |Total                         | 415|   0|  418|          3|
+    +------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
++----------------------+-----+-----+------------+--------------+--------------+
+|s_axi_CFG_AWVALID     |  in |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_AWREADY     | out |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_AWADDR      |  in |    5|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_WVALID      |  in |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_WREADY      | out |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_WDATA       |  in |   32|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_WSTRB       |  in |    4|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_ARVALID     |  in |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_ARREADY     | out |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_ARADDR      |  in |    5|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_RVALID      | out |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_RREADY      |  in |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_RDATA       | out |   32|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_RRESP       | out |    2|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_BVALID      | out |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_BREADY      |  in |    1|    s_axi   |      CFG     |    scalar    |
+|s_axi_CFG_BRESP       | out |    2|    s_axi   |      CFG     |    scalar    |
+|ap_clk                |  in |    1| ap_ctrl_hs |   link_list  | return value |
+|ap_rst_n              |  in |    1| ap_ctrl_hs |   link_list  | return value |
+|interrupt             | out |    1| ap_ctrl_hs |   link_list  | return value |
+|m_axi_A_BUS_AWVALID   | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWREADY   |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWADDR    | out |   32|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWID      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWLEN     | out |    8|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWSIZE    | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWBURST   | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWLOCK    | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWCACHE   | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWPROT    | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWQOS     | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWREGION  | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_AWUSER    | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WVALID    | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WREADY    |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WDATA     | out |   64|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WSTRB     | out |    8|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WLAST     | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WID       | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_WUSER     | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARVALID   | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARREADY   |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARADDR    | out |   32|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARID      | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARLEN     | out |    8|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARSIZE    | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARBURST   | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARLOCK    | out |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARCACHE   | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARPROT    | out |    3|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARQOS     | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARREGION  | out |    4|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_ARUSER    | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RVALID    |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RREADY    | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RDATA     |  in |   64|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RLAST     |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RID       |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RUSER     |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_RRESP     |  in |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BVALID    |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BREADY    | out |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BRESP     |  in |    2|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BID       |  in |    1|    m_axi   |     A_BUS    |    pointer   |
+|m_axi_A_BUS_BUSER     |  in |    1|    m_axi   |     A_BUS    |    pointer   |
++----------------------+-----+-----+------------+--------------+--------------+
+

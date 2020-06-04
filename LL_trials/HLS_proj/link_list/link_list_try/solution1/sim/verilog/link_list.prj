@@ -1,0 +1,7 @@
+sv xil_defaultlib "AESL_axi_master_A_BUS.v"
+sv xil_defaultlib "AESL_axi_slave_CFG.v"
+sv xil_defaultlib "link_list.autotb.v"
+sv xil_defaultlib "link_list.v"
+sv xil_defaultlib "link_list_A_BUS_m_axi.v"
+sv xil_defaultlib "link_list_CFG_s_axi.v"
+

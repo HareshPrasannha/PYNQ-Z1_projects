@@ -1,0 +1,47 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_link_list_top -prj link_list.prj --initfile C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s link_list 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_master_A_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_A_BUS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_slave_CFG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CFG
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_link_list_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module link_list
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_A_BUS_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_read
+INFO: [VRFC 10-311] analyzing module link_list_A_BUS_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_A_BUS_m_axi.v:2009]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_CFG_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module link_list_CFG_s_axi
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.link_list_CFG_s_axi(C_S_AXI_ADDR...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_throttl_de...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DATA_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_buffer(DAT...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DEPTH...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DATA_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_fifo(DATA_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_write(NUM_...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_buffer(DAT...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_reg_slice(...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi_read(NUM_R...
+Compiling module xil_defaultlib.link_list_A_BUS_m_axi(NUM_READ_O...
+Compiling module xil_defaultlib.link_list_default
+Compiling module xil_defaultlib.AESL_axi_master_A_BUS
+Compiling module xil_defaultlib.AESL_axi_slave_CFG
+Compiling module xil_defaultlib.apatb_link_list_top
+Built simulation snapshot link_list

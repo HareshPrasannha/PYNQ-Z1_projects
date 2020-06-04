@@ -1,0 +1,28 @@
+INFO: [SIM 2] *************** CSIM start ***************
+WARNING: [SIM 51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../link_list_test.cpp in debug mode
+   Compiling ../../../../link_list.cpp in debug mode
+   Generating csim.exe
+Value: 1, Address: 12409672, Offset: 4
+Value: 2, Address: 12409704, Offset: 2
+Value: 3, Address: 12409720, Offset: 2
+Value: 4, Address: 12409736, Offset: 2
+Value: 5, Address: 12409752, Offset: 2
+Value: 6, Address: 12409768, Offset: 2
+Value: 7, Address: 12409784, Offset: 2
+Value: 8, Address: 12409800, Offset: 2
+Value: 9, Address: 12409816, Offset: 2
+
+
+val 11 :: addrs 12409672 :: offset 4
+val 12 :: addrs 12409704 :: offset 2
+val 13 :: addrs 12409720 :: offset 2
+val 14 :: addrs 12409736 :: offset 2
+val 15 :: addrs 12409752 :: offset 2
+val 16 :: addrs 12409768 :: offset 2
+val 17 :: addrs 12409784 :: offset 2
+val 18 :: addrs 12409800 :: offset 2
+val 19 :: addrs 12409816 :: offset 2
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

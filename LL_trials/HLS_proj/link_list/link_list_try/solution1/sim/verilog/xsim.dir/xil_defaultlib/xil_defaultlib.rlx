@@ -1,0 +1,10 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_master_A_BUS.v,1590139363,systemVerilog,,,,AESL_axi_master_A_BUS,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/AESL_axi_slave_CFG.v,1590139363,systemVerilog,,,,AESL_axi_slave_CFG,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list.autotb.v,1590139363,systemVerilog,,,,apatb_link_list_top,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list.v,1590139288,systemVerilog,,,,link_list,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_A_BUS_m_axi.v,1590139289,systemVerilog,,,,link_list_A_BUS_m_axi;link_list_A_BUS_m_axi_buffer;link_list_A_BUS_m_axi_decoder;link_list_A_BUS_m_axi_fifo;link_list_A_BUS_m_axi_read;link_list_A_BUS_m_axi_reg_slice;link_list_A_BUS_m_axi_throttl;link_list_A_BUS_m_axi_write,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
+A:/COMP_ARCH/PYNQ_Projects/LL_trials/HLS_proj/link_list/link_list_try/solution1/sim/verilog/link_list_CFG_s_axi.v,1590139289,systemVerilog,,,,link_list_CFG_s_axi,C:/Xilinx/Vivado/2016.3/bin/../data/xsim/ip/xsim_ip.ini,ieee_proposed=./ieee_proposed,,,,,,
