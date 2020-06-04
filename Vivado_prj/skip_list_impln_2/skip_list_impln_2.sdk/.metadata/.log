@@ -3487,3 +3487,6 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-06-03 13:28:18.747
 !MESSAGE XSCT command with result: [::hsi::utils::closesw A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skip_list_impln_2/skip_list_impln_2.sdk/skip_list_prefetch_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-06-03 15:48:53.741
+!MESSAGE Executed Webtalk command

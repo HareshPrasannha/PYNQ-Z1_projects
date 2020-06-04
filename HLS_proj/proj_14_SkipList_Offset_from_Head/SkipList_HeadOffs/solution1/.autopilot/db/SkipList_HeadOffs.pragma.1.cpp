@@ -1496,7 +1496,6 @@ extern FILE (* _imp___iob)[]; /* A pointer to an array of FILE */
 /* Define __mingw_<printf> macros.  */
 #511 "C:/Xilinx/Vivado_HLS/2016.3/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
 #3 "SkipList_HeadOffs.cpp" 2
-//#include "ap_int.h"
 
 typedef int dat_typ;
 typedef int dat_typ1;
@@ -1508,7 +1507,6 @@ const int buff_len = n/skip_intr;
 struct node{
     dat_typ val;
     dat_typ1 offs[2];
-    //dat_typ1 skip_offs;
     dat_typ dummy;
 };
 
@@ -1521,9 +1519,6 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
  //printf("Into HLS ip main function\n");
   volatile int temp;
   int buff[buff_len];
-  /*cum_offs[0] = 0;
-		cum_offs[1] = a->offs[1];*/
-  //int skip_cum_offs = a->offs[1];
 
   /* Debugging part of code */
   /*temp = a->val+10;
@@ -1540,34 +1535,25 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
 
   int temp_offs = 0;
   for(int i=0;i<buff_len;i++){
-_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- //for(int j=0;j<2;j++){
-    //#pragma HLS unroll factor=50
-    //printf("Into loop\n");
-    //printf("Value: %d, offs: %d, cum_offs: %d\n",(a+cum_offs)->val,(a+cum_offs)->offs,cum_offs);
-    //temp = (a+temp_offs)->val;
-    //(a+temp_offs)->val = temp + 10;
-    //buff[i] = (a+temp_offs)->offs[0];
-    buff[i] = temp_offs;
-    temp_offs = (a+temp_offs)->offs[1];
-
-   //}
+   //#pragma HLS pipeline
+   //printf("Value: %d, offs: %d, cum_offs: %d\n",(a+cum_offs)->val,(a+cum_offs)->offs,cum_offs);
+   //temp = (a+temp_offs)->val;
+   //(a+temp_offs)->val = temp + 10;
+   //buff[i] = (a+temp_offs)->offs[0];
+   buff[i] = temp_offs;
+   temp_offs = (a+temp_offs)->offs[1];
   }
   temp = (a+temp_offs)->val;
   //(a+temp_offs)->val = temp + 10;
   //printf("buffer length: %d\n\n",buff_len);
-  //int seq_skip_offs = 0;
+
   for (int j=0;j<skip_intr-1;j++){
    for(int i=1;i<buff_len;i++){
     //#pragma HLS pipeline
-_ssdm_Unroll(1, 0, 50, "");
- //temp = ((a+buff[i]))->val;
+    //#pragma HLS unroll factor = 50
+    //temp = ((a+buff[i]))->val;
     //(a+buff[i])->val = temp + 10;
     buff[i] = ((a+buff[i]))->offs[0];
-    /*seq_skip_offs = buff[i]+(a+buff[i])->offs;
-				temp = (a+seq_skip_offs)->val;
-				(a+seq_skip_offs)->val = temp + 10;
-				buff[i] = (a+seq_skip_offs)->offs[0];*/
    }
   }
 }

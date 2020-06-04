@@ -2,8 +2,8 @@
 # Webtalk v2016.3 (64-bit)
 # SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
 # 
-# Start of session at: Wed Jun 03 12:31:00 2020
-# Process ID: 9500
+# Start of session at: Wed Jun 03 17:42:43 2020
+# Process ID: 14196
 # Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
 # Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.sdk/webtalk/webtalk.log

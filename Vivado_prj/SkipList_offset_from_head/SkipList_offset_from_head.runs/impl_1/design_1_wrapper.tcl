@@ -60,16 +60,16 @@ set rc [catch {
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   add_files -quiet A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.runs/synth_1/design_1_wrapper.dcp
-  add_files -quiet A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
-  set_property netlist_only true [get_files A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp]
   add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
   set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp]
   add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp
   set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp]
   add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp
   set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_SkipList_HeadOffs_0_1/design_1_SkipList_HeadOffs_0_1.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_SkipList_HeadOffs_0_1/design_1_SkipList_HeadOffs_0_1.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_SkipList_HeadOffs_0_0/design_1_SkipList_HeadOffs_0_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_SkipList_HeadOffs_0_0/design_1_SkipList_HeadOffs_0_0.dcp]
   add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp
   set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp]
   add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipList_offset_from_head/SkipList_offset_from_head.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp

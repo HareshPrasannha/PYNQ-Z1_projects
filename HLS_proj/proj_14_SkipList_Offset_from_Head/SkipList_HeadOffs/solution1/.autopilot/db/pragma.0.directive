@@ -20,13 +20,5 @@
 <option name="variable" positionalBoolean="4" value="a"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="SkipList_HeadOffs" label="">
-<pragma name="PIPELINE"/>
-</directive>
-<directive functionLabel="" functionName="SkipList_HeadOffs" label="">
-<pragma name="UNROLL">
-<option name="factor" value="50"/>
-</pragma>
-</directive>
 </sourceFile>
 </AutoPilot:ProjectResources>

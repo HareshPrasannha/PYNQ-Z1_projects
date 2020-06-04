@@ -27,7 +27,6 @@
 								<option id="gnu.cpp.compiler.option.include.paths.1585593240" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_13_skiplist_prefetch"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include"/>
@@ -45,7 +44,6 @@
 								<option id="gnu.c.compiler.option.include.paths.1318278338" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_13_skiplist_prefetch"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include"/>
@@ -113,7 +111,6 @@
 								<option id="gnu.cpp.compiler.option.include.paths.417771588" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_13_skiplist_prefetch"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include"/>
@@ -126,7 +123,6 @@
 								<option id="gnu.c.compiler.option.include.paths.657929913" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/auto_cc/include"/>
-									<listOptionValue builtIn="false" value="A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_13_skiplist_prefetch"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2016.3/include"/>

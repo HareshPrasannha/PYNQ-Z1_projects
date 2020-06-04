@@ -4,7 +4,7 @@
 set ID 0
 set MemName SkipList_HeadOffsbkb
 set CoreName ap_simcore_mem
-set PortList { 2 2 }
+set PortList { 2 3 }
 set DataWd 32
 set AddrRange 200
 set AddrWd 8

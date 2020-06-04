@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
-| Date             : Wed Jun 03 12:16:39 2020
+| Date             : Wed Jun 03 15:57:45 2020
 | Host             : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+--------+
-| Total On-Chip Power (W)  | 1.490  |
-| Dynamic (W)              | 1.337  |
-| Device Static (W)        | 0.153  |
+| Total On-Chip Power (W)  | 1.433  |
+| Dynamic (W)              | 1.280  |
+| Device Static (W)        | 0.152  |
 | Effective TJA (C/W)      | 11.5   |
-| Max Ambient (C)          | 67.8   |
-| Junction Temperature (C) | 42.2   |
+| Max Ambient (C)          | 68.5   |
+| Junction Temperature (C) | 41.5   |
 | Confidence Level         | Medium |
 | Setting File             | ---    |
 | Simulation Activity File | ---    |
@@ -49,19 +49,19 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.019 |        3 |       --- |             --- |
-| Slice Logic              |     0.023 |     9229 |       --- |             --- |
-|   LUT as Logic           |     0.018 |     3410 |     53200 |            6.41 |
-|   Register               |     0.003 |     4428 |    106400 |            4.16 |
-|   CARRY4                 |     0.001 |      215 |     13300 |            1.62 |
+| Clocks                   |     0.008 |        3 |       --- |             --- |
+| Slice Logic              |     0.004 |     4752 |       --- |             --- |
+|   LUT as Logic           |     0.003 |     1393 |     53200 |            2.62 |
+|   Register               |    <0.001 |     2299 |    106400 |            2.16 |
 |   LUT as Shift Register  |    <0.001 |      103 |     17400 |            0.59 |
+|   CARRY4                 |    <0.001 |       82 |     13300 |            0.62 |
 |   LUT as Distributed RAM |    <0.001 |       38 |     17400 |            0.22 |
-|   Others                 |     0.000 |      420 |       --- |             --- |
-| Signals                  |     0.030 |     7219 |       --- |             --- |
-| Block RAM                |     0.009 |        3 |       140 |            2.14 |
+|   Others                 |     0.000 |      421 |       --- |             --- |
+| Signals                  |     0.006 |     3504 |       --- |             --- |
+| Block RAM                |     0.006 |      2.5 |       140 |            1.79 |
 | PS7                      |     1.256 |        1 |       --- |             --- |
-| Static Power             |     0.153 |          |           |                 |
-| Total                    |     1.490 |          |           |                 |
+| Static Power             |     0.152 |          |           |                 |
+| Total                    |     1.433 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.094 |       0.080 |      0.014 |
+| Vccint    |       1.000 |     0.037 |       0.024 |      0.013 |
 | Vccaux    |       1.800 |     0.020 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -84,7 +84,7 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccpint   |       1.000 |     0.675 |       0.647 |      0.028 |
+| Vccpint   |       1.000 |     0.674 |       0.647 |      0.027 |
 | Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 |
 | Vccpll    |       1.800 |     0.017 |       0.014 |      0.003 |
 | Vcco_ddr  |       1.500 |     0.354 |       0.352 |      0.002 |
@@ -147,27 +147,27 @@ Table of Contents
 +------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                     | Power (W) |
 +------------------------------------------------------------------------------------------+-----------+
-| design_1_wrapper                                                                         |     1.337 |
-|   design_1_i                                                                             |     1.337 |
-|     SkipList_HeadOffs_0                                                                  |     0.069 |
-|       inst                                                                               |     0.069 |
-|         SkipList_HeadOffs_A_BUS_m_axi_U                                                  |     0.015 |
-|           bus_read                                                                       |     0.015 |
+| design_1_wrapper                                                                         |     1.280 |
+|   design_1_i                                                                             |     1.280 |
+|     SkipList_HeadOffs_0                                                                  |     0.014 |
+|       inst                                                                               |     0.014 |
+|         SkipList_HeadOffs_A_BUS_m_axi_U                                                  |     0.008 |
+|           bus_read                                                                       |     0.008 |
 |             buff_rdata                                                                   |     0.005 |
 |             fifo_rctl                                                                    |    <0.001 |
 |             fifo_rreq                                                                    |     0.001 |
-|             rs_rdata                                                                     |     0.007 |
+|             rs_rdata                                                                     |     0.001 |
 |         SkipList_HeadOffs_CFG_s_axi_U                                                    |    <0.001 |
-|         buff_U                                                                           |     0.023 |
-|           SkipList_HeadOffsbkb_ram_U                                                     |     0.023 |
-|     axi_mem_intercon                                                                     |     0.006 |
-|       s00_couplers                                                                       |     0.006 |
-|         auto_ds                                                                          |     0.005 |
-|           inst                                                                           |     0.005 |
-|             gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst                    |     0.003 |
+|         buff_U                                                                           |     0.003 |
+|           SkipList_HeadOffsbkb_ram_U                                                     |     0.003 |
+|     axi_mem_intercon                                                                     |     0.005 |
+|       s00_couplers                                                                       |     0.005 |
+|         auto_ds                                                                          |     0.004 |
+|           inst                                                                           |     0.004 |
+|             gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst                    |     0.002 |
 |               USE_READ.read_addr_inst                                                    |     0.001 |
-|                 cmd_queue                                                                |     0.001 |
-|                   inst                                                                   |     0.001 |
+|                 cmd_queue                                                                |    <0.001 |
+|                   inst                                                                   |    <0.001 |
 |                     fifo_gen_inst                                                        |    <0.001 |
 |                       inst_fifo_gen                                                      |    <0.001 |
 |                         gconvfifo.rf                                                     |    <0.001 |
@@ -342,7 +342,7 @@ Table of Contents
 |               RD.r_channel_0                                                             |     0.001 |
 |                 rd_data_fifo_0                                                           |    <0.001 |
 |                 transaction_fifo_0                                                       |    <0.001 |
-|               SI_REG                                                                     |     0.002 |
+|               SI_REG                                                                     |     0.001 |
 |                 ar_pipe                                                                  |    <0.001 |
 |                 aw_pipe                                                                  |    <0.001 |
 |                 b_pipe                                                                   |    <0.001 |
