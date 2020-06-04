@@ -1,0 +1,253 @@
+
+
+================================================================
+== Vivado HLS Report for 'skipprefetch_Nelem'
+================================================================
+* Date:           Thu Jun 04 17:58:27 2020
+
+* Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
+* Project:        skipprefetch_Nelem
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.75|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +------+------+------+------+---------+
+    |   Latency   |   Interval  | Pipeline|
+    |  min |  max |  min |  max |   Type  |
+    +------+------+------+------+---------+
+    |  1493|  1493|  1494|  1494|   none  |
+    +------+------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  550|  550|        11|          -|          -|    50|    no    |
+        |- Loop 2  |  940|  940|        11|          1|          1|   931|    yes   |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|    178|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        4|      -|     640|    870|
+|Memory           |        2|      -|       0|      0|
+|Multiplexer      |        -|      -|       -|     92|
+|Register         |        -|      -|     306|     39|
++-----------------+---------+-------+--------+-------+
+|Total            |        6|      0|     946|   1179|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        2|      0|   ~0   |      2|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------+--------------------------------+---------+-------+-----+-----+
+    |             Instance             |             Module             | BRAM_18K| DSP48E|  FF | LUT |
+    +----------------------------------+--------------------------------+---------+-------+-----+-----+
+    |skipprefetch_Nelem_A_BUS_m_axi_U  |skipprefetch_Nelem_A_BUS_m_axi  |        4|      0|  566|  766|
+    |skipprefetch_Nelem_CFG_s_axi_U    |skipprefetch_Nelem_CFG_s_axi    |        0|      0|   74|  104|
+    +----------------------------------+--------------------------------+---------+-------+-----+-----+
+    |Total                             |                                |        4|      0|  640|  870|
+    +----------------------------------+--------------------------------+---------+-------+-----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    +--------+----------------------+---------+---+----+------+-----+------+-------------+
+    | Memory |        Module        | BRAM_18K| FF| LUT| Words| Bits| Banks| W*Bits*Banks|
+    +--------+----------------------+---------+---+----+------+-----+------+-------------+
+    |buff_U  |skipprefetch_Nelebkb  |        2|  0|   0|    50|   32|     1|         1600|
+    +--------+----------------------+---------+---+----+------+-----+------+-------------+
+    |Total   |                      |        2|  0|   0|    50|   32|     1|         1600|
+    +--------+----------------------+---------+---+----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-------------------------------+----------+-------+---+----+------------+------------+
+    |         Variable Name         | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-------------------------------+----------+-------+---+----+------------+------------+
+    |a2_sum3_fu_312_p2              |     +    |      0|  0|  32|          32|          32|
+    |a2_sum_fu_226_p2               |     +    |      0|  0|  31|          31|          31|
+    |buff_d1                        |     +    |      0|  0|  32|          32|          32|
+    |cum_offs_1_fu_269_p2           |     +    |      0|  0|  22|          22|          22|
+    |i_1_fu_216_p2                  |     +    |      0|  0|   6|           6|           1|
+    |i_2_fu_306_p2                  |     +    |      0|  0|   6|           6|           1|
+    |indvar_flatten_next_fu_281_p2  |     +    |      0|  0|  10|          10|           1|
+    |tmp_1_fu_245_p2                |     +    |      0|  0|  22|          22|          22|
+    |ap_condition_428               |    and   |      0|  0|   1|           1|           1|
+    |exitcond2_fu_210_p2            |   icmp   |      0|  0|   3|           6|           5|
+    |exitcond5_fu_287_p2            |   icmp   |      0|  0|   3|           6|           5|
+    |exitcond_flatten_fu_275_p2     |   icmp   |      0|  0|   4|          10|           8|
+    |i1_mid2_fu_293_p3              |  select  |      0|  0|   6|           1|           1|
+    +-------------------------------+----------+-------+---+----+------------+------------+
+    |Total                          |          |      0|  0| 178|         185|         162|
+    +-------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------------+----+-----------+-----+-----------+
+    |             Name             | LUT| Input Size| Bits| Total Bits|
+    +------------------------------+----+-----------+-----+-----------+
+    |A_BUS_ARADDR                  |  32|          4|   32|        128|
+    |A_BUS_blk_n_AR                |   1|          2|    1|          2|
+    |A_BUS_blk_n_R                 |   1|          2|    1|          2|
+    |ap_NS_fsm                     |   6|         15|    1|         15|
+    |ap_enable_reg_pp0_iter10      |   1|          2|    1|          2|
+    |ap_sig_ioackin_A_BUS_ARREADY  |   1|          2|    1|          2|
+    |buff_address0                 |   6|          3|    6|         18|
+    |cum_offs_reg_140              |  22|          2|   22|         44|
+    |i1_reg_163                    |   6|          2|    6|         12|
+    |i_reg_129                     |   6|          2|    6|         12|
+    |indvar_flatten_reg_152        |  10|          2|   10|         20|
+    +------------------------------+----+-----------+-----+-----------+
+    |Total                         |  92|         38|   87|        257|
+    +------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------+----+----+-----+-----------+
+    |             Name             | FF | LUT| Bits| Const Bits|
+    +------------------------------+----+----+-----+-----------+
+    |A_BUS_addr_reg_362            |  32|   0|   32|          0|
+    |a2_sum3_reg_403               |  32|   0|   32|          0|
+    |a2_sum_reg_357                |  31|   0|   31|          0|
+    |ap_CS_fsm                     |  14|   0|   14|          0|
+    |ap_enable_reg_pp0_iter0       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter10      |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter8       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter9       |   1|   0|    1|          0|
+    |ap_reg_ioackin_A_BUS_ARREADY  |   1|   0|    1|          0|
+    |buff_addr_1_reg_387           |   6|   0|    6|          0|
+    |buff_load_reg_398             |  32|   0|   32|          0|
+    |cum_offs_reg_140              |  22|   0|   22|          0|
+    |exitcond_flatten_reg_378      |   1|   0|    1|          0|
+    |i1_reg_163                    |   6|   0|    6|          0|
+    |i_1_reg_352                   |   6|   0|    6|          0|
+    |i_cast2_reg_343               |   6|   0|   32|         26|
+    |i_reg_129                     |   6|   0|    6|          0|
+    |indvar_flatten_reg_152        |  10|   0|   10|          0|
+    |reg_184                       |  16|   0|   16|          0|
+    |tmp_4_reg_368                 |  16|   0|   16|          0|
+    |tmp_cast6_reg_338             |  29|   0|   31|          2|
+    |tmp_reg_333                   |  29|   0|   32|          3|
+    |buff_addr_1_reg_387           |   0|   6|    6|          0|
+    |buff_load_reg_398             |   0|  32|   32|          0|
+    |exitcond_flatten_reg_378      |   0|   1|    1|          0|
+    +------------------------------+----+----+-----+-----------+
+    |Total                         | 306|  39|  376|         31|
+    +------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------+-----+-----+------------+--------------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++----------------------+-----+-----+------------+--------------------+--------------+
+|s_axi_CFG_AWVALID     |  in |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_AWREADY     | out |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_AWADDR      |  in |    5|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_WVALID      |  in |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_WREADY      | out |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_WDATA       |  in |   32|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_WSTRB       |  in |    4|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_ARVALID     |  in |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_ARREADY     | out |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_ARADDR      |  in |    5|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_RVALID      | out |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_RREADY      |  in |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_RDATA       | out |   32|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_RRESP       | out |    2|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_BVALID      | out |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_BREADY      |  in |    1|    s_axi   |         CFG        |    scalar    |
+|s_axi_CFG_BRESP       | out |    2|    s_axi   |         CFG        |    scalar    |
+|ap_clk                |  in |    1| ap_ctrl_hs | skipprefetch_Nelem | return value |
+|ap_rst_n              |  in |    1| ap_ctrl_hs | skipprefetch_Nelem | return value |
+|interrupt             | out |    1| ap_ctrl_hs | skipprefetch_Nelem | return value |
+|m_axi_A_BUS_AWVALID   | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWREADY   |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWADDR    | out |   32|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWID      | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWLEN     | out |    8|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWSIZE    | out |    3|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWBURST   | out |    2|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWLOCK    | out |    2|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWCACHE   | out |    4|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWPROT    | out |    3|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWQOS     | out |    4|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWREGION  | out |    4|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_AWUSER    | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WVALID    | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WREADY    |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WDATA     | out |   64|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WSTRB     | out |    8|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WLAST     | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WID       | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_WUSER     | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARVALID   | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARREADY   |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARADDR    | out |   32|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARID      | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARLEN     | out |    8|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARSIZE    | out |    3|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARBURST   | out |    2|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARLOCK    | out |    2|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARCACHE   | out |    4|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARPROT    | out |    3|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARQOS     | out |    4|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARREGION  | out |    4|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_ARUSER    | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RVALID    |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RREADY    | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RDATA     |  in |   64|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RLAST     |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RID       |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RUSER     |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_RRESP     |  in |    2|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_BVALID    |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_BREADY    | out |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_BRESP     |  in |    2|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_BID       |  in |    1|    m_axi   |        A_BUS       |    pointer   |
+|m_axi_A_BUS_BUSER     |  in |    1|    m_axi   |        A_BUS       |    pointer   |
++----------------------+-----+-----+------------+--------------------+--------------+
+
