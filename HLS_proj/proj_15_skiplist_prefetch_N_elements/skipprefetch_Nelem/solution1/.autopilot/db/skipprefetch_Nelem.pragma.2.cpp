@@ -1711,14 +1711,13 @@ extern FILE (* _imp___iob)[]; /* A pointer to an array of FILE */
 typedef int dat_typ;
 typedef short dat_typ1;
 
-const int n = 1000;
-const int skip_intr = 20;
+const int n = 500;
+const int skip_intr = 50;
 const int buff_len = n/skip_intr;
 
 struct node{
     dat_typ val;
     dat_typ1 offs[2];
-    //dat_typ1 skip_offs;
     //dat_typ dummy;
 };
 
@@ -1737,11 +1736,14 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
   //int skip_cum_offs = a->offs[1];
 
   /* Debugging part of code */
-  /*temp = a->val+10;
-		a->val = temp;
-		printf("Addrs1:%d\n",a);
+  //temp = a->val+10;
+  //a->val = temp;
+  /*printf("Addrs1:%d\n",a);
 		printf("value1:%d\n",a->val);
-		printf("offs1:%d\n",a->offs);
+		printf("offs1:%d\n",a->offs[0]);
+		printf("offs1:%d\n",a->offs[1]);
+		printf("Addrs2:%d\n",a+a->offs[0]);
+		printf("Addrs3:%d\n",a+a->offs[1]);
 		int offset = (a->offs)/sizeof(struct node);
 		printf("Addrs2:%d\n",(a+offset/16));
 		printf("value2:%d\n",((struct node *)((int)a+a->offs))->val);
@@ -1755,8 +1757,8 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
     //#pragma HLS unroll
     //printf("Into loop\n");
     //printf("Value: %d, offs: %d, cum_offs: %d\n",(a+cum_offs)->val,(a+cum_offs)->offs,cum_offs);
-    /*temp = (a+cum_offs)->val;
-				(a+cum_offs)->val = temp + 10;*/
+    //temp = (a+cum_offs)->val;
+    //(a+cum_offs)->val = temp + 10;
     buff[i] = cum_offs + ((a+cum_offs)->offs[0]);
     cum_offs = cum_offs+((a+cum_offs)->offs[1]);
    //}
@@ -1768,8 +1770,8 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
    for(int i=1;i<buff_len;i++){
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
  //#pragma HLS unroll factor = 50
-     /*temp = ((a+buff[i]))->val;
-					(a+buff[i])->val = temp + 10;*/
+     //temp = ((a+buff[i]))->val;
+     //(a+buff[i])->val = temp + 10;
      buff[i] = buff[i] +(a+buff[i])->offs[0];
    }
   }

@@ -2549,7 +2549,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="17">1493</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="17">561</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -2566,8 +2566,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Skipprefetch_nelem</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2006041758</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-06-04T09:58:55Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2006091930</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2020-06-09T11:30:52Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2016.3</xilinx:xilinxVersion>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'skipprefetch_Nelem'" level="0">
-<item name = "Date">Thu Jun 04 17:58:27 2020
+<item name = "Date">Tue Jun 09 19:30:04 2020
 </item>
 <item name = "Version">2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)</item>
 <item name = "Project">skipprefetch_Nelem</item>
@@ -15,14 +15,14 @@
 <section name = "" level="1">
 <item name = "Target clock period (ns)">10.00</item>
 <item name = "Clock uncertainty (ns)">1.25</item>
-<item name = "Estimated clock period (ns)">8.75</item>
+<item name = "Estimated clock period (ns)">13.58</item>
 </section>
 </item>
 <item name = "Latency (clock cycles)">
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1493, 1493, 1494, 1494, none</column>
+<column name="">561, 561, 562, 562, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -33,8 +33,8 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">550, 550, 11, -, -, 50, no</column>
-<column name="- Loop 2">940, 940, 11, 1, 1, 931, yes</column>
+<column name="- Loop 1">110, 110, 11, -, -, 10, no</column>
+<column name="- Loop 2">448, 448, 9, 1, 1, 441, yes</column>
 </table>
 </item>
 </section>
@@ -47,12 +47,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="DSP">-, -, -, -</column>
-<column name="Expression">-, -, 0, 178</column>
+<column name="Expression">-, -, 0, 164</column>
 <column name="FIFO">-, -, -, -</column>
 <column name="Instance">4, -, 640, 870</column>
 <column name="Memory">2, -, 0, 0</column>
-<column name="Multiplexer">-, -, -, 92</column>
-<column name="Register">-, -, 306, 39</column>
+<column name="Multiplexer">-, -, -, 83</column>
+<column name="Register">-, -, 259, 37</column>
 <specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
 <specialColumn name="Utilization (%)">2, 0, ~0, 2</specialColumn>
 </table>
@@ -71,7 +71,7 @@
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
 <keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
-<column name="buff_U">skipprefetch_Nelebkb, 2, 0, 0, 50, 32, 1, 1600</column>
+<column name="buff_U">skipprefetch_Nelebkb, 2, 0, 0, 10, 32, 1, 320</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
@@ -80,19 +80,19 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="a2_sum3_fu_312_p2">+, 0, 0, 32, 32, 32</column>
-<column name="a2_sum_fu_226_p2">+, 0, 0, 31, 31, 31</column>
+<column name="a2_sum3_fu_307_p2">+, 0, 0, 32, 32, 32</column>
+<column name="a2_sum_fu_222_p2">+, 0, 0, 31, 31, 31</column>
 <column name="buff_d1">+, 0, 0, 32, 32, 32</column>
-<column name="cum_offs_1_fu_269_p2">+, 0, 0, 22, 22, 22</column>
-<column name="i_1_fu_216_p2">+, 0, 0, 6, 6, 1</column>
-<column name="i_2_fu_306_p2">+, 0, 0, 6, 6, 1</column>
-<column name="indvar_flatten_next_fu_281_p2">+, 0, 0, 10, 10, 1</column>
-<column name="tmp_1_fu_245_p2">+, 0, 0, 22, 22, 22</column>
-<column name="ap_condition_428">and, 0, 0, 1, 1, 1</column>
-<column name="exitcond2_fu_210_p2">icmp, 0, 0, 3, 6, 5</column>
-<column name="exitcond5_fu_287_p2">icmp, 0, 0, 3, 6, 5</column>
-<column name="exitcond_flatten_fu_275_p2">icmp, 0, 0, 4, 10, 8</column>
-<column name="i1_mid2_fu_293_p3">select, 0, 0, 6, 1, 1</column>
+<column name="cum_offs_1_fu_264_p2">+, 0, 0, 20, 20, 20</column>
+<column name="i_1_fu_212_p2">+, 0, 0, 4, 4, 1</column>
+<column name="i_2_fu_301_p2">+, 0, 0, 4, 4, 1</column>
+<column name="indvar_flatten_next_fu_276_p2">+, 0, 0, 9, 9, 1</column>
+<column name="tmp_1_fu_240_p2">+, 0, 0, 20, 20, 20</column>
+<column name="ap_condition_412">and, 0, 0, 1, 1, 1</column>
+<column name="exitcond2_fu_206_p2">icmp, 0, 0, 2, 4, 4</column>
+<column name="exitcond5_fu_282_p2">icmp, 0, 0, 2, 4, 4</column>
+<column name="exitcond_flatten_fu_270_p2">icmp, 0, 0, 3, 9, 8</column>
+<column name="i1_mid2_fu_288_p3">select, 0, 0, 4, 1, 1</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -101,24 +101,22 @@
 <column name="A_BUS_blk_n_AR">1, 2, 1, 2</column>
 <column name="A_BUS_blk_n_R">1, 2, 1, 2</column>
 <column name="ap_NS_fsm">6, 15, 1, 15</column>
-<column name="ap_enable_reg_pp0_iter10">1, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter8">1, 2, 1, 2</column>
 <column name="ap_sig_ioackin_A_BUS_ARREADY">1, 2, 1, 2</column>
-<column name="buff_address0">6, 3, 6, 18</column>
-<column name="cum_offs_reg_140">22, 2, 22, 44</column>
-<column name="i1_reg_163">6, 2, 6, 12</column>
-<column name="i_reg_129">6, 2, 6, 12</column>
-<column name="indvar_flatten_reg_152">10, 2, 10, 20</column>
+<column name="buff_address0">4, 3, 4, 12</column>
+<column name="cum_offs_reg_140">20, 2, 20, 40</column>
+<column name="i1_reg_163">4, 2, 4, 8</column>
+<column name="i_reg_129">4, 2, 4, 8</column>
+<column name="indvar_flatten_reg_152">9, 2, 9, 18</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="A_BUS_addr_reg_362">32, 0, 32, 0</column>
-<column name="a2_sum3_reg_403">32, 0, 32, 0</column>
-<column name="a2_sum_reg_357">31, 0, 31, 0</column>
+<column name="A_BUS_addr_reg_358">32, 0, 32, 0</column>
+<column name="a2_sum_reg_353">31, 0, 31, 0</column>
 <column name="ap_CS_fsm">14, 0, 14, 0</column>
 <column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter10">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
@@ -126,24 +124,23 @@
 <column name="ap_enable_reg_pp0_iter6">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter7">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter8">1, 0, 1, 0</column>
-<column name="ap_enable_reg_pp0_iter9">1, 0, 1, 0</column>
 <column name="ap_reg_ioackin_A_BUS_ARREADY">1, 0, 1, 0</column>
-<column name="buff_addr_1_reg_387">6, 0, 6, 0</column>
-<column name="buff_load_reg_398">32, 0, 32, 0</column>
-<column name="cum_offs_reg_140">22, 0, 22, 0</column>
-<column name="exitcond_flatten_reg_378">1, 0, 1, 0</column>
-<column name="i1_reg_163">6, 0, 6, 0</column>
-<column name="i_1_reg_352">6, 0, 6, 0</column>
-<column name="i_cast2_reg_343">6, 0, 32, 26</column>
-<column name="i_reg_129">6, 0, 6, 0</column>
-<column name="indvar_flatten_reg_152">10, 0, 10, 0</column>
-<column name="reg_184">16, 0, 16, 0</column>
-<column name="tmp_4_reg_368">16, 0, 16, 0</column>
-<column name="tmp_cast6_reg_338">29, 0, 31, 2</column>
-<column name="tmp_reg_333">29, 0, 32, 3</column>
-<column name="buff_addr_1_reg_387">0, 6, 6, 0</column>
-<column name="buff_load_reg_398">0, 32, 32, 0</column>
-<column name="exitcond_flatten_reg_378">0, 1, 1, 0</column>
+<column name="buff_addr_1_reg_388">4, 0, 4, 0</column>
+<column name="buff_load_reg_399">32, 0, 32, 0</column>
+<column name="cum_offs_reg_140">20, 0, 20, 0</column>
+<column name="exitcond_flatten_reg_379">1, 0, 1, 0</column>
+<column name="i1_reg_163">4, 0, 4, 0</column>
+<column name="i_1_reg_348">4, 0, 4, 0</column>
+<column name="i_cast2_reg_339">4, 0, 32, 28</column>
+<column name="i_reg_129">4, 0, 4, 0</column>
+<column name="indvar_flatten_reg_152">9, 0, 9, 0</column>
+<column name="tmp_3_reg_364">16, 0, 16, 0</column>
+<column name="tmp_4_reg_369">16, 0, 16, 0</column>
+<column name="tmp_cast6_reg_334">29, 0, 31, 2</column>
+<column name="tmp_reg_329">29, 0, 32, 3</column>
+<column name="buff_addr_1_reg_388">0, 4, 4, 0</column>
+<column name="buff_load_reg_399">0, 32, 32, 0</column>
+<column name="exitcond_flatten_reg_379">0, 1, 1, 0</column>
 </table>
 </item>
 </section>
@@ -223,12 +220,13 @@
 </section>
 
 <section name = "Critical Path" level="0">
-<item name = "Max Delay">8.75</item>
+<item name = "Max Delay">13.58</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'a2_sum_cast', skipprefetch_Nelem.cpp:54">sext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'A_BUS_addr', skipprefetch_Nelem.cpp:54">getelementptr, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'A_BUS_load_req', skipprefetch_Nelem.cpp:54">readreq, 8.75, 8.75, -, -, -, m_axi, request, &apos;A_BUS&apos;, -, -, -, -, -</column>
+<column name="'buff_load', skipprefetch_Nelem.cpp:69">load, 2.39, 2.39, -, -, -, -, -, -, &apos;buff&apos;, skipprefetch_Nelem.cpp:26, -, -, -, -</column>
+<column name="'a2_sum3', skipprefetch_Nelem.cpp:69">add, 2.44, 4.83, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'A_BUS_addr_1', skipprefetch_Nelem.cpp:69">getelementptr, 0.00, 4.83, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'A_BUS_load_2_req', skipprefetch_Nelem.cpp:69">readreq, 8.75, 13.58, -, -, -, m_axi, request, &apos;A_BUS&apos;, -, -, -, -, -</column>
 </table>
 </item>
 </section>

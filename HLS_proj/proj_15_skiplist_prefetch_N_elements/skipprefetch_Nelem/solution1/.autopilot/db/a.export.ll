@@ -22,59 +22,59 @@ define void @skipprefetch_Nelem(i64* %A_BUS, i32 %a) {
   %tmp_cast6 = zext i29 %a1 to i31
   call void (...)* @_ssdm_op_SpecBitsMap(i64* %A_BUS), !map !22
   call void (...)* @_ssdm_op_SpecTopModule([19 x i8]* @skipprefetch_Nelem_s) nounwind
-  %buff = alloca [50 x i32], align 4
+  %buff = alloca [10 x i32], align 4
   call void (...)* @_ssdm_op_SpecInterface(i64* %A_BUS, [6 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [6 x i8]* @p_str3, [1 x i8]* @p_str1, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   call void (...)* @_ssdm_op_SpecInterface(i32 %a, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @bundle, [6 x i8]* @p_str3, [1 x i8]* @p_str1, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str4, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [4 x i8]* @p_str5, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   br label %1
 
 ; <label>:1                                       ; preds = %2, %0
-  %i = phi i6 [ 0, %0 ], [ %i_1, %2 ]
-  %cum_offs = phi i22 [ 0, %0 ], [ %cum_offs_1, %2 ]
-  %i_cast2 = zext i6 %i to i32
-  %exitcond2 = icmp eq i6 %i, -14
-  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 50, i64 50, i64 50)
-  %i_1 = add i6 %i, 1
+  %i = phi i4 [ 0, %0 ], [ %i_1, %2 ]
+  %cum_offs = phi i20 [ 0, %0 ], [ %cum_offs_1, %2 ]
+  %i_cast2 = zext i4 %i to i32
+  %exitcond2 = icmp eq i4 %i, -6
+  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 10, i64 10, i64 10)
+  %i_1 = add i4 %i, 1
   br i1 %exitcond2, label %.preheader.preheader, label %2
 
 .preheader.preheader:                             ; preds = %1
   br label %.preheader
 
 ; <label>:2                                       ; preds = %1
-  %cum_offs_cast4_cast = sext i22 %cum_offs to i31
+  %cum_offs_cast4_cast = sext i20 %cum_offs to i31
   %a2_sum = add i31 %cum_offs_cast4_cast, %tmp_cast6
   %a2_sum_cast = sext i31 %a2_sum to i32
   %A_BUS_addr = getelementptr i64* %A_BUS, i32 %a2_sum_cast
   %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
   %A_BUS_addr_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr)
   %tmp_3 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_read, i32 32, i32 47)
-  %tmp_cast = sext i16 %tmp_3 to i22
-  %tmp_1 = add i22 %tmp_cast, %cum_offs
-  %tmp_1_cast = sext i22 %tmp_1 to i32
-  %buff_addr = getelementptr inbounds [50 x i32]* %buff, i32 0, i32 %i_cast2
+  %tmp_cast = sext i16 %tmp_3 to i20
+  %tmp_1 = add i20 %tmp_cast, %cum_offs
+  %tmp_1_cast = sext i20 %tmp_1 to i32
+  %buff_addr = getelementptr inbounds [10 x i32]* %buff, i32 0, i32 %i_cast2
   store i32 %tmp_1_cast, i32* %buff_addr, align 4
   %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
   %A_BUS_addr_read_1 = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr)
   %tmp_4 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_read_1, i32 48, i32 63)
-  %tmp_2_cast = sext i16 %tmp_4 to i22
-  %cum_offs_1 = add i22 %cum_offs, %tmp_2_cast
+  %tmp_2_cast = sext i16 %tmp_4 to i20
+  %cum_offs_1 = add i20 %cum_offs, %tmp_2_cast
   br label %1
 
 .preheader:                                       ; preds = %.preheader.preheader, %.preheader3
-  %indvar_flatten = phi i10 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
-  %i1 = phi i6 [ %i_2, %.preheader3 ], [ 1, %.preheader.preheader ]
-  %exitcond_flatten = icmp eq i10 %indvar_flatten, -93
-  %indvar_flatten_next = add i10 %indvar_flatten, 1
+  %indvar_flatten = phi i9 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
+  %i1 = phi i4 [ %i_2, %.preheader3 ], [ 1, %.preheader.preheader ]
+  %exitcond_flatten = icmp eq i9 %indvar_flatten, -71
+  %indvar_flatten_next = add i9 %indvar_flatten, 1
   br i1 %exitcond_flatten, label %3, label %.preheader3
 
 .preheader3:                                      ; preds = %.preheader
-  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 931, i64 931, i64 931)
-  %exitcond5 = icmp eq i6 %i1, -14
-  %i1_mid2 = select i1 %exitcond5, i6 1, i6 %i1
-  %i1_cast1 = zext i6 %i1_mid2 to i32
+  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 441, i64 441, i64 441)
+  %exitcond5 = icmp eq i4 %i1, -6
+  %i1_mid2 = select i1 %exitcond5, i4 1, i4 %i1
+  %i1_cast1 = zext i4 %i1_mid2 to i32
   %tmp_5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)
   call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind
-  %buff_addr_1 = getelementptr inbounds [50 x i32]* %buff, i32 0, i32 %i1_cast1
+  %buff_addr_1 = getelementptr inbounds [10 x i32]* %buff, i32 0, i32 %i1_cast1
   %buff_load = load i32* %buff_addr_1, align 4
   %a2_sum3 = add i32 %tmp, %buff_load
   %A_BUS_addr_1 = getelementptr i64* %A_BUS, i32 %a2_sum3
@@ -85,7 +85,7 @@ define void @skipprefetch_Nelem(i64* %A_BUS, i32 %a) {
   %tmp_7 = add nsw i32 %buff_load, %tmp_6
   store i32 %tmp_7, i32* %buff_addr_1, align 4
   %empty_8 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str6, i32 %tmp_5)
-  %i_2 = add i6 %i1_mid2, 1
+  %i_2 = add i4 %i1_mid2, 1
   br label %.preheader
 
 ; <label>:3                                       ; preds = %.preheader

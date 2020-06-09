@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:skipprefetch_Nelem:1.0
-// IP Revision: 2006041758
+// IP Revision: 2006091930
 
 `timescale 1ns/1ps
 

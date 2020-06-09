@@ -6,8 +6,8 @@ set MemName skipprefetch_Nelebkb
 set CoreName ap_simcore_mem
 set PortList { 2 0 }
 set DataWd 32
-set AddrRange 50
-set AddrWd 6
+set AddrRange 10
+set AddrWd 4
 set impl_style block
 set TrueReset 0
 set HasInitializer 0
@@ -15,7 +15,7 @@ set IsROM 0
 set ROMData {}
 set NumOfStage 2
 set MaxLatency -1
-set DelayBudget 2.71
+set DelayBudget 2.39
 set ClkPeriod 10
 set RegisteredInput 0
 if {${::AESL::PGuard_simmodel_gen}} {

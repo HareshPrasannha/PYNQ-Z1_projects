@@ -14,8 +14,8 @@ entity skipprefetch_Nelebkb_ram is
     generic(
             mem_type    : string := "block"; 
             dwidth     : integer := 32; 
-            awidth     : integer := 6; 
-            mem_size    : integer := 50
+            awidth     : integer := 4; 
+            mem_size    : integer := 10
     ); 
     port (
           addr0     : in std_logic_vector(awidth-1 downto 0); 
@@ -93,8 +93,8 @@ use IEEE.std_logic_1164.all;
 entity skipprefetch_Nelebkb is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 50;
-        AddressWidth : INTEGER := 6);
+        AddressRange : INTEGER := 10;
+        AddressWidth : INTEGER := 4);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

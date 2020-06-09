@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
-| Date             : Thu Jun 04 18:04:35 2020
+| Date             : Tue Jun 09 19:36:33 2020
 | Host             : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -50,15 +50,15 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.006 |        3 |       --- |             --- |
-| Slice Logic              |     0.003 |     3433 |       --- |             --- |
-|   LUT as Logic           |     0.003 |     1009 |     53200 |            1.90 |
-|   CARRY4                 |    <0.001 |       83 |     13300 |            0.62 |
-|   Register               |    <0.001 |     1631 |    106400 |            1.53 |
-|   LUT as Shift Register  |    <0.001 |      123 |     17400 |            0.71 |
+| Slice Logic              |     0.003 |     3358 |       --- |             --- |
+|   LUT as Logic           |     0.003 |      988 |     53200 |            1.86 |
+|   CARRY4                 |    <0.001 |       81 |     13300 |            0.61 |
+|   Register               |    <0.001 |     1581 |    106400 |            1.49 |
+|   LUT as Shift Register  |    <0.001 |      122 |     17400 |            0.70 |
 |   Others                 |     0.000 |      290 |       --- |             --- |
 |   LUT as Distributed RAM |     0.000 |       10 |     17400 |            0.06 |
-| Signals                  |     0.005 |     2501 |       --- |             --- |
-| Block RAM                |     0.005 |        2 |       140 |            1.43 |
+| Signals                  |     0.004 |     2468 |       --- |             --- |
+| Block RAM                |     0.006 |        2 |       140 |            1.43 |
 | PS7                      |     1.256 |        1 |       --- |             --- |
 | Static Power             |     0.152 |          |           |                 |
 | Total                    |     1.428 |          |           |                 |
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.033 |       0.020 |      0.013 |
+| Vccint    |       1.000 |     0.033 |       0.019 |      0.013 |
 | Vccaux    |       1.800 |     0.020 |       0.000 |      0.020 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -264,7 +264,7 @@ Table of Contents
 |             buff_rdata                                                                 |     0.003 |
 |             fifo_rctl                                                                  |    <0.001 |
 |             fifo_rreq                                                                  |    <0.001 |
-|             rs_rdata                                                                   |    <0.001 |
+|             rs_rdata                                                                   |     0.001 |
 |         skipprefetch_Nelem_CFG_s_axi_U                                                 |    <0.001 |
 |     xlconstant_1                                                                       |     0.000 |
 +----------------------------------------------------------------------------------------+-----------+
