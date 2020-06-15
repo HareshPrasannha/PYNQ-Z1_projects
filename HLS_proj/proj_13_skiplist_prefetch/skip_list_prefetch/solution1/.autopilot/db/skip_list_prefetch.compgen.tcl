@@ -6,8 +6,8 @@ set MemName skip_list_prefetcbkb
 set CoreName ap_simcore_mem
 set PortList { 2 0 }
 set DataWd 32
-set AddrRange 200
-set AddrWd 8
+set AddrRange 500
+set AddrWd 9
 set impl_style block
 set TrueReset 0
 set HasInitializer 0

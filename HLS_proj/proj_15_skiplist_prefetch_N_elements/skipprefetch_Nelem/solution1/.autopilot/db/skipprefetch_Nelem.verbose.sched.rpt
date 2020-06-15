@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'skipprefetch_Nelem'
 ================================================================
-* Date:           Tue Jun 09 19:30:03 2020
+* Date:           Mon Jun 15 12:53:02 2020
 
 * Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
 * Project:        skipprefetch_Nelem
@@ -25,25 +25,25 @@
 
 + Latency (clock cycles): 
     * Summary: 
-    +-----+-----+-----+-----+---------+
-    |  Latency  |  Interval | Pipeline|
-    | min | max | min | max |   Type  |
-    +-----+-----+-----+-----+---------+
-    |  561|  561|  562|  562|   none  |
-    +-----+-----+-----+-----+---------+
+    +------+------+------+------+---------+
+    |   Latency   |   Interval  | Pipeline|
+    |  min |  max |  min |  max |   Type  |
+    +------+------+------+------+---------+
+    |  1911|  1911|  1912|  1912|   none  |
+    +------+------+------+------+---------+
 
     + Detail: 
         * Instance: 
         N/A
 
         * Loop: 
-        +----------+-----+-----+----------+-----------+-----------+------+----------+
-        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
-        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
-        +----------+-----+-----+----------+-----------+-----------+------+----------+
-        |- Loop 1  |  110|  110|        11|          -|          -|    10|    no    |
-        |- Loop 2  |  448|  448|         9|          1|          1|   441|    yes   |
-        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        +----------+------+------+----------+-----------+-----------+------+----------+
+        |          |   Latency   | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|  min |  max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+------+------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |   110|   110|        11|          -|          -|    10|    no    |
+        |- Loop 2  |  1798|  1798|         9|          1|          1|  1791|    yes   |
+        +----------+------+------+----------+-----------+-----------+------+----------+
 
 ============================================================
 + Verbose Summary: Synthesis Manager
@@ -300,16 +300,16 @@ ST_12: StgValue_71 (40)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:48
 
  <State 13>: 5.64ns
 ST_13: indvar_flatten (44)  [1/1] 0.00ns
-.preheader:0  %indvar_flatten = phi i9 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
+.preheader:0  %indvar_flatten = phi i11 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
 
 ST_13: i1 (45)  [1/1] 0.00ns
 .preheader:1  %i1 = phi i4 [ %i_2, %.preheader3 ], [ 1, %.preheader.preheader ]
 
-ST_13: exitcond_flatten (46)  [1/1] 2.03ns
-.preheader:2  %exitcond_flatten = icmp eq i9 %indvar_flatten, -71
+ST_13: exitcond_flatten (46)  [1/1] 2.11ns
+.preheader:2  %exitcond_flatten = icmp eq i11 %indvar_flatten, -257
 
 ST_13: indvar_flatten_next (47)  [1/1] 1.84ns
-.preheader:3  %indvar_flatten_next = add i9 %indvar_flatten, 1
+.preheader:3  %indvar_flatten_next = add i11 %indvar_flatten, 1
 
 ST_13: StgValue_76 (48)  [1/1] 0.00ns
 .preheader:4  br i1 %exitcond_flatten, label %3, label %.preheader3
@@ -379,7 +379,7 @@ ST_20: A_BUS_load_2_req (60)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:69
 
  <State 21>: 13.58ns
 ST_21: empty_7 (50)  [1/1] 0.00ns
-.preheader3:0  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 441, i64 441, i64 441)
+.preheader3:0  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1791, i64 1791, i64 1791)
 
 ST_21: tmp_5 (54)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:64
 .preheader3:4  %tmp_5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)

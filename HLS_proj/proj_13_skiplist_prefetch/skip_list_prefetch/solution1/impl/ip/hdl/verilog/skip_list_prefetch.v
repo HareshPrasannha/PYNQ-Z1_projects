@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="skip_list_prefetch,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=11.190000,HLS_SYN_LAT=11373,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=987,HLS_SYN_LUT=1285}" *)
+(* CORE_GENERATION_INFO="skip_list_prefetch,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=11.190000,HLS_SYN_LAT=13503,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=993,HLS_SYN_LUT=1297}" *)
 
 module skip_list_prefetch (
         ap_clk,
@@ -122,23 +122,24 @@ parameter    C_M_AXI_A_BUS_CACHE_VALUE = 3;
 parameter    ap_const_lv32_9 = 32'b1001;
 parameter    ap_const_lv32_12 = 32'b10010;
 parameter    ap_const_lv32_8 = 32'b1000;
-parameter    ap_const_lv8_0 = 8'b00000000;
-parameter    ap_const_lv24_0 = 24'b000000000000000000000000;
+parameter    ap_const_lv9_0 = 9'b000000000;
+parameter    ap_const_lv25_0 = 25'b0000000000000000000000000;
 parameter    ap_const_lv14_0 = 14'b00000000000000;
-parameter    ap_const_lv8_1 = 8'b1;
+parameter    ap_const_lv9_1 = 9'b1;
 parameter    ap_const_lv3_0 = 3'b000;
 parameter    ap_const_lv2_0 = 2'b00;
 parameter    ap_const_lv4_0 = 4'b0000;
 parameter    ap_const_lv32_20 = 32'b100000;
 parameter    ap_const_lv32_2F = 32'b101111;
 parameter    ap_const_lv32_1F = 32'b11111;
-parameter    ap_const_lv8_C8 = 8'b11001000;
+parameter    ap_const_lv9_1F4 = 9'b111110100;
 parameter    ap_const_lv32_30 = 32'b110000;
 parameter    ap_const_lv32_3F = 32'b111111;
-parameter    ap_const_lv14_2617 = 14'b10011000010111;
+parameter    ap_const_lv14_2509 = 14'b10010100001001;
 parameter    ap_const_lv14_1 = 14'b1;
 parameter    ap_const_lv32_13 = 32'b10011;
 parameter    ap_const_lv64_0 = 64'b0000000000000000000000000000000000000000000000000000000000000000;
+parameter    ap_const_lv8_0 = 8'b00000000;
 
 parameter C_S_AXI_CFG_WSTRB_WIDTH = (C_S_AXI_CFG_DATA_WIDTH / ap_const_int64_8);
 parameter C_S_AXI_WSTRB_WIDTH = (C_S_AXI_DATA_WIDTH / ap_const_int64_8);
@@ -251,11 +252,11 @@ wire    A_BUS_BVALID;
 wire   [1:0] A_BUS_BRESP;
 wire   [0:0] A_BUS_BID;
 wire   [0:0] A_BUS_BUSER;
-reg   [7:0] i_reg_131;
-reg   [7:0] ap_pipeline_reg_pp0_iter1_i_reg_131;
-reg   [23:0] cum_offs_reg_143;
+reg   [8:0] i_reg_131;
+reg   [8:0] ap_pipeline_reg_pp0_iter1_i_reg_131;
+reg   [24:0] cum_offs_reg_143;
 reg   [13:0] indvar_flatten_reg_155;
-reg   [7:0] i1_reg_166;
+reg   [8:0] i1_reg_166;
 reg   [15:0] reg_191;
 reg    ap_sig_ioackin_A_BUS_ARREADY;
 wire   [31:0] tmp_fu_205_p1;
@@ -265,10 +266,10 @@ reg   [30:0] tmp_cast6_reg_354;
 wire   [0:0] exitcond2_fu_213_p2;
 wire  signed [30:0] cum_offs_cast_cast_fu_219_p1;
 reg  signed [30:0] cum_offs_cast_cast_reg_363;
-wire   [7:0] i_1_fu_224_p2;
-reg   [7:0] i_1_reg_368;
+wire   [8:0] i_1_fu_224_p2;
+reg   [8:0] i_1_reg_368;
 reg   [31:0] A_BUS_addr_1_reg_373;
-wire   [23:0] cum_offs_1_fu_275_p2;
+wire   [24:0] cum_offs_1_fu_275_p2;
 wire   [30:0] grp_fu_177_p2;
 reg   [30:0] a2_sum3_reg_384;
 wire   [0:0] ap_CS_fsm_state12;
@@ -283,17 +284,17 @@ reg   [0:0] ap_pipeline_reg_pp1_iter7_exitcond_flatten_reg_395;
 reg   [0:0] ap_pipeline_reg_pp1_iter9_exitcond_flatten_reg_395;
 wire   [13:0] indvar_flatten_next_fu_297_p2;
 reg    ap_enable_reg_pp1_iter0;
-reg   [7:0] buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter1_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter2_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter3_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter4_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter5_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter6_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter7_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter8_buff_addr_1_reg_404;
-reg   [7:0] ap_pipeline_reg_pp1_iter9_buff_addr_1_reg_404;
-wire   [7:0] i_2_fu_322_p2;
+reg   [8:0] buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter1_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter2_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter3_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter4_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter5_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter6_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter7_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter8_buff_addr_1_reg_404;
+reg   [8:0] ap_pipeline_reg_pp1_iter9_buff_addr_1_reg_404;
+wire   [8:0] i_2_fu_322_p2;
 wire   [31:0] buff_q0;
 reg   [31:0] buff_load_reg_415;
 reg    ap_enable_reg_pp1_iter1;
@@ -315,15 +316,15 @@ reg    ap_enable_reg_pp1_iter6;
 reg    ap_enable_reg_pp1_iter7;
 reg    ap_enable_reg_pp1_iter8;
 reg    ap_enable_reg_pp1_iter10;
-reg   [7:0] buff_address0;
+reg   [8:0] buff_address0;
 reg    buff_ce0;
 reg    buff_we0;
 wire   [31:0] buff_d0;
 reg    buff_ce1;
 reg    buff_we1;
 wire   [31:0] buff_d1;
-reg   [7:0] i_phi_fu_135_p4;
-reg   [23:0] cum_offs_phi_fu_147_p4;
+reg   [8:0] i_phi_fu_135_p4;
+reg   [24:0] cum_offs_phi_fu_147_p4;
 wire   [31:0] i_cast2_fu_241_p1;
 wire   [31:0] i1_cast1_fu_317_p1;
 wire  signed [31:0] a2_sum_cast_fu_230_p1;
@@ -331,12 +332,12 @@ wire  signed [31:0] a2_sum3_cast_fu_281_p1;
 reg    ap_reg_ioackin_A_BUS_ARREADY;
 reg  signed [30:0] grp_fu_177_p1;
 wire   [28:0] a1_fu_195_p4;
-wire  signed [23:0] tmp_cast_fu_246_p1;
-wire   [23:0] tmp_1_fu_250_p2;
+wire  signed [24:0] tmp_cast_fu_246_p1;
+wire   [24:0] tmp_1_fu_250_p2;
 wire   [15:0] tmp_5_fu_261_p4;
-wire  signed [23:0] tmp_2_cast_fu_271_p1;
+wire  signed [24:0] tmp_2_cast_fu_271_p1;
 wire   [0:0] exitcond5_fu_303_p2;
-wire   [7:0] i1_mid2_fu_309_p3;
+wire   [8:0] i1_mid2_fu_309_p3;
 wire  signed [31:0] tmp_6_fu_339_p1;
 wire   [0:0] ap_CS_fsm_state32;
 reg   [19:0] ap_NS_fsm;
@@ -512,8 +513,8 @@ skip_list_prefetch_A_BUS_m_axi_U(
 
 skip_list_prefetcbkb #(
     .DataWidth( 32 ),
-    .AddressRange( 200 ),
-    .AddressWidth( 8 ))
+    .AddressRange( 500 ),
+    .AddressWidth( 9 ))
 buff_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -692,7 +693,7 @@ always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_pp0_stage1) & (1'b1 == ap_enable_reg_pp0_iter1) & (1'b0 == ap_pipeline_reg_pp0_iter1_exitcond2_reg_359) & ~(((1'b1 == ap_enable_reg_pp0_iter0) & (exitcond2_reg_359 == 1'b0) & (1'b0 == ap_sig_ioackin_A_BUS_ARREADY)) | ((1'b1 == ap_enable_reg_pp0_iter1) & (1'b0 == ap_pipeline_reg_pp0_iter1_exitcond2_reg_359) & (A_BUS_RVALID == 1'b0))))) begin
         cum_offs_reg_143 <= cum_offs_1_fu_275_p2;
     end else if (((ap_CS_fsm_state1 == 1'b1) & ~(ap_start == 1'b0))) begin
-        cum_offs_reg_143 <= ap_const_lv24_0;
+        cum_offs_reg_143 <= ap_const_lv25_0;
     end
 end
 
@@ -700,7 +701,7 @@ always @ (posedge ap_clk) begin
     if ((~(((1'b1 == ap_enable_reg_pp1_iter2) & (1'b0 == ap_pipeline_reg_pp1_iter1_exitcond_flatten_reg_395) & (1'b0 == ap_sig_ioackin_A_BUS_ARREADY)) | ((1'b1 == ap_enable_reg_pp1_iter9) & (1'b0 == ap_pipeline_reg_pp1_iter8_exitcond_flatten_reg_395) & (A_BUS_RVALID == 1'b0))) & (1'b1 == ap_CS_fsm_pp1_stage0) & (1'b1 == ap_enable_reg_pp1_iter0) & (1'b0 == exitcond_flatten_fu_291_p2))) begin
         i1_reg_166 <= i_2_fu_322_p2;
     end else if (((1'b1 == ap_CS_fsm_state20) & ~(A_BUS_RVALID == 1'b0))) begin
-        i1_reg_166 <= ap_const_lv8_1;
+        i1_reg_166 <= ap_const_lv9_1;
     end
 end
 
@@ -708,7 +709,7 @@ always @ (posedge ap_clk) begin
     if (((exitcond2_reg_359 == 1'b0) & (1'b1 == ap_CS_fsm_pp0_stage0) & (1'b1 == ap_enable_reg_pp0_iter1) & ~((exitcond2_reg_359 == 1'b0) & (1'b1 == ap_enable_reg_pp0_iter1) & (A_BUS_RVALID == 1'b0)))) begin
         i_reg_131 <= i_1_reg_368;
     end else if (((ap_CS_fsm_state1 == 1'b1) & ~(ap_start == 1'b0))) begin
-        i_reg_131 <= ap_const_lv8_0;
+        i_reg_131 <= ap_const_lv9_0;
     end
 end
 
@@ -1117,21 +1118,21 @@ assign cum_offs_1_fu_275_p2 = ($signed(tmp_2_cast_fu_271_p1) + $signed(cum_offs_
 
 assign cum_offs_cast_cast_fu_219_p1 = $signed(cum_offs_phi_fu_147_p4);
 
-assign exitcond2_fu_213_p2 = ((i_phi_fu_135_p4 == ap_const_lv8_C8) ? 1'b1 : 1'b0);
+assign exitcond2_fu_213_p2 = ((i_phi_fu_135_p4 == ap_const_lv9_1F4) ? 1'b1 : 1'b0);
 
-assign exitcond5_fu_303_p2 = ((i1_reg_166 == ap_const_lv8_C8) ? 1'b1 : 1'b0);
+assign exitcond5_fu_303_p2 = ((i1_reg_166 == ap_const_lv9_1F4) ? 1'b1 : 1'b0);
 
-assign exitcond_flatten_fu_291_p2 = ((indvar_flatten_reg_155 == ap_const_lv14_2617) ? 1'b1 : 1'b0);
+assign exitcond_flatten_fu_291_p2 = ((indvar_flatten_reg_155 == ap_const_lv14_2509) ? 1'b1 : 1'b0);
 
 assign grp_fu_177_p2 = ($signed(tmp_cast6_reg_354) + $signed(grp_fu_177_p1));
 
 assign i1_cast1_fu_317_p1 = i1_mid2_fu_309_p3;
 
-assign i1_mid2_fu_309_p3 = ((exitcond5_fu_303_p2[0:0] === 1'b1) ? ap_const_lv8_1 : i1_reg_166);
+assign i1_mid2_fu_309_p3 = ((exitcond5_fu_303_p2[0:0] === 1'b1) ? ap_const_lv9_1 : i1_reg_166);
 
-assign i_1_fu_224_p2 = (i_reg_131 + ap_const_lv8_1);
+assign i_1_fu_224_p2 = (i_reg_131 + ap_const_lv9_1);
 
-assign i_2_fu_322_p2 = (i1_mid2_fu_309_p3 + ap_const_lv8_1);
+assign i_2_fu_322_p2 = (i1_mid2_fu_309_p3 + ap_const_lv9_1);
 
 assign i_cast2_fu_241_p1 = ap_pipeline_reg_pp0_iter1_i_reg_131;
 

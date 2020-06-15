@@ -63,7 +63,7 @@
 #define n 10000
 
 #define level 2
-#define skip_intr 50
+#define skip_intr 20
 
 #define dum_arr_len 2000000
 

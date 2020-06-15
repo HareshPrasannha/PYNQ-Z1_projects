@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'skipprefetch_Nelem'
 ================================================================
-* Date:           Tue Jun 09 19:30:04 2020
+* Date:           Mon Jun 15 12:53:03 2020
 
 * Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
 * Project:        skipprefetch_Nelem
@@ -25,25 +25,25 @@
 
 + Latency (clock cycles): 
     * Summary: 
-    +-----+-----+-----+-----+---------+
-    |  Latency  |  Interval | Pipeline|
-    | min | max | min | max |   Type  |
-    +-----+-----+-----+-----+---------+
-    |  561|  561|  562|  562|   none  |
-    +-----+-----+-----+-----+---------+
+    +------+------+------+------+---------+
+    |   Latency   |   Interval  | Pipeline|
+    |  min |  max |  min |  max |   Type  |
+    +------+------+------+------+---------+
+    |  1911|  1911|  1912|  1912|   none  |
+    +------+------+------+------+---------+
 
     + Detail: 
         * Instance: 
         N/A
 
         * Loop: 
-        +----------+-----+-----+----------+-----------+-----------+------+----------+
-        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
-        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
-        +----------+-----+-----+----------+-----------+-----------+------+----------+
-        |- Loop 1  |  110|  110|        11|          -|          -|    10|    no    |
-        |- Loop 2  |  448|  448|         9|          1|          1|   441|    yes   |
-        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        +----------+------+------+----------+-----------+-----------+------+----------+
+        |          |   Latency   | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|  min |  max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+------+------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |   110|   110|        11|          -|          -|    10|    no    |
+        |- Loop 2  |  1798|  1798|         9|          1|          1|  1791|    yes   |
+        +----------+------+------+----------+-----------+-----------+------+----------+
 
 
 
@@ -55,14 +55,14 @@
 |       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
 +-----------------+---------+-------+--------+-------+
 |DSP              |        -|      -|       -|      -|
-|Expression       |        -|      -|       0|    164|
+|Expression       |        -|      -|       0|    167|
 |FIFO             |        -|      -|       -|      -|
 |Instance         |        4|      -|     640|    870|
 |Memory           |        2|      -|       0|      0|
-|Multiplexer      |        -|      -|       -|     83|
-|Register         |        -|      -|     259|     37|
+|Multiplexer      |        -|      -|       -|     85|
+|Register         |        -|      -|     261|     37|
 +-----------------+---------+-------+--------+-------+
-|Total            |        6|      0|     899|   1154|
+|Total            |        6|      0|     901|   1159|
 +-----------------+---------+-------+--------+-------+
 |Available        |      280|    220|  106400|  53200|
 +-----------------+---------+-------+--------+-------+
@@ -105,15 +105,15 @@
     |cum_offs_1_fu_264_p2           |     +    |      0|  0|  20|          20|          20|
     |i_1_fu_212_p2                  |     +    |      0|  0|   4|           4|           1|
     |i_2_fu_301_p2                  |     +    |      0|  0|   4|           4|           1|
-    |indvar_flatten_next_fu_276_p2  |     +    |      0|  0|   9|           9|           1|
+    |indvar_flatten_next_fu_276_p2  |     +    |      0|  0|  11|          11|           1|
     |tmp_1_fu_240_p2                |     +    |      0|  0|  20|          20|          20|
     |ap_condition_412               |    and   |      0|  0|   1|           1|           1|
     |exitcond2_fu_206_p2            |   icmp   |      0|  0|   2|           4|           4|
     |exitcond5_fu_282_p2            |   icmp   |      0|  0|   2|           4|           4|
-    |exitcond_flatten_fu_270_p2     |   icmp   |      0|  0|   3|           9|           8|
+    |exitcond_flatten_fu_270_p2     |   icmp   |      0|  0|   4|          11|          10|
     |i1_mid2_fu_288_p3              |  select  |      0|  0|   4|           1|           1|
     +-------------------------------+----------+-------+---+----+------------+------------+
-    |Total                          |          |      0|  0| 164|         171|         156|
+    |Total                          |          |      0|  0| 167|         175|         158|
     +-------------------------------+----------+-------+---+----+------------+------------+
 
     * Multiplexer: 
@@ -130,9 +130,9 @@
     |cum_offs_reg_140              |  20|          2|   20|         40|
     |i1_reg_163                    |   4|          2|    4|          8|
     |i_reg_129                     |   4|          2|    4|          8|
-    |indvar_flatten_reg_152        |   9|          2|    9|         18|
+    |indvar_flatten_reg_152        |  11|          2|   11|         22|
     +------------------------------+----+-----------+-----+-----------+
-    |Total                         |  83|         38|   78|        237|
+    |Total                         |  85|         38|   80|        241|
     +------------------------------+----+-----------+-----+-----------+
 
     * Register: 
@@ -160,7 +160,7 @@
     |i_1_reg_348                   |   4|   0|    4|          0|
     |i_cast2_reg_339               |   4|   0|   32|         28|
     |i_reg_129                     |   4|   0|    4|          0|
-    |indvar_flatten_reg_152        |   9|   0|    9|          0|
+    |indvar_flatten_reg_152        |  11|   0|   11|          0|
     |tmp_3_reg_364                 |  16|   0|   16|          0|
     |tmp_4_reg_369                 |  16|   0|   16|          0|
     |tmp_cast6_reg_334             |  29|   0|   31|          2|
@@ -169,7 +169,7 @@
     |buff_load_reg_399             |   0|  32|   32|          0|
     |exitcond_flatten_reg_379      |   0|   1|    1|          0|
     +------------------------------+----+----+-----+-----------+
-    |Total                         | 259|  37|  329|         33|
+    |Total                         | 261|  37|  331|         33|
     +------------------------------+----+----+-----+-----------+
 
 
@@ -503,16 +503,16 @@ ST_12: StgValue_71 (40)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:48
 
  <State 13>: 5.64ns
 ST_13: indvar_flatten (44)  [1/1] 0.00ns
-.preheader:0  %indvar_flatten = phi i9 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
+.preheader:0  %indvar_flatten = phi i11 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
 
 ST_13: i1 (45)  [1/1] 0.00ns
 .preheader:1  %i1 = phi i4 [ %i_2, %.preheader3 ], [ 1, %.preheader.preheader ]
 
-ST_13: exitcond_flatten (46)  [1/1] 2.03ns
-.preheader:2  %exitcond_flatten = icmp eq i9 %indvar_flatten, -71
+ST_13: exitcond_flatten (46)  [1/1] 2.11ns
+.preheader:2  %exitcond_flatten = icmp eq i11 %indvar_flatten, -257
 
 ST_13: indvar_flatten_next (47)  [1/1] 1.84ns
-.preheader:3  %indvar_flatten_next = add i9 %indvar_flatten, 1
+.preheader:3  %indvar_flatten_next = add i11 %indvar_flatten, 1
 
 ST_13: StgValue_76 (48)  [1/1] 0.00ns
 .preheader:4  br i1 %exitcond_flatten, label %3, label %.preheader3
@@ -582,7 +582,7 @@ ST_20: A_BUS_load_2_req (60)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:69
 
  <State 21>: 13.58ns
 ST_21: empty_7 (50)  [1/1] 0.00ns
-.preheader3:0  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 441, i64 441, i64 441)
+.preheader3:0  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1791, i64 1791, i64 1791)
 
 ST_21: tmp_5 (54)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:64
 .preheader3:4  %tmp_5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)
@@ -1231,8 +1231,8 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 
 <comp id="152" class="1005" name="indvar_flatten_reg_152">
 <pin_list>
-<pin id="153" dir="0" index="0" bw="9" slack="1"/>
-<pin id="154" dir="1" index="1" bw="9" slack="1"/>
+<pin id="153" dir="0" index="0" bw="11" slack="1"/>
+<pin id="154" dir="1" index="1" bw="11" slack="1"/>
 </pin_list>
 <bind>
 <opset="indvar_flatten (phireg) "/>
@@ -1241,11 +1241,11 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 
 <comp id="156" class="1004" name="indvar_flatten_phi_fu_156">
 <pin_list>
-<pin id="157" dir="0" index="0" bw="9" slack="0"/>
+<pin id="157" dir="0" index="0" bw="11" slack="0"/>
 <pin id="158" dir="0" index="1" bw="0" slack="2147483647"/>
 <pin id="159" dir="0" index="2" bw="1" slack="1"/>
 <pin id="160" dir="0" index="3" bw="0" slack="2147483647"/>
-<pin id="161" dir="1" index="4" bw="9" slack="0"/>
+<pin id="161" dir="1" index="4" bw="11" slack="0"/>
 </pin_list>
 <bind>
 <opcode="phi(47) " fcode="phi"/>
@@ -1481,8 +1481,8 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 
 <comp id="270" class="1004" name="exitcond_flatten_fu_270">
 <pin_list>
-<pin id="271" dir="0" index="0" bw="9" slack="0"/>
-<pin id="272" dir="0" index="1" bw="9" slack="0"/>
+<pin id="271" dir="0" index="0" bw="11" slack="0"/>
+<pin id="272" dir="0" index="1" bw="11" slack="0"/>
 <pin id="273" dir="1" index="2" bw="1" slack="1"/>
 </pin_list>
 <bind>
@@ -1493,9 +1493,9 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 
 <comp id="276" class="1004" name="indvar_flatten_next_fu_276">
 <pin_list>
-<pin id="277" dir="0" index="0" bw="9" slack="0"/>
+<pin id="277" dir="0" index="0" bw="11" slack="0"/>
 <pin id="278" dir="0" index="1" bw="1" slack="0"/>
-<pin id="279" dir="1" index="2" bw="9" slack="0"/>
+<pin id="279" dir="1" index="2" bw="11" slack="0"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
@@ -1710,8 +1710,8 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 
 <comp id="383" class="1005" name="indvar_flatten_next_reg_383">
 <pin_list>
-<pin id="384" dir="0" index="0" bw="9" slack="0"/>
-<pin id="385" dir="1" index="1" bw="9" slack="0"/>
+<pin id="384" dir="0" index="0" bw="11" slack="0"/>
+<pin id="385" dir="1" index="1" bw="11" slack="0"/>
 </pin_list>
 <bind>
 <opset="indvar_flatten_next "/>
@@ -2042,13 +2042,13 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 |          |        a2_sum_fu_222       |    0    |    29   |
 |          |        tmp_1_fu_240        |    0    |    20   |
 |    add   |      cum_offs_1_fu_264     |    0    |    20   |
-|          | indvar_flatten_next_fu_276 |    0    |    9    |
+|          | indvar_flatten_next_fu_276 |    0    |    11   |
 |          |         i_2_fu_301         |    0    |    4    |
 |          |       a2_sum3_fu_307       |    0    |    32   |
 |          |        tmp_7_fu_323        |    0    |    32   |
 |----------|----------------------------|---------|---------|
 |          |      exitcond2_fu_206      |    0    |    2    |
-|   icmp   |   exitcond_flatten_fu_270  |    0    |    3    |
+|   icmp   |   exitcond_flatten_fu_270  |    0    |    4    |
 |          |      exitcond5_fu_282      |    0    |    2    |
 |----------|----------------------------|---------|---------|
 |  select  |       i1_mid2_fu_288       |    0    |    4    |
@@ -2074,7 +2074,7 @@ StgValue_103        (ret              ) [ 00000000000000000000000]
 |          |      tmp_2_cast_fu_261     |    0    |    0    |
 |          |        tmp_6_fu_319        |    0    |    0    |
 |----------|----------------------------|---------|---------|
-|   Total  |                            |    0    |   161   |
+|   Total  |                            |    0    |   164   |
 |----------|----------------------------|---------|---------|
 
 Memories:
@@ -2104,14 +2104,14 @@ Memories:
 |        i_2_reg_394        |    4   |
 |      i_cast2_reg_339      |   32   |
 |         i_reg_129         |    4   |
-|indvar_flatten_next_reg_383|    9   |
-|   indvar_flatten_reg_152  |    9   |
+|indvar_flatten_next_reg_383|   11   |
+|   indvar_flatten_reg_152  |   11   |
 |       tmp_3_reg_364       |   16   |
 |       tmp_4_reg_369       |   16   |
 |     tmp_cast6_reg_334     |   31   |
 |        tmp_reg_329        |   32   |
 +---------------------------+--------+
-|           Total           |   398  |
+|           Total           |   402  |
 +---------------------------+--------+
 
 * Multiplexer (MUX) list: 
@@ -2132,10 +2132,10 @@ Memories:
 +-----------+--------+--------+--------+--------+
 |           |  BRAM  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |    -   |    -   |    0   |   161  |
+|  Function |    -   |    -   |    0   |   164  |
 |   Memory  |    2   |    -   |    0   |    0   |
 |Multiplexer|    -   |    6   |    -   |   152  |
-|  Register |    -   |    -   |   398  |    -   |
+|  Register |    -   |    -   |   402  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |    2   |    6   |   398  |   313  |
+|   Total   |    2   |    6   |   402  |   316  |
 +-----------+--------+--------+--------+--------+

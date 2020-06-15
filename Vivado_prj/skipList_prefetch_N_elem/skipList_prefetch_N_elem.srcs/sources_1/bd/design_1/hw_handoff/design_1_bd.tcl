@@ -163,6 +163,7 @@ proc create_root_design { parentCell } {
   set axi_mem_intercon [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_mem_intercon ]
   set_property -dict [ list \
 CONFIG.NUM_MI {1} \
+CONFIG.NUM_SI {2} \
  ] $axi_mem_intercon
 
   # Create instance: processing_system7_0, and set properties
@@ -1138,7 +1139,7 @@ CONFIG.PCW_WDT_WDT_IO.VALUE_SRC {DEFAULT} \
   # Create instance: ps7_0_axi_periph, and set properties
   set ps7_0_axi_periph [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 ps7_0_axi_periph ]
   set_property -dict [ list \
-CONFIG.NUM_MI {1} \
+CONFIG.NUM_MI {2} \
  ] $ps7_0_axi_periph
 
   # Create instance: rst_ps7_0_100M, and set properties
@@ -1175,10 +1176,10 @@ CONFIG.CONST_WIDTH {4} \
   connect_bd_intf_net -intf_net skipprefetch_Nelem_0_m_axi_A_BUS [get_bd_intf_pins axi_mem_intercon/S00_AXI] [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_A_BUS]
 
   # Create port connections
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_mem_intercon/ACLK] [get_bd_pins axi_mem_intercon/M00_ACLK] [get_bd_pins axi_mem_intercon/S00_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_ACP_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_100M/slowest_sync_clk] [get_bd_pins skipprefetch_Nelem_0/ap_clk]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_mem_intercon/ACLK] [get_bd_pins axi_mem_intercon/M00_ACLK] [get_bd_pins axi_mem_intercon/S00_ACLK] [get_bd_pins axi_mem_intercon/S01_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_ACP_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_100M/slowest_sync_clk] [get_bd_pins skipprefetch_Nelem_0/ap_clk]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_100M/ext_reset_in]
   connect_bd_net -net rst_ps7_0_100M_interconnect_aresetn [get_bd_pins axi_mem_intercon/ARESETN] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins rst_ps7_0_100M/interconnect_aresetn]
-  connect_bd_net -net rst_ps7_0_100M_peripheral_aresetn [get_bd_pins axi_mem_intercon/M00_ARESETN] [get_bd_pins axi_mem_intercon/S00_ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn] [get_bd_pins skipprefetch_Nelem_0/ap_rst_n]
+  connect_bd_net -net rst_ps7_0_100M_peripheral_aresetn [get_bd_pins axi_mem_intercon/M00_ARESETN] [get_bd_pins axi_mem_intercon/S00_ARESETN] [get_bd_pins axi_mem_intercon/S01_ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn] [get_bd_pins skipprefetch_Nelem_0/ap_rst_n]
   connect_bd_net -net xlconstant_0_dout [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER] [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER] [get_bd_pins xlconstant_0/dout]
   connect_bd_net -net xlconstant_1_dout [get_bd_pins processing_system7_0/S_AXI_ACP_ARCACHE] [get_bd_pins processing_system7_0/S_AXI_ACP_AWCACHE] [get_bd_pins xlconstant_1/dout]
 
@@ -1193,28 +1194,28 @@ CONFIG.CONST_WIDTH {4} \
   regenerate_bd_layout -layout_string {
    guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -y 240 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -y 260 -defaultsOSRD
-preplace inst xlconstant_0 -pg 1 -lvl 4 -y 340 -defaultsOSRD
-preplace inst xlconstant_1 -pg 1 -lvl 4 -y 260 -defaultsOSRD
-preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 280 -defaultsOSRD
-preplace inst skipprefetch_Nelem_0 -pg 1 -lvl 3 -y 500 -defaultsOSRD
-preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 510 -defaultsOSRD
-preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 110 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 5 -y 290 -defaultsOSRD
+preplace port DDR -pg 1 -y 180 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 200 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y 430 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -y 350 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 180 -defaultsOSRD
+preplace inst skipprefetch_Nelem_0 -pg 1 -lvl 3 -y 170 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 170 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 230 -defaultsOSRD
 preplace netloc processing_system7_0_DDR 1 5 1 NJ
 preplace netloc xlconstant_1_dout 1 4 1 1240
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 380 400 NJ 400 NJ 400 NJ 400 1710
-preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 360 130 660 130 970
-preplace netloc skipprefetch_Nelem_0_m_axi_A_BUS 1 3 1 960
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 30 420 NJ 420 NJ 420 NJ 420 NJ 420 1690
-preplace netloc axi_mem_intercon_M00_AXI 1 4 1 1240
-preplace netloc xlconstant_0_dout 1 4 1 1240
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 350 20 NJ 20 NJ 20 NJ 20 1700
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 370 380 650 380 980
+preplace netloc skipprefetch_Nelem_0_m_axi_A_BUS 1 3 1 950
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 10 NJ 10 NJ 10 NJ 10 NJ 10 1710
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 N
+preplace netloc xlconstant_0_dout 1 4 1 1250
 preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 20 410 370 410 650 410 980 410 1250 410 1700
-preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 640
-preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 3 350 90 NJ 90 N
-levelinfo -pg 1 0 190 510 810 1110 1470 1730 -top 0 -bot 600
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 30 480 360 480 640 480 970 480 1260 480 1700
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 630
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 3 350 360 NJ 360 960J
+levelinfo -pg 1 0 190 500 800 1110 1480 1730 -top 0 -bot 490
 ",
 }
 

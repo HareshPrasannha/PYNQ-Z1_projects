@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'skip_list_prefetch'
 ================================================================
-* Date:           Wed Jun 03 13:10:51 2020
+* Date:           Thu Jun 11 00:25:12 2020
 
 * Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
 * Project:        skip_list_prefetch
@@ -29,7 +29,7 @@
     |    Latency    |    Interval   | Pipeline|
     |  min  |  max  |  min  |  max  |   Type  |
     +-------+-------+-------+-------+---------+
-    |  11373|  11373|  11374|  11374|   none  |
+    |  13503|  13503|  13504|  13504|   none  |
     +-------+-------+-------+-------+---------+
 
     + Detail: 
@@ -41,8 +41,8 @@
         |          |   Latency   | Iteration|  Initiation Interval  | Trip |          |
         | Loop Name|  min |  max |  Latency |  achieved |   target  | Count| Pipelined|
         +----------+------+------+----------+-----------+-----------+------+----------+
-        |- Loop 1  |  1601|  1601|        10|          8|          1|   200|    yes   |
-        |- Loop 2  |  9760|  9760|        11|          1|          1|  9751|    yes   |
+        |- Loop 1  |  4001|  4001|        10|          8|          1|   500|    yes   |
+        |- Loop 2  |  9490|  9490|        11|          1|          1|  9481|    yes   |
         +----------+------+------+----------+-----------+-----------+------+----------+
 
 ============================================================
@@ -169,7 +169,7 @@ ST_1: StgValue_38 (8)  [1/1] 0.00ns
 :5  call void (...)* @_ssdm_op_SpecTopModule([19 x i8]* @skip_list_prefetch_s) nounwind
 
 ST_1: buff (9)  [1/1] 2.71ns  loc: skip_list_prefetch.cpp:27
-:6  %buff = alloca [200 x i32], align 4
+:6  %buff = alloca [500 x i32], align 4
 
 ST_1: StgValue_40 (10)  [1/1] 0.00ns
 :7  call void (...)* @_ssdm_op_SpecInterface(i64* %A_BUS, [6 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [6 x i8]* @p_str3, [1 x i8]* @p_str1, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
@@ -184,23 +184,23 @@ ST_1: StgValue_43 (13)  [1/1] 1.57ns  loc: skip_list_prefetch.cpp:46
 :10  br label %1
 
 
- <State 2>: 2.00ns
+ <State 2>: 2.03ns
 ST_2: i (15)  [1/1] 0.00ns
-:0  %i = phi i8 [ 0, %0 ], [ %i_1, %2 ]
+:0  %i = phi i9 [ 0, %0 ], [ %i_1, %2 ]
 
-ST_2: exitcond2 (18)  [1/1] 2.00ns  loc: skip_list_prefetch.cpp:46
-:3  %exitcond2 = icmp eq i8 %i, -56
+ST_2: exitcond2 (18)  [1/1] 2.03ns  loc: skip_list_prefetch.cpp:46
+:3  %exitcond2 = icmp eq i9 %i, -12
 
 
  <State 3>: 11.19ns
 ST_3: cum_offs (16)  [1/1] 0.00ns
-:1  %cum_offs = phi i24 [ 0, %0 ], [ %cum_offs_1, %2 ]
+:1  %cum_offs = phi i25 [ 0, %0 ], [ %cum_offs_1, %2 ]
 
 ST_3: cum_offs_cast_cast (17)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
-:2  %cum_offs_cast_cast = sext i24 %cum_offs to i31
+:2  %cum_offs_cast_cast = sext i25 %cum_offs to i31
 
-ST_3: i_1 (19)  [1/1] 1.72ns  loc: skip_list_prefetch.cpp:46
-:4  %i_1 = add i8 %i, 1
+ST_3: i_1 (19)  [1/1] 1.84ns  loc: skip_list_prefetch.cpp:46
+:4  %i_1 = add i9 %i, 1
 
 ST_3: StgValue_49 (20)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
 :5  br i1 %exitcond2, label %3, label %2
@@ -277,12 +277,12 @@ ST_10: A_BUS_load_1_req (37)  [1/7] 8.75ns  loc: skip_list_prefetch.cpp:55
 :15  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
 
 
- <State 11>: 10.95ns
+ <State 11>: 11.07ns
 ST_11: i_cast2 (22)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
-:0  %i_cast2 = zext i8 %i to i32
+:0  %i_cast2 = zext i9 %i to i32
 
 ST_11: empty (23)  [1/1] 0.00ns
-:1  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 200, i64 200, i64 200)
+:1  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 500, i64 500, i64 500)
 
 ST_11: tmp_3 (24)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
 :2  %tmp_3 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)
@@ -291,16 +291,16 @@ ST_11: StgValue_72 (25)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:47
 :3  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind
 
 ST_11: tmp_cast (32)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:54
-:10  %tmp_cast = sext i16 %tmp_4 to i24
+:10  %tmp_cast = sext i16 %tmp_4 to i25
 
-ST_11: tmp_1 (33)  [1/1] 2.20ns  loc: skip_list_prefetch.cpp:54
-:11  %tmp_1 = add i24 %cum_offs, %tmp_cast
+ST_11: tmp_1 (33)  [1/1] 2.32ns  loc: skip_list_prefetch.cpp:54
+:11  %tmp_1 = add i25 %cum_offs, %tmp_cast
 
 ST_11: tmp_1_cast (34)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:54
-:12  %tmp_1_cast = sext i24 %tmp_1 to i32
+:12  %tmp_1_cast = sext i25 %tmp_1 to i32
 
 ST_11: buff_addr (35)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:54
-:13  %buff_addr = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %i_cast2
+:13  %buff_addr = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %i_cast2
 
 ST_11: StgValue_77 (36)  [1/1] 2.71ns  loc: skip_list_prefetch.cpp:54
 :14  store i32 %tmp_1_cast, i32* %buff_addr, align 4
@@ -312,10 +312,10 @@ ST_11: tmp_5 (39)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:55
 :17  %tmp_5 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_1_read_1, i32 48, i32 63)
 
 ST_11: tmp_2_cast (40)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:55
-:18  %tmp_2_cast = sext i16 %tmp_5 to i24
+:18  %tmp_2_cast = sext i16 %tmp_5 to i25
 
-ST_11: cum_offs_1 (41)  [1/1] 2.20ns  loc: skip_list_prefetch.cpp:55
-:19  %cum_offs_1 = add i24 %tmp_2_cast, %cum_offs
+ST_11: cum_offs_1 (41)  [1/1] 2.32ns  loc: skip_list_prefetch.cpp:55
+:19  %cum_offs_1 = add i25 %tmp_2_cast, %cum_offs
 
 ST_11: empty_7 (42)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:57
 :20  %empty_7 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str6, i32 %tmp_3)
@@ -378,15 +378,15 @@ ST_20: StgValue_95 (50)  [1/1] 1.57ns  loc: skip_list_prefetch.cpp:61
 :5  br label %.preheader
 
 
- <State 21>: 6.08ns
+ <State 21>: 6.11ns
 ST_21: indvar_flatten (52)  [1/1] 0.00ns
 .preheader:0  %indvar_flatten = phi i14 [ 0, %3 ], [ %indvar_flatten_next, %.preheader.preheader ]
 
 ST_21: i1 (53)  [1/1] 0.00ns
-.preheader:1  %i1 = phi i8 [ 1, %3 ], [ %i_2, %.preheader.preheader ]
+.preheader:1  %i1 = phi i9 [ 1, %3 ], [ %i_2, %.preheader.preheader ]
 
 ST_21: exitcond_flatten (54)  [1/1] 2.21ns
-.preheader:2  %exitcond_flatten = icmp eq i14 %indvar_flatten, -6633
+.preheader:2  %exitcond_flatten = icmp eq i14 %indvar_flatten, -6903
 
 ST_21: indvar_flatten_next (55)  [1/1] 1.96ns
 .preheader:3  %indvar_flatten_next = add i14 %indvar_flatten, 1
@@ -394,23 +394,23 @@ ST_21: indvar_flatten_next (55)  [1/1] 1.96ns
 ST_21: StgValue_100 (56)  [1/1] 0.00ns
 .preheader:4  br i1 %exitcond_flatten, label %4, label %.preheader.preheader
 
-ST_21: exitcond5 (59)  [1/1] 2.00ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:1  %exitcond5 = icmp eq i8 %i1, -56
+ST_21: exitcond5 (59)  [1/1] 2.03ns  loc: skip_list_prefetch.cpp:62
+.preheader.preheader:1  %exitcond5 = icmp eq i9 %i1, -12
 
 ST_21: i1_mid2 (60)  [1/1] 1.37ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:2  %i1_mid2 = select i1 %exitcond5, i8 1, i8 %i1
+.preheader.preheader:2  %i1_mid2 = select i1 %exitcond5, i9 1, i9 %i1
 
 ST_21: i1_cast1 (61)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:3  %i1_cast1 = zext i8 %i1_mid2 to i32
+.preheader.preheader:3  %i1_cast1 = zext i9 %i1_mid2 to i32
 
 ST_21: buff_addr_1 (64)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:67
-.preheader.preheader:6  %buff_addr_1 = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %i1_cast1
+.preheader.preheader:6  %buff_addr_1 = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %i1_cast1
 
 ST_21: buff_load (65)  [2/2] 2.71ns  loc: skip_list_prefetch.cpp:67
 .preheader.preheader:7  %buff_load = load i32* %buff_addr_1, align 4
 
-ST_21: i_2 (75)  [1/1] 1.72ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:17  %i_2 = add i8 %i1_mid2, 1
+ST_21: i_2 (75)  [1/1] 1.84ns  loc: skip_list_prefetch.cpp:62
+.preheader.preheader:17  %i_2 = add i9 %i1_mid2, 1
 
 
  <State 22>: 5.15ns
@@ -469,7 +469,7 @@ ST_30: tmp_9 (70)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:67
 
  <State 31>: 5.15ns
 ST_31: empty_8 (58)  [1/1] 0.00ns
-.preheader.preheader:0  %empty_8 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 9751, i64 9751, i64 9751)
+.preheader.preheader:0  %empty_8 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 9481, i64 9481, i64 9481)
 
 ST_31: tmp_8 (62)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:62
 .preheader.preheader:4  %tmp_8 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str7)
@@ -1042,8 +1042,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <pin_list>
 <pin id="111" dir="0" index="0" bw="32" slack="2147483647"/>
 <pin id="112" dir="0" index="1" bw="1" slack="0"/>
-<pin id="113" dir="0" index="2" bw="8" slack="0"/>
-<pin id="114" dir="1" index="3" bw="8" slack="0"/>
+<pin id="113" dir="0" index="2" bw="9" slack="0"/>
+<pin id="114" dir="1" index="3" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1053,9 +1053,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="116" class="1004" name="grp_access_fu_116">
 <pin_list>
-<pin id="117" dir="0" index="0" bw="8" slack="0"/>
+<pin id="117" dir="0" index="0" bw="9" slack="0"/>
 <pin id="118" dir="0" index="1" bw="32" slack="0"/>
-<pin id="128" dir="0" index="3" bw="8" slack="10"/>
+<pin id="128" dir="0" index="3" bw="9" slack="10"/>
 <pin id="129" dir="0" index="4" bw="32" slack="0"/>
 <pin id="119" dir="1" index="2" bw="32" slack="0"/>
 <pin id="130" dir="1" index="5" bw="32" slack="2147483647"/>
@@ -1070,8 +1070,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <pin_list>
 <pin id="122" dir="0" index="0" bw="32" slack="2147483647"/>
 <pin id="123" dir="0" index="1" bw="1" slack="0"/>
-<pin id="124" dir="0" index="2" bw="8" slack="0"/>
-<pin id="125" dir="1" index="3" bw="8" slack="0"/>
+<pin id="124" dir="0" index="2" bw="9" slack="0"/>
+<pin id="125" dir="1" index="3" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1081,8 +1081,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="131" class="1005" name="i_reg_131">
 <pin_list>
-<pin id="132" dir="0" index="0" bw="8" slack="1"/>
-<pin id="133" dir="1" index="1" bw="8" slack="1"/>
+<pin id="132" dir="0" index="0" bw="9" slack="1"/>
+<pin id="133" dir="1" index="1" bw="9" slack="1"/>
 </pin_list>
 <bind>
 <opset="i (phireg) "/>
@@ -1093,9 +1093,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <pin_list>
 <pin id="136" dir="0" index="0" bw="1" slack="1"/>
 <pin id="137" dir="0" index="1" bw="0" slack="2147483647"/>
-<pin id="138" dir="0" index="2" bw="8" slack="1"/>
+<pin id="138" dir="0" index="2" bw="9" slack="1"/>
 <pin id="139" dir="0" index="3" bw="0" slack="2147483647"/>
-<pin id="140" dir="1" index="4" bw="8" slack="0"/>
+<pin id="140" dir="1" index="4" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opcode="phi(47) " fcode="phi"/>
@@ -1105,8 +1105,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="143" class="1005" name="cum_offs_reg_143">
 <pin_list>
-<pin id="144" dir="0" index="0" bw="24" slack="2"/>
-<pin id="145" dir="1" index="1" bw="24" slack="2"/>
+<pin id="144" dir="0" index="0" bw="25" slack="2"/>
+<pin id="145" dir="1" index="1" bw="25" slack="2"/>
 </pin_list>
 <bind>
 <opset="cum_offs (phireg) "/>
@@ -1117,9 +1117,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <pin_list>
 <pin id="148" dir="0" index="0" bw="1" slack="2"/>
 <pin id="149" dir="0" index="1" bw="0" slack="2147483647"/>
-<pin id="150" dir="0" index="2" bw="24" slack="1"/>
+<pin id="150" dir="0" index="2" bw="25" slack="1"/>
 <pin id="151" dir="0" index="3" bw="0" slack="2147483647"/>
-<pin id="152" dir="1" index="4" bw="24" slack="0"/>
+<pin id="152" dir="1" index="4" bw="25" slack="0"/>
 </pin_list>
 <bind>
 <opcode="phi(47) " fcode="phi"/>
@@ -1153,8 +1153,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="166" class="1005" name="i1_reg_166">
 <pin_list>
-<pin id="167" dir="0" index="0" bw="8" slack="1"/>
-<pin id="168" dir="1" index="1" bw="8" slack="1"/>
+<pin id="167" dir="0" index="0" bw="9" slack="1"/>
+<pin id="168" dir="1" index="1" bw="9" slack="1"/>
 </pin_list>
 <bind>
 <opset="i1 (phireg) "/>
@@ -1165,9 +1165,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <pin_list>
 <pin id="171" dir="0" index="0" bw="1" slack="1"/>
 <pin id="172" dir="0" index="1" bw="0" slack="2147483647"/>
-<pin id="173" dir="0" index="2" bw="8" slack="0"/>
+<pin id="173" dir="0" index="2" bw="9" slack="0"/>
 <pin id="174" dir="0" index="3" bw="0" slack="2147483647"/>
-<pin id="175" dir="1" index="4" bw="8" slack="0"/>
+<pin id="175" dir="1" index="4" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opcode="phi(47) " fcode="phi"/>
@@ -1178,7 +1178,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <comp id="177" class="1004" name="grp_fu_177">
 <pin_list>
 <pin id="178" dir="0" index="0" bw="29" slack="2"/>
-<pin id="179" dir="0" index="1" bw="24" slack="0"/>
+<pin id="179" dir="0" index="1" bw="25" slack="0"/>
 <pin id="180" dir="1" index="2" bw="31" slack="0"/>
 </pin_list>
 <bind>
@@ -1249,8 +1249,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="213" class="1004" name="exitcond2_fu_213">
 <pin_list>
-<pin id="214" dir="0" index="0" bw="8" slack="0"/>
-<pin id="215" dir="0" index="1" bw="7" slack="0"/>
+<pin id="214" dir="0" index="0" bw="9" slack="0"/>
+<pin id="215" dir="0" index="1" bw="5" slack="0"/>
 <pin id="216" dir="1" index="2" bw="1" slack="1"/>
 </pin_list>
 <bind>
@@ -1261,7 +1261,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="219" class="1004" name="cum_offs_cast_cast_fu_219">
 <pin_list>
-<pin id="220" dir="0" index="0" bw="24" slack="0"/>
+<pin id="220" dir="0" index="0" bw="25" slack="0"/>
 <pin id="221" dir="1" index="1" bw="31" slack="0"/>
 </pin_list>
 <bind>
@@ -1272,9 +1272,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="224" class="1004" name="i_1_fu_224">
 <pin_list>
-<pin id="225" dir="0" index="0" bw="8" slack="1"/>
+<pin id="225" dir="0" index="0" bw="9" slack="1"/>
 <pin id="226" dir="0" index="1" bw="1" slack="0"/>
-<pin id="227" dir="1" index="2" bw="8" slack="1"/>
+<pin id="227" dir="1" index="2" bw="9" slack="1"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
@@ -1307,7 +1307,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="241" class="1004" name="i_cast2_fu_241">
 <pin_list>
-<pin id="242" dir="0" index="0" bw="8" slack="9"/>
+<pin id="242" dir="0" index="0" bw="9" slack="9"/>
 <pin id="243" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
@@ -1319,7 +1319,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <comp id="246" class="1004" name="tmp_cast_fu_246">
 <pin_list>
 <pin id="247" dir="0" index="0" bw="16" slack="1"/>
-<pin id="248" dir="1" index="1" bw="24" slack="0"/>
+<pin id="248" dir="1" index="1" bw="25" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
@@ -1329,9 +1329,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="250" class="1004" name="tmp_1_fu_250">
 <pin_list>
-<pin id="251" dir="0" index="0" bw="24" slack="8"/>
+<pin id="251" dir="0" index="0" bw="25" slack="8"/>
 <pin id="252" dir="0" index="1" bw="16" slack="0"/>
-<pin id="253" dir="1" index="2" bw="24" slack="0"/>
+<pin id="253" dir="1" index="2" bw="25" slack="0"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
@@ -1341,7 +1341,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="256" class="1004" name="tmp_1_cast_fu_256">
 <pin_list>
-<pin id="257" dir="0" index="0" bw="24" slack="0"/>
+<pin id="257" dir="0" index="0" bw="25" slack="0"/>
 <pin id="258" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
@@ -1367,7 +1367,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <comp id="271" class="1004" name="tmp_2_cast_fu_271">
 <pin_list>
 <pin id="272" dir="0" index="0" bw="16" slack="0"/>
-<pin id="273" dir="1" index="1" bw="24" slack="0"/>
+<pin id="273" dir="1" index="1" bw="25" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
@@ -1378,8 +1378,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <comp id="275" class="1004" name="cum_offs_1_fu_275">
 <pin_list>
 <pin id="276" dir="0" index="0" bw="16" slack="0"/>
-<pin id="277" dir="0" index="1" bw="24" slack="8"/>
-<pin id="278" dir="1" index="2" bw="24" slack="1"/>
+<pin id="277" dir="0" index="1" bw="25" slack="8"/>
+<pin id="278" dir="1" index="2" bw="25" slack="1"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
@@ -1436,8 +1436,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="303" class="1004" name="exitcond5_fu_303">
 <pin_list>
-<pin id="304" dir="0" index="0" bw="8" slack="0"/>
-<pin id="305" dir="0" index="1" bw="7" slack="0"/>
+<pin id="304" dir="0" index="0" bw="9" slack="0"/>
+<pin id="305" dir="0" index="1" bw="5" slack="0"/>
 <pin id="306" dir="1" index="2" bw="1" slack="0"/>
 </pin_list>
 <bind>
@@ -1450,8 +1450,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 <pin_list>
 <pin id="310" dir="0" index="0" bw="1" slack="0"/>
 <pin id="311" dir="0" index="1" bw="1" slack="0"/>
-<pin id="312" dir="0" index="2" bw="8" slack="0"/>
-<pin id="313" dir="1" index="3" bw="8" slack="0"/>
+<pin id="312" dir="0" index="2" bw="9" slack="0"/>
+<pin id="313" dir="1" index="3" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opcode="select(49) " fcode="select"/>
@@ -1461,7 +1461,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="317" class="1004" name="i1_cast1_fu_317">
 <pin_list>
-<pin id="318" dir="0" index="0" bw="8" slack="0"/>
+<pin id="318" dir="0" index="0" bw="9" slack="0"/>
 <pin id="319" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
@@ -1472,9 +1472,9 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="322" class="1004" name="i_2_fu_322">
 <pin_list>
-<pin id="323" dir="0" index="0" bw="8" slack="0"/>
+<pin id="323" dir="0" index="0" bw="9" slack="0"/>
 <pin id="324" dir="0" index="1" bw="1" slack="0"/>
-<pin id="325" dir="1" index="2" bw="8" slack="0"/>
+<pin id="325" dir="1" index="2" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
@@ -1571,8 +1571,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="368" class="1005" name="i_1_reg_368">
 <pin_list>
-<pin id="369" dir="0" index="0" bw="8" slack="1"/>
-<pin id="370" dir="1" index="1" bw="8" slack="1"/>
+<pin id="369" dir="0" index="0" bw="9" slack="1"/>
+<pin id="370" dir="1" index="1" bw="9" slack="1"/>
 </pin_list>
 <bind>
 <opset="i_1 "/>
@@ -1591,8 +1591,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="379" class="1005" name="cum_offs_1_reg_379">
 <pin_list>
-<pin id="380" dir="0" index="0" bw="24" slack="1"/>
-<pin id="381" dir="1" index="1" bw="24" slack="1"/>
+<pin id="380" dir="0" index="0" bw="25" slack="1"/>
+<pin id="381" dir="1" index="1" bw="25" slack="1"/>
 </pin_list>
 <bind>
 <opset="cum_offs_1 "/>
@@ -1641,8 +1641,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="404" class="1005" name="buff_addr_1_reg_404">
 <pin_list>
-<pin id="405" dir="0" index="0" bw="8" slack="1"/>
-<pin id="406" dir="1" index="1" bw="8" slack="1"/>
+<pin id="405" dir="0" index="0" bw="9" slack="1"/>
+<pin id="406" dir="1" index="1" bw="9" slack="1"/>
 </pin_list>
 <bind>
 <opset="buff_addr_1 "/>
@@ -1651,8 +1651,8 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 
 <comp id="410" class="1005" name="i_2_reg_410">
 <pin_list>
-<pin id="411" dir="0" index="0" bw="8" slack="0"/>
-<pin id="412" dir="1" index="1" bw="8" slack="0"/>
+<pin id="411" dir="0" index="0" bw="9" slack="0"/>
+<pin id="412" dir="1" index="1" bw="9" slack="0"/>
 </pin_list>
 <bind>
 <opset="i_2 "/>
@@ -1999,11 +1999,11 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 | Operation|       Functional Unit      |    FF   |   LUT   |
 |----------|----------------------------|---------|---------|
 |          |         grp_fu_177         |    0    |    29   |
-|          |         i_1_fu_224         |    0    |    8    |
-|          |        tmp_1_fu_250        |    0    |    24   |
-|    add   |      cum_offs_1_fu_275     |    0    |    24   |
+|          |         i_1_fu_224         |    0    |    9    |
+|          |        tmp_1_fu_250        |    0    |    25   |
+|    add   |      cum_offs_1_fu_275     |    0    |    25   |
 |          | indvar_flatten_next_fu_297 |    0    |    14   |
-|          |         i_2_fu_322         |    0    |    8    |
+|          |         i_2_fu_322         |    0    |    9    |
 |          |       a2_sum4_fu_328       |    0    |    32   |
 |          |        tmp_7_fu_343        |    0    |    32   |
 |----------|----------------------------|---------|---------|
@@ -2011,7 +2011,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 |   icmp   |   exitcond_flatten_fu_291  |    0    |    5    |
 |          |      exitcond5_fu_303      |    0    |    3    |
 |----------|----------------------------|---------|---------|
-|  select  |       i1_mid2_fu_309       |    0    |    8    |
+|  select  |       i1_mid2_fu_309       |    0    |    9    |
 |----------|----------------------------|---------|---------|
 |   read   |      a_read_read_fu_92     |    0    |    0    |
 |          |       grp_read_fu_105      |    0    |    0    |
@@ -2035,7 +2035,7 @@ StgValue_127        (ret              ) [ 000000000000000000000000000000000]
 |          |     a2_sum3_cast_fu_281    |    0    |    0    |
 |          |        tmp_6_fu_339        |    0    |    0    |
 |----------|----------------------------|---------|---------|
-|   Total  |                            |    0    |   190   |
+|   Total  |                            |    0    |   195   |
 |----------|----------------------------|---------|---------|
 
 Memories:
@@ -2056,24 +2056,24 @@ Memories:
 |     A_BUS_addr_reg_389    |   64   |
 |      a2_sum3_reg_384      |   31   |
 |      a2_sum4_reg_420      |   32   |
-|    buff_addr_1_reg_404    |    8   |
+|    buff_addr_1_reg_404    |    9   |
 |     buff_load_reg_415     |   32   |
-|     cum_offs_1_reg_379    |   24   |
+|     cum_offs_1_reg_379    |   25   |
 | cum_offs_cast_cast_reg_363|   31   |
-|      cum_offs_reg_143     |   24   |
+|      cum_offs_reg_143     |   25   |
 |     exitcond2_reg_359     |    1   |
 |  exitcond_flatten_reg_395 |    1   |
-|         i1_reg_166        |    8   |
-|        i_1_reg_368        |    8   |
-|        i_2_reg_410        |    8   |
-|         i_reg_131         |    8   |
+|         i1_reg_166        |    9   |
+|        i_1_reg_368        |    9   |
+|        i_2_reg_410        |    9   |
+|         i_reg_131         |    9   |
 |indvar_flatten_next_reg_399|   14   |
 |   indvar_flatten_reg_155  |   14   |
 |          reg_191          |   16   |
 |     tmp_cast6_reg_354     |   31   |
 |        tmp_reg_349        |   32   |
 +---------------------------+--------+
-|           Total           |   515  |
+|           Total           |   522  |
 +---------------------------+--------+
 
 * Multiplexer (MUX) list: 
@@ -2082,12 +2082,12 @@ Memories:
 |-------------------|------|------|------|--------||---------||---------|
 | grp_readreq_fu_98 |  p1  |   6  |  64  |   384  ||    64   |
 |  grp_read_fu_105  |  p1  |   3  |  64  |   192  ||    64   |
-| grp_access_fu_116 |  p0  |   3  |   8  |   24   ||    8    |
-|     i_reg_131     |  p0  |   2  |   8  |   16   ||    8    |
-|  cum_offs_reg_143 |  p0  |   2  |  24  |   48   ||    24   |
-|     grp_fu_177    |  p1  |   2  |  24  |   48   ||    24   |
+| grp_access_fu_116 |  p0  |   3  |   9  |   27   ||    9    |
+|     i_reg_131     |  p0  |   2  |   9  |   18   ||    9    |
+|  cum_offs_reg_143 |  p0  |   2  |  25  |   50   ||    25   |
+|     grp_fu_177    |  p1  |   2  |  25  |   50   ||    25   |
 |-------------------|------|------|------|--------||---------||---------|
-|       Total       |      |      |      |   712  ||  9.794  ||   192   |
+|       Total       |      |      |      |   721  ||  9.794  ||   196   |
 |-------------------|------|------|------|--------||---------||---------|
 
 
@@ -2096,10 +2096,10 @@ Memories:
 +-----------+--------+--------+--------+--------+
 |           |  BRAM  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |    -   |    -   |    0   |   190  |
+|  Function |    -   |    -   |    0   |   195  |
 |   Memory  |    2   |    -   |    0   |    0   |
-|Multiplexer|    -   |    9   |    -   |   192  |
-|  Register |    -   |    -   |   515  |    -   |
+|Multiplexer|    -   |    9   |    -   |   196  |
+|  Register |    -   |    -   |   522  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |    2   |    9   |   515  |   382  |
+|   Total   |    2   |    9   |   522  |   391  |
 +-----------+--------+--------+--------+--------+

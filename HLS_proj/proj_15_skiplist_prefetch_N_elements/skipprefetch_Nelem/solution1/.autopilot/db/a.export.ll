@@ -61,14 +61,14 @@ define void @skipprefetch_Nelem(i64* %A_BUS, i32 %a) {
   br label %1
 
 .preheader:                                       ; preds = %.preheader.preheader, %.preheader3
-  %indvar_flatten = phi i9 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
+  %indvar_flatten = phi i11 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
   %i1 = phi i4 [ %i_2, %.preheader3 ], [ 1, %.preheader.preheader ]
-  %exitcond_flatten = icmp eq i9 %indvar_flatten, -71
-  %indvar_flatten_next = add i9 %indvar_flatten, 1
+  %exitcond_flatten = icmp eq i11 %indvar_flatten, -257
+  %indvar_flatten_next = add i11 %indvar_flatten, 1
   br i1 %exitcond_flatten, label %3, label %.preheader3
 
 .preheader3:                                      ; preds = %.preheader
-  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 441, i64 441, i64 441)
+  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1791, i64 1791, i64 1791)
   %exitcond5 = icmp eq i4 %i1, -6
   %i1_mid2 = select i1 %exitcond5, i4 1, i4 %i1
   %i1_cast1 = zext i4 %i1_mid2 to i32

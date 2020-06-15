@@ -45,7 +45,7 @@ const sc_lv<32> skipprefetch_Nelem::ap_const_lv32_1 = "1";
 const sc_lv<32> skipprefetch_Nelem::ap_const_lv32_B = "1011";
 const sc_lv<4> skipprefetch_Nelem::ap_const_lv4_0 = "0000";
 const sc_lv<20> skipprefetch_Nelem::ap_const_lv20_0 = "00000000000000000000";
-const sc_lv<9> skipprefetch_Nelem::ap_const_lv9_0 = "000000000";
+const sc_lv<11> skipprefetch_Nelem::ap_const_lv11_0 = "00000000000";
 const sc_lv<4> skipprefetch_Nelem::ap_const_lv4_1 = "1";
 const sc_lv<3> skipprefetch_Nelem::ap_const_lv3_0 = "000";
 const sc_lv<2> skipprefetch_Nelem::ap_const_lv2_0 = "00";
@@ -55,8 +55,8 @@ const sc_lv<32> skipprefetch_Nelem::ap_const_lv32_1F = "11111";
 const sc_lv<4> skipprefetch_Nelem::ap_const_lv4_A = "1010";
 const sc_lv<32> skipprefetch_Nelem::ap_const_lv32_30 = "110000";
 const sc_lv<32> skipprefetch_Nelem::ap_const_lv32_3F = "111111";
-const sc_lv<9> skipprefetch_Nelem::ap_const_lv9_1B9 = "110111001";
-const sc_lv<9> skipprefetch_Nelem::ap_const_lv9_1 = "1";
+const sc_lv<11> skipprefetch_Nelem::ap_const_lv11_6FF = "11011111111";
+const sc_lv<11> skipprefetch_Nelem::ap_const_lv11_1 = "1";
 const sc_lv<32> skipprefetch_Nelem::ap_const_lv32_D = "1101";
 const sc_lv<64> skipprefetch_Nelem::ap_const_lv64_0 = "0000000000000000000000000000000000000000000000000000000000000000";
 const sc_lv<8> skipprefetch_Nelem::ap_const_lv8_0 = "00000000";
@@ -909,7 +909,7 @@ void skipprefetch_Nelem::thread_ap_clk_no_reset_() {
     }
     if ((esl_seteq<1,1,1>(ap_const_lv1_1, ap_CS_fsm_state2.read()) && 
          !esl_seteq<1,1,1>(ap_const_lv1_0, exitcond2_fu_206_p2.read()))) {
-        indvar_flatten_reg_152 = ap_const_lv9_0;
+        indvar_flatten_reg_152 = ap_const_lv11_0;
     } else if ((esl_seteq<1,1,1>(ap_const_lv1_1, ap_CS_fsm_pp0_stage0.read()) && 
                 !((esl_seteq<1,1,1>(ap_const_logic_1, ap_enable_reg_pp0_iter1.read()) && 
   esl_seteq<1,1,1>(exitcond_flatten_reg_379.read(), ap_const_lv1_0) && 
@@ -1243,7 +1243,7 @@ void skipprefetch_Nelem::thread_exitcond5_fu_282_p2() {
 }
 
 void skipprefetch_Nelem::thread_exitcond_flatten_fu_270_p2() {
-    exitcond_flatten_fu_270_p2 = (!indvar_flatten_reg_152.read().is_01() || !ap_const_lv9_1B9.is_01())? sc_lv<1>(): sc_lv<1>(indvar_flatten_reg_152.read() == ap_const_lv9_1B9);
+    exitcond_flatten_fu_270_p2 = (!indvar_flatten_reg_152.read().is_01() || !ap_const_lv11_6FF.is_01())? sc_lv<1>(): sc_lv<1>(indvar_flatten_reg_152.read() == ap_const_lv11_6FF);
 }
 
 void skipprefetch_Nelem::thread_grp_fu_174_p4() {
@@ -1271,7 +1271,7 @@ void skipprefetch_Nelem::thread_i_cast2_fu_202_p1() {
 }
 
 void skipprefetch_Nelem::thread_indvar_flatten_next_fu_276_p2() {
-    indvar_flatten_next_fu_276_p2 = (!indvar_flatten_reg_152.read().is_01() || !ap_const_lv9_1.is_01())? sc_lv<9>(): (sc_biguint<9>(indvar_flatten_reg_152.read()) + sc_biguint<9>(ap_const_lv9_1));
+    indvar_flatten_next_fu_276_p2 = (!indvar_flatten_reg_152.read().is_01() || !ap_const_lv11_1.is_01())? sc_lv<11>(): (sc_biguint<11>(indvar_flatten_reg_152.read()) + sc_biguint<11>(ap_const_lv11_1));
 }
 
 void skipprefetch_Nelem::thread_tmp_1_fu_240_p2() {

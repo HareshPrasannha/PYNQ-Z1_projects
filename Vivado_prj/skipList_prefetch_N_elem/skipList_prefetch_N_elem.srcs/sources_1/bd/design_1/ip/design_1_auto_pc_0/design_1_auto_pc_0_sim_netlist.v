@@ -1,7 +1,7 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
-// Date        : Thu Jun 04 16:40:24 2020
+// Date        : Fri Jun 12 18:04:28 2020
 // Host        : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim -rename_top design_1_auto_pc_0 -prefix
 //               design_1_auto_pc_0_ design_1_auto_pc_0_sim_netlist.v
@@ -5534,7 +5534,7 @@ endmodule
 (* ORIG_REF_NAME = "axi_protocol_converter_v2_1_10_a_axi3_conv" *) 
 module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameterized0
    (E,
-    multiple_id_non_split_reg_0,
+    \m_axi_arid[0] ,
     m_axi_arlen,
     m_axi_rready,
     s_axi_rvalid,
@@ -5567,7 +5567,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
     s_axi_arprot,
     s_axi_arqos);
   output [0:0]E;
-  output multiple_id_non_split_reg_0;
+  output \m_axi_arid[0] ;
   output [3:0]m_axi_arlen;
   output m_axi_rready;
   output s_axi_rvalid;
@@ -5709,6 +5709,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
   wire [31:0]m_axi_araddr;
   wire [1:0]m_axi_arburst;
   wire [3:0]m_axi_arcache;
+  wire \m_axi_arid[0] ;
   wire [3:0]m_axi_arlen;
   wire [0:0]m_axi_arlock;
   wire [2:0]m_axi_arprot;
@@ -5721,7 +5722,6 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
   wire m_axi_rvalid;
   wire multiple_id_non_split;
   wire multiple_id_non_split_i_2__0_n_0;
-  wire multiple_id_non_split_reg_0;
   wire need_to_split_q;
   wire [31:0]next_mi_addr;
   wire \next_mi_addr[11]_i_2_n_0 ;
@@ -6090,7 +6090,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
        (.C(aclk),
         .CE(E),
         .D(s_axi_arid),
-        .Q(multiple_id_non_split_reg_0),
+        .Q(\m_axi_arid[0] ),
         .R(aresetn_0));
   FDRE \S_AXI_ALEN_Q_reg[0] 
        (.C(aclk),
@@ -6200,7 +6200,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
        (.D({\USE_R_CHANNEL.cmd_queue_n_3 ,\USE_R_CHANNEL.cmd_queue_n_4 ,\USE_R_CHANNEL.cmd_queue_n_5 ,\USE_R_CHANNEL.cmd_queue_n_6 ,\USE_R_CHANNEL.cmd_queue_n_7 }),
         .E(pushed_new_cmd),
         .Q(cmd_depth_reg__0),
-        .\S_AXI_AID_Q_reg[0] (multiple_id_non_split_reg_0),
+        .\S_AXI_AID_Q_reg[0] (\m_axi_arid[0] ),
         .S_AXI_AREADY_I_reg(\USE_R_CHANNEL.cmd_queue_n_16 ),
         .S_AXI_AREADY_I_reg_0(E),
         .access_is_incr_q(access_is_incr_q),
@@ -7018,7 +7018,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
     multiple_id_non_split_i_2__0
        (.I0(split_in_progress_reg_n_0),
         .I1(\queue_id_reg_n_0_[0] ),
-        .I2(multiple_id_non_split_reg_0),
+        .I2(\m_axi_arid[0] ),
         .I3(cmd_empty),
         .I4(need_to_split_q),
         .O(multiple_id_non_split_i_2__0_n_0));
@@ -7807,7 +7807,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameteri
        (.I0(multiple_id_non_split),
         .I1(need_to_split_q),
         .I2(\queue_id_reg_n_0_[0] ),
-        .I3(multiple_id_non_split_reg_0),
+        .I3(\m_axi_arid[0] ),
         .I4(cmd_empty),
         .O(allow_split_cmd__1));
   FDRE split_in_progress_reg
@@ -8038,6 +8038,7 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi3_conv
         .m_axi_araddr(m_axi_araddr),
         .m_axi_arburst(m_axi_arburst),
         .m_axi_arcache(m_axi_arcache),
+        .\m_axi_arid[0] (M_AXI_ARID),
         .m_axi_arlen(m_axi_arlen),
         .m_axi_arlock(m_axi_arlock),
         .m_axi_arprot(m_axi_arprot),
@@ -8048,7 +8049,6 @@ module design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi3_conv
         .m_axi_rlast(m_axi_rlast),
         .m_axi_rready(m_axi_rready),
         .m_axi_rvalid(m_axi_rvalid),
-        .multiple_id_non_split_reg_0(M_AXI_ARID),
         .s_axi_araddr(s_axi_araddr),
         .s_axi_arburst(s_axi_arburst),
         .s_axi_arcache(s_axi_arcache),
@@ -8127,7 +8127,7 @@ endmodule
 (* C_AXI_BUSER_WIDTH = "1" *) (* C_AXI_DATA_WIDTH = "64" *) (* C_AXI_ID_WIDTH = "1" *) 
 (* C_AXI_RUSER_WIDTH = "1" *) (* C_AXI_SUPPORTS_READ = "1" *) (* C_AXI_SUPPORTS_USER_SIGNALS = "0" *) 
 (* C_AXI_SUPPORTS_WRITE = "1" *) (* C_AXI_WUSER_WIDTH = "1" *) (* C_FAMILY = "zynq" *) 
-(* C_IGNORE_ID = "1" *) (* C_M_AXI_PROTOCOL = "1" *) (* C_S_AXI_PROTOCOL = "0" *) 
+(* C_IGNORE_ID = "0" *) (* C_M_AXI_PROTOCOL = "1" *) (* C_S_AXI_PROTOCOL = "0" *) 
 (* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* P_AXI3 = "1" *) 
 (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b011" *) 
 (* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) (* P_INCR = "2'b01" *) 
@@ -8942,6 +8942,7 @@ endmodule
 module design_1_auto_pc_0
    (aclk,
     aresetn,
+    s_axi_awid,
     s_axi_awaddr,
     s_axi_awlen,
     s_axi_awsize,
@@ -8958,9 +8959,11 @@ module design_1_auto_pc_0
     s_axi_wlast,
     s_axi_wvalid,
     s_axi_wready,
+    s_axi_bid,
     s_axi_bresp,
     s_axi_bvalid,
     s_axi_bready,
+    s_axi_arid,
     s_axi_araddr,
     s_axi_arlen,
     s_axi_arsize,
@@ -8972,11 +8975,13 @@ module design_1_auto_pc_0
     s_axi_arqos,
     s_axi_arvalid,
     s_axi_arready,
+    s_axi_rid,
     s_axi_rdata,
     s_axi_rresp,
     s_axi_rlast,
     s_axi_rvalid,
     s_axi_rready,
+    m_axi_awid,
     m_axi_awaddr,
     m_axi_awlen,
     m_axi_awsize,
@@ -8987,14 +8992,17 @@ module design_1_auto_pc_0
     m_axi_awqos,
     m_axi_awvalid,
     m_axi_awready,
+    m_axi_wid,
     m_axi_wdata,
     m_axi_wstrb,
     m_axi_wlast,
     m_axi_wvalid,
     m_axi_wready,
+    m_axi_bid,
     m_axi_bresp,
     m_axi_bvalid,
     m_axi_bready,
+    m_axi_arid,
     m_axi_araddr,
     m_axi_arlen,
     m_axi_arsize,
@@ -9005,6 +9013,7 @@ module design_1_auto_pc_0
     m_axi_arqos,
     m_axi_arvalid,
     m_axi_arready,
+    m_axi_rid,
     m_axi_rdata,
     m_axi_rresp,
     m_axi_rlast,
@@ -9012,6 +9021,7 @@ module design_1_auto_pc_0
     m_axi_rready);
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK CLK" *) input aclk;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST RST" *) input aresetn;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI AWID" *) input [0:0]s_axi_awid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI AWADDR" *) input [31:0]s_axi_awaddr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI AWLEN" *) input [7:0]s_axi_awlen;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI AWSIZE" *) input [2:0]s_axi_awsize;
@@ -9028,9 +9038,11 @@ module design_1_auto_pc_0
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI WLAST" *) input s_axi_wlast;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI WVALID" *) input s_axi_wvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI WREADY" *) output s_axi_wready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI BID" *) output [0:0]s_axi_bid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI BRESP" *) output [1:0]s_axi_bresp;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI BVALID" *) output s_axi_bvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI BREADY" *) input s_axi_bready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARID" *) input [0:0]s_axi_arid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARADDR" *) input [31:0]s_axi_araddr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARLEN" *) input [7:0]s_axi_arlen;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARSIZE" *) input [2:0]s_axi_arsize;
@@ -9042,11 +9054,13 @@ module design_1_auto_pc_0
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARQOS" *) input [3:0]s_axi_arqos;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARVALID" *) input s_axi_arvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI ARREADY" *) output s_axi_arready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RID" *) output [0:0]s_axi_rid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RDATA" *) output [63:0]s_axi_rdata;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RRESP" *) output [1:0]s_axi_rresp;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RLAST" *) output s_axi_rlast;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RVALID" *) output s_axi_rvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RREADY" *) input s_axi_rready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWID" *) output [0:0]m_axi_awid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWADDR" *) output [31:0]m_axi_awaddr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWLEN" *) output [3:0]m_axi_awlen;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWSIZE" *) output [2:0]m_axi_awsize;
@@ -9057,14 +9071,17 @@ module design_1_auto_pc_0
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWQOS" *) output [3:0]m_axi_awqos;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWVALID" *) output m_axi_awvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI AWREADY" *) input m_axi_awready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI WID" *) output [0:0]m_axi_wid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI WDATA" *) output [63:0]m_axi_wdata;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI WSTRB" *) output [7:0]m_axi_wstrb;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI WLAST" *) output m_axi_wlast;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI WVALID" *) output m_axi_wvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI WREADY" *) input m_axi_wready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI BID" *) input [0:0]m_axi_bid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI BRESP" *) input [1:0]m_axi_bresp;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI BVALID" *) input m_axi_bvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI BREADY" *) output m_axi_bready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARID" *) output [0:0]m_axi_arid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARADDR" *) output [31:0]m_axi_araddr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARLEN" *) output [3:0]m_axi_arlen;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARSIZE" *) output [2:0]m_axi_arsize;
@@ -9075,6 +9092,7 @@ module design_1_auto_pc_0
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARQOS" *) output [3:0]m_axi_arqos;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARVALID" *) output m_axi_arvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI ARREADY" *) input m_axi_arready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI RID" *) input [0:0]m_axi_rid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI RDATA" *) input [63:0]m_axi_rdata;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI RRESP" *) input [1:0]m_axi_rresp;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI RLAST" *) input m_axi_rlast;
@@ -9086,6 +9104,7 @@ module design_1_auto_pc_0
   wire [31:0]m_axi_araddr;
   wire [1:0]m_axi_arburst;
   wire [3:0]m_axi_arcache;
+  wire [0:0]m_axi_arid;
   wire [3:0]m_axi_arlen;
   wire [1:0]m_axi_arlock;
   wire [2:0]m_axi_arprot;
@@ -9096,6 +9115,7 @@ module design_1_auto_pc_0
   wire [31:0]m_axi_awaddr;
   wire [1:0]m_axi_awburst;
   wire [3:0]m_axi_awcache;
+  wire [0:0]m_axi_awid;
   wire [3:0]m_axi_awlen;
   wire [1:0]m_axi_awlock;
   wire [2:0]m_axi_awprot;
@@ -9103,15 +9123,18 @@ module design_1_auto_pc_0
   wire m_axi_awready;
   wire [2:0]m_axi_awsize;
   wire m_axi_awvalid;
+  wire [0:0]m_axi_bid;
   wire m_axi_bready;
   wire [1:0]m_axi_bresp;
   wire m_axi_bvalid;
   wire [63:0]m_axi_rdata;
+  wire [0:0]m_axi_rid;
   wire m_axi_rlast;
   wire m_axi_rready;
   wire [1:0]m_axi_rresp;
   wire m_axi_rvalid;
   wire [63:0]m_axi_wdata;
+  wire [0:0]m_axi_wid;
   wire m_axi_wlast;
   wire m_axi_wready;
   wire [7:0]m_axi_wstrb;
@@ -9119,6 +9142,7 @@ module design_1_auto_pc_0
   wire [31:0]s_axi_araddr;
   wire [1:0]s_axi_arburst;
   wire [3:0]s_axi_arcache;
+  wire [0:0]s_axi_arid;
   wire [7:0]s_axi_arlen;
   wire [0:0]s_axi_arlock;
   wire [2:0]s_axi_arprot;
@@ -9130,6 +9154,7 @@ module design_1_auto_pc_0
   wire [31:0]s_axi_awaddr;
   wire [1:0]s_axi_awburst;
   wire [3:0]s_axi_awcache;
+  wire [0:0]s_axi_awid;
   wire [7:0]s_axi_awlen;
   wire [0:0]s_axi_awlock;
   wire [2:0]s_axi_awprot;
@@ -9138,10 +9163,12 @@ module design_1_auto_pc_0
   wire [3:0]s_axi_awregion;
   wire [2:0]s_axi_awsize;
   wire s_axi_awvalid;
+  wire [0:0]s_axi_bid;
   wire s_axi_bready;
   wire [1:0]s_axi_bresp;
   wire s_axi_bvalid;
   wire [63:0]s_axi_rdata;
+  wire [0:0]s_axi_rid;
   wire s_axi_rlast;
   wire s_axi_rready;
   wire [1:0]s_axi_rresp;
@@ -9151,17 +9178,12 @@ module design_1_auto_pc_0
   wire s_axi_wready;
   wire [7:0]s_axi_wstrb;
   wire s_axi_wvalid;
-  wire [0:0]NLW_inst_m_axi_arid_UNCONNECTED;
   wire [3:0]NLW_inst_m_axi_arregion_UNCONNECTED;
   wire [0:0]NLW_inst_m_axi_aruser_UNCONNECTED;
-  wire [0:0]NLW_inst_m_axi_awid_UNCONNECTED;
   wire [3:0]NLW_inst_m_axi_awregion_UNCONNECTED;
   wire [0:0]NLW_inst_m_axi_awuser_UNCONNECTED;
-  wire [0:0]NLW_inst_m_axi_wid_UNCONNECTED;
   wire [0:0]NLW_inst_m_axi_wuser_UNCONNECTED;
-  wire [0:0]NLW_inst_s_axi_bid_UNCONNECTED;
   wire [0:0]NLW_inst_s_axi_buser_UNCONNECTED;
-  wire [0:0]NLW_inst_s_axi_rid_UNCONNECTED;
   wire [0:0]NLW_inst_s_axi_ruser_UNCONNECTED;
 
   (* C_AXI_ADDR_WIDTH = "32" *) 
@@ -9176,7 +9198,7 @@ module design_1_auto_pc_0
   (* C_AXI_SUPPORTS_WRITE = "1" *) 
   (* C_AXI_WUSER_WIDTH = "1" *) 
   (* C_FAMILY = "zynq" *) 
-  (* C_IGNORE_ID = "1" *) 
+  (* C_IGNORE_ID = "0" *) 
   (* C_M_AXI_PROTOCOL = "1" *) 
   (* C_S_AXI_PROTOCOL = "0" *) 
   (* C_TRANSLATION_MODE = "2" *) 
@@ -9196,7 +9218,7 @@ module design_1_auto_pc_0
         .m_axi_araddr(m_axi_araddr),
         .m_axi_arburst(m_axi_arburst),
         .m_axi_arcache(m_axi_arcache),
-        .m_axi_arid(NLW_inst_m_axi_arid_UNCONNECTED[0]),
+        .m_axi_arid(m_axi_arid),
         .m_axi_arlen(m_axi_arlen),
         .m_axi_arlock(m_axi_arlock),
         .m_axi_arprot(m_axi_arprot),
@@ -9209,7 +9231,7 @@ module design_1_auto_pc_0
         .m_axi_awaddr(m_axi_awaddr),
         .m_axi_awburst(m_axi_awburst),
         .m_axi_awcache(m_axi_awcache),
-        .m_axi_awid(NLW_inst_m_axi_awid_UNCONNECTED[0]),
+        .m_axi_awid(m_axi_awid),
         .m_axi_awlen(m_axi_awlen),
         .m_axi_awlock(m_axi_awlock),
         .m_axi_awprot(m_axi_awprot),
@@ -9219,20 +9241,20 @@ module design_1_auto_pc_0
         .m_axi_awsize(m_axi_awsize),
         .m_axi_awuser(NLW_inst_m_axi_awuser_UNCONNECTED[0]),
         .m_axi_awvalid(m_axi_awvalid),
-        .m_axi_bid(1'b0),
+        .m_axi_bid(m_axi_bid),
         .m_axi_bready(m_axi_bready),
         .m_axi_bresp(m_axi_bresp),
         .m_axi_buser(1'b0),
         .m_axi_bvalid(m_axi_bvalid),
         .m_axi_rdata(m_axi_rdata),
-        .m_axi_rid(1'b0),
+        .m_axi_rid(m_axi_rid),
         .m_axi_rlast(m_axi_rlast),
         .m_axi_rready(m_axi_rready),
         .m_axi_rresp(m_axi_rresp),
         .m_axi_ruser(1'b0),
         .m_axi_rvalid(m_axi_rvalid),
         .m_axi_wdata(m_axi_wdata),
-        .m_axi_wid(NLW_inst_m_axi_wid_UNCONNECTED[0]),
+        .m_axi_wid(m_axi_wid),
         .m_axi_wlast(m_axi_wlast),
         .m_axi_wready(m_axi_wready),
         .m_axi_wstrb(m_axi_wstrb),
@@ -9241,7 +9263,7 @@ module design_1_auto_pc_0
         .s_axi_araddr(s_axi_araddr),
         .s_axi_arburst(s_axi_arburst),
         .s_axi_arcache(s_axi_arcache),
-        .s_axi_arid(1'b0),
+        .s_axi_arid(s_axi_arid),
         .s_axi_arlen(s_axi_arlen),
         .s_axi_arlock(s_axi_arlock),
         .s_axi_arprot(s_axi_arprot),
@@ -9254,7 +9276,7 @@ module design_1_auto_pc_0
         .s_axi_awaddr(s_axi_awaddr),
         .s_axi_awburst(s_axi_awburst),
         .s_axi_awcache(s_axi_awcache),
-        .s_axi_awid(1'b0),
+        .s_axi_awid(s_axi_awid),
         .s_axi_awlen(s_axi_awlen),
         .s_axi_awlock(s_axi_awlock),
         .s_axi_awprot(s_axi_awprot),
@@ -9264,13 +9286,13 @@ module design_1_auto_pc_0
         .s_axi_awsize(s_axi_awsize),
         .s_axi_awuser(1'b0),
         .s_axi_awvalid(s_axi_awvalid),
-        .s_axi_bid(NLW_inst_s_axi_bid_UNCONNECTED[0]),
+        .s_axi_bid(s_axi_bid),
         .s_axi_bready(s_axi_bready),
         .s_axi_bresp(s_axi_bresp),
         .s_axi_buser(NLW_inst_s_axi_buser_UNCONNECTED[0]),
         .s_axi_bvalid(s_axi_bvalid),
         .s_axi_rdata(s_axi_rdata),
-        .s_axi_rid(NLW_inst_s_axi_rid_UNCONNECTED[0]),
+        .s_axi_rid(s_axi_rid),
         .s_axi_rlast(s_axi_rlast),
         .s_axi_rready(s_axi_rready),
         .s_axi_rresp(s_axi_rresp),

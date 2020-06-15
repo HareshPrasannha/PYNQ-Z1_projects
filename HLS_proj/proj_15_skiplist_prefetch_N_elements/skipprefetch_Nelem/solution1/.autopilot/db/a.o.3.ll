@@ -67,29 +67,29 @@ define void @skipprefetch_Nelem(i64* %A_BUS, i32 %a) {
   br label %1, !dbg !77                           ; [debug line = 48:26]
 
 .preheader:                                       ; preds = %.preheader3, %.preheader.preheader
-  %indvar_flatten = phi i9 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ] ; [#uses=2 type=i9]
+  %indvar_flatten = phi i11 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ] ; [#uses=2 type=i11]
   %i1 = phi i4 [ %i_2, %.preheader3 ], [ 1, %.preheader.preheader ] ; [#uses=2 type=i4]
-  %exitcond_flatten = icmp eq i9 %indvar_flatten, -71 ; [#uses=1 type=i1]
-  %indvar_flatten_next = add i9 %indvar_flatten, 1 ; [#uses=1 type=i9]
+  %exitcond_flatten = icmp eq i11 %indvar_flatten, -257 ; [#uses=1 type=i1]
+  %indvar_flatten_next = add i11 %indvar_flatten, 1 ; [#uses=1 type=i11]
   br i1 %exitcond_flatten, label %3, label %.preheader3
 
 .preheader3:                                      ; preds = %.preheader
-  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 441, i64 441, i64 441) ; [#uses=0 type=i32]
+  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1791, i64 1791, i64 1791) ; [#uses=0 type=i32]
   %exitcond5 = icmp eq i4 %i1, -6, !dbg !83       ; [#uses=1 type=i1] [debug line = 64:15]
   %i1_mid2 = select i1 %exitcond5, i4 1, i4 %i1   ; [#uses=2 type=i4]
   %i1_cast1 = zext i4 %i1_mid2 to i32, !dbg !83   ; [#uses=1 type=i32] [debug line = 64:15]
   %tmp_5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6), !dbg !87 ; [#uses=1 type=i32] [debug line = 64:32]
   call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind, !dbg !89 ; [debug line = 65:1]
-  %buff_addr_1 = getelementptr inbounds [10 x i32]* %buff, i32 0, i32 %i1_cast1, !dbg !90 ; [#uses=2 type=i32*] [debug line = 69:6]
-  %buff_load = load i32* %buff_addr_1, align 4, !dbg !90 ; [#uses=2 type=i32] [debug line = 69:6]
-  %a2_sum3 = add i32 %tmp, %buff_load, !dbg !90   ; [#uses=1 type=i32] [debug line = 69:6]
-  %A_BUS_addr_1 = getelementptr i64* %A_BUS, i32 %a2_sum3, !dbg !90 ; [#uses=2 type=i64*] [debug line = 69:6]
-  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1), !dbg !90 ; [#uses=0 type=i1] [debug line = 69:6]
-  %A_BUS_addr_1_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr_1), !dbg !90 ; [#uses=1 type=i64] [debug line = 69:6]
-  %tmp_8 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_1_read, i32 32, i32 47), !dbg !90 ; [#uses=1 type=i16] [debug line = 69:6]
-  %tmp_6 = sext i16 %tmp_8 to i32, !dbg !90       ; [#uses=1 type=i32] [debug line = 69:6]
-  %tmp_7 = add nsw i32 %buff_load, %tmp_6, !dbg !90 ; [#uses=1 type=i32] [debug line = 69:6]
-  store i32 %tmp_7, i32* %buff_addr_1, align 4, !dbg !90 ; [debug line = 69:6]
+  %buff_addr_1 = getelementptr inbounds [10 x i32]* %buff, i32 0, i32 %i1_cast1, !dbg !90 ; [#uses=2 type=i32*] [debug line = 69:5]
+  %buff_load = load i32* %buff_addr_1, align 4, !dbg !90 ; [#uses=2 type=i32] [debug line = 69:5]
+  %a2_sum3 = add i32 %tmp, %buff_load, !dbg !90   ; [#uses=1 type=i32] [debug line = 69:5]
+  %A_BUS_addr_1 = getelementptr i64* %A_BUS, i32 %a2_sum3, !dbg !90 ; [#uses=2 type=i64*] [debug line = 69:5]
+  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1), !dbg !90 ; [#uses=0 type=i1] [debug line = 69:5]
+  %A_BUS_addr_1_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr_1), !dbg !90 ; [#uses=1 type=i64] [debug line = 69:5]
+  %tmp_8 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_1_read, i32 32, i32 47), !dbg !90 ; [#uses=1 type=i16] [debug line = 69:5]
+  %tmp_6 = sext i16 %tmp_8 to i32, !dbg !90       ; [#uses=1 type=i32] [debug line = 69:5]
+  %tmp_7 = add nsw i32 %buff_load, %tmp_6, !dbg !90 ; [#uses=1 type=i32] [debug line = 69:5]
+  store i32 %tmp_7, i32* %buff_addr_1, align 4, !dbg !90 ; [debug line = 69:5]
   %empty_8 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str6, i32 %tmp_5), !dbg !91 ; [#uses=0 type=i32] [debug line = 70:4]
   %i_2 = add i4 %i1_mid2, 1, !dbg !92             ; [#uses=1 type=i4] [debug line = 64:27]
   call void @llvm.dbg.value(metadata !{i4 %i_2}, i64 0, metadata !93), !dbg !92 ; [debug line = 64:27] [debug variable = i]
@@ -287,7 +287,7 @@ declare void @_GLOBAL__I_a() nounwind
 !87 = metadata !{i32 64, i32 32, metadata !88, null}
 !88 = metadata !{i32 786443, metadata !84, i32 64, i32 31, metadata !25, i32 6} ; [ DW_TAG_lexical_block ]
 !89 = metadata !{i32 65, i32 1, metadata !88, null}
-!90 = metadata !{i32 69, i32 6, metadata !88, null}
+!90 = metadata !{i32 69, i32 5, metadata !88, null}
 !91 = metadata !{i32 70, i32 4, metadata !88, null}
 !92 = metadata !{i32 64, i32 27, metadata !84, null}
 !93 = metadata !{i32 786688, metadata !84, metadata !"i", metadata !25, i32 64, metadata !34, i32 0, i32 0} ; [ DW_TAG_auto_variable ]

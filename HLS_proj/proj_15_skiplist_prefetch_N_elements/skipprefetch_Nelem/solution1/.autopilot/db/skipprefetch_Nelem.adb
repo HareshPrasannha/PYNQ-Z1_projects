@@ -1329,7 +1329,7 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -1420,7 +1420,7 @@
               <rtlName>indvar_flatten_next_fu_276_p2</rtlName>
               <coreName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -2448,7 +2448,7 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>0</content>
@@ -2471,10 +2471,10 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>441</content>
+          <content>1791</content>
         </item>
         <item class_id_reference="16" object_id="_69">
           <Value>
@@ -2494,7 +2494,7 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>1</content>
@@ -3417,7 +3417,7 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>561</mMinLatency>
+        <mMinLatency>1911</mMinLatency>
         <mMaxLatency>-1</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
@@ -3505,9 +3505,9 @@
         </basic_blocks>
         <mII>1</mII>
         <mDepth>9</mDepth>
-        <mMinTripCount>441</mMinTripCount>
-        <mMaxTripCount>441</mMaxTripCount>
-        <mMinLatency>448</mMinLatency>
+        <mMinTripCount>1791</mMinTripCount>
+        <mMaxTripCount>1791</mMaxTripCount>
+        <mMinLatency>1798</mMinLatency>
         <mMaxLatency>-1</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
@@ -4691,11 +4691,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>9</second>
+              <second>11</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>8</second>
+              <second>10</second>
             </item>
             <item>
               <first>FF</first>
@@ -4703,7 +4703,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>3</second>
+              <second>4</second>
             </item>
           </second>
         </item>
@@ -4787,7 +4787,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>9</second>
+              <second>11</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -4799,7 +4799,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>11</second>
             </item>
           </second>
         </item>
@@ -5114,15 +5114,15 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>9</second>
+              <second>11</second>
             </item>
             <item>
               <first>(2Count)</first>
-              <second>18</second>
+              <second>22</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>11</second>
             </item>
           </second>
         </item>
@@ -5536,7 +5536,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>9</second>
+              <second>11</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -5544,7 +5544,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>9</second>
+              <second>11</second>
             </item>
           </second>
         </item>

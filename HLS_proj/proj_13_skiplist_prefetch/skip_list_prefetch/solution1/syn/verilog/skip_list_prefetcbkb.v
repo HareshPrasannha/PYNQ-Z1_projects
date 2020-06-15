@@ -9,8 +9,8 @@
 module skip_list_prefetcbkb_ram (addr0, ce0, d0, we0, q0, addr1, ce1, d1, we1,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 8;
-parameter MEM_SIZE = 200;
+parameter AWIDTH = 9;
+parameter MEM_SIZE = 500;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -73,8 +73,8 @@ module skip_list_prefetcbkb(
     d1);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd200;
-parameter AddressWidth = 32'd8;
+parameter AddressRange = 32'd500;
+parameter AddressWidth = 32'd9;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

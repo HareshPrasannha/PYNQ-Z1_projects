@@ -1,0 +1,32 @@
+18:05:54 INFO  : Registering command handlers for SDK TCF services
+18:05:56 INFO  : Launching XSCT server: xsct.bat -interactive A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skipList_prefetch_N_elem\skipList_prefetch_N_elem.sdk\temp_xsdb_launch_script.tcl
+18:06:00 INFO  : XSCT server has started successfully.
+18:06:00 INFO  : Successfully done setting XSCT server connection channel  
+18:06:00 INFO  : Processing command line option -hwspec A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sdk/design_1_wrapper.hdf.
+18:06:00 INFO  : Successfully done setting SDK workspace  
+18:09:11 INFO  : Inferring section assignments and sizes from elf file: A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skipList_prefetch_N_elem\skipList_prefetch_N_elem.sdk\skiplist_prefetch\Debug\skiplist_prefetch.elf
+18:09:21 INFO  : Successfully generated A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skipList_prefetch_N_elem\skipList_prefetch_N_elem.sdk\skiplist_prefetch\src\lscript.ld.
+18:09:21 INFO  : Applying linker script to all configurations of project skiplist_prefetch.
+18:09:21 INFO  : Setting rebuild state to true for all configurations of project skiplist_prefetch.
+18:09:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:09:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E019A" && level==0} -index 1' command is executed.
+18:09:40 INFO  : FPGA configured successfully with bitstream "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:10:19 INFO  : ps7_init is completed.
+18:10:19 INFO  : ps7_post_config is completed.
+18:10:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:13:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:25:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:25:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'skip_list_prefetch'
 ================================================================
-* Date:           Wed Jun 03 13:10:51 2020
+* Date:           Thu Jun 11 00:25:12 2020
 
 * Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
 * Project:        skip_list_prefetch
@@ -29,7 +29,7 @@
     |    Latency    |    Interval   | Pipeline|
     |  min  |  max  |  min  |  max  |   Type  |
     +-------+-------+-------+-------+---------+
-    |  11373|  11373|  11374|  11374|   none  |
+    |  13503|  13503|  13504|  13504|   none  |
     +-------+-------+-------+-------+---------+
 
     + Detail: 
@@ -41,8 +41,8 @@
         |          |   Latency   | Iteration|  Initiation Interval  | Trip |          |
         | Loop Name|  min |  max |  Latency |  achieved |   target  | Count| Pipelined|
         +----------+------+------+----------+-----------+-----------+------+----------+
-        |- Loop 1  |  1601|  1601|        10|          8|          1|   200|    yes   |
-        |- Loop 2  |  9760|  9760|        11|          1|          1|  9751|    yes   |
+        |- Loop 1  |  4001|  4001|        10|          8|          1|   500|    yes   |
+        |- Loop 2  |  9490|  9490|        11|          1|          1|  9481|    yes   |
         +----------+------+------+----------+-----------+-----------+------+----------+
 
 ============================================================
@@ -169,7 +169,7 @@ ST_1: StgValue_38 (8)  [1/1] 0.00ns
 :5  call void (...)* @_ssdm_op_SpecTopModule([19 x i8]* @skip_list_prefetch_s) nounwind
 
 ST_1: buff (9)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:27
-:6  %buff = alloca [200 x i32], align 4
+:6  %buff = alloca [500 x i32], align 4
 
 ST_1: StgValue_40 (10)  [1/1] 0.00ns
 :7  call void (...)* @_ssdm_op_SpecInterface(i64* %A_BUS, [6 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [6 x i8]* @p_str3, [1 x i8]* @p_str1, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
@@ -184,23 +184,23 @@ ST_1: StgValue_43 (13)  [1/1] 1.57ns  loc: skip_list_prefetch.cpp:46
 :10  br label %1
 
 
- <State 2>: 2.00ns
+ <State 2>: 2.03ns
 ST_2: i (15)  [1/1] 0.00ns
-:0  %i = phi i8 [ 0, %0 ], [ %i_1, %2 ]
+:0  %i = phi i9 [ 0, %0 ], [ %i_1, %2 ]
 
-ST_2: exitcond2 (18)  [1/1] 2.00ns  loc: skip_list_prefetch.cpp:46
-:3  %exitcond2 = icmp eq i8 %i, -56
+ST_2: exitcond2 (18)  [1/1] 2.03ns  loc: skip_list_prefetch.cpp:46
+:3  %exitcond2 = icmp eq i9 %i, -12
 
 
  <State 3>: 11.19ns
 ST_3: cum_offs (16)  [1/1] 0.00ns
-:1  %cum_offs = phi i24 [ 0, %0 ], [ %cum_offs_1, %2 ]
+:1  %cum_offs = phi i25 [ 0, %0 ], [ %cum_offs_1, %2 ]
 
 ST_3: cum_offs_cast_cast (17)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
-:2  %cum_offs_cast_cast = sext i24 %cum_offs to i31
+:2  %cum_offs_cast_cast = sext i25 %cum_offs to i31
 
-ST_3: i_1 (19)  [1/1] 1.72ns  loc: skip_list_prefetch.cpp:46
-:4  %i_1 = add i8 %i, 1
+ST_3: i_1 (19)  [1/1] 1.84ns  loc: skip_list_prefetch.cpp:46
+:4  %i_1 = add i9 %i, 1
 
 ST_3: StgValue_49 (20)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
 :5  br i1 %exitcond2, label %3, label %2
@@ -277,12 +277,12 @@ ST_10: A_BUS_load_1_req (37)  [1/7] 8.75ns  loc: skip_list_prefetch.cpp:55
 :15  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
 
 
- <State 11>: 10.95ns
+ <State 11>: 11.07ns
 ST_11: i_cast2 (22)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
-:0  %i_cast2 = zext i8 %i to i32
+:0  %i_cast2 = zext i9 %i to i32
 
 ST_11: empty (23)  [1/1] 0.00ns
-:1  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 200, i64 200, i64 200)
+:1  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 500, i64 500, i64 500)
 
 ST_11: tmp_3 (24)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:46
 :2  %tmp_3 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str6)
@@ -291,16 +291,16 @@ ST_11: StgValue_72 (25)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:47
 :3  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind
 
 ST_11: tmp_cast (32)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:54
-:10  %tmp_cast = sext i16 %tmp_4 to i24
+:10  %tmp_cast = sext i16 %tmp_4 to i25
 
-ST_11: tmp_1 (33)  [1/1] 2.20ns  loc: skip_list_prefetch.cpp:54
-:11  %tmp_1 = add i24 %cum_offs, %tmp_cast
+ST_11: tmp_1 (33)  [1/1] 2.32ns  loc: skip_list_prefetch.cpp:54
+:11  %tmp_1 = add i25 %cum_offs, %tmp_cast
 
 ST_11: tmp_1_cast (34)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:54
-:12  %tmp_1_cast = sext i24 %tmp_1 to i32
+:12  %tmp_1_cast = sext i25 %tmp_1 to i32
 
 ST_11: buff_addr (35)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:54
-:13  %buff_addr = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %i_cast2
+:13  %buff_addr = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %i_cast2
 
 ST_11: StgValue_77 (36)  [1/1] 2.71ns  loc: skip_list_prefetch.cpp:54
 :14  store i32 %tmp_1_cast, i32* %buff_addr, align 4
@@ -312,10 +312,10 @@ ST_11: tmp_5 (39)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:55
 :17  %tmp_5 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_1_read_1, i32 48, i32 63)
 
 ST_11: tmp_2_cast (40)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:55
-:18  %tmp_2_cast = sext i16 %tmp_5 to i24
+:18  %tmp_2_cast = sext i16 %tmp_5 to i25
 
-ST_11: cum_offs_1 (41)  [1/1] 2.20ns  loc: skip_list_prefetch.cpp:55
-:19  %cum_offs_1 = add i24 %tmp_2_cast, %cum_offs
+ST_11: cum_offs_1 (41)  [1/1] 2.32ns  loc: skip_list_prefetch.cpp:55
+:19  %cum_offs_1 = add i25 %tmp_2_cast, %cum_offs
 
 ST_11: empty_7 (42)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:57
 :20  %empty_7 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str6, i32 %tmp_3)
@@ -378,15 +378,15 @@ ST_20: StgValue_95 (50)  [1/1] 1.57ns  loc: skip_list_prefetch.cpp:61
 :5  br label %.preheader
 
 
- <State 21>: 6.08ns
+ <State 21>: 6.11ns
 ST_21: indvar_flatten (52)  [1/1] 0.00ns
 .preheader:0  %indvar_flatten = phi i14 [ 0, %3 ], [ %indvar_flatten_next, %.preheader.preheader ]
 
 ST_21: i1 (53)  [1/1] 0.00ns
-.preheader:1  %i1 = phi i8 [ 1, %3 ], [ %i_2, %.preheader.preheader ]
+.preheader:1  %i1 = phi i9 [ 1, %3 ], [ %i_2, %.preheader.preheader ]
 
 ST_21: exitcond_flatten (54)  [1/1] 2.21ns
-.preheader:2  %exitcond_flatten = icmp eq i14 %indvar_flatten, -6633
+.preheader:2  %exitcond_flatten = icmp eq i14 %indvar_flatten, -6903
 
 ST_21: indvar_flatten_next (55)  [1/1] 1.96ns
 .preheader:3  %indvar_flatten_next = add i14 %indvar_flatten, 1
@@ -394,23 +394,23 @@ ST_21: indvar_flatten_next (55)  [1/1] 1.96ns
 ST_21: StgValue_100 (56)  [1/1] 0.00ns
 .preheader:4  br i1 %exitcond_flatten, label %4, label %.preheader.preheader
 
-ST_21: exitcond5 (59)  [1/1] 2.00ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:1  %exitcond5 = icmp eq i8 %i1, -56
+ST_21: exitcond5 (59)  [1/1] 2.03ns  loc: skip_list_prefetch.cpp:62
+.preheader.preheader:1  %exitcond5 = icmp eq i9 %i1, -12
 
 ST_21: i1_mid2 (60)  [1/1] 1.37ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:2  %i1_mid2 = select i1 %exitcond5, i8 1, i8 %i1
+.preheader.preheader:2  %i1_mid2 = select i1 %exitcond5, i9 1, i9 %i1
 
 ST_21: i1_cast1 (61)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:3  %i1_cast1 = zext i8 %i1_mid2 to i32
+.preheader.preheader:3  %i1_cast1 = zext i9 %i1_mid2 to i32
 
 ST_21: buff_addr_1 (64)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:67
-.preheader.preheader:6  %buff_addr_1 = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %i1_cast1
+.preheader.preheader:6  %buff_addr_1 = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %i1_cast1
 
 ST_21: buff_load (65)  [2/2] 2.71ns  loc: skip_list_prefetch.cpp:67
 .preheader.preheader:7  %buff_load = load i32* %buff_addr_1, align 4
 
-ST_21: i_2 (75)  [1/1] 1.72ns  loc: skip_list_prefetch.cpp:62
-.preheader.preheader:17  %i_2 = add i8 %i1_mid2, 1
+ST_21: i_2 (75)  [1/1] 1.84ns  loc: skip_list_prefetch.cpp:62
+.preheader.preheader:17  %i_2 = add i9 %i1_mid2, 1
 
 
  <State 22>: 5.15ns
@@ -469,7 +469,7 @@ ST_30: tmp_9 (70)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:67
 
  <State 31>: 5.15ns
 ST_31: empty_8 (58)  [1/1] 0.00ns
-.preheader.preheader:0  %empty_8 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 9751, i64 9751, i64 9751)
+.preheader.preheader:0  %empty_8 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 9481, i64 9481, i64 9481)
 
 ST_31: tmp_8 (62)  [1/1] 0.00ns  loc: skip_list_prefetch.cpp:62
 .preheader.preheader:4  %tmp_8 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str7)
@@ -508,10 +508,10 @@ Target clock period: 10ns, clock uncertainty: 1.25ns.
 The critical path consists of the following:
 	multiplexor before 'phi' operation ('i') with incoming values : ('i', skip_list_prefetch.cpp:46) [15]  (1.57 ns)
 
- <State 2>: 2ns
+ <State 2>: 2.03ns
 The critical path consists of the following:
 	'phi' operation ('i') with incoming values : ('i', skip_list_prefetch.cpp:46) [15]  (0 ns)
-	'icmp' operation ('exitcond2', skip_list_prefetch.cpp:46) [18]  (2 ns)
+	'icmp' operation ('exitcond2', skip_list_prefetch.cpp:46) [18]  (2.03 ns)
 
  <State 3>: 11.2ns
 The critical path consists of the following:
@@ -548,10 +548,10 @@ The critical path consists of the following:
 The critical path consists of the following:
 	bus read on port 'A_BUS' (skip_list_prefetch.cpp:54) [30]  (8.75 ns)
 
- <State 11>: 10.9ns
+ <State 11>: 11.1ns
 The critical path consists of the following:
 	bus read on port 'A_BUS' (skip_list_prefetch.cpp:55) [38]  (8.75 ns)
-	'add' operation ('cum_offs', skip_list_prefetch.cpp:55) [41]  (2.2 ns)
+	'add' operation ('cum_offs', skip_list_prefetch.cpp:55) [41]  (2.32 ns)
 
  <State 12>: 2.44ns
 The critical path consists of the following:
@@ -590,10 +590,10 @@ The critical path consists of the following:
 The critical path consists of the following:
 	bus read on port 'A_BUS' (skip_list_prefetch.cpp:58) [49]  (8.75 ns)
 
- <State 21>: 6.08ns
+ <State 21>: 6.11ns
 The critical path consists of the following:
 	'phi' operation ('i') with incoming values : ('i', skip_list_prefetch.cpp:62) [53]  (0 ns)
-	'icmp' operation ('exitcond5', skip_list_prefetch.cpp:62) [59]  (2 ns)
+	'icmp' operation ('exitcond5', skip_list_prefetch.cpp:62) [59]  (2.03 ns)
 	'select' operation ('i1_mid2', skip_list_prefetch.cpp:62) [60]  (1.37 ns)
 	'getelementptr' operation ('buff_addr_1', skip_list_prefetch.cpp:67) [64]  (0 ns)
 	'load' operation ('buff_load', skip_list_prefetch.cpp:67) on array 'buff', skip_list_prefetch.cpp:27 [65]  (2.71 ns)

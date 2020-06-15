@@ -1501,8 +1501,8 @@ extern FILE (* _imp___iob)[]; /* A pointer to an array of FILE */
 typedef int dat_typ;
 typedef short dat_typ1;
 #pragma empty_line
-const int n = 500;
-const int skip_intr = 50;
+const int n = 2000;
+const int skip_intr = 200;
 const int buff_len = n/skip_intr;
 #pragma empty_line
 struct node{
@@ -1560,9 +1560,9 @@ void skipprefetch_Nelem(volatile struct node* a)
    for(int i=1;i<buff_len;i++){
 #pragma HLS pipeline
  //#pragma HLS unroll factor = 50
-     //temp = ((a+buff[i]))->val;
-     //(a+buff[i])->val = temp + 10;
-     buff[i] = buff[i] +(a+buff[i])->offs[0];
+    //temp = ((a+buff[i]))->val;
+    //(a+buff[i])->val = temp + 10;
+    buff[i] = buff[i] +(a+buff[i])->offs[0];
    }
   }
 }

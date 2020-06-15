@@ -1711,8 +1711,8 @@ extern FILE (* _imp___iob)[]; /* A pointer to an array of FILE */
 typedef int dat_typ;
 typedef short dat_typ1;
 
-const int n = 500;
-const int skip_intr = 50;
+const int n = 2000;
+const int skip_intr = 200;
 const int buff_len = n/skip_intr;
 
 struct node{
@@ -1770,9 +1770,9 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
    for(int i=1;i<buff_len;i++){
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
  //#pragma HLS unroll factor = 50
-     //temp = ((a+buff[i]))->val;
-     //(a+buff[i])->val = temp + 10;
-     buff[i] = buff[i] +(a+buff[i])->offs[0];
+    //temp = ((a+buff[i]))->val;
+    //(a+buff[i])->val = temp + 10;
+    buff[i] = buff[i] +(a+buff[i])->offs[0];
    }
   }
 }

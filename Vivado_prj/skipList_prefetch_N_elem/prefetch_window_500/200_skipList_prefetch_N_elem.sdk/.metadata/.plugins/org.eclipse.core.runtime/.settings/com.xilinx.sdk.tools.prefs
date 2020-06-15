@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.bss=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.data=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.data1=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.fixup=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.rodata=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.rodata1=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.sbss=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.sbss2=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.sdata=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.sdata2=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:.text=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:heap=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:heap-size=10485760
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:stack=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.skiplist_prefetch\:stack-size=10485760
+eclipse.preferences.version=1

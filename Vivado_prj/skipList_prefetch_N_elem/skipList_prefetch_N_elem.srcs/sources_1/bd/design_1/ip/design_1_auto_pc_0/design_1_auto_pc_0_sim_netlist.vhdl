@@ -1,7 +1,7 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
--- Date        : Thu Jun 04 16:40:25 2020
+-- Date        : Fri Jun 12 18:04:28 2020
 -- Host        : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim -rename_top design_1_auto_pc_0 -prefix
 --               design_1_auto_pc_0_ design_1_auto_pc_0_sim_netlist.vhdl
@@ -16540,7 +16540,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity \design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_axi3_conv__parameterized0\ is
   port (
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
-    multiple_id_non_split_reg_0 : out STD_LOGIC;
+    \m_axi_arid[0]\ : out STD_LOGIC;
     m_axi_arlen : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axi_rready : out STD_LOGIC;
     s_axi_rvalid : out STD_LOGIC;
@@ -16680,9 +16680,9 @@ architecture STRUCTURE of \design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_a
   signal \first_step_q_reg_n_0_[9]\ : STD_LOGIC;
   signal \incr_need_to_split__0\ : STD_LOGIC;
   signal \^m_axi_araddr\ : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal \^m_axi_arid[0]\ : STD_LOGIC;
   signal multiple_id_non_split : STD_LOGIC;
   signal \multiple_id_non_split_i_2__0_n_0\ : STD_LOGIC;
-  signal \^multiple_id_non_split_reg_0\ : STD_LOGIC;
   signal need_to_split_q : STD_LOGIC;
   signal next_mi_addr : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal \next_mi_addr[11]_i_2_n_0\ : STD_LOGIC;
@@ -16839,7 +16839,7 @@ architecture STRUCTURE of \design_1_auto_pc_0_axi_protocol_converter_v2_1_10_a_a
 begin
   E(0) <= \^e\(0);
   m_axi_araddr(31 downto 0) <= \^m_axi_araddr\(31 downto 0);
-  multiple_id_non_split_reg_0 <= \^multiple_id_non_split_reg_0\;
+  \m_axi_arid[0]\ <= \^m_axi_arid[0]\;
 \S_AXI_AADDR_Q_reg[0]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
@@ -17149,7 +17149,7 @@ begin
       C => aclk,
       CE => \^e\(0),
       D => s_axi_arid(0),
-      Q => \^multiple_id_non_split_reg_0\,
+      Q => \^m_axi_arid[0]\,
       R => aresetn_0
     );
 \S_AXI_ALEN_Q_reg[0]\: unisim.vcomponents.FDRE
@@ -17300,7 +17300,7 @@ S_AXI_AREADY_I_reg: unisim.vcomponents.FDRE
       D(0) => \USE_R_CHANNEL.cmd_queue_n_7\,
       E(0) => pushed_new_cmd,
       Q(5 downto 0) => \cmd_depth_reg__0\(5 downto 0),
-      \S_AXI_AID_Q_reg[0]\ => \^multiple_id_non_split_reg_0\,
+      \S_AXI_AID_Q_reg[0]\ => \^m_axi_arid[0]\,
       S_AXI_AREADY_I_reg => \USE_R_CHANNEL.cmd_queue_n_16\,
       S_AXI_AREADY_I_reg_0 => \^e\(0),
       access_is_incr_q => access_is_incr_q,
@@ -18364,7 +18364,7 @@ incr_need_to_split_q_reg: unisim.vcomponents.FDRE
         port map (
       I0 => split_in_progress_reg_n_0,
       I1 => \queue_id_reg_n_0_[0]\,
-      I2 => \^multiple_id_non_split_reg_0\,
+      I2 => \^m_axi_arid[0]\,
       I3 => cmd_empty,
       I4 => need_to_split_q,
       O => \multiple_id_non_split_i_2__0_n_0\
@@ -19485,7 +19485,7 @@ split_in_progress_i_2: unisim.vcomponents.LUT5
       I0 => multiple_id_non_split,
       I1 => need_to_split_q,
       I2 => \queue_id_reg_n_0_[0]\,
-      I3 => \^multiple_id_non_split_reg_0\,
+      I3 => \^m_axi_arid[0]\,
       I4 => cmd_empty,
       O => \allow_split_cmd__1\
     );
@@ -19603,6 +19603,7 @@ begin
       m_axi_araddr(31 downto 0) => m_axi_araddr(31 downto 0),
       m_axi_arburst(1 downto 0) => m_axi_arburst(1 downto 0),
       m_axi_arcache(3 downto 0) => m_axi_arcache(3 downto 0),
+      \m_axi_arid[0]\ => M_AXI_ARID(0),
       m_axi_arlen(3 downto 0) => m_axi_arlen(3 downto 0),
       m_axi_arlock(0) => m_axi_arlock(0),
       m_axi_arprot(2 downto 0) => m_axi_arprot(2 downto 0),
@@ -19613,7 +19614,6 @@ begin
       m_axi_rlast => m_axi_rlast,
       m_axi_rready => m_axi_rready,
       m_axi_rvalid => m_axi_rvalid,
-      multiple_id_non_split_reg_0 => M_AXI_ARID(0),
       s_axi_araddr(31 downto 0) => s_axi_araddr(31 downto 0),
       s_axi_arburst(1 downto 0) => s_axi_arburst(1 downto 0),
       s_axi_arcache(3 downto 0) => s_axi_arcache(3 downto 0),
@@ -19822,7 +19822,7 @@ entity design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol_converter 
   attribute C_FAMILY : string;
   attribute C_FAMILY of design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol_converter : entity is "zynq";
   attribute C_IGNORE_ID : integer;
-  attribute C_IGNORE_ID of design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol_converter : entity is 1;
+  attribute C_IGNORE_ID of design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol_converter : entity is 0;
   attribute C_M_AXI_PROTOCOL : integer;
   attribute C_M_AXI_PROTOCOL of design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol_converter : entity is 1;
   attribute C_S_AXI_PROTOCOL : integer;
@@ -19973,6 +19973,7 @@ entity design_1_auto_pc_0 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
+    s_axi_awid : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_awsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -19989,9 +19990,11 @@ entity design_1_auto_pc_0 is
     s_axi_wlast : in STD_LOGIC;
     s_axi_wvalid : in STD_LOGIC;
     s_axi_wready : out STD_LOGIC;
+    s_axi_bid : out STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_bvalid : out STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
+    s_axi_arid : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_arlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_arsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -20003,11 +20006,13 @@ entity design_1_auto_pc_0 is
     s_axi_arqos : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_arvalid : in STD_LOGIC;
     s_axi_arready : out STD_LOGIC;
+    s_axi_rid : out STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_rdata : out STD_LOGIC_VECTOR ( 63 downto 0 );
     s_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rlast : out STD_LOGIC;
     s_axi_rvalid : out STD_LOGIC;
     s_axi_rready : in STD_LOGIC;
+    m_axi_awid : out STD_LOGIC_VECTOR ( 0 to 0 );
     m_axi_awaddr : out STD_LOGIC_VECTOR ( 31 downto 0 );
     m_axi_awlen : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axi_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -20018,14 +20023,17 @@ entity design_1_auto_pc_0 is
     m_axi_awqos : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axi_awvalid : out STD_LOGIC;
     m_axi_awready : in STD_LOGIC;
+    m_axi_wid : out STD_LOGIC_VECTOR ( 0 to 0 );
     m_axi_wdata : out STD_LOGIC_VECTOR ( 63 downto 0 );
     m_axi_wstrb : out STD_LOGIC_VECTOR ( 7 downto 0 );
     m_axi_wlast : out STD_LOGIC;
     m_axi_wvalid : out STD_LOGIC;
     m_axi_wready : in STD_LOGIC;
+    m_axi_bid : in STD_LOGIC_VECTOR ( 0 to 0 );
     m_axi_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_bvalid : in STD_LOGIC;
     m_axi_bready : out STD_LOGIC;
+    m_axi_arid : out STD_LOGIC_VECTOR ( 0 to 0 );
     m_axi_araddr : out STD_LOGIC_VECTOR ( 31 downto 0 );
     m_axi_arlen : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axi_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -20036,6 +20044,7 @@ entity design_1_auto_pc_0 is
     m_axi_arqos : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axi_arvalid : out STD_LOGIC;
     m_axi_arready : in STD_LOGIC;
+    m_axi_rid : in STD_LOGIC_VECTOR ( 0 to 0 );
     m_axi_rdata : in STD_LOGIC_VECTOR ( 63 downto 0 );
     m_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_rlast : in STD_LOGIC;
@@ -20053,17 +20062,12 @@ entity design_1_auto_pc_0 is
 end design_1_auto_pc_0;
 
 architecture STRUCTURE of design_1_auto_pc_0 is
-  signal NLW_inst_m_axi_arid_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_inst_m_axi_arregion_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_inst_m_axi_aruser_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal NLW_inst_m_axi_awid_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_inst_m_axi_awregion_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_inst_m_axi_awuser_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal NLW_inst_m_axi_wid_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_inst_m_axi_wuser_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal NLW_inst_s_axi_bid_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_inst_s_axi_buser_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal NLW_inst_s_axi_rid_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_inst_s_axi_ruser_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   attribute C_AXI_ADDR_WIDTH : integer;
   attribute C_AXI_ADDR_WIDTH of inst : label is 32;
@@ -20090,7 +20094,7 @@ architecture STRUCTURE of design_1_auto_pc_0 is
   attribute C_FAMILY : string;
   attribute C_FAMILY of inst : label is "zynq";
   attribute C_IGNORE_ID : integer;
-  attribute C_IGNORE_ID of inst : label is 1;
+  attribute C_IGNORE_ID of inst : label is 0;
   attribute C_M_AXI_PROTOCOL : integer;
   attribute C_M_AXI_PROTOCOL of inst : label is 1;
   attribute C_S_AXI_PROTOCOL : integer;
@@ -20124,7 +20128,7 @@ inst: entity work.design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol
       m_axi_araddr(31 downto 0) => m_axi_araddr(31 downto 0),
       m_axi_arburst(1 downto 0) => m_axi_arburst(1 downto 0),
       m_axi_arcache(3 downto 0) => m_axi_arcache(3 downto 0),
-      m_axi_arid(0) => NLW_inst_m_axi_arid_UNCONNECTED(0),
+      m_axi_arid(0) => m_axi_arid(0),
       m_axi_arlen(3 downto 0) => m_axi_arlen(3 downto 0),
       m_axi_arlock(1 downto 0) => m_axi_arlock(1 downto 0),
       m_axi_arprot(2 downto 0) => m_axi_arprot(2 downto 0),
@@ -20137,7 +20141,7 @@ inst: entity work.design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol
       m_axi_awaddr(31 downto 0) => m_axi_awaddr(31 downto 0),
       m_axi_awburst(1 downto 0) => m_axi_awburst(1 downto 0),
       m_axi_awcache(3 downto 0) => m_axi_awcache(3 downto 0),
-      m_axi_awid(0) => NLW_inst_m_axi_awid_UNCONNECTED(0),
+      m_axi_awid(0) => m_axi_awid(0),
       m_axi_awlen(3 downto 0) => m_axi_awlen(3 downto 0),
       m_axi_awlock(1 downto 0) => m_axi_awlock(1 downto 0),
       m_axi_awprot(2 downto 0) => m_axi_awprot(2 downto 0),
@@ -20147,20 +20151,20 @@ inst: entity work.design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol
       m_axi_awsize(2 downto 0) => m_axi_awsize(2 downto 0),
       m_axi_awuser(0) => NLW_inst_m_axi_awuser_UNCONNECTED(0),
       m_axi_awvalid => m_axi_awvalid,
-      m_axi_bid(0) => '0',
+      m_axi_bid(0) => m_axi_bid(0),
       m_axi_bready => m_axi_bready,
       m_axi_bresp(1 downto 0) => m_axi_bresp(1 downto 0),
       m_axi_buser(0) => '0',
       m_axi_bvalid => m_axi_bvalid,
       m_axi_rdata(63 downto 0) => m_axi_rdata(63 downto 0),
-      m_axi_rid(0) => '0',
+      m_axi_rid(0) => m_axi_rid(0),
       m_axi_rlast => m_axi_rlast,
       m_axi_rready => m_axi_rready,
       m_axi_rresp(1 downto 0) => m_axi_rresp(1 downto 0),
       m_axi_ruser(0) => '0',
       m_axi_rvalid => m_axi_rvalid,
       m_axi_wdata(63 downto 0) => m_axi_wdata(63 downto 0),
-      m_axi_wid(0) => NLW_inst_m_axi_wid_UNCONNECTED(0),
+      m_axi_wid(0) => m_axi_wid(0),
       m_axi_wlast => m_axi_wlast,
       m_axi_wready => m_axi_wready,
       m_axi_wstrb(7 downto 0) => m_axi_wstrb(7 downto 0),
@@ -20169,7 +20173,7 @@ inst: entity work.design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol
       s_axi_araddr(31 downto 0) => s_axi_araddr(31 downto 0),
       s_axi_arburst(1 downto 0) => s_axi_arburst(1 downto 0),
       s_axi_arcache(3 downto 0) => s_axi_arcache(3 downto 0),
-      s_axi_arid(0) => '0',
+      s_axi_arid(0) => s_axi_arid(0),
       s_axi_arlen(7 downto 0) => s_axi_arlen(7 downto 0),
       s_axi_arlock(0) => s_axi_arlock(0),
       s_axi_arprot(2 downto 0) => s_axi_arprot(2 downto 0),
@@ -20182,7 +20186,7 @@ inst: entity work.design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol
       s_axi_awaddr(31 downto 0) => s_axi_awaddr(31 downto 0),
       s_axi_awburst(1 downto 0) => s_axi_awburst(1 downto 0),
       s_axi_awcache(3 downto 0) => s_axi_awcache(3 downto 0),
-      s_axi_awid(0) => '0',
+      s_axi_awid(0) => s_axi_awid(0),
       s_axi_awlen(7 downto 0) => s_axi_awlen(7 downto 0),
       s_axi_awlock(0) => s_axi_awlock(0),
       s_axi_awprot(2 downto 0) => s_axi_awprot(2 downto 0),
@@ -20192,13 +20196,13 @@ inst: entity work.design_1_auto_pc_0_axi_protocol_converter_v2_1_10_axi_protocol
       s_axi_awsize(2 downto 0) => s_axi_awsize(2 downto 0),
       s_axi_awuser(0) => '0',
       s_axi_awvalid => s_axi_awvalid,
-      s_axi_bid(0) => NLW_inst_s_axi_bid_UNCONNECTED(0),
+      s_axi_bid(0) => s_axi_bid(0),
       s_axi_bready => s_axi_bready,
       s_axi_bresp(1 downto 0) => s_axi_bresp(1 downto 0),
       s_axi_buser(0) => NLW_inst_s_axi_buser_UNCONNECTED(0),
       s_axi_bvalid => s_axi_bvalid,
       s_axi_rdata(63 downto 0) => s_axi_rdata(63 downto 0),
-      s_axi_rid(0) => NLW_inst_s_axi_rid_UNCONNECTED(0),
+      s_axi_rid(0) => s_axi_rid(0),
       s_axi_rlast => s_axi_rlast,
       s_axi_rready => s_axi_rready,
       s_axi_rresp(1 downto 0) => s_axi_rresp(1 downto 0),

@@ -154,7 +154,7 @@ struct skipprefetch_Nelem : public sc_module {
     sc_signal< sc_lv<2> > A_BUS_BRESP;
     sc_signal< sc_lv<1> > A_BUS_BID;
     sc_signal< sc_lv<1> > A_BUS_BUSER;
-    sc_signal< sc_lv<9> > indvar_flatten_reg_152;
+    sc_signal< sc_lv<11> > indvar_flatten_reg_152;
     sc_signal< sc_lv<4> > i1_reg_163;
     sc_signal< sc_lv<32> > tmp_fu_194_p1;
     sc_signal< sc_lv<32> > tmp_reg_329;
@@ -182,7 +182,7 @@ struct skipprefetch_Nelem : public sc_module {
     sc_signal< sc_lv<1> > ap_pipeline_reg_pp0_iter4_exitcond_flatten_reg_379;
     sc_signal< sc_lv<1> > ap_pipeline_reg_pp0_iter5_exitcond_flatten_reg_379;
     sc_signal< sc_lv<1> > ap_pipeline_reg_pp0_iter6_exitcond_flatten_reg_379;
-    sc_signal< sc_lv<9> > indvar_flatten_next_fu_276_p2;
+    sc_signal< sc_lv<11> > indvar_flatten_next_fu_276_p2;
     sc_signal< sc_logic > ap_enable_reg_pp0_iter0;
     sc_signal< sc_lv<4> > buff_addr_1_reg_388;
     sc_signal< sc_lv<4> > ap_pipeline_reg_pp0_iter1_buff_addr_1_reg_388;
@@ -264,7 +264,7 @@ struct skipprefetch_Nelem : public sc_module {
     static const sc_lv<32> ap_const_lv32_B;
     static const sc_lv<4> ap_const_lv4_0;
     static const sc_lv<20> ap_const_lv20_0;
-    static const sc_lv<9> ap_const_lv9_0;
+    static const sc_lv<11> ap_const_lv11_0;
     static const sc_lv<4> ap_const_lv4_1;
     static const sc_lv<3> ap_const_lv3_0;
     static const sc_lv<2> ap_const_lv2_0;
@@ -274,8 +274,8 @@ struct skipprefetch_Nelem : public sc_module {
     static const sc_lv<4> ap_const_lv4_A;
     static const sc_lv<32> ap_const_lv32_30;
     static const sc_lv<32> ap_const_lv32_3F;
-    static const sc_lv<9> ap_const_lv9_1B9;
-    static const sc_lv<9> ap_const_lv9_1;
+    static const sc_lv<11> ap_const_lv11_6FF;
+    static const sc_lv<11> ap_const_lv11_1;
     static const sc_lv<32> ap_const_lv32_D;
     static const sc_lv<64> ap_const_lv64_0;
     static const sc_lv<8> ap_const_lv8_0;

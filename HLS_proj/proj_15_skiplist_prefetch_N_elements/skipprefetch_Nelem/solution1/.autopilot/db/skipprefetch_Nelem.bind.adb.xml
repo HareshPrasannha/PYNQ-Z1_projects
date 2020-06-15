@@ -934,9 +934,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="44" bw="9" op_0_bw="9" op_1_bw="0">
+<Node id="44" bw="11" op_0_bw="11" op_1_bw="0">
 <![CDATA[
-.preheader:0  %indvar_flatten = phi i9 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
+.preheader:0  %indvar_flatten = phi i11 [ %indvar_flatten_next, %.preheader3 ], [ 0, %.preheader.preheader ]
 
 ]]></Node>
 <StgValue><ssdm name="indvar_flatten"/></StgValue>
@@ -964,9 +964,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="46" bw="1" op_0_bw="9" op_1_bw="9">
+<Node id="46" bw="1" op_0_bw="11" op_1_bw="11">
 <![CDATA[
-.preheader:2  %exitcond_flatten = icmp eq i9 %indvar_flatten, -71
+.preheader:2  %exitcond_flatten = icmp eq i11 %indvar_flatten, -257
 
 ]]></Node>
 <StgValue><ssdm name="exitcond_flatten"/></StgValue>
@@ -979,9 +979,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="47" bw="9" op_0_bw="9" op_1_bw="9">
+<Node id="47" bw="11" op_0_bw="11" op_1_bw="11">
 <![CDATA[
-.preheader:3  %indvar_flatten_next = add i9 %indvar_flatten, 1
+.preheader:3  %indvar_flatten_next = add i11 %indvar_flatten, 1
 
 ]]></Node>
 <StgValue><ssdm name="indvar_flatten_next"/></StgValue>
@@ -1292,7 +1292,7 @@
 
 <Node id="50" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-.preheader3:0  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 441, i64 441, i64 441)
+.preheader3:0  %empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1791, i64 1791, i64 1791)
 
 ]]></Node>
 <StgValue><ssdm name="empty_7"/></StgValue>

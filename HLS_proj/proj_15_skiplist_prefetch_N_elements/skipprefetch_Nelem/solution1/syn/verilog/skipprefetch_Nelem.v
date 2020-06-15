@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="skipprefetch_Nelem,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=13.580000,HLS_SYN_LAT=561,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=899,HLS_SYN_LUT=1154}" *)
+(* CORE_GENERATION_INFO="skipprefetch_Nelem,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=13.580000,HLS_SYN_LAT=1911,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=901,HLS_SYN_LUT=1159}" *)
 
 module skipprefetch_Nelem (
         ap_clk,
@@ -117,7 +117,7 @@ parameter    ap_const_lv32_1 = 32'b1;
 parameter    ap_const_lv32_B = 32'b1011;
 parameter    ap_const_lv4_0 = 4'b0000;
 parameter    ap_const_lv20_0 = 20'b00000000000000000000;
-parameter    ap_const_lv9_0 = 9'b000000000;
+parameter    ap_const_lv11_0 = 11'b00000000000;
 parameter    ap_const_lv4_1 = 4'b1;
 parameter    ap_const_lv3_0 = 3'b000;
 parameter    ap_const_lv2_0 = 2'b00;
@@ -127,8 +127,8 @@ parameter    ap_const_lv32_1F = 32'b11111;
 parameter    ap_const_lv4_A = 4'b1010;
 parameter    ap_const_lv32_30 = 32'b110000;
 parameter    ap_const_lv32_3F = 32'b111111;
-parameter    ap_const_lv9_1B9 = 9'b110111001;
-parameter    ap_const_lv9_1 = 9'b1;
+parameter    ap_const_lv11_6FF = 11'b11011111111;
+parameter    ap_const_lv11_1 = 11'b1;
 parameter    ap_const_lv32_D = 32'b1101;
 parameter    ap_const_lv64_0 = 64'b0000000000000000000000000000000000000000000000000000000000000000;
 parameter    ap_const_lv8_0 = 8'b00000000;
@@ -239,7 +239,7 @@ wire    A_BUS_BVALID;
 wire   [1:0] A_BUS_BRESP;
 wire   [0:0] A_BUS_BID;
 wire   [0:0] A_BUS_BUSER;
-reg   [8:0] indvar_flatten_reg_152;
+reg   [10:0] indvar_flatten_reg_152;
 reg   [3:0] i1_reg_163;
 wire   [31:0] tmp_fu_194_p1;
 reg   [31:0] tmp_reg_329;
@@ -267,7 +267,7 @@ reg   [0:0] ap_pipeline_reg_pp0_iter3_exitcond_flatten_reg_379;
 reg   [0:0] ap_pipeline_reg_pp0_iter4_exitcond_flatten_reg_379;
 reg   [0:0] ap_pipeline_reg_pp0_iter5_exitcond_flatten_reg_379;
 reg   [0:0] ap_pipeline_reg_pp0_iter6_exitcond_flatten_reg_379;
-wire   [8:0] indvar_flatten_next_fu_276_p2;
+wire   [10:0] indvar_flatten_next_fu_276_p2;
 reg    ap_enable_reg_pp0_iter0;
 reg   [3:0] buff_addr_1_reg_388;
 reg   [3:0] ap_pipeline_reg_pp0_iter1_buff_addr_1_reg_388;
@@ -639,7 +639,7 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_state2) & ~(1'b0 == exitcond2_fu_206_p2))) begin
-        indvar_flatten_reg_152 <= ap_const_lv9_0;
+        indvar_flatten_reg_152 <= ap_const_lv11_0;
     end else if (((1'b1 == ap_CS_fsm_pp0_stage0) & ~(((1'b1 == ap_enable_reg_pp0_iter1) & (exitcond_flatten_reg_379 == 1'b0) & (1'b0 == ap_sig_ioackin_A_BUS_ARREADY)) | ((1'b1 == ap_enable_reg_pp0_iter8) & (1'b0 == ap_pipeline_reg_pp0_iter7_exitcond_flatten_reg_379) & (A_BUS_RVALID == 1'b0))) & (1'b1 == ap_enable_reg_pp0_iter0) & (1'b0 == exitcond_flatten_fu_270_p2))) begin
         indvar_flatten_reg_152 <= indvar_flatten_next_fu_276_p2;
     end
@@ -974,7 +974,7 @@ assign exitcond2_fu_206_p2 = ((i_reg_129 == ap_const_lv4_A) ? 1'b1 : 1'b0);
 
 assign exitcond5_fu_282_p2 = ((i1_reg_163 == ap_const_lv4_A) ? 1'b1 : 1'b0);
 
-assign exitcond_flatten_fu_270_p2 = ((indvar_flatten_reg_152 == ap_const_lv9_1B9) ? 1'b1 : 1'b0);
+assign exitcond_flatten_fu_270_p2 = ((indvar_flatten_reg_152 == ap_const_lv11_6FF) ? 1'b1 : 1'b0);
 
 assign grp_fu_174_p4 = {{A_BUS_RDATA[ap_const_lv32_2F : ap_const_lv32_20]}};
 
@@ -988,7 +988,7 @@ assign i_2_fu_301_p2 = (i1_mid2_fu_288_p3 + ap_const_lv4_1);
 
 assign i_cast2_fu_202_p1 = i_reg_129;
 
-assign indvar_flatten_next_fu_276_p2 = (indvar_flatten_reg_152 + ap_const_lv9_1);
+assign indvar_flatten_next_fu_276_p2 = (indvar_flatten_reg_152 + ap_const_lv11_1);
 
 assign tmp_1_fu_240_p2 = ($signed(tmp_cast_fu_237_p1) + $signed(cum_offs_reg_140));
 

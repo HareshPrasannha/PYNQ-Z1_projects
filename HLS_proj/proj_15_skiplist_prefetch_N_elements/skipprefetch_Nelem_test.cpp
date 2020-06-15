@@ -6,7 +6,7 @@ typedef short dat_typ1;
 
 const int n = 10000;
 #define level 2
-#define skip_intr 50
+#define skip_intr 200
 
 struct node{
 	dat_typ val;
@@ -92,12 +92,12 @@ int main()
 	int node_count = 0;
 	while(old_temp->offs[0] != 0){
 		skipprefetch_Nelem(old_temp);
-		while(node_count < 100){
+		while(node_count < n){
 			old_temp = temp;
 			temp = temp + temp->offs[0];
 			node_count = node_count + 1;
 		}
-		//printf("Value: %d\n",old_temp->val);
+		printf("Value: %d\n",old_temp->val);
 		node_count = 0;
 	}
 

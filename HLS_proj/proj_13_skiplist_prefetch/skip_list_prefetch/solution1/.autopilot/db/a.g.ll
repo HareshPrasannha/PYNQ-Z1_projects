@@ -16,15 +16,15 @@ target triple = "i686-pc-mingw32"
 @_ZL21ssdm_global_array_ins = internal global %class.ssdm_global_array_skip_list_prefetchpp0cppaplinecpp zeroinitializer, align 1 ; [#uses=1 type=%class.ssdm_global_array_skip_list_prefetchpp0cppaplinecpp*]
 @_sys_nerr = dllimport global i32                 ; [#uses=0 type=i32*]
 @_ZL1n = internal constant i32 10000, align 4     ; [#uses=1 type=i32*]
-@_ZL9skip_intr = internal constant i32 50, align 4 ; [#uses=1 type=i32*]
-@_ZL8buff_len = internal constant i32 200, align 4 ; [#uses=1 type=i32*]
+@_ZL9skip_intr = internal constant i32 20, align 4 ; [#uses=1 type=i32*]
+@_ZL8buff_len = internal constant i32 500, align 4 ; [#uses=1 type=i32*]
 @llvm.global_ctors = appending global [1 x { i32, void ()* }] [{ i32, void ()* } { i32 65535, void ()* @_GLOBAL__I_a }] ; [#uses=0 type=[1 x { i32, void ()* }]*]
 
 ; [#uses=0]
 define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
   %1 = alloca %struct.node*, align 4              ; [#uses=7 type=%struct.node**]
   %temp = alloca i32, align 4                     ; [#uses=1 type=i32*]
-  %buff = alloca [200 x i32], align 4             ; [#uses=4 type=[200 x i32]*]
+  %buff = alloca [500 x i32], align 4             ; [#uses=4 type=[500 x i32]*]
   %cum_offs = alloca i32, align 4                 ; [#uses=7 type=i32*]
   %i = alloca i32, align 4                        ; [#uses=5 type=i32*]
   %j = alloca i32, align 4                        ; [#uses=4 type=i32*]
@@ -37,7 +37,7 @@ define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
   %3 = load %struct.node** %1, align 4, !dbg !62  ; [#uses=1 type=%struct.node*] [debug line = 23:1]
   call void (...)* @_ssdm_DataPack(%struct.node* %3, i32 0, i32 0, i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0), i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0), i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0)) nounwind, !dbg !62 ; [debug line = 23:1]
   call void @llvm.dbg.declare(metadata !{i32* %temp}, metadata !63), !dbg !65 ; [debug line = 26:16] [debug variable = temp]
-  call void @llvm.dbg.declare(metadata !{[200 x i32]* %buff}, metadata !66), !dbg !70 ; [debug line = 27:7] [debug variable = buff]
+  call void @llvm.dbg.declare(metadata !{[500 x i32]* %buff}, metadata !66), !dbg !70 ; [debug line = 27:7] [debug variable = buff]
   call void @llvm.dbg.declare(metadata !{i32* %cum_offs}, metadata !71), !dbg !72 ; [debug line = 28:7] [debug variable = cum_offs]
   store i32 0, i32* %cum_offs, align 4, !dbg !73  ; [debug line = 28:19]
   call void @llvm.dbg.declare(metadata !{i32* %i}, metadata !74), !dbg !76 ; [debug line = 46:11] [debug variable = i]
@@ -46,7 +46,7 @@ define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
 
 ; <label>:4                                       ; preds = %28, %0
   %5 = load i32* %i, align 4, !dbg !77            ; [#uses=1 type=i32] [debug line = 46:14]
-  %6 = icmp slt i32 %5, 200, !dbg !77             ; [#uses=1 type=i1] [debug line = 46:14]
+  %6 = icmp slt i32 %5, 500, !dbg !77             ; [#uses=1 type=i1] [debug line = 46:14]
   br i1 %6, label %7, label %31, !dbg !77         ; [debug line = 46:14]
 
 ; <label>:7                                       ; preds = %4
@@ -62,7 +62,7 @@ define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
   %15 = sext i16 %14 to i32, !dbg !81             ; [#uses=1 type=i32] [debug line = 54:5]
   %16 = add nsw i32 %8, %15, !dbg !81             ; [#uses=1 type=i32] [debug line = 54:5]
   %17 = load i32* %i, align 4, !dbg !81           ; [#uses=1 type=i32] [debug line = 54:5]
-  %18 = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %17, !dbg !81 ; [#uses=1 type=i32*] [debug line = 54:5]
+  %18 = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %17, !dbg !81 ; [#uses=1 type=i32*] [debug line = 54:5]
   store i32 %16, i32* %18, align 4, !dbg !81      ; [debug line = 54:5]
   %19 = load i32* %cum_offs, align 4, !dbg !82    ; [#uses=1 type=i32] [debug line = 55:5]
   %20 = load %struct.node** %1, align 4, !dbg !82 ; [#uses=1 type=%struct.node*] [debug line = 55:5]
@@ -96,7 +96,7 @@ define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
 
 ; <label>:37                                      ; preds = %64, %31
   %38 = load i32* %j, align 4, !dbg !89           ; [#uses=1 type=i32] [debug line = 61:15]
-  %39 = icmp slt i32 %38, 49, !dbg !89            ; [#uses=1 type=i1] [debug line = 61:15]
+  %39 = icmp slt i32 %38, 19, !dbg !89            ; [#uses=1 type=i1] [debug line = 61:15]
   br i1 %39, label %40, label %67, !dbg !89       ; [debug line = 61:15]
 
 ; <label>:40                                      ; preds = %37
@@ -106,18 +106,18 @@ define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
 
 ; <label>:41                                      ; preds = %60, %40
   %42 = load i32* %i1, align 4, !dbg !94          ; [#uses=1 type=i32] [debug line = 62:15]
-  %43 = icmp slt i32 %42, 200, !dbg !94           ; [#uses=1 type=i1] [debug line = 62:15]
+  %43 = icmp slt i32 %42, 500, !dbg !94           ; [#uses=1 type=i1] [debug line = 62:15]
   br i1 %43, label %44, label %63, !dbg !94       ; [debug line = 62:15]
 
 ; <label>:44                                      ; preds = %41
   call void (...)* @_ssdm_RegionBegin(i8* getelementptr inbounds ([12 x i8]* @.str7, i32 0, i32 0)) nounwind, !dbg !95 ; [debug line = 62:32]
   call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, i8* getelementptr inbounds ([1 x i8]* @.str1, i32 0, i32 0)) nounwind, !dbg !97 ; [debug line = 63:1]
   %45 = load i32* %i1, align 4, !dbg !98          ; [#uses=1 type=i32] [debug line = 67:6]
-  %46 = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %45, !dbg !98 ; [#uses=1 type=i32*] [debug line = 67:6]
+  %46 = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %45, !dbg !98 ; [#uses=1 type=i32*] [debug line = 67:6]
   %47 = load i32* %46, align 4, !dbg !98          ; [#uses=1 type=i32] [debug line = 67:6]
   %48 = load %struct.node** %1, align 4, !dbg !98 ; [#uses=1 type=%struct.node*] [debug line = 67:6]
   %49 = load i32* %i1, align 4, !dbg !98          ; [#uses=1 type=i32] [debug line = 67:6]
-  %50 = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %49, !dbg !98 ; [#uses=1 type=i32*] [debug line = 67:6]
+  %50 = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %49, !dbg !98 ; [#uses=1 type=i32*] [debug line = 67:6]
   %51 = load i32* %50, align 4, !dbg !98          ; [#uses=1 type=i32] [debug line = 67:6]
   %52 = getelementptr inbounds %struct.node* %48, i32 %51, !dbg !98 ; [#uses=1 type=%struct.node*] [debug line = 67:6]
   %53 = getelementptr inbounds %struct.node* %52, i32 0, i32 1, !dbg !98 ; [#uses=1 type=[2 x i16]*] [debug line = 67:6]
@@ -126,7 +126,7 @@ define void @_Z18skip_list_prefetchPV4node(%struct.node* %a) nounwind {
   %56 = sext i16 %55 to i32, !dbg !98             ; [#uses=1 type=i32] [debug line = 67:6]
   %57 = add nsw i32 %47, %56, !dbg !98            ; [#uses=1 type=i32] [debug line = 67:6]
   %58 = load i32* %i1, align 4, !dbg !98          ; [#uses=1 type=i32] [debug line = 67:6]
-  %59 = getelementptr inbounds [200 x i32]* %buff, i32 0, i32 %58, !dbg !98 ; [#uses=1 type=i32*] [debug line = 67:6]
+  %59 = getelementptr inbounds [500 x i32]* %buff, i32 0, i32 %58, !dbg !98 ; [#uses=1 type=i32*] [debug line = 67:6]
   store i32 %57, i32* %59, align 4, !dbg !98      ; [debug line = 67:6]
   call void (...)* @_ssdm_RegionEnd(i8* getelementptr inbounds ([12 x i8]* @.str7, i32 0, i32 0)) nounwind, !dbg !99 ; [debug line = 68:4]
   br label %60, !dbg !99                          ; [debug line = 68:4]
@@ -243,9 +243,9 @@ define internal void @_GLOBAL__I_a() nounwind {
 !31 = metadata !{i32 786478, i32 0, null, metadata !"ssdm_global_array_skip_list_prefetchpp0cppaplinecpp", metadata !"ssdm_global_array_skip_list_prefetchpp0cppaplinecpp", metadata !"_ZN51ssdm_global_array_skip_list_prefetchpp0cppaplinecppC2Ev", metadata !6, i32 74, metadata !25, i1 false, i1 true, i32 0, i32 0, null, i32 256, i1 false, void (%class.ssdm_global_array_skip_list_prefetchpp0cppaplinecpp*)* @_ZN51ssdm_global_array_skip_list_prefetchpp0cppaplinecppC2Ev, null, metadata !30, metadata !22, i32 74} ; [ DW_TAG_subprogram ]
 !32 = metadata !{metadata !33}
 !33 = metadata !{metadata !34, metadata !36, metadata !34, metadata !37, metadata !38, metadata !40, metadata !41, metadata !42}
-!34 = metadata !{i32 786484, i32 0, metadata !6, metadata !"buff_len", metadata !"buff_len", metadata !"buff_len", metadata !6, i32 10, metadata !35, i32 1, i32 1, i32 200} ; [ DW_TAG_variable ]
+!34 = metadata !{i32 786484, i32 0, metadata !6, metadata !"buff_len", metadata !"buff_len", metadata !"buff_len", metadata !6, i32 10, metadata !35, i32 1, i32 1, i32 500} ; [ DW_TAG_variable ]
 !35 = metadata !{i32 786470, null, metadata !"", null, i32 0, i64 0, i64 0, i64 0, i32 0, metadata !15} ; [ DW_TAG_const_type ]
-!36 = metadata !{i32 786484, i32 0, metadata !6, metadata !"skip_intr", metadata !"skip_intr", metadata !"skip_intr", metadata !6, i32 9, metadata !35, i32 1, i32 1, i32 50} ; [ DW_TAG_variable ]
+!36 = metadata !{i32 786484, i32 0, metadata !6, metadata !"skip_intr", metadata !"skip_intr", metadata !"skip_intr", metadata !6, i32 9, metadata !35, i32 1, i32 1, i32 20} ; [ DW_TAG_variable ]
 !37 = metadata !{i32 786484, i32 0, null, metadata !"ssdm_global_array_ins", metadata !"ssdm_global_array_ins", metadata !"_ZL21ssdm_global_array_ins", metadata !6, i32 80, metadata !28, i32 1, i32 1, %class.ssdm_global_array_skip_list_prefetchpp0cppaplinecpp* @_ZL21ssdm_global_array_ins} ; [ DW_TAG_variable ]
 !38 = metadata !{i32 786484, i32 0, null, metadata !"_sys_nerr", metadata !"_sys_nerr", metadata !"", metadata !39, i32 157, metadata !15, i32 0, i32 1, i32* @_sys_nerr} ; [ DW_TAG_variable ]
 !39 = metadata !{i32 786473, metadata !"C:/Xilinx/Vivado_HLS/2016.3/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\5Cstdlib.h", metadata !"A:\5CCOMP_ARCH\5CPYNQ_Projects\5CHLS_proj\5Cproj_13_skiplist_prefetch", null} ; [ DW_TAG_file_type ]
@@ -276,9 +276,9 @@ define internal void @_GLOBAL__I_a() nounwind {
 !64 = metadata !{i32 786485, null, metadata !"", null, i32 0, i64 0, i64 0, i64 0, i32 0, metadata !15} ; [ DW_TAG_volatile_type ]
 !65 = metadata !{i32 26, i32 16, metadata !60, null}
 !66 = metadata !{i32 786688, metadata !60, metadata !"buff", metadata !6, i32 27, metadata !67, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
-!67 = metadata !{i32 786433, null, metadata !"", null, i32 0, i64 6400, i64 32, i32 0, i32 0, metadata !15, metadata !68, i32 0, i32 0} ; [ DW_TAG_array_type ]
+!67 = metadata !{i32 786433, null, metadata !"", null, i32 0, i64 16000, i64 32, i32 0, i32 0, metadata !15, metadata !68, i32 0, i32 0} ; [ DW_TAG_array_type ]
 !68 = metadata !{metadata !69}
-!69 = metadata !{i32 786465, i64 0, i64 199}      ; [ DW_TAG_subrange_type ]
+!69 = metadata !{i32 786465, i64 0, i64 499}      ; [ DW_TAG_subrange_type ]
 !70 = metadata !{i32 27, i32 7, metadata !60, null}
 !71 = metadata !{i32 786688, metadata !60, metadata !"cum_offs", metadata !6, i32 28, metadata !15, i32 0, i32 0} ; [ DW_TAG_auto_variable ]
 !72 = metadata !{i32 28, i32 7, metadata !60, null}

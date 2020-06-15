@@ -1329,7 +1329,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -1420,7 +1420,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2448,7 +2448,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -2471,10 +2471,10 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>441</content>
+				<content>1791</content>
 			</item>
 			<item class_id_reference="16" object_id="_69">
 				<Value>
@@ -2494,7 +2494,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
@@ -3417,7 +3417,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>561</mMinLatency>
+			<mMinLatency>1911</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -3505,9 +3505,9 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>9</mDepth>
-			<mMinTripCount>441</mMinTripCount>
-			<mMaxTripCount>441</mMaxTripCount>
-			<mMinLatency>448</mMinLatency>
+			<mMinTripCount>1791</mMinTripCount>
+			<mMaxTripCount>1791</mMaxTripCount>
+			<mMinLatency>1798</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>

@@ -14,8 +14,8 @@ entity skip_list_prefetcbkb_ram is
     generic(
             mem_type    : string := "block"; 
             dwidth     : integer := 32; 
-            awidth     : integer := 8; 
-            mem_size    : integer := 200
+            awidth     : integer := 9; 
+            mem_size    : integer := 500
     ); 
     port (
           addr0     : in std_logic_vector(awidth-1 downto 0); 
@@ -93,8 +93,8 @@ use IEEE.std_logic_1164.all;
 entity skip_list_prefetcbkb is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 200;
-        AddressWidth : INTEGER := 8);
+        AddressRange : INTEGER := 500;
+        AddressWidth : INTEGER := 9);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

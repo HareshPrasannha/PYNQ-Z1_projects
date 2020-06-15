@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'skipprefetch_Nelem'" level="0">
-<item name = "Date">Tue Jun 09 19:30:04 2020
+<item name = "Date">Mon Jun 15 12:53:03 2020
 </item>
 <item name = "Version">2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)</item>
 <item name = "Project">skipprefetch_Nelem</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">561, 561, 562, 562, none</column>
+<column name="">1911, 1911, 1912, 1912, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -36,7 +36,7 @@
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- Loop 1">110, 110, 11, -, -, 10, no</column>
-<column name="- Loop 2">448, 448, 9, 1, 1, 441, yes</column>
+<column name="- Loop 2">1798, 1798, 9, 1, 1, 1791, yes</column>
 </table>
 </item>
 </section>
@@ -49,12 +49,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="DSP">-, -, -, -</column>
-<column name="Expression">-, -, 0, 164</column>
+<column name="Expression">-, -, 0, 167</column>
 <column name="FIFO">-, -, -, -</column>
 <column name="Instance">4, -, 640, 870</column>
 <column name="Memory">2, -, 0, 0</column>
-<column name="Multiplexer">-, -, -, 83</column>
-<column name="Register">-, -, 259, 37</column>
+<column name="Multiplexer">-, -, -, 85</column>
+<column name="Register">-, -, 261, 37</column>
 <specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
 <specialColumn name="Utilization (%)">2, 0, ~0, 2</specialColumn>
 </table>
@@ -88,12 +88,12 @@
 <column name="cum_offs_1_fu_264_p2">+, 0, 0, 20, 20, 20</column>
 <column name="i_1_fu_212_p2">+, 0, 0, 4, 4, 1</column>
 <column name="i_2_fu_301_p2">+, 0, 0, 4, 4, 1</column>
-<column name="indvar_flatten_next_fu_276_p2">+, 0, 0, 9, 9, 1</column>
+<column name="indvar_flatten_next_fu_276_p2">+, 0, 0, 11, 11, 1</column>
 <column name="tmp_1_fu_240_p2">+, 0, 0, 20, 20, 20</column>
 <column name="ap_condition_412">and, 0, 0, 1, 1, 1</column>
 <column name="exitcond2_fu_206_p2">icmp, 0, 0, 2, 4, 4</column>
 <column name="exitcond5_fu_282_p2">icmp, 0, 0, 2, 4, 4</column>
-<column name="exitcond_flatten_fu_270_p2">icmp, 0, 0, 3, 9, 8</column>
+<column name="exitcond_flatten_fu_270_p2">icmp, 0, 0, 4, 11, 10</column>
 <column name="i1_mid2_fu_288_p3">select, 0, 0, 4, 1, 1</column>
 </table>
 </item>
@@ -109,7 +109,7 @@
 <column name="cum_offs_reg_140">20, 2, 20, 40</column>
 <column name="i1_reg_163">4, 2, 4, 8</column>
 <column name="i_reg_129">4, 2, 4, 8</column>
-<column name="indvar_flatten_reg_152">9, 2, 9, 18</column>
+<column name="indvar_flatten_reg_152">11, 2, 11, 22</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
@@ -135,7 +135,7 @@
 <column name="i_1_reg_348">4, 0, 4, 0</column>
 <column name="i_cast2_reg_339">4, 0, 32, 28</column>
 <column name="i_reg_129">4, 0, 4, 0</column>
-<column name="indvar_flatten_reg_152">9, 0, 9, 0</column>
+<column name="indvar_flatten_reg_152">11, 0, 11, 0</column>
 <column name="tmp_3_reg_364">16, 0, 16, 0</column>
 <column name="tmp_4_reg_369">16, 0, 16, 0</column>
 <column name="tmp_cast6_reg_334">29, 0, 31, 2</column>

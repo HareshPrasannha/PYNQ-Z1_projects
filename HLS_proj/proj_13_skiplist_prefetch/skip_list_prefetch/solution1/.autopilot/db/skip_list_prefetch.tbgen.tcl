@@ -180,8 +180,8 @@ set RtlHierarchyInfo {[
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "11373", "Max" : "11373"}
-	, {"Name" : "Interval", "Min" : "11374", "Max" : "11374"}
+	{"Name" : "Latency", "Min" : "13503", "Max" : "13503"}
+	, {"Name" : "Interval", "Min" : "13504", "Max" : "13504"}
 ]}
 
 set Spec2ImplPortList { 

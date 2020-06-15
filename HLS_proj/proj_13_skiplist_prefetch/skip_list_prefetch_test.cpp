@@ -6,7 +6,7 @@ typedef int dat_typ;
 typedef short dat_typ1;
 
 #define level 2
-#define skip_intr 50
+#define skip_intr 20
 
 struct node{
 	dat_typ val;

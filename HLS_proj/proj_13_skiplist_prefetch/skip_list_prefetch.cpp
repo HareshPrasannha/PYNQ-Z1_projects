@@ -6,7 +6,7 @@ typedef int dat_typ;
 typedef short dat_typ1;
 
 const int n = 10000;
-const int skip_intr = 50;
+const int skip_intr = 20;
 const int buff_len = n/skip_intr;
 
 struct node{

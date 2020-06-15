@@ -21,9 +21,9 @@ generic (
     C_M_AXI_A_BUS_BUSER_WIDTH : INTEGER := 1;
     C_S_AXI_CFG_ADDR_WIDTH : INTEGER := 5;
     C_S_AXI_CFG_DATA_WIDTH : INTEGER := 32;
-    C_M_AXI_A_BUS_USER_VALUE : INTEGER := 0;
     C_M_AXI_A_BUS_CACHE_VALUE : INTEGER := 3;
-    C_M_AXI_A_BUS_PROT_VALUE : INTEGER := 0 );
+    C_M_AXI_A_BUS_PROT_VALUE : INTEGER := 0;
+    C_M_AXI_A_BUS_USER_VALUE : INTEGER := 0 );
 port (
     ap_clk : IN STD_LOGIC;
     ap_rst_n : IN STD_LOGIC;
@@ -96,7 +96,7 @@ end;
 architecture behav of skipprefetch_Nelem is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "skipprefetch_Nelem,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=13.580000,HLS_SYN_LAT=561,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=899,HLS_SYN_LUT=1154}";
+    "skipprefetch_Nelem,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=13.580000,HLS_SYN_LAT=1911,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=901,HLS_SYN_LUT=1159}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000001";
@@ -127,7 +127,7 @@ architecture behav of skipprefetch_Nelem is
     constant ap_const_lv32_B : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000001011";
     constant ap_const_lv4_0 : STD_LOGIC_VECTOR (3 downto 0) := "0000";
     constant ap_const_lv20_0 : STD_LOGIC_VECTOR (19 downto 0) := "00000000000000000000";
-    constant ap_const_lv9_0 : STD_LOGIC_VECTOR (8 downto 0) := "000000000";
+    constant ap_const_lv11_0 : STD_LOGIC_VECTOR (10 downto 0) := "00000000000";
     constant ap_const_lv4_1 : STD_LOGIC_VECTOR (3 downto 0) := "0001";
     constant ap_const_lv3_0 : STD_LOGIC_VECTOR (2 downto 0) := "000";
     constant ap_const_lv2_0 : STD_LOGIC_VECTOR (1 downto 0) := "00";
@@ -137,8 +137,8 @@ architecture behav of skipprefetch_Nelem is
     constant ap_const_lv4_A : STD_LOGIC_VECTOR (3 downto 0) := "1010";
     constant ap_const_lv32_30 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000110000";
     constant ap_const_lv32_3F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000111111";
-    constant ap_const_lv9_1B9 : STD_LOGIC_VECTOR (8 downto 0) := "110111001";
-    constant ap_const_lv9_1 : STD_LOGIC_VECTOR (8 downto 0) := "000000001";
+    constant ap_const_lv11_6FF : STD_LOGIC_VECTOR (10 downto 0) := "11011111111";
+    constant ap_const_lv11_1 : STD_LOGIC_VECTOR (10 downto 0) := "00000000001";
     constant ap_const_lv32_D : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000001101";
     constant ap_const_lv64_0 : STD_LOGIC_VECTOR (63 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000";
     constant ap_const_lv8_0 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
@@ -187,7 +187,7 @@ architecture behav of skipprefetch_Nelem is
     signal A_BUS_BRESP : STD_LOGIC_VECTOR (1 downto 0);
     signal A_BUS_BID : STD_LOGIC_VECTOR (0 downto 0);
     signal A_BUS_BUSER : STD_LOGIC_VECTOR (0 downto 0);
-    signal indvar_flatten_reg_152 : STD_LOGIC_VECTOR (8 downto 0);
+    signal indvar_flatten_reg_152 : STD_LOGIC_VECTOR (10 downto 0);
     signal i1_reg_163 : STD_LOGIC_VECTOR (3 downto 0);
     signal tmp_fu_194_p1 : STD_LOGIC_VECTOR (31 downto 0);
     signal tmp_reg_329 : STD_LOGIC_VECTOR (31 downto 0);
@@ -217,7 +217,7 @@ architecture behav of skipprefetch_Nelem is
     signal ap_pipeline_reg_pp0_iter4_exitcond_flatten_reg_379 : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_pipeline_reg_pp0_iter5_exitcond_flatten_reg_379 : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_pipeline_reg_pp0_iter6_exitcond_flatten_reg_379 : STD_LOGIC_VECTOR (0 downto 0);
-    signal indvar_flatten_next_fu_276_p2 : STD_LOGIC_VECTOR (8 downto 0);
+    signal indvar_flatten_next_fu_276_p2 : STD_LOGIC_VECTOR (10 downto 0);
     signal ap_enable_reg_pp0_iter0 : STD_LOGIC := '0';
     signal buff_addr_1_reg_388 : STD_LOGIC_VECTOR (3 downto 0);
     signal ap_pipeline_reg_pp0_iter1_buff_addr_1_reg_388 : STD_LOGIC_VECTOR (3 downto 0);
@@ -807,7 +807,7 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_lv1_1 = ap_CS_fsm_state2) and not((ap_const_lv1_0 = exitcond2_fu_206_p2)))) then 
-                indvar_flatten_reg_152 <= ap_const_lv9_0;
+                indvar_flatten_reg_152 <= ap_const_lv11_0;
             elsif (((ap_const_lv1_1 = ap_CS_fsm_pp0_stage0) and not((((ap_const_logic_1 = ap_enable_reg_pp0_iter1) and (exitcond_flatten_reg_379 = ap_const_lv1_0) and (ap_const_logic_0 = ap_sig_ioackin_A_BUS_ARREADY)) or ((ap_const_logic_1 = ap_enable_reg_pp0_iter8) and (ap_const_lv1_0 = ap_pipeline_reg_pp0_iter7_exitcond_flatten_reg_379) and (A_BUS_RVALID = ap_const_logic_0)))) and (ap_const_logic_1 = ap_enable_reg_pp0_iter0) and (ap_const_lv1_0 = exitcond_flatten_fu_270_p2))) then 
                 indvar_flatten_reg_152 <= indvar_flatten_next_fu_276_p2;
             end if; 
@@ -1167,7 +1167,7 @@ begin
 
     exitcond2_fu_206_p2 <= "1" when (i_reg_129 = ap_const_lv4_A) else "0";
     exitcond5_fu_282_p2 <= "1" when (i1_reg_163 = ap_const_lv4_A) else "0";
-    exitcond_flatten_fu_270_p2 <= "1" when (indvar_flatten_reg_152 = ap_const_lv9_1B9) else "0";
+    exitcond_flatten_fu_270_p2 <= "1" when (indvar_flatten_reg_152 = ap_const_lv11_6FF) else "0";
     grp_fu_174_p4 <= A_BUS_RDATA(47 downto 32);
     i1_cast1_fu_296_p1 <= std_logic_vector(resize(unsigned(i1_mid2_fu_288_p3),32));
     i1_mid2_fu_288_p3 <= 
@@ -1176,7 +1176,7 @@ begin
     i_1_fu_212_p2 <= std_logic_vector(unsigned(i_reg_129) + unsigned(ap_const_lv4_1));
     i_2_fu_301_p2 <= std_logic_vector(unsigned(i1_mid2_fu_288_p3) + unsigned(ap_const_lv4_1));
     i_cast2_fu_202_p1 <= std_logic_vector(resize(unsigned(i_reg_129),32));
-    indvar_flatten_next_fu_276_p2 <= std_logic_vector(unsigned(indvar_flatten_reg_152) + unsigned(ap_const_lv9_1));
+    indvar_flatten_next_fu_276_p2 <= std_logic_vector(unsigned(indvar_flatten_reg_152) + unsigned(ap_const_lv11_1));
     tmp_1_fu_240_p2 <= std_logic_vector(signed(tmp_cast_fu_237_p1) + signed(cum_offs_reg_140));
         tmp_2_cast_fu_261_p1 <= std_logic_vector(resize(signed(tmp_4_reg_369),20));
 

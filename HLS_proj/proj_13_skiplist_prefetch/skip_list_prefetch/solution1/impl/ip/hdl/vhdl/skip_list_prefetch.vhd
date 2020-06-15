@@ -21,8 +21,8 @@ generic (
     C_M_AXI_A_BUS_BUSER_WIDTH : INTEGER := 1;
     C_S_AXI_CFG_ADDR_WIDTH : INTEGER := 5;
     C_S_AXI_CFG_DATA_WIDTH : INTEGER := 32;
-    C_M_AXI_A_BUS_PROT_VALUE : INTEGER := 0;
     C_M_AXI_A_BUS_USER_VALUE : INTEGER := 0;
+    C_M_AXI_A_BUS_PROT_VALUE : INTEGER := 0;
     C_M_AXI_A_BUS_CACHE_VALUE : INTEGER := 3 );
 port (
     ap_clk : IN STD_LOGIC;
@@ -96,7 +96,7 @@ end;
 architecture behav of skip_list_prefetch is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "skip_list_prefetch,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=11.190000,HLS_SYN_LAT=11373,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=987,HLS_SYN_LUT=1285}";
+    "skip_list_prefetch,hls_ip_2016_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=11.190000,HLS_SYN_LAT=13503,HLS_SYN_TPT=none,HLS_SYN_MEM=6,HLS_SYN_DSP=0,HLS_SYN_FF=993,HLS_SYN_LUT=1297}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (19 downto 0) := "00000000000000000001";
@@ -132,23 +132,24 @@ architecture behav of skip_list_prefetch is
     constant ap_const_lv32_9 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000001001";
     constant ap_const_lv32_12 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010010";
     constant ap_const_lv32_8 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000001000";
-    constant ap_const_lv8_0 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
-    constant ap_const_lv24_0 : STD_LOGIC_VECTOR (23 downto 0) := "000000000000000000000000";
+    constant ap_const_lv9_0 : STD_LOGIC_VECTOR (8 downto 0) := "000000000";
+    constant ap_const_lv25_0 : STD_LOGIC_VECTOR (24 downto 0) := "0000000000000000000000000";
     constant ap_const_lv14_0 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000000";
-    constant ap_const_lv8_1 : STD_LOGIC_VECTOR (7 downto 0) := "00000001";
+    constant ap_const_lv9_1 : STD_LOGIC_VECTOR (8 downto 0) := "000000001";
     constant ap_const_lv3_0 : STD_LOGIC_VECTOR (2 downto 0) := "000";
     constant ap_const_lv2_0 : STD_LOGIC_VECTOR (1 downto 0) := "00";
     constant ap_const_lv4_0 : STD_LOGIC_VECTOR (3 downto 0) := "0000";
     constant ap_const_lv32_20 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000100000";
     constant ap_const_lv32_2F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000101111";
     constant ap_const_lv32_1F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000011111";
-    constant ap_const_lv8_C8 : STD_LOGIC_VECTOR (7 downto 0) := "11001000";
+    constant ap_const_lv9_1F4 : STD_LOGIC_VECTOR (8 downto 0) := "111110100";
     constant ap_const_lv32_30 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000110000";
     constant ap_const_lv32_3F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000111111";
-    constant ap_const_lv14_2617 : STD_LOGIC_VECTOR (13 downto 0) := "10011000010111";
+    constant ap_const_lv14_2509 : STD_LOGIC_VECTOR (13 downto 0) := "10010100001001";
     constant ap_const_lv14_1 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000001";
     constant ap_const_lv32_13 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010011";
     constant ap_const_lv64_0 : STD_LOGIC_VECTOR (63 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000";
+    constant ap_const_lv8_0 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
     constant ap_const_boolean_1 : BOOLEAN := true;
 
     signal ap_rst_n_inv : STD_LOGIC;
@@ -199,11 +200,11 @@ architecture behav of skip_list_prefetch is
     signal A_BUS_BRESP : STD_LOGIC_VECTOR (1 downto 0);
     signal A_BUS_BID : STD_LOGIC_VECTOR (0 downto 0);
     signal A_BUS_BUSER : STD_LOGIC_VECTOR (0 downto 0);
-    signal i_reg_131 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp0_iter1_i_reg_131 : STD_LOGIC_VECTOR (7 downto 0);
-    signal cum_offs_reg_143 : STD_LOGIC_VECTOR (23 downto 0);
+    signal i_reg_131 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp0_iter1_i_reg_131 : STD_LOGIC_VECTOR (8 downto 0);
+    signal cum_offs_reg_143 : STD_LOGIC_VECTOR (24 downto 0);
     signal indvar_flatten_reg_155 : STD_LOGIC_VECTOR (13 downto 0);
-    signal i1_reg_166 : STD_LOGIC_VECTOR (7 downto 0);
+    signal i1_reg_166 : STD_LOGIC_VECTOR (8 downto 0);
     signal reg_191 : STD_LOGIC_VECTOR (15 downto 0);
     signal ap_sig_ioackin_A_BUS_ARREADY : STD_LOGIC;
     signal tmp_fu_205_p1 : STD_LOGIC_VECTOR (31 downto 0);
@@ -213,10 +214,10 @@ architecture behav of skip_list_prefetch is
     signal exitcond2_fu_213_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal cum_offs_cast_cast_fu_219_p1 : STD_LOGIC_VECTOR (30 downto 0);
     signal cum_offs_cast_cast_reg_363 : STD_LOGIC_VECTOR (30 downto 0);
-    signal i_1_fu_224_p2 : STD_LOGIC_VECTOR (7 downto 0);
-    signal i_1_reg_368 : STD_LOGIC_VECTOR (7 downto 0);
+    signal i_1_fu_224_p2 : STD_LOGIC_VECTOR (8 downto 0);
+    signal i_1_reg_368 : STD_LOGIC_VECTOR (8 downto 0);
     signal A_BUS_addr_1_reg_373 : STD_LOGIC_VECTOR (31 downto 0);
-    signal cum_offs_1_fu_275_p2 : STD_LOGIC_VECTOR (23 downto 0);
+    signal cum_offs_1_fu_275_p2 : STD_LOGIC_VECTOR (24 downto 0);
     signal grp_fu_177_p2 : STD_LOGIC_VECTOR (30 downto 0);
     signal a2_sum3_reg_384 : STD_LOGIC_VECTOR (30 downto 0);
     signal ap_CS_fsm_state12 : STD_LOGIC_VECTOR (0 downto 0);
@@ -233,17 +234,17 @@ architecture behav of skip_list_prefetch is
     signal ap_pipeline_reg_pp1_iter9_exitcond_flatten_reg_395 : STD_LOGIC_VECTOR (0 downto 0);
     signal indvar_flatten_next_fu_297_p2 : STD_LOGIC_VECTOR (13 downto 0);
     signal ap_enable_reg_pp1_iter0 : STD_LOGIC := '0';
-    signal buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter1_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter2_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter3_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter4_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter5_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter6_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter7_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter8_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal ap_pipeline_reg_pp1_iter9_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (7 downto 0);
-    signal i_2_fu_322_p2 : STD_LOGIC_VECTOR (7 downto 0);
+    signal buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter1_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter2_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter3_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter4_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter5_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter6_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter7_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter8_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal ap_pipeline_reg_pp1_iter9_buff_addr_1_reg_404 : STD_LOGIC_VECTOR (8 downto 0);
+    signal i_2_fu_322_p2 : STD_LOGIC_VECTOR (8 downto 0);
     signal buff_q0 : STD_LOGIC_VECTOR (31 downto 0);
     signal buff_load_reg_415 : STD_LOGIC_VECTOR (31 downto 0);
     signal ap_enable_reg_pp1_iter1 : STD_LOGIC := '0';
@@ -266,15 +267,15 @@ architecture behav of skip_list_prefetch is
     signal ap_enable_reg_pp1_iter7 : STD_LOGIC := '0';
     signal ap_enable_reg_pp1_iter8 : STD_LOGIC := '0';
     signal ap_enable_reg_pp1_iter10 : STD_LOGIC := '0';
-    signal buff_address0 : STD_LOGIC_VECTOR (7 downto 0);
+    signal buff_address0 : STD_LOGIC_VECTOR (8 downto 0);
     signal buff_ce0 : STD_LOGIC;
     signal buff_we0 : STD_LOGIC;
     signal buff_d0 : STD_LOGIC_VECTOR (31 downto 0);
     signal buff_ce1 : STD_LOGIC;
     signal buff_we1 : STD_LOGIC;
     signal buff_d1 : STD_LOGIC_VECTOR (31 downto 0);
-    signal i_phi_fu_135_p4 : STD_LOGIC_VECTOR (7 downto 0);
-    signal cum_offs_phi_fu_147_p4 : STD_LOGIC_VECTOR (23 downto 0);
+    signal i_phi_fu_135_p4 : STD_LOGIC_VECTOR (8 downto 0);
+    signal cum_offs_phi_fu_147_p4 : STD_LOGIC_VECTOR (24 downto 0);
     signal i_cast2_fu_241_p1 : STD_LOGIC_VECTOR (31 downto 0);
     signal i1_cast1_fu_317_p1 : STD_LOGIC_VECTOR (31 downto 0);
     signal a2_sum_cast_fu_230_p1 : STD_LOGIC_VECTOR (31 downto 0);
@@ -282,12 +283,12 @@ architecture behav of skip_list_prefetch is
     signal ap_reg_ioackin_A_BUS_ARREADY : STD_LOGIC := '0';
     signal grp_fu_177_p1 : STD_LOGIC_VECTOR (30 downto 0);
     signal a1_fu_195_p4 : STD_LOGIC_VECTOR (28 downto 0);
-    signal tmp_cast_fu_246_p1 : STD_LOGIC_VECTOR (23 downto 0);
-    signal tmp_1_fu_250_p2 : STD_LOGIC_VECTOR (23 downto 0);
+    signal tmp_cast_fu_246_p1 : STD_LOGIC_VECTOR (24 downto 0);
+    signal tmp_1_fu_250_p2 : STD_LOGIC_VECTOR (24 downto 0);
     signal tmp_5_fu_261_p4 : STD_LOGIC_VECTOR (15 downto 0);
-    signal tmp_2_cast_fu_271_p1 : STD_LOGIC_VECTOR (23 downto 0);
+    signal tmp_2_cast_fu_271_p1 : STD_LOGIC_VECTOR (24 downto 0);
     signal exitcond5_fu_303_p2 : STD_LOGIC_VECTOR (0 downto 0);
-    signal i1_mid2_fu_309_p3 : STD_LOGIC_VECTOR (7 downto 0);
+    signal i1_mid2_fu_309_p3 : STD_LOGIC_VECTOR (8 downto 0);
     signal tmp_6_fu_339_p1 : STD_LOGIC_VECTOR (31 downto 0);
     signal ap_CS_fsm_state32 : STD_LOGIC_VECTOR (0 downto 0);
     attribute fsm_encoding of ap_CS_fsm_state32 : signal is "none";
@@ -304,12 +305,12 @@ architecture behav of skip_list_prefetch is
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        address0 : IN STD_LOGIC_VECTOR (7 downto 0);
+        address0 : IN STD_LOGIC_VECTOR (8 downto 0);
         ce0 : IN STD_LOGIC;
         we0 : IN STD_LOGIC;
         d0 : IN STD_LOGIC_VECTOR (31 downto 0);
         q0 : OUT STD_LOGIC_VECTOR (31 downto 0);
-        address1 : IN STD_LOGIC_VECTOR (7 downto 0);
+        address1 : IN STD_LOGIC_VECTOR (8 downto 0);
         ce1 : IN STD_LOGIC;
         we1 : IN STD_LOGIC;
         d1 : IN STD_LOGIC_VECTOR (31 downto 0) );
@@ -619,8 +620,8 @@ begin
     buff_U : component skip_list_prefetcbkb
     generic map (
         DataWidth => 32,
-        AddressRange => 200,
-        AddressWidth => 8)
+        AddressRange => 500,
+        AddressWidth => 9)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -864,7 +865,7 @@ begin
             if (((ap_const_lv1_1 = ap_CS_fsm_pp0_stage1) and (ap_const_logic_1 = ap_enable_reg_pp0_iter1) and (ap_const_lv1_0 = ap_pipeline_reg_pp0_iter1_exitcond2_reg_359) and not((((ap_const_logic_1 = ap_enable_reg_pp0_iter0) and (exitcond2_reg_359 = ap_const_lv1_0) and (ap_const_logic_0 = ap_sig_ioackin_A_BUS_ARREADY)) or ((ap_const_logic_1 = ap_enable_reg_pp0_iter1) and (ap_const_lv1_0 = ap_pipeline_reg_pp0_iter1_exitcond2_reg_359) and (A_BUS_RVALID = ap_const_logic_0)))))) then 
                 cum_offs_reg_143 <= cum_offs_1_fu_275_p2;
             elsif (((ap_CS_fsm_state1 = ap_const_lv1_1) and not((ap_start = ap_const_logic_0)))) then 
-                cum_offs_reg_143 <= ap_const_lv24_0;
+                cum_offs_reg_143 <= ap_const_lv25_0;
             end if; 
         end if;
     end process;
@@ -875,7 +876,7 @@ begin
             if ((not((((ap_const_logic_1 = ap_enable_reg_pp1_iter2) and (ap_const_lv1_0 = ap_pipeline_reg_pp1_iter1_exitcond_flatten_reg_395) and (ap_const_logic_0 = ap_sig_ioackin_A_BUS_ARREADY)) or ((ap_const_logic_1 = ap_enable_reg_pp1_iter9) and (ap_const_lv1_0 = ap_pipeline_reg_pp1_iter8_exitcond_flatten_reg_395) and (A_BUS_RVALID = ap_const_logic_0)))) and (ap_const_lv1_1 = ap_CS_fsm_pp1_stage0) and (ap_const_logic_1 = ap_enable_reg_pp1_iter0) and (ap_const_lv1_0 = exitcond_flatten_fu_291_p2))) then 
                 i1_reg_166 <= i_2_fu_322_p2;
             elsif (((ap_const_lv1_1 = ap_CS_fsm_state20) and not((A_BUS_RVALID = ap_const_logic_0)))) then 
-                i1_reg_166 <= ap_const_lv8_1;
+                i1_reg_166 <= ap_const_lv9_1;
             end if; 
         end if;
     end process;
@@ -886,7 +887,7 @@ begin
             if (((exitcond2_reg_359 = ap_const_lv1_0) and (ap_const_lv1_1 = ap_CS_fsm_pp0_stage0) and (ap_const_logic_1 = ap_enable_reg_pp0_iter1) and not(((exitcond2_reg_359 = ap_const_lv1_0) and (ap_const_logic_1 = ap_enable_reg_pp0_iter1) and (A_BUS_RVALID = ap_const_logic_0))))) then 
                 i_reg_131 <= i_1_reg_368;
             elsif (((ap_CS_fsm_state1 = ap_const_lv1_1) and not((ap_start = ap_const_logic_0)))) then 
-                i_reg_131 <= ap_const_lv8_0;
+                i_reg_131 <= ap_const_lv9_0;
             end if; 
         end if;
     end process;
@@ -980,7 +981,7 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if ((not((((ap_const_logic_1 = ap_enable_reg_pp1_iter2) and (ap_const_lv1_0 = ap_pipeline_reg_pp1_iter1_exitcond_flatten_reg_395) and (ap_const_logic_0 = ap_sig_ioackin_A_BUS_ARREADY)) or ((ap_const_logic_1 = ap_enable_reg_pp1_iter9) and (ap_const_lv1_0 = ap_pipeline_reg_pp1_iter8_exitcond_flatten_reg_395) and (A_BUS_RVALID = ap_const_logic_0)))) and (ap_const_lv1_1 = ap_CS_fsm_pp1_stage0) and (ap_const_lv1_0 = exitcond_flatten_fu_291_p2))) then
-                buff_addr_1_reg_404 <= i1_cast1_fu_317_p1(8 - 1 downto 0);
+                buff_addr_1_reg_404 <= i1_cast1_fu_317_p1(9 - 1 downto 0);
             end if;
         end if;
     end process;
@@ -1244,11 +1245,11 @@ begin
     buff_address0_assign_proc : process(ap_CS_fsm_pp0_stage1, ap_enable_reg_pp0_iter1, ap_CS_fsm_pp1_stage0, ap_enable_reg_pp1_iter0, i_cast2_fu_241_p1, i1_cast1_fu_317_p1)
     begin
         if (((ap_const_lv1_1 = ap_CS_fsm_pp1_stage0) and (ap_const_logic_1 = ap_enable_reg_pp1_iter0))) then 
-            buff_address0 <= i1_cast1_fu_317_p1(8 - 1 downto 0);
+            buff_address0 <= i1_cast1_fu_317_p1(9 - 1 downto 0);
         elsif (((ap_const_lv1_1 = ap_CS_fsm_pp0_stage1) and (ap_const_logic_1 = ap_enable_reg_pp0_iter1))) then 
-            buff_address0 <= i_cast2_fu_241_p1(8 - 1 downto 0);
+            buff_address0 <= i_cast2_fu_241_p1(9 - 1 downto 0);
         else 
-            buff_address0 <= "XXXXXXXX";
+            buff_address0 <= "XXXXXXXXX";
         end if; 
     end process;
 
@@ -1308,9 +1309,9 @@ begin
         end if; 
     end process;
 
-    exitcond2_fu_213_p2 <= "1" when (i_phi_fu_135_p4 = ap_const_lv8_C8) else "0";
-    exitcond5_fu_303_p2 <= "1" when (i1_reg_166 = ap_const_lv8_C8) else "0";
-    exitcond_flatten_fu_291_p2 <= "1" when (indvar_flatten_reg_155 = ap_const_lv14_2617) else "0";
+    exitcond2_fu_213_p2 <= "1" when (i_phi_fu_135_p4 = ap_const_lv9_1F4) else "0";
+    exitcond5_fu_303_p2 <= "1" when (i1_reg_166 = ap_const_lv9_1F4) else "0";
+    exitcond_flatten_fu_291_p2 <= "1" when (indvar_flatten_reg_155 = ap_const_lv14_2509) else "0";
 
     grp_fu_177_p1_assign_proc : process(ap_CS_fsm_pp0_stage1, ap_enable_reg_pp0_iter0, cum_offs_cast_cast_fu_219_p1, cum_offs_cast_cast_reg_363, ap_CS_fsm_state12)
     begin
@@ -1326,10 +1327,10 @@ begin
     grp_fu_177_p2 <= std_logic_vector(unsigned(tmp_cast6_reg_354) + unsigned(grp_fu_177_p1));
     i1_cast1_fu_317_p1 <= std_logic_vector(resize(unsigned(i1_mid2_fu_309_p3),32));
     i1_mid2_fu_309_p3 <= 
-        ap_const_lv8_1 when (exitcond5_fu_303_p2(0) = '1') else 
+        ap_const_lv9_1 when (exitcond5_fu_303_p2(0) = '1') else 
         i1_reg_166;
-    i_1_fu_224_p2 <= std_logic_vector(unsigned(i_reg_131) + unsigned(ap_const_lv8_1));
-    i_2_fu_322_p2 <= std_logic_vector(unsigned(i1_mid2_fu_309_p3) + unsigned(ap_const_lv8_1));
+    i_1_fu_224_p2 <= std_logic_vector(unsigned(i_reg_131) + unsigned(ap_const_lv9_1));
+    i_2_fu_322_p2 <= std_logic_vector(unsigned(i1_mid2_fu_309_p3) + unsigned(ap_const_lv9_1));
     i_cast2_fu_241_p1 <= std_logic_vector(resize(unsigned(ap_pipeline_reg_pp0_iter1_i_reg_131),32));
 
     i_phi_fu_135_p4_assign_proc : process(exitcond2_reg_359, ap_CS_fsm_pp0_stage0, ap_enable_reg_pp0_iter1, i_reg_131, i_1_reg_368)
@@ -1343,13 +1344,13 @@ begin
 
     indvar_flatten_next_fu_297_p2 <= std_logic_vector(unsigned(indvar_flatten_reg_155) + unsigned(ap_const_lv14_1));
     tmp_1_fu_250_p2 <= std_logic_vector(unsigned(cum_offs_reg_143) + unsigned(tmp_cast_fu_246_p1));
-        tmp_2_cast_fu_271_p1 <= std_logic_vector(resize(signed(tmp_5_fu_261_p4),24));
+        tmp_2_cast_fu_271_p1 <= std_logic_vector(resize(signed(tmp_5_fu_261_p4),25));
 
     tmp_5_fu_261_p4 <= A_BUS_RDATA(63 downto 48);
         tmp_6_fu_339_p1 <= std_logic_vector(resize(signed(reg_191),32));
 
     tmp_cast6_fu_209_p1 <= std_logic_vector(resize(unsigned(a1_fu_195_p4),31));
-        tmp_cast_fu_246_p1 <= std_logic_vector(resize(signed(reg_191),24));
+        tmp_cast_fu_246_p1 <= std_logic_vector(resize(signed(reg_191),25));
 
     tmp_fu_205_p1 <= std_logic_vector(resize(unsigned(a1_fu_195_p4),32));
 end behav;
