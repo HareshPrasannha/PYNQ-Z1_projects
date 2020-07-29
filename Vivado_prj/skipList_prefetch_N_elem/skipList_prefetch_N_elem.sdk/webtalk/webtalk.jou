@@ -2,8 +2,8 @@
 # Webtalk v2016.3 (64-bit)
 # SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
 # 
-# Start of session at: Mon Jun 15 13:28:22 2020
-# Process ID: 14068
+# Start of session at: Mon Jul 06 19:52:05 2020
+# Process ID: 14596
 # Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
 # Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sdk/webtalk/webtalk.log

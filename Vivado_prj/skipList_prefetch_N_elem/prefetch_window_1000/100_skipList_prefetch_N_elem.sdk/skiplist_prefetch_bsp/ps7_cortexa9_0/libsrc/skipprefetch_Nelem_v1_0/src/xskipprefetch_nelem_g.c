@@ -48,7 +48,7 @@ XSkipprefetch_nelem_Config XSkipprefetch_nelem_ConfigTable[] =
 {
 	{
 		XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID,
-		XPAR_SKIPPREFETCH_NELEM_0_S_AXI_CFG_BASEADDR
+		XPAR_SKIPPREFETCH_NELEM_0_S_AXI_BASEADDR
 	}
 };
 

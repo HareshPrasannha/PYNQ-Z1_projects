@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'skipprefetch_Nelem'" level="0">
-<item name = "Date">Mon Jun 15 12:53:02 2020
+<item name = "Date">Mon Jul 06 13:22:18 2020
 </item>
 <item name = "Version">2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)</item>
 <item name = "Project">skipprefetch_Nelem</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 13.58, 1.25</column>
+<column name="ap_clk">5.00, 5.00, 0.63</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1911, 1911, 1912, 1912, none</column>
+<column name="">1166, 1166, 1167, 1167, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,8 +35,8 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">110, 110, 11, -, -, 10, no</column>
-<column name="- Loop 2">1798, 1798, 9, 1, 1, 1791, yes</column>
+<column name="- Loop 1">220, 220, 11, -, -, 20, no</column>
+<column name="- Loop 2">943, 943, 14, 1, 1, 931, yes</column>
 </table>
 </item>
 </section>

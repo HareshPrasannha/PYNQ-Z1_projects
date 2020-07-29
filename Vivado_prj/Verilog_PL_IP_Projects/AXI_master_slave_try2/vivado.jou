@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Jul 29 19:52:13 2020
+# Process ID: 5404
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/AXI_master_slave_try2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4616 A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\AXI_master_slave_try2\AXI_master_slave_try2.xpr
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/AXI_master_slave_try2/vivado.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/AXI_master_slave_try2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/AXI_master_slave_try2/AXI_master_slave_try2.xpr

@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Jul 27 09:53:40 2020
+# Process ID: 8072
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_read_write_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19468 A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\simple_read_write_AXI\simple_read_write_AXI.xpr
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_read_write_AXI/vivado.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_read_write_AXI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/simple_read_write_AXI/simple_read_write_AXI.xpr
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+close_sim
+launch_simulation
+source simple_read_write_test.tcl
+run 1000 us
+close_sim

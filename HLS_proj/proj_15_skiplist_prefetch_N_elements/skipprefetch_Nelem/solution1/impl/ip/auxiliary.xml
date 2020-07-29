@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="skipprefetch_Nelem" xd:componentRef="skipprefetch_Nelem" xd:initiationInterval="1912" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="skipprefetch_Nelem" xd:componentRef="skipprefetch_Nelem" xd:initiationInterval="1167" xd:clockPeriod="5.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
   <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CFG" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
   <xd:arg xd:name="a-&gt;val" xd:originalName="a" xd:direction="inout" xd:interfaceRef="m_axi_A_BUS" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="31:0" xd:dataWidth="32" xd:bufferDirection="in"/>
   <xd:arg xd:name="a-&gt;offs[0]" xd:originalName="a" xd:direction="inout" xd:interfaceRef="m_axi_A_BUS" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="47:32" xd:dataWidth="16" xd:bufferDirection="in"/>
   <xd:arg xd:name="a-&gt;offs[1]" xd:originalName="a" xd:direction="inout" xd:interfaceRef="m_axi_A_BUS" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="63:48" xd:dataWidth="16" xd:bufferDirection="in"/>
   <xd:arg xd:name="a" xd:originalName="a" xd:direction="in" xd:interfaceRef="s_axi_CFG" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_A_BUS" xd:dataWidth="32" xd:offset="0x10" xd:handshakeRef="ap_none"/>
-  <xd:latencyEstimates xd:best-case="1911" xd:worst-case="1911" xd:average-case="1911"/>
-  <xd:resourceEstimates xd:LUT="1159" xd:FF="901" xd:BRAM="6" xd:DSP="0"/>
+  <xd:latencyEstimates xd:best-case="1166" xd:worst-case="1166" xd:average-case="1166"/>
+  <xd:resourceEstimates xd:LUT="1167" xd:FF="1001" xd:BRAM="6" xd:DSP="0"/>
 </xd:acceleratorMap>

@@ -1,0 +1,8 @@
+13:46:25 **** Incremental Build of configuration Debug for project skipprefetch_clk_5ns ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+13:46:26 Build Finished (took 657ms)
+

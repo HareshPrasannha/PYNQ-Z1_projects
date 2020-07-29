@@ -1,0 +1,23 @@
+INFO: [SIM 2] *************** CSIM start ***************
+WARNING: [SIM 51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../nonseq_prefetch.cpp in debug mode
+   Generating csim.exe
+k: 0 i: 0 Value: 1
+k: 1 i: 8 Value: 9
+k: 2 i: 24 Value: 25
+k: 3 i: 48 Value: 49
+k: 4 i: 80 Value: 81
+k: 5 i: 120 Value: 121
+k: 6 i: 168 Value: 169
+k: 7 i: 224 Value: 225
+k: 8 i: 288 Value: 289
+k: 9 i: 360 Value: 361
+k: 10 i: 440 Value: 441
+k: 11 i: 528 Value: 529
+k: 12 i: 624 Value: 625
+k: 13 i: 728 Value: 729
+k: 14 i: 840 Value: 841
+k: 15 i: 960 Value: 961
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

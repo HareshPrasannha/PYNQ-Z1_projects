@@ -708,9 +708,12 @@
 </instance>
 <instance id="xilinx.gnu.armv7.exe.debug.1656545722;xilinx.gnu.armv7.exe.debug.1656545722.;xilinx.gnu.armv7.c.toolchain.compiler.debug.1823211180;xilinx.gnu.armv7.c.compiler.input.690227908">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="#undef __ARM_FEATURE_LDREX" removed="true"/>
+<includePath path="#undef __ARM_FEATURE_CLZ" removed="true"/>
 <includePath path="#undef __ARM_ARCH_EXT_IDIV__" removed="true"/>
 <includePath path="#undef __ARM_FEATURE_IDIV" removed="true"/>
 <includePath path="c:\xilinx\sdk\2016.3\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.2.1/include"/>
+<includePath path="#undef __ARM_FEATURE_SIMD32" removed="true"/>
 <includePath path="#undef __ARM_ASM_SYNTAX_UNIFIED__" removed="true"/>
 <includePath path="c:\xilinx\sdk\2016.3\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.2.1/include-fixed"/>
 <includePath path="c:\xilinx\sdk\2016.3\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/include"/>

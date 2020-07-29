@@ -9,7 +9,7 @@ add_files skipprefetch_Nelem.cpp
 add_files -tb skipprefetch_Nelem_test.cpp
 open_solution "solution1"
 set_part {xc7z020clg400-1} -tool vivado
-create_clock -period 10 -name default
+create_clock -period 5 -name default
 #source "./skipprefetch_Nelem/solution1/directives.tcl"
 csim_design
 csynth_design

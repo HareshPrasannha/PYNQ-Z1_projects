@@ -1,0 +1,8 @@
+12:31:38 **** Incremental Build of configuration Debug for project skiplist_prefetch_clk_1ns ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+12:31:38 Build Finished (took 365ms)
+

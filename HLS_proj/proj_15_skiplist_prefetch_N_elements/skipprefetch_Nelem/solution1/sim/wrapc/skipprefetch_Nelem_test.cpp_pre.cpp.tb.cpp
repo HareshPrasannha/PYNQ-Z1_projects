@@ -688,7 +688,7 @@ wchar_t* __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) ulltow (unsign
 typedef int dat_typ;
 typedef short dat_typ1;
 
-const int n = 2000;
+const int n = 10000;
 
 
 
@@ -720,6 +720,8 @@ int main()
 
   struct node *newnode = (struct node *)malloc(sizeof(struct node));
 
+
+
   newnode->val = i+1;
   newnode->offs[0] = 0;
   newnode->offs[1] = 0;
@@ -730,36 +732,50 @@ int main()
   else{
    prevnode->offs[0] = (newnode - prevnode);
   }
-  if((i+1)%20 == 0){
+  if((i+1)%100 == 0){
    skip_prevnode->offs[1] = (newnode - skip_prevnode);
    skip_prevnode = newnode;
   }
   prevnode = newnode;
+
+
+
  }
+ printf("\n\n");
 
  struct node *temp = head;
  struct node *old_temp = head;
-#82 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
- 
+#92 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+ int node_count = 0;
+ while(old_temp->offs[0] != 0){
+  
 #ifndef HLS_FASTSIM
 #define skipprefetch_Nelem AESL_WRAP_skipprefetch_Nelem
 #endif
 
-#82 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+#94 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
 
 #ifndef HLS_FASTSIM
 #define skipprefetch_Nelem AESL_WRAP_skipprefetch_Nelem
 #endif
 
-#82 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+#94 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
 skipprefetch_Nelem
 #undef skipprefetch_Nelem
-#82 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+#94 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
 
 #undef skipprefetch_Nelem
-#82 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+#94 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
 (old_temp);
-#95 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+  while(node_count < n){
+   old_temp = temp;
+   temp = temp + temp->offs[0];
+   node_count = node_count + 1;
+  }
+  printf("Value to PL: %d\n",old_temp->val);
+  node_count = 0;
+ }
+
  printf("\n\n");
     temp = head;
     old_temp = __null;
@@ -767,15 +783,15 @@ skipprefetch_Nelem
     while(temp != old_temp){
   old_temp = temp;
   printf("Old_val: %d-->Val: %d-->",i+1,temp->val);
-   temp = temp+temp->offs[0];
-   printf("next_val_1: %d-->",temp->val);
-   temp = old_temp+old_temp->offs[1];
-   printf("next_val_2: %d  ",temp->val);
+  temp = temp+temp->offs[0];
+  printf("next_val_1: %d-->",temp->val);
+  temp = old_temp+old_temp->offs[1];
+  printf("next_val_2: %d  ",temp->val);
   temp = old_temp+old_temp->offs[0];
   i = i+1;
   printf("\n");
-        }
+    }
  return 0;
 }
 #endif
-#111 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"
+#120 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem_test.cpp"

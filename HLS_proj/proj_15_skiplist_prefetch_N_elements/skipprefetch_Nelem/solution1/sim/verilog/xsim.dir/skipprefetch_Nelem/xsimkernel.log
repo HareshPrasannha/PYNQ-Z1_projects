@@ -1,7 +1,0 @@
-Running: xsim.dir/skipprefetch_Nelem/xsimk.exe -simmode gui -wdb skipprefetch_Nelem.wdb -simrunnum 0 -socket 59292
-Design successfully loaded
-Design Loading Memory Usage: 10104 KB (Peak: 10104 KB)
-Design Loading CPU Usage: 77 ms
-Simulation completed
-Simulation Memory Usage: 12420 KB (Peak: 12420 KB)
-Simulation CPU Usage: 108 ms

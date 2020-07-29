@@ -9,8 +9,8 @@
 module skipprefetch_Nelebkb_ram (addr0, ce0, d0, we0, q0, addr1, ce1, d1, we1,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 4;
-parameter MEM_SIZE = 10;
+parameter AWIDTH = 5;
+parameter MEM_SIZE = 20;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -73,8 +73,8 @@ module skipprefetch_Nelebkb(
     d1);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd10;
-parameter AddressWidth = 32'd4;
+parameter AddressRange = 32'd20;
+parameter AddressWidth = 32'd5;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

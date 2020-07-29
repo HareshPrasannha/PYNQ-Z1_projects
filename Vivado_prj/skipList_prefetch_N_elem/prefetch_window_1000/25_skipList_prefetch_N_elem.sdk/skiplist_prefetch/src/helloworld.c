@@ -57,7 +57,7 @@
 #include "xpm_counter.h"
 #include "xtime_l.h"
 
-#define ps 0
+#define ps 1
 #define pl 1
 
 #define n 10000
@@ -145,7 +145,8 @@ int main()
 			prefetch_startaddrs[count] = newnode;
 			count = count + 1;
 		}
-		struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+		volatile struct node *dummy_node = (struct node *)malloc(4*sizeof(struct node));
+		dummy_node->val = i;
 	}
 	xil_printf("Done generating Skip list with %d elements\n",n);
 	/*printf("Check for proper skip list initialisation\n");

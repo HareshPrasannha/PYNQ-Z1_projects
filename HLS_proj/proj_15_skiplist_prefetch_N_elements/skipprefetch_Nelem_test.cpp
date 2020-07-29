@@ -6,7 +6,7 @@ typedef short dat_typ1;
 
 const int n = 10000;
 #define level 2
-#define skip_intr 200
+#define skip_intr 50
 
 struct node{
 	dat_typ val;
@@ -97,7 +97,7 @@ int main()
 			temp = temp + temp->offs[0];
 			node_count = node_count + 1;
 		}
-		printf("Value: %d\n",old_temp->val);
+		printf("Value to PL: %d\n",old_temp->val);
 		node_count = 0;
 	}
 

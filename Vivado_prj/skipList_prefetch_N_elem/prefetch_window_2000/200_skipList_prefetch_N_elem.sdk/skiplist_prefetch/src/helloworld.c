@@ -62,7 +62,7 @@
 #define ps 0
 #define pl 1
 
-#define n 1000000
+#define n 10000
 #define prefetch_intr 2000
 #define sz n/prefetch_intr
 
@@ -148,7 +148,8 @@ int main()
 			prefetch_startaddrs[count] = newnode;
 			count = count + 1;
 		}
-		struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+		volatile struct node *dummy_node = (struct node *)malloc(4*sizeof(struct node));
+		dummy_node->val = i;
 	}
 	xil_printf("Done generating Skip list with %d elements\n",n);
 	if(debug == 1){

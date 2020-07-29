@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Jul 07 16:13:49 2020
+# Process ID: 10188
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sim/sim_1/behav/xsim.dir/design_1_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sim/sim_1/behav/webtalk.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.sim/sim_1/behav/xsim.dir/design_1_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jul 07 16:13:50 2020...

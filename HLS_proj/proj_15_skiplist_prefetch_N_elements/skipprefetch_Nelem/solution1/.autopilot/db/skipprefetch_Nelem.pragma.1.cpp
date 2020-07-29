@@ -1501,8 +1501,8 @@ extern FILE (* _imp___iob)[]; /* A pointer to an array of FILE */
 typedef int dat_typ;
 typedef short dat_typ1;
 
-const int n = 2000;
-const int skip_intr = 200;
+const int n = 1000;
+const int skip_intr = 50;
 const int buff_len = n/skip_intr;
 
 struct node{
@@ -1513,14 +1513,16 @@ struct node{
 
 void skipprefetch_Nelem(volatile struct node* a)
 {
-_ssdm_op_SpecInterface(a, "m_axi", 0, 0, "", 0, 0, "A_BUS", "slave", "", 16, 16, 16, 16, "", "");
+_ssdm_DataPack( a, 0, 0, "", "struct_level", "");
+_ssdm_op_SpecInterface(a, "m_axi", 0, 0, "", 0, 0, "A_BUS", "slave", "", 16, 16, 16, 16, "", "");/*num_read_outstanding=32 max_read_burst_length=64*/
 _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "CFG", "", "", 0, 0, 0, 0, "", "");
-_ssdm_DataPack( a, 0, 0, "", "", "");
+//#pragma HLS data_pack variable=a struct_level
 
- //printf("Into HLS ip main function\n");
+  //printf("Into HLS ip main function\n");
   volatile int temp;
   int buff[buff_len];
   int cum_offs = 0;
+  //#pragma HLS array_partition variable=buff complete
   /*cum_offs[0] = 0;
 		cum_offs[1] = a->offs[1];*/
   //int skip_cum_offs = a->offs[1];
@@ -1559,12 +1561,20 @@ _ssdm_DataPack( a, 0, 0, "", "", "");
   for (int j=0;j<skip_intr-1;j++){
    for(int i=1;i<buff_len;i++){
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- //#pragma HLS unroll factor = 50
+ //#pragma HLS unroll
     //temp = ((a+buff[i]))->val;
     //(a+buff[i])->val = temp + 10;
     buff[i] = buff[i] +(a+buff[i])->offs[0];
    }
   }
+  /*for (int i=1;i<buff_len;i++){
+			#pragma HLS unroll
+			for (int j=0;j<skip_intr-1;j++){
+				//temp = ((a+buff[i]))->val;
+				//(a+buff[i])->val = temp + 10;
+				buff[i] = buff[i] + (a+buff[i])->offs[0];
+			}
+		}*/
 }
 
 class ssdm_global_array_skipprefetch_Nelempp0cppaplinecpp {

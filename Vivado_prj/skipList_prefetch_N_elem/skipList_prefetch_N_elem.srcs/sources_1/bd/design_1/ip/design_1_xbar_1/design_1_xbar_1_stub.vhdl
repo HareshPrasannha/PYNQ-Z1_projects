@@ -1,10 +1,10 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
--- Date        : Fri Jun 12 18:06:02 2020
+-- Date        : Fri Jun 12 18:06:01 2020
 -- Host        : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_xbar_1 -prefix
+--               design_1_xbar_1_ design_1_xbar_1_stub.vhdl
 -- Design      : design_1_xbar_1
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

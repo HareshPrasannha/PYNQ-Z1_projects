@@ -1,0 +1,1107 @@
+19:17:09 **** Build of project nonseq_prefetch_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/nonseq_prefetch_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/nonseq_prefetch_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/nonseq_prefetch_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/nonseq_prefetch_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling nonseq_prefetch"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+19:17:42 **** Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:17:48 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:21:03 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:81:1: error: unknown type name 'XSkipprefetch_nelem'
+ XSkipprefetch_nelem copiaMem;
+ ^
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:86:2: error: unknown type name 'XSkipprefetch_nelem_Config'
+  XSkipprefetch_nelem_Config *CfgPtr = XSkipprefetch_nelem_LookupConfig(XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID);
+  ^
+../src/helloworld.c:86:39: warning: implicit declaration of function 'XSkipprefetch_nelem_LookupConfig' [-Wimplicit-function-declaration]
+  XSkipprefetch_nelem_Config *CfgPtr = XSkipprefetch_nelem_LookupConfig(XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID);
+                                       ^
+../src/helloworld.c:86:72: error: 'XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID' undeclared (first use in this function)
+  XSkipprefetch_nelem_Config *CfgPtr = XSkipprefetch_nelem_LookupConfig(XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID);
+                                                                        ^
+../src/helloworld.c:86:72: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:92:15: warning: implicit declaration of function 'XSkipprefetch_nelem_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XSkipprefetch_nelem_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:225:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:226:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:227:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:202:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:21:22 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:86:2: error: unknown type name 'XSkipprefetch_nelem_Config'
+  XSkipprefetch_nelem_Config *CfgPtr = XSkipprefetch_nelem_LookupConfig(XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID);
+  ^
+../src/helloworld.c:86:39: warning: implicit declaration of function 'XSkipprefetch_nelem_LookupConfig' [-Wimplicit-function-declaration]
+  XSkipprefetch_nelem_Config *CfgPtr = XSkipprefetch_nelem_LookupConfig(XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID);
+                                       ^
+../src/helloworld.c:86:72: error: 'XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID' undeclared (first use in this function)
+  XSkipprefetch_nelem_Config *CfgPtr = XSkipprefetch_nelem_LookupConfig(XPAR_SKIPPREFETCH_NELEM_0_DEVICE_ID);
+                                                                        ^
+../src/helloworld.c:86:72: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:92:15: warning: implicit declaration of function 'XSkipprefetch_nelem_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XSkipprefetch_nelem_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:225:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:226:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:227:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:202:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:22:12 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initialize_ip':
+../src/helloworld.c:75:15: warning: implicit declaration of function 'XSkipprefetch_nelem_CfgInitialize' [-Wimplicit-function-declaration]
+  int Status = XSkipprefetch_nelem_CfgInitialize(&copiaMem, CfgPtr);
+               ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:102:44: error: invalid application of 'sizeof' to incomplete type 'struct node'
+     xil_printf("size of node: %d\n",sizeof(struct node));
+                                            ^
+../src/helloworld.c:108:16: error: 'n' undeclared (first use in this function)
+  for(int i=0;i<n;i++){
+                ^
+../src/helloworld.c:108:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:109:55: error: invalid application of 'sizeof' to incomplete type 'struct node'
+   struct node *newnode = (struct node *)malloc(sizeof(struct node));
+                                                       ^
+../src/helloworld.c:110:10: error: dereferencing pointer to incomplete type 'struct node'
+   newnode->val = i+1;
+          ^
+../src/helloworld.c:118:33: error: arithmetic on pointer to an incomplete type
+    prevnode->offs[0] = (newnode - prevnode);
+                                 ^
+../src/helloworld.c:120:12: error: 'skip_intr' undeclared (first use in this function)
+   if((i+1)%skip_intr == 0){
+            ^
+../src/helloworld.c:121:38: error: arithmetic on pointer to an incomplete type
+    skip_prevnode->offs[1] = (newnode - skip_prevnode);
+                                      ^
+../src/helloworld.c:127:12: error: 'prefetch_intr' undeclared (first use in this function)
+   if((i+1)%prefetch_intr == 0 && ps != 1){
+            ^
+../src/helloworld.c:131:69: error: invalid application of 'sizeof' to incomplete type 'struct node'
+   volatile struct node *dummy_node = (struct node *)malloc(4*sizeof(struct node));
+                                                                     ^
+../src/helloworld.c:132:13: error: dereferencing pointer to incomplete type 'volatile struct node'
+   dummy_node->val = i;
+             ^
+../src/helloworld.c:149:25: error: 'dum_arr_len' undeclared (first use in this function)
+  int *a = (int *)malloc(dum_arr_len*sizeof(int));
+                         ^
+../src/helloworld.c:208:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:209:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:210:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:185:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:23:17 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:102:28: error: 'len' undeclared (first use in this function)
+     int *a = (int *)malloc(len*sizeof(int));
+                            ^
+../src/helloworld.c:102:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:104:16: error: 'dum_arr_len' undeclared (first use in this function)
+  for(int i=0;i<dum_arr_len;i++){
+                ^
+../src/helloworld.c:136:24: error: 'head' undeclared (first use in this function)
+  struct node *temp1  = head;
+                        ^
+../src/helloworld.c:160:18: error: 'n' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                  ^
+../src/helloworld.c:160:20: error: 'prefetch_intr' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                    ^
+../src/helloworld.c:161:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:162:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:163:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:165:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:171:18: error: dereferencing pointer to incomplete type 'struct node'
+   while(old_temp1->offs[0] != 0){
+                  ^
+../src/helloworld.c:138:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:23:26 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:16: error: 'dum_arr_len' undeclared (first use in this function)
+  for(int i=0;i<dum_arr_len;i++){
+                ^
+../src/helloworld.c:105:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:137:24: error: 'head' undeclared (first use in this function)
+  struct node *temp1  = head;
+                        ^
+../src/helloworld.c:161:18: error: 'n' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                  ^
+../src/helloworld.c:161:20: error: 'prefetch_intr' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                    ^
+../src/helloworld.c:162:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:163:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:164:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:166:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:172:18: error: dereferencing pointer to incomplete type 'struct node'
+   while(old_temp1->offs[0] != 0){
+                  ^
+../src/helloworld.c:139:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:23:39 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:16: error: 'dum_arr_len' undeclared (first use in this function)
+  for(int i=0;i<dum_arr_len;i++){
+                ^
+../src/helloworld.c:109:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:137:24: error: 'head' undeclared (first use in this function)
+  struct node *temp1  = head;
+                        ^
+../src/helloworld.c:161:18: error: 'n' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                  ^
+../src/helloworld.c:161:20: error: 'prefetch_intr' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                    ^
+../src/helloworld.c:162:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:163:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:164:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:166:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:172:18: error: dereferencing pointer to incomplete type 'struct node'
+   while(old_temp1->offs[0] != 0){
+                  ^
+../src/helloworld.c:139:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:24:27 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:138:24: error: 'head' undeclared (first use in this function)
+  struct node *temp1  = head;
+                        ^
+../src/helloworld.c:138:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:162:18: error: 'n' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                  ^
+../src/helloworld.c:162:20: error: 'prefetch_intr' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                    ^
+../src/helloworld.c:163:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:164:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:165:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:167:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:173:18: error: dereferencing pointer to incomplete type 'struct node'
+   while(old_temp1->offs[0] != 0){
+                  ^
+../src/helloworld.c:140:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+19:25:01 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:158:18: error: 'n' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                  ^
+../src/helloworld.c:158:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:158:20: error: 'prefetch_intr' undeclared (first use in this function)
+      while(idx < n/prefetch_intr){
+                    ^
+../src/helloworld.c:159:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+    ^
+../src/helloworld.c:159:46: error: 'temp1' undeclared (first use in this function)
+    XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
+                                              ^
+../src/helloworld.c:160:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+../src/helloworld.c:161:11: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+    while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+           ^
+../src/helloworld.c:163:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:169:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:176:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+make: *** [src/helloworld.o] Error 1
+19:25:48 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:153:42: error: 'temp1' undeclared (first use in this function)
+   XNonseq_prefetch_Set_a(&copiaMem,(u32)(temp1));
+                                          ^
+../src/helloworld.c:153:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:154:3: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+   XSkipprefetch_nelem_Start(&copiaMem);
+   ^
+../src/helloworld.c:155:10: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+   while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+          ^
+../src/helloworld.c:157:11: error: 'prefetch_startaddrs' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+           ^
+../src/helloworld.c:157:31: error: 'idx' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+                               ^
+../src/helloworld.c:162:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:165:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:169:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:169:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+make: *** [src/helloworld.o] Error 1
+19:26:22 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:156:3: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+   XSkipprefetch_nelem_Start(&copiaMem);
+   ^
+../src/helloworld.c:157:10: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+   while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+          ^
+../src/helloworld.c:159:3: error: 'temp1' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+   ^
+../src/helloworld.c:159:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:159:11: error: 'prefetch_startaddrs' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+           ^
+../src/helloworld.c:159:31: error: 'idx' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+                               ^
+../src/helloworld.c:164:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:167:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:171:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:171:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+make: *** [src/helloworld.o] Error 1
+19:26:42 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:160:3: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+   XSkipprefetch_nelem_Start(&copiaMem);
+   ^
+../src/helloworld.c:161:10: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+   while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+          ^
+../src/helloworld.c:163:3: error: 'temp1' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+   ^
+../src/helloworld.c:163:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:163:11: error: 'prefetch_startaddrs' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+           ^
+../src/helloworld.c:163:31: error: 'idx' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+                               ^
+../src/helloworld.c:168:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:175:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:175:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+make: *** [src/helloworld.o] Error 1
+19:26:54 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:159:3: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+   XSkipprefetch_nelem_Start(&copiaMem);
+   ^
+../src/helloworld.c:160:10: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+   while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+          ^
+../src/helloworld.c:162:3: error: 'temp1' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+   ^
+../src/helloworld.c:162:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:162:11: error: 'prefetch_startaddrs' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+           ^
+../src/helloworld.c:162:31: error: 'idx' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+                               ^
+../src/helloworld.c:167:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:174:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:174:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+make: *** [src/helloworld.o] Error 1
+19:27:21 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:159:3: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+   XSkipprefetch_nelem_Start(&copiaMem);
+   ^
+../src/helloworld.c:160:10: warning: implicit declaration of function 'XSkipprefetch_nelem_IsDone' [-Wimplicit-function-declaration]
+   while(!XSkipprefetch_nelem_IsDone(&copiaMem));
+          ^
+../src/helloworld.c:162:3: error: 'temp1' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+   ^
+../src/helloworld.c:162:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:162:11: error: 'prefetch_startaddrs' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+           ^
+../src/helloworld.c:162:31: error: 'idx' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+                               ^
+../src/helloworld.c:167:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:174:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:174:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+make: *** [src/helloworld.o] Error 1
+19:27:57 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:162:3: error: 'temp1' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+   ^
+../src/helloworld.c:162:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:162:11: error: 'prefetch_startaddrs' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+           ^
+../src/helloworld.c:162:31: error: 'idx' undeclared (first use in this function)
+   temp1 = prefetch_startaddrs[idx];
+                               ^
+../src/helloworld.c:167:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:170:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:171:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Start(&copiaMem);
+     ^
+../src/helloworld.c:174:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:174:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+make: *** [src/helloworld.o] Error 1
+19:28:10 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:165:9: error: 'old_temp1' undeclared (first use in this function)
+   while(old_temp1->offs[0] != 0){
+         ^
+../src/helloworld.c:165:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:168:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Set_a' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(old_temp1));
+     ^
+../src/helloworld.c:169:5: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+     XSkipprefetch_nelem_Start(&copiaMem);
+     ^
+../src/helloworld.c:172:10: error: 'node_count' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+          ^
+../src/helloworld.c:172:23: error: 'prefetch_intr' undeclared (first use in this function)
+    while(node_count < prefetch_intr){
+                       ^
+../src/helloworld.c:173:17: error: 'temp1' undeclared (first use in this function)
+     old_temp1 = temp1;
+                 ^
+make: *** [src/helloworld.o] Error 1
+19:29:19 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:166:43: error: 'old_temp1' undeclared (first use in this function)
+    XNonseq_prefetch_Set_a(&copiaMem,(u32)(old_temp1));
+                                           ^
+../src/helloworld.c:166:43: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:167:4: warning: implicit declaration of function 'XSkipprefetch_nelem_Start' [-Wimplicit-function-declaration]
+    XSkipprefetch_nelem_Start(&copiaMem);
+    ^
+make: *** [src/helloworld.o] Error 1
+19:29:30 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:166:43: error: 'old_temp1' undeclared (first use in this function)
+    XNonseq_prefetch_Set_a(&copiaMem,(u32)(old_temp1));
+                                           ^
+../src/helloworld.c:166:43: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+19:29:36 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81872	   2596	  23344	 107812	  1a524	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:31:17 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81872	   2596	  23344	 107812	  1a524	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:31:23 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81872	   2596	  23344	 107812	  1a524	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:32:01 **** Clean-only build of configuration Debug for project nonseq_prefetch ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  nonseq_prefetch.elf.size  nonseq_prefetch.elf
+' '
+19:32:02 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81456	   2596	  23344	 107396	  1a384	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:32:15 **** Clean-only build of configuration Debug for project nonseq_prefetch ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  nonseq_prefetch.elf.size  nonseq_prefetch.elf
+' '
+19:32:15 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81456	   2596	209722160	209806212	c816384	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:33:30 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81408	   2596	209722160	209806164	c816354	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:34:15 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81408	   2596	209722160	209806164	c816354	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:34:38 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81476	   2596	209722160	209806232	c816398	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:34:57 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:35:16 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81476	   2596	209722160	209806232	c816398	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:35:21 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81476	   2596	209722160	209806232	c816398	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:35:35 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:36:13 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:177:2: error: expected ';' before '}' token
+  }
+  ^
+make: *** [src/helloworld.o] Error 1
+19:36:17 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81500	   2596	209722160	209806256	c8163b0	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:36:20 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:36:45 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81408	   2596	209722160	209806164	c816354	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:36:47 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:37:34 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:186:28: error: 'sum' undeclared (first use in this function)
+     xil_printf("Sum: %d\n",sum);
+                            ^
+../src/helloworld.c:186:28: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+19:38:22 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81484	   2596	209722160	209806240	c8163a0	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:38:27 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:38:44 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81484	   2596	209722160	209806240	c8163a0	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:38:47 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:39:38 **** Auto Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nonseq_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: nonseq_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nonseq_prefetch_bsp/ps7_cortexa9_0/lib -o "nonseq_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nonseq_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nonseq_prefetch.elf  |tee "nonseq_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81532	   2596	209722160	209806288	c8163d0	nonseq_prefetch.elf
+'Finished building: nonseq_prefetch.elf.size'
+' '
+19:39:41 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:41:55 **** Incremental Build of configuration Debug for project nonseq_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

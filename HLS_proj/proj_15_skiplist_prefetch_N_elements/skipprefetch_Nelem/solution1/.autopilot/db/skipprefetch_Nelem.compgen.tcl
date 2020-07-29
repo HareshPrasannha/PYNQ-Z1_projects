@@ -6,8 +6,8 @@ set MemName skipprefetch_Nelebkb
 set CoreName ap_simcore_mem
 set PortList { 2 0 }
 set DataWd 32
-set AddrRange 10
-set AddrWd 4
+set AddrRange 20
+set AddrWd 5
 set impl_style block
 set TrueReset 0
 set HasInitializer 0
@@ -16,7 +16,7 @@ set ROMData {}
 set NumOfStage 2
 set MaxLatency -1
 set DelayBudget 2.39
-set ClkPeriod 10
+set ClkPeriod 5
 set RegisteredInput 0
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
@@ -132,7 +132,7 @@ eval "::AESL_LIB_XILADAPTER::m_axi_gen { \
     corename {m_axi} \
     op interface \
     max_latency -1 \ 
-    delay_budget 8.75 \ 
+    delay_budget 4.375 \ 
     name {skipprefetch_Nelem_A_BUS_m_axi} \
 } "
 } else {

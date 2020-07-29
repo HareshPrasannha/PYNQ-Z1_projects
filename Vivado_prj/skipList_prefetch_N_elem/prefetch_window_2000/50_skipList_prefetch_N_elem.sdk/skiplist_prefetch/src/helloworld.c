@@ -62,7 +62,7 @@
 #define ps 1
 #define pl 1
 
-#define n 10000
+#define n 1000000
 #define prefetch_intr 2000
 
 #define level 2
@@ -147,13 +147,15 @@ int main()
 			prefetch_startaddrs[count] = newnode;
 			count = count + 1;
 		}
-		struct node *dummy_node = (struct node *)malloc(5*sizeof(struct node));
+		volatile struct node *dummy_node = (struct node *)malloc(4*sizeof(struct node));
+		dummy_node->val = i;
 	}
 	xil_printf("Done generating Skip list with %d elements\n",n);
 	if(debug == 1){
 		printf("Check for proper skip list initialisation\n");
 		struct node *temp  = head;
 		struct node *old_temp = NULL;
+		int count = 0;
 		while(temp != old_temp){
 			old_temp = temp;
 			printf("Val: %d-->",temp->val);
@@ -163,6 +165,7 @@ int main()
 			printf("next_node_2: %d  ",temp->val);
 			temp = old_temp+old_temp->offs[0];
 			printf("\n");
+			count++;
 		}
 	}
 	//xil_printf("Initialization of dummy array\n");
@@ -228,7 +231,7 @@ int main()
 			XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(temp1));
 			XSkipprefetch_nelem_Start(&copiaMem);
 			while(!XSkipprefetch_nelem_IsDone(&copiaMem));
-			//xil_printf("Value passed to HLS IP: %d\n",temp1->val);
+			//xil_printf("Value passed to HLS IP: %d , %d\n",temp1->val,(temp1+temp1->offs[1])->val);
 			temp1 = prefetch_startaddrs[idx];
 			idx = idx + 1;
     	}
@@ -258,7 +261,8 @@ int main()
     xil_printf("\nL2_Hits: %d L2_Requests: %d\n",(int)(*hit_count),(int)(*req_count));
     printf("\nTime taken clock cycles: %llu \n",2*(stop-start));
     printf("Time taken: %.2f us\n",1.0*((stop-start)/(COUNTS_PER_SECOND/1000000)));
-
+    //xil_printf("cleaned platform");
     cleanup_platform();
+
     return 0;
 }

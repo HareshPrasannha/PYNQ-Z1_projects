@@ -1,0 +1,9 @@
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source a:/comp_arch/pynq_projects/vivado_prj/ip_repo/axi_prefetch1k/edit_AXI_prefetch1k_v1_0.hw/webtalk/labtool_webtalk.tcl -notrace
+Access is denied.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 16 20:23:33 2020...

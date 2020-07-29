@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="nonseq_prefetch.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_16_nonseq_array_prefetch\nonseq_prefetch.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="nonseq_prefetch_test.cpp" path="A:\COMP_ARCH\PYNQ_Projects\HLS_proj\proj_16_nonseq_array_prefetch\nonseq_prefetch_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

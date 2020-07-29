@@ -1,8 +1,8 @@
-19:07:02 **** Incremental Build of configuration Debug for project skiplist_prefetch ****
+17:12:18 **** Incremental Build of configuration Debug for project skiplist_prefetch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
 
-19:07:03 Build Finished (took 304ms)
+17:12:19 Build Finished (took 417ms)
 

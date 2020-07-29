@@ -682,27 +682,27 @@ typedef int dat_typ;
 typedef short dat_typ1;
 
 const int n = 1000;
-const int skip_intr = 20;
+const int skip_intr = 100;
 const int buff_len = n/skip_intr;
 
 struct node{
     dat_typ val;
     dat_typ1 offs[2];
 
-
 };
 
 void skipprefetch_Nelem(volatile struct node* a)
 {
-#pragma HLS INTERFACE m_axi port=a offset=slave bundle=A_BUS
+#pragma HLS data_pack variable=a struct_level
+#pragma HLS INTERFACE m_axi port=a offset=slave bundle=A_BUS num_read_outstanding=4 max_read_burst_length=32
 #pragma HLS INTERFACE s_axilite port=return bundle=CFG
-#pragma HLS data_pack variable=a
+
 
 
   volatile int temp;
   int buff[buff_len];
   int cum_offs = 0;
-# 46 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem.cpp"
+# 50 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem.cpp"
   for(int i=0;i<buff_len;i++){
 
 
@@ -720,11 +720,12 @@ void skipprefetch_Nelem(volatile struct node* a)
 
   for (int j=0;j<skip_intr-1;j++){
    for(int i=1;i<buff_len;i++){
+#pragma HLS pipeline
 
-#pragma HLS unroll factor = 50
 
 
-     buff[i] = buff[i] +(a+buff[i])->offs[0];
+    buff[i] = buff[i] +(a+buff[i])->offs[0];
    }
   }
+# 82 "A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem.cpp"
 }

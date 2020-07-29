@@ -1501,8 +1501,8 @@ extern FILE (* _imp___iob)[]; /* A pointer to an array of FILE */
 typedef int dat_typ;
 typedef short dat_typ1;
 #pragma empty_line
-const int n = 2000;
-const int skip_intr = 200;
+const int n = 1000;
+const int skip_intr = 50;
 const int buff_len = n/skip_intr;
 #pragma empty_line
 struct node{
@@ -1513,14 +1513,16 @@ struct node{
 #pragma empty_line
 void skipprefetch_Nelem(volatile struct node* a)
 {
-#pragma HLS INTERFACE m_axi port=a offset=slave bundle=A_BUS
+#pragma HLS data_pack variable=a struct_level
+#pragma HLS INTERFACE m_axi port=a offset=slave bundle=A_BUS /*num_read_outstanding=32 max_read_burst_length=64*/
 #pragma HLS INTERFACE s_axilite port=return bundle=CFG
-#pragma HLS data_pack variable=a
+//#pragma HLS data_pack variable=a struct_level
 #pragma empty_line
- //printf("Into HLS ip main function\n");
+  //printf("Into HLS ip main function\n");
   volatile int temp;
   int buff[buff_len];
   int cum_offs = 0;
+  //#pragma HLS array_partition variable=buff complete
   /*cum_offs[0] = 0;
 		cum_offs[1] = a->offs[1];*/
   //int skip_cum_offs = a->offs[1];
@@ -1559,10 +1561,18 @@ void skipprefetch_Nelem(volatile struct node* a)
   for (int j=0;j<skip_intr-1;j++){
    for(int i=1;i<buff_len;i++){
 #pragma HLS pipeline
- //#pragma HLS unroll factor = 50
+ //#pragma HLS unroll
     //temp = ((a+buff[i]))->val;
     //(a+buff[i])->val = temp + 10;
     buff[i] = buff[i] +(a+buff[i])->offs[0];
    }
   }
+  /*for (int i=1;i<buff_len;i++){
+			#pragma HLS unroll
+			for (int j=0;j<skip_intr-1;j++){
+				//temp = ((a+buff[i]))->val;
+				//(a+buff[i])->val = temp + 10;
+				buff[i] = buff[i] + (a+buff[i])->offs[0];
+			}
+		}*/
 }

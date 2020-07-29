@@ -3,7 +3,7 @@
         <DownStreamTool name="vivado"/>
     </downStreamTool>
     <clockList>
-        <clock name="default" period="10"/>
+        <clock name="default" period="5"/>
     </clockList>
     <config>
         <schedule model="skipprefetch_Nelem"/>

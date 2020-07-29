@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="nonseq_prefetch" xd:componentRef="nonseq_prefetch" xd:initiationInterval="510" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CFG" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="*(a)" xd:originalName="a" xd:direction="inout" xd:interfaceRef="m_axi_A_BUS" xd:busTypeRef="aximm" xd:arraySize="1000000" xd:dataWidth="32" xd:bufferDirection="in"/>
+  <xd:arg xd:name="a" xd:originalName="a" xd:direction="in" xd:interfaceRef="s_axi_CFG" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_A_BUS" xd:dataWidth="32" xd:offset="0x10" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="509" xd:worst-case="509" xd:average-case="509"/>
+  <xd:resourceEstimates xd:LUT="786" xd:FF="691" xd:BRAM="2" xd:DSP="0"/>
+</xd:acceleratorMap>
