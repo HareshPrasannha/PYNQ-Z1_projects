@@ -26,6 +26,6 @@ levelinfo -pg 1 0 190 520 790 1070 1430 1690 -top 0 -bot 510
 ",
 }
 {
-   da_axi4_cnt: "14",
-   da_ps7_cnt: "1",
+   da_axi4_cnt: "26",
+   da_ps7_cnt: "4",
 }

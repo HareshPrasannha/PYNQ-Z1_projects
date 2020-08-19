@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.runs/synth_1'
+HD_PWD='A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

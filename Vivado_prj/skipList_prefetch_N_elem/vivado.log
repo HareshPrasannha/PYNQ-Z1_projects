@@ -1,0 +1,566 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Aug 17 14:54:46 2020
+# Process ID: 16312
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14684 A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skipList_prefetch_N_elem\skipList_prefetch_N_elem.xpr
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/vivado.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'a:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj_15_skiplist_prefetch_N_elements/skipprefetch_Nelem/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:46 . Memory (MB): peak = 797.520 ; gain = 182.371
+open_bd_design {A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:hls:skipprefetch_Nelem:1.0 - skipprefetch_Nelem_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 845.156 ; gain = 38.383
+close_project
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Aug 17 15:37:29 2020...
+create_project skipprefetch_Dynamic_N A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N -part xc7z020clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+set_property board_part www.digilentinc.com:pynq-z1:part0:1.0 [current_project]
+create_bd_design "design_1"
+Wrote  : <A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/design_1.bd> 
+create_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 903.098 ; gain = 18.484
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+create_bd_cell: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 942.602 ; gain = 20.465
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+apply_bd_automation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 998.910 ; gain = 2.977
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {1} CONFIG.PCW_USE_DEFAULT_ACP_USER_VAL {1}] [get_bd_cells processing_system7_0]
+endgroup
+set_property  ip_repo_paths  A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'a:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip'.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+set_property location {1 55 106} [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_cells skipprefetch_Nelem_0]
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: a:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip/component.xml. It will be created.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'a:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip'.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+set_property location {1 95 62} [get_bd_cells skipprefetch_Nelem_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_ACP]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFC000000 [ 16M ]>
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/s_axi_CFG]
+</skipprefetch_Nelem_0/s_axi_CFG/Reg> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+endgroup
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {1}] [get_bd_cells axi_mem_intercon]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_ACP" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x00000000 [ 512M ]>
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFC000000 [ 16M ]>
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {4} CONFIG.CONST_VAL {15}] [get_bd_cells xlconstant_0]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_ARCACHE]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_ARCACHE is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_AWCACHE] [get_bd_pins xlconstant_0/dout]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_AWCACHE is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_1
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {5} CONFIG.CONST_VAL {31}] [get_bd_cells xlconstant_1]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_AWUSER is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER] [get_bd_pins xlconstant_1/dout]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_ARUSER is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+startgroup
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+CRITICAL WARNING: [BD 41-1629] </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is excluded from all addressable master spaces.
+CRITICAL WARNING: [BD 41-1629] </processing_system7_0/S_AXI_ACP/ACP_IOP> is excluded from all addressable master spaces.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+Including </processing_system7_0/S_AXI_ACP/ACP_IOP> into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+Including </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_IOP]
+Including </processing_system7_0/S_AXI_ACP/ACP_IOP> into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_M_AXI_GP0]
+Including </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+save_bd_design
+Wrote  : <A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+make_wrapper -files [get_files A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/design_1.bd] -fileset [get_filesets sources_1] -inst_template
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/auto_us/s_axi_arlock'(1) to net 's01_couplers_to_auto_us_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/auto_us/s_axi_awlock'(1) to net 's01_couplers_to_auto_us_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arlock'(1) to net 's00_couplers_to_xbar_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awlock'(1) to net 's00_couplers_to_xbar_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_WID'(3) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_ARID'(3) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_AWID'(3) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper -files [get_files A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/auto_us/s_axi_arlock'(1) to net 's01_couplers_to_auto_us_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/auto_us/s_axi_awlock'(1) to net 's01_couplers_to_auto_us_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arlock'(1) to net 's00_couplers_to_xbar_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awlock'(1) to net 's00_couplers_to_xbar_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_WID'(3) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_ARID'(3) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_AWID'(3) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+add_files -norecurse A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/auto_us/s_axi_arlock'(1) to net 's01_couplers_to_auto_us_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/auto_us/s_axi_awlock'(1) to net 's01_couplers_to_auto_us_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arlock'(1) to net 's00_couplers_to_xbar_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awlock'(1) to net 's00_couplers_to_xbar_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_WID'(3) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_ARID'(3) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_ACP_AWID'(3) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+Verilog Output written to : A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+WARNING: [xilinx.com:ip:processing_system7:5.5-1] design_1_processing_system7_0_0: The Zynq BFM requires an AXI BFM license to run. Please ensure that you have purchased and setup the AXI BFM license prior to running simulation with this block. Please contact your Xilinx sales office for more information on purchasing this license
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block skipprefetch_Nelem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+[Mon Aug 17 15:48:46 2020] Launched design_1_processing_system7_0_0_synth_1, design_1_skipprefetch_Nelem_0_1_synth_1, design_1_xlconstant_1_0_synth_1, design_1_rst_ps7_0_100M_0_synth_1, design_1_xlconstant_0_0_synth_1, design_1_xbar_0_synth_1, design_1_auto_us_0_synth_1, design_1_auto_pc_1_synth_1, design_1_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_skipprefetch_Nelem_0_1_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_skipprefetch_Nelem_0_1_synth_1/runme.log
+design_1_xlconstant_1_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_xlconstant_1_0_synth_1/runme.log
+design_1_rst_ps7_0_100M_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_rst_ps7_0_100M_0_synth_1/runme.log
+design_1_xlconstant_0_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_xlconstant_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_xbar_0_synth_1/runme.log
+design_1_auto_us_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_auto_us_0_synth_1/runme.log
+design_1_auto_pc_1_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_auto_pc_1_synth_1/runme.log
+design_1_auto_pc_0_synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_auto_pc_0_synth_1/runme.log
+synth_1: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/synth_1/runme.log
+[Mon Aug 17 15:48:46 2020] Launched impl_1...
+Run output will be captured here: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:39 ; elapsed = 00:00:48 . Memory (MB): peak = 1255.738 ; gain = 93.277
+file mkdir A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk
+file copy -force A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/impl_1/design_1_wrapper.sysdef A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk -hwspec A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk -hwspec A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_HP0 {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.NUM_MI {2}] [get_bd_cells axi_mem_intercon]
+endgroup
+delete_bd_objs [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> into conflicting address 0x00000000 [ 512M ] in address space </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. This must be resolved before passing validation
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_ACP" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFC000000 [ 16M ]>
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x00000000 [ 256M ]>
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x10000000 [ 256M ]>
+endgroup
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+Excluding </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_QSPI_LINEAR]
+Excluding </processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_DDR_LOWOCM]
+Excluding </processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+CRITICAL WARNING: [BD 41-1354] Segment </skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_DDR_LOWOCM> at 0x00000000 [ 512M ] overlaps with </skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM> at <0x00000000 [ 512M ]> in the same network
+ERROR: [BD 41-971] Segment </processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at 0x00000000[ 512M ] overlaps with </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> mapped at 0x00000000[ 512M ]
+validate_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1309.480 ; gain = 0.000
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+CRITICAL WARNING: [BD 41-1356] Address block </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is not mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWCACHE has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+validate_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1309.480 ; gain = 0.000
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+CRITICAL WARNING: [BD 41-1377] Network address <0x00000000 [ 512M ]> is occupied by different peripherals, </processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> in </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and by </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> in </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>. This is illegal and must be resolved before passing validation
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> into conflicting address 0x00000000 [ 512M ] in address space </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. This must be resolved before passing validation
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+Excluding </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+startgroup
+set_property -dict [list CONFIG.PCW_USE_HIGH_OCM {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+endgroup
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets axi_mem_intercon_M00_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW] [get_bd_intf_nets axi_mem_intercon_M01_AXI] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_A_BUS]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_nets xlconstant_1_dout] [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells xlconstant_0] [get_bd_cells xlconstant_1] [get_bd_cells rst_ps7_0_100M] [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_cells axi_mem_intercon] [get_bd_cells ps7_0_axi_periph]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+apply_bd_automation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1444.277 ; gain = 0.000
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {1} CONFIG.PCW_USE_S_AXI_HP0 {1} CONFIG.PCW_USE_HIGH_OCM {1} CONFIG.PCW_USE_DEFAULT_ACP_USER_VAL {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+set_property location {0.5 -46 -68} [get_bd_cells skipprefetch_Nelem_0]
+set_property location {1 -171 -75} [get_bd_cells skipprefetch_Nelem_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+copy_bd_objs /  [get_bd_cells {xlconstant_0}]
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {4} CONFIG.CONST_VAL {15}] [get_bd_cells xlconstant_0]
+endgroup
+set_property location {1 -50 435} [get_bd_cells xlconstant_1]
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {5} CONFIG.CONST_VAL {31}] [get_bd_cells xlconstant_1]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_AWUSER is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER] [get_bd_pins xlconstant_1/dout]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_ARUSER is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_ARCACHE]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_ARCACHE is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_AWCACHE] [get_bd_pins xlconstant_0/dout]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_AWCACHE is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+</processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFFFC0000 [ 256K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/s_axi_CFG]
+</skipprefetch_Nelem_0/s_axi_CFG/Reg> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+endgroup
+regenerate_bd_layout
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x00000000 [ 512M ]>
+</processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFFFC0000 [ 256K ]>
+undo
+INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]'
+delete_bd_objs [get_bd_intf_nets axi_mem_intercon_M00_AXI]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_mem_intercon/M00_AXI] [get_bd_intf_pins processing_system7_0/S_AXI_ACP]
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {2}] [get_bd_cells axi_mem_intercon]
+endgroup
+regenerate_bd_layout
+connect_bd_intf_net [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW] -boundary_type upper [get_bd_intf_pins axi_mem_intercon/S01_AXI]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_mem_intercon/M01_AXI] [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFC000000 [ 16M ]>
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+Including </processing_system7_0/S_AXI_ACP/ACP_IOP> into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+Including </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFFFC0000 [ 256K ]>
+Excluding </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_HP0_HIGH_OCM]
+Including </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> into conflicting address 0x00000000 [ 512M ] in address space </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. This must be resolved before passing validation
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+Excluding </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+</processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFFFC0000 [ 256K ]>
+Excluding </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x00000000 [ 512M ]>
+Excluding </processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFC000000 [ 16M ]>
+Excluding </processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+ERROR: [BD 41-1599] /processing_system7_0/S_AXI_ACP/ACP_IOP is already excluded.
+ERROR: [BD 5-294] Error excluding segment 
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+ERROR: [BD 41-1599] /processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0 is already excluded.
+ERROR: [BD 5-294] Error excluding segment 
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> into conflicting address 0xFFFC0000 [ 256K ] in address space </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. This must be resolved before passing validation
+</processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFFFC0000 [ 256K ]>
+Excluding </processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_HIGH_OCM]
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets axi_mem_intercon_M00_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW] [get_bd_intf_nets axi_mem_intercon_M01_AXI] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_A_BUS]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_nets xlconstant_1_dout] [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells xlconstant_0] [get_bd_cells xlconstant_1] [get_bd_cells rst_ps7_0_100M] [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_cells axi_mem_intercon] [get_bd_cells ps7_0_axi_periph]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+apply_bd_automation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1487.348 ; gain = 0.000
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {1} CONFIG.PCW_USE_DEFAULT_ACP_USER_VAL {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_ACP]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFC000000 [ 16M ]>
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_A_BUS> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/s_axi_CFG]
+</skipprefetch_Nelem_0/s_axi_CFG/Reg> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+endgroup
+regenerate_bd_layout
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+Including </processing_system7_0/S_AXI_ACP/ACP_IOP> into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+Including </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> into </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_HP0 {1} CONFIG.PCW_USE_HIGH_OCM {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {2}] [get_bd_cells axi_mem_intercon]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> into conflicting address 0x00000000 [ 512M ] in address space </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. This must be resolved before passing validation
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0x00000000 [ 512M ]>
+</processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFFFC0000 [ 256K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_ACP" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+CRITICAL WARNING: [BD 41-1359] Could not find assignment for group of peripherals <
+/skipprefetch_Nelem_0/Data_m_axi_A_BUS [ /processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM ]
+/skipprefetch_Nelem_0/Data_m_axi_A_BUS [ /processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM ]
+/skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW [ /processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM ]
+/skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW [ /processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM ]>
+</processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFC000000 [ 16M ]>
+</processing_system7_0/S_AXI_ACP/ACP_IOP> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xE0000000 [ 4M ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_IOP> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+</processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x40000000 [ 1G ]>
+INFO: [BD 41-1051] The usage <register> of peripheral </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> does not match the usage <memory> of master </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> and will be excluded using sparse connectivity from its address space. Use the include_bd_addr_seg command to override this precaution and make this peripheral visible within this masters address space.
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+</processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x00000000 [ 256M ]>
+</processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0x10000000 [ 256M ]>
+endgroup
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_QSPI_LINEAR]
+Excluding </processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_DDR_LOWOCM]
+Excluding </processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+</processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFFFC0000 [ 256K ]>
+Excluding </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> from </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_HP0_HIGH_OCM]
+Including </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_HIGH_OCM]
+Excluding </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> from </skipprefetch_Nelem_0/Data_m_axi_A_BUS>
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+assign_bd_address [get_bd_addr_segs {processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM }]
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> into conflicting address 0xFFFC0000 [ 256K ] in address space </skipprefetch_Nelem_0/Data_m_axi_A_BUS>. This must be resolved before passing validation
+CRITICAL WARNING: [BD 41-1376] Forcibly mapping </processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> into conflicting address 0xFFFC0000 [ 256K ] in address space </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW>. This must be resolved before passing validation
+</processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFFFC0000 [ 256K ]>
+</processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at <0xFFFC0000 [ 256K ]>
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_HIGH_OCM]
+assign_bd_address [get_bd_addr_segs {processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM }]
+</processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> is being mapped into </skipprefetch_Nelem_0/Data_m_axi_A_BUS> at <0xFFFC0000 [ 256K ]>
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_HIGH_OCM]
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+ERROR: [BD 41-971] Segment </processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM> mapped into </skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW> at 0xFFFC0000[ 256K ] overlaps with </processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM> mapped at 0xFFFC0000[ 256K ]
+validate_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1618.699 ; gain = 0.000
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_HIGH_OCM]
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1618.699 ; gain = 0.000
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {4} CONFIG.CONST_VAL {15}] [get_bd_cells xlconstant_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_1
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {5} CONFIG.CONST_VAL {31}] [get_bd_cells xlconstant_1]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_AWLEN]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_AWLEN is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_ARLEN] [get_bd_pins xlconstant_0/dout]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_ARLEN is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_ARUSER is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER] [get_bd_pins xlconstant_1/dout]
+WARNING: [BD 41-1306] The connection to interface pin /processing_system7_0/S_AXI_ACP_AWUSER is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI_ACP
+regenerate_bd_layout
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_ACP_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_AWLEN has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+WARNING: [BD 41-1271] The connection to the pin: /processing_system7_0/S_AXI_ACP_ARLEN has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_mem_intercon_M00_AXI 
+validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1618.699 ; gain = 0.000
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: a:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip/component.xml. It will be created.
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets axi_mem_intercon_M00_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW] [get_bd_intf_nets axi_mem_intercon_M01_AXI] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_A_BUS]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_nets xlconstant_1_dout] [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells xlconstant_0] [get_bd_cells xlconstant_1] [get_bd_cells rst_ps7_0_100M] [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_cells axi_mem_intercon] [get_bd_cells ps7_0_axi_periph]
+endgroup
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified

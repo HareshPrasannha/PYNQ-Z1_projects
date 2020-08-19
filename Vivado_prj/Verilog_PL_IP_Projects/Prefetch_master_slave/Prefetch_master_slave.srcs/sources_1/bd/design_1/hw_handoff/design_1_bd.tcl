@@ -163,7 +163,6 @@ proc create_root_design { parentCell } {
   set Prefetch_M_S_IP_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:Prefetch_M_S_IP:1.0 Prefetch_M_S_IP_0 ]
   set_property -dict [ list \
 CONFIG.C_M00_AXI_BURST_LEN {1} \
-CONFIG.C_M00_AXI_ID_WIDTH {2} \
 CONFIG.C_M00_AXI_TARGET_SLAVE_BASE_ADDR {0x00000000} \
  ] $Prefetch_M_S_IP_0
 
@@ -171,7 +170,6 @@ CONFIG.C_M00_AXI_TARGET_SLAVE_BASE_ADDR {0x00000000} \
   set axi_mem_intercon [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_mem_intercon ]
   set_property -dict [ list \
 CONFIG.NUM_MI {1} \
-CONFIG.S00_HAS_DATA_FIFO {1} \
  ] $axi_mem_intercon
 
   # Create instance: processing_system7_0, and set properties
@@ -753,7 +751,7 @@ CONFIG.PCW_PACKAGE_NAME {clg400} \
 CONFIG.PCW_PCAP_PERIPHERAL_CLKSRC {IO PLL} \
 CONFIG.PCW_PCAP_PERIPHERAL_DIVISOR0 {5} \
 CONFIG.PCW_PCAP_PERIPHERAL_FREQMHZ {200} \
-CONFIG.PCW_PERIPHERAL_BOARD_PRESET {part0} \
+CONFIG.PCW_PERIPHERAL_BOARD_PRESET {None} \
 CONFIG.PCW_PJTAG_PERIPHERAL_ENABLE {0} \
 CONFIG.PCW_PJTAG_PJTAG_IO {<Select>} \
 CONFIG.PCW_PLL_BYPASSMODE_ENABLE {0} \

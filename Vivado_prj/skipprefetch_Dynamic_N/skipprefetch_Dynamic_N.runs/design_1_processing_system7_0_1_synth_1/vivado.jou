@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Aug 17 20:06:31 2020
+# Process ID: 8324
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_processing_system7_0_1_synth_1
+# Command line: vivado.exe -log design_1_processing_system7_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_1.tcl
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_processing_system7_0_1_synth_1/design_1_processing_system7_0_1.vds
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/design_1_processing_system7_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_processing_system7_0_1.tcl -notrace

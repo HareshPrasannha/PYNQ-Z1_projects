@@ -1,7 +1,7 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
--- Date        : Tue Jul 28 18:30:52 2020
+-- Date        : Fri Jul 24 20:11:02 2020
 -- Host        : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim -rename_top design_1_auto_us_0 -prefix
 --               design_1_auto_us_0_ design_1_auto_us_0_sim_netlist.vhdl
@@ -622,7 +622,7 @@ begin
       Q => M_AXI_RDATA_I(9),
       R => s_axi_aresetn
     );
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[1]_i_1__0\: unisim.vcomponents.LUT6
+\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[0]_i_1__0\: unisim.vcomponents.LUT6
     generic map(
       INIT => X"00005501FFFFFFFF"
     )
@@ -635,7 +635,7 @@ begin
       I5 => \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\,
       O => M_READY_I
     );
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[1]_i_2__0\: unisim.vcomponents.LUT4
+\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[0]_i_2__0\: unisim.vcomponents.LUT4
     generic map(
       INIT => X"1FFF"
     )
@@ -1797,7 +1797,7 @@ begin
   m_axi_wvalid <= \^m_axi_wvalid\;
   p_251_in <= \^p_251_in\;
   wrap_buffer_available <= \^wrap_buffer_available\;
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[1]_i_1\: unisim.vcomponents.LUT1
+\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[0]_i_1\: unisim.vcomponents.LUT1
     generic map(
       INIT => X"1"
     )
@@ -6688,21 +6688,21 @@ entity \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__param
     m_axi_awaddr : out STD_LOGIC_VECTOR ( 31 downto 0 );
     m_axi_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_awready : out STD_LOGIC;
-    Q : out STD_LOGIC_VECTOR ( 14 downto 0 );
+    Q : out STD_LOGIC_VECTOR ( 13 downto 0 );
     m_axi_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_aresetn : in STD_LOGIC;
     s_axi_aclk : in STD_LOGIC;
     cmd_push_block_reg : in STD_LOGIC;
     s_axi_awvalid : in STD_LOGIC;
     \aresetn_d_reg[1]_0\ : in STD_LOGIC;
-    D : in STD_LOGIC_VECTOR ( 55 downto 0 )
+    D : in STD_LOGIC_VECTOR ( 54 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__parameterized3\ : entity is "axi_register_slice_v2_1_10_axic_register_slice";
 end \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__parameterized3\;
 
 architecture STRUCTURE of \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__parameterized3\ is
-  signal \^q\ : STD_LOGIC_VECTOR ( 14 downto 0 );
+  signal \^q\ : STD_LOGIC_VECTOR ( 13 downto 0 );
   signal \USE_RTL_FIFO.data_srl_reg[31][18]_srl32_i_2_n_0\ : STD_LOGIC;
   signal \USE_RTL_FIFO.data_srl_reg[31][22]_srl32_i_2_n_0\ : STD_LOGIC;
   signal \USE_RTL_FIFO.data_srl_reg[31][24]_srl32_i_2_n_0\ : STD_LOGIC;
@@ -6780,7 +6780,7 @@ architecture STRUCTURE of \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_re
   attribute SOFT_HLUTNM of \m_axi_awsize[1]_INST_0\ : label is "soft_lutpair97";
   attribute SOFT_HLUTNM of \m_axi_awsize[2]_INST_0\ : label is "soft_lutpair98";
 begin
-  Q(14 downto 0) <= \^q\(14 downto 0);
+  Q(13 downto 0) <= \^q\(13 downto 0);
   \aresetn_d_reg[1]\ <= \^aresetn_d_reg[1]\;
   \in\(23 downto 0) <= \^in\(23 downto 0);
   s_axi_awready <= \^s_axi_awready\;
@@ -7909,14 +7909,6 @@ begin
       Q => \^q\(13),
       R => '0'
     );
-\m_payload_i_reg[55]\: unisim.vcomponents.FDRE
-     port map (
-      C => s_axi_aclk,
-      CE => \m_payload_i[31]_i_1_n_0\,
-      D => D(55),
-      Q => \^q\(14),
-      R => '0'
-    );
 \m_payload_i_reg[5]\: unisim.vcomponents.FDRE
      port map (
       C => s_axi_aclk,
@@ -8012,14 +8004,14 @@ entity \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__param
     \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\ : out STD_LOGIC_VECTOR ( 20 downto 0 );
     m_axi_arburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_arready : out STD_LOGIC;
-    \m_axi_arqos[3]\ : out STD_LOGIC_VECTOR ( 14 downto 0 );
+    \m_axi_arqos[3]\ : out STD_LOGIC_VECTOR ( 13 downto 0 );
     m_axi_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_aresetn : in STD_LOGIC;
     \aresetn_d_reg[0]\ : in STD_LOGIC;
     s_axi_aclk : in STD_LOGIC;
     cmd_push_block_reg : in STD_LOGIC;
     s_axi_arvalid : in STD_LOGIC;
-    \s_axi_arqos[3]\ : in STD_LOGIC_VECTOR ( 55 downto 0 )
+    \s_axi_arqos[3]\ : in STD_LOGIC_VECTOR ( 54 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__parameterized6\ : entity is "axi_register_slice_v2_1_10_axic_register_slice";
@@ -8050,7 +8042,7 @@ architecture STRUCTURE of \design_1_auto_us_0_axi_register_slice_v2_1_10_axic_re
   signal \m_axi_arlen[3]_INST_0_i_7_n_0\ : STD_LOGIC;
   signal \m_axi_arlen[3]_INST_0_i_8_n_0\ : STD_LOGIC;
   signal \m_axi_arlen[3]_INST_0_i_9_n_0\ : STD_LOGIC;
-  signal \^m_axi_arqos[3]\ : STD_LOGIC_VECTOR ( 14 downto 0 );
+  signal \^m_axi_arqos[3]\ : STD_LOGIC_VECTOR ( 13 downto 0 );
   signal \m_payload_i[31]_i_1__0_n_0\ : STD_LOGIC;
   signal m_valid_i_i_1_n_0 : STD_LOGIC;
   signal s_axi_arlen_ii : STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -8093,7 +8085,7 @@ begin
   \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[26]\ <= \^use_ff_out.use_rtl_output_pipeline.m_mesg_q_reg[26]\;
   \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]\ <= \^use_ff_out.use_rtl_output_pipeline.m_mesg_q_reg[28]\;
   \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(20 downto 0) <= \^use_ff_out.use_rtl_output_pipeline.m_mesg_q_reg[29]\(20 downto 0);
-  \m_axi_arqos[3]\(14 downto 0) <= \^m_axi_arqos[3]\(14 downto 0);
+  \m_axi_arqos[3]\(13 downto 0) <= \^m_axi_arqos[3]\(13 downto 0);
   s_axi_arready <= \^s_axi_arready\;
   s_ready_i_reg_0 <= \^s_ready_i_reg_0\;
   sr_arvalid <= \^sr_arvalid\;
@@ -9106,14 +9098,6 @@ begin
       Q => \^m_axi_arqos[3]\(13),
       R => '0'
     );
-\m_payload_i_reg[55]\: unisim.vcomponents.FDRE
-     port map (
-      C => s_axi_aclk,
-      CE => \m_payload_i[31]_i_1__0_n_0\,
-      D => \s_axi_arqos[3]\(55),
-      Q => \^m_axi_arqos[3]\(14),
-      R => '0'
-    );
 \m_payload_i_reg[5]\: unisim.vcomponents.FDRE
      port map (
       C => s_axi_aclk,
@@ -9200,23 +9184,23 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo is
   port (
+    s_axi_bid : out STD_LOGIC_VECTOR ( 0 to 0 );
     buffer_Full_q : out STD_LOGIC;
     \USE_RTL_VALID_WRITE.buffer_Full_q_reg_0\ : out STD_LOGIC;
     s_ready_i_reg : out STD_LOGIC;
     m_axi_awvalid : out STD_LOGIC;
-    s_axi_bid : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s_axi_aresetn : in STD_LOGIC;
+    valid_Write : in STD_LOGIC;
+    Q : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_aclk : in STD_LOGIC;
+    s_axi_aresetn : in STD_LOGIC;
     \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\ : in STD_LOGIC;
     cmd_push_block : in STD_LOGIC;
     buffer_Full_q_0 : in STD_LOGIC;
     m_axi_awready : in STD_LOGIC;
     \out\ : in STD_LOGIC;
-    valid_Write : in STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
     m_axi_bvalid : in STD_LOGIC;
-    sr_awvalid : in STD_LOGIC;
-    \m_payload_i_reg[51]\ : in STD_LOGIC_VECTOR ( 1 downto 0 )
+    sr_awvalid : in STD_LOGIC
   );
 end design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo;
 
@@ -9231,7 +9215,6 @@ architecture STRUCTURE of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_f
   signal \USE_RTL_ADDR.addr_q[4]_i_2__0_n_0\ : STD_LOGIC;
   signal \USE_RTL_ADDR.addr_q_reg__0\ : STD_LOGIC_VECTOR ( 4 downto 0 );
   signal \USE_RTL_FIFO.data_srl_reg[31][0]_srl32_n_0\ : STD_LOGIC;
-  signal \USE_RTL_FIFO.data_srl_reg[31][1]_srl32_n_0\ : STD_LOGIC;
   signal \USE_RTL_VALID_WRITE.buffer_Full_q_i_1_n_0\ : STD_LOGIC;
   signal \USE_RTL_VALID_WRITE.buffer_Full_q_i_2_n_0\ : STD_LOGIC;
   signal \^use_rtl_valid_write.buffer_full_q_reg_0\ : STD_LOGIC;
@@ -9241,7 +9224,6 @@ architecture STRUCTURE of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_f
   signal data_Exists_I_i_2_n_0 : STD_LOGIC;
   signal next_Data_Exists : STD_LOGIC;
   signal \NLW_USE_RTL_FIFO.data_srl_reg[31][0]_srl32_Q31_UNCONNECTED\ : STD_LOGIC;
-  signal \NLW_USE_RTL_FIFO.data_srl_reg[31][1]_srl32_Q31_UNCONNECTED\ : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1\ : label is "soft_lutpair68";
   attribute SOFT_HLUTNM of \USE_RTL_ADDR.addr_q[0]_i_1\ : label is "soft_lutpair67";
@@ -9250,13 +9232,11 @@ architecture STRUCTURE of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_f
   attribute srl_bus_name of \USE_RTL_FIFO.data_srl_reg[31][0]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31] ";
   attribute srl_name : string;
   attribute srl_name of \USE_RTL_FIFO.data_srl_reg[31][0]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31][0]_srl32 ";
-  attribute srl_bus_name of \USE_RTL_FIFO.data_srl_reg[31][1]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31] ";
-  attribute srl_name of \USE_RTL_FIFO.data_srl_reg[31][1]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31][1]_srl32 ";
   attribute SOFT_HLUTNM of data_Exists_I_i_2 : label is "soft_lutpair67";
 begin
   \USE_RTL_VALID_WRITE.buffer_Full_q_reg_0\ <= \^use_rtl_valid_write.buffer_full_q_reg_0\;
   buffer_Full_q <= \^buffer_full_q\;
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[1]_i_2\: unisim.vcomponents.LUT3
+\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[0]_i_2\: unisim.vcomponents.LUT3
     generic map(
       INIT => X"8F"
     )
@@ -9272,14 +9252,6 @@ begin
       CE => M_READY_I,
       D => \USE_RTL_FIFO.data_srl_reg[31][0]_srl32_n_0\,
       Q => s_axi_bid(0),
-      R => s_axi_aresetn
-    );
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[1]\: unisim.vcomponents.FDRE
-     port map (
-      C => s_axi_aclk,
-      CE => M_READY_I,
-      D => \USE_RTL_FIFO.data_srl_reg[31][1]_srl32_n_0\,
-      Q => s_axi_bid(1),
       R => s_axi_aresetn
     );
 \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1\: unisim.vcomponents.LUT4
@@ -9431,21 +9403,9 @@ begin
       A(4 downto 0) => \USE_RTL_ADDR.addr_q_reg__0\(4 downto 0),
       CE => valid_Write,
       CLK => s_axi_aclk,
-      D => \m_payload_i_reg[51]\(0),
+      D => Q(0),
       Q => \USE_RTL_FIFO.data_srl_reg[31][0]_srl32_n_0\,
       Q31 => \NLW_USE_RTL_FIFO.data_srl_reg[31][0]_srl32_Q31_UNCONNECTED\
-    );
-\USE_RTL_FIFO.data_srl_reg[31][1]_srl32\: unisim.vcomponents.SRLC32E
-    generic map(
-      INIT => X"00000000"
-    )
-        port map (
-      A(4 downto 0) => \USE_RTL_ADDR.addr_q_reg__0\(4 downto 0),
-      CE => valid_Write,
-      CLK => s_axi_aclk,
-      D => \m_payload_i_reg[51]\(1),
-      Q => \USE_RTL_FIFO.data_srl_reg[31][1]_srl32_n_0\,
-      Q31 => \NLW_USE_RTL_FIFO.data_srl_reg[31][1]_srl32_Q31_UNCONNECTED\
     );
 \USE_RTL_VALID_WRITE.buffer_Full_q_i_1\: unisim.vcomponents.LUT6
     generic map(
@@ -9544,22 +9504,22 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo_0 is
   port (
+    s_axi_rid : out STD_LOGIC_VECTOR ( 0 to 0 );
     buffer_Full_q : out STD_LOGIC;
     \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\ : out STD_LOGIC;
     s_ready_i_reg : out STD_LOGIC;
     m_axi_arvalid : out STD_LOGIC;
-    s_axi_rid : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s_axi_aresetn : in STD_LOGIC;
-    s_axi_aclk : in STD_LOGIC;
-    \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_1\ : in STD_LOGIC;
-    M_READY_I : in STD_LOGIC;
     valid_Write : in STD_LOGIC;
+    Q : in STD_LOGIC_VECTOR ( 0 to 0 );
+    s_axi_aclk : in STD_LOGIC;
+    s_axi_aresetn : in STD_LOGIC;
+    M_READY_I : in STD_LOGIC;
+    \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_1\ : in STD_LOGIC;
     cmd_push_block : in STD_LOGIC;
     buffer_Full_q_0 : in STD_LOGIC;
     m_axi_arready : in STD_LOGIC;
     \out\ : in STD_LOGIC;
-    sr_arvalid : in STD_LOGIC;
-    \m_payload_i_reg[51]\ : in STD_LOGIC_VECTOR ( 1 downto 0 )
+    sr_arvalid : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo_0 : entity is "generic_baseblocks_v2_1_0_command_fifo";
@@ -9575,7 +9535,6 @@ architecture STRUCTURE of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_f
   signal \USE_RTL_ADDR.addr_q[4]_i_2__2_n_0\ : STD_LOGIC;
   signal \USE_RTL_ADDR.addr_q_reg__0\ : STD_LOGIC_VECTOR ( 4 downto 0 );
   signal \USE_RTL_FIFO.data_srl_reg[31][0]_srl32_n_0\ : STD_LOGIC;
-  signal \USE_RTL_FIFO.data_srl_reg[31][1]_srl32_n_0\ : STD_LOGIC;
   signal \USE_RTL_VALID_WRITE.buffer_Full_q_i_1__1_n_0\ : STD_LOGIC;
   signal \USE_RTL_VALID_WRITE.buffer_Full_q_i_2__1_n_0\ : STD_LOGIC;
   signal addr_q : STD_LOGIC;
@@ -9584,7 +9543,6 @@ architecture STRUCTURE of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_f
   signal \data_Exists_I_i_2__1_n_0\ : STD_LOGIC;
   signal next_Data_Exists : STD_LOGIC;
   signal \NLW_USE_RTL_FIFO.data_srl_reg[31][0]_srl32_Q31_UNCONNECTED\ : STD_LOGIC;
-  signal \NLW_USE_RTL_FIFO.data_srl_reg[31][1]_srl32_Q31_UNCONNECTED\ : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1__0\ : label is "soft_lutpair47";
   attribute SOFT_HLUTNM of \USE_RTL_ADDR.addr_q[0]_i_1__1\ : label is "soft_lutpair46";
@@ -9594,8 +9552,6 @@ architecture STRUCTURE of design_1_auto_us_0_generic_baseblocks_v2_1_0_command_f
   attribute srl_bus_name of \USE_RTL_FIFO.data_srl_reg[31][0]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31] ";
   attribute srl_name : string;
   attribute srl_name of \USE_RTL_FIFO.data_srl_reg[31][0]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31][0]_srl32 ";
-  attribute srl_bus_name of \USE_RTL_FIFO.data_srl_reg[31][1]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31] ";
-  attribute srl_name of \USE_RTL_FIFO.data_srl_reg[31][1]_srl32\ : label is "inst/\gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/gen_id_queue.id_queue/USE_RTL_FIFO.data_srl_reg[31][1]_srl32 ";
   attribute SOFT_HLUTNM of \USE_RTL_VALID_WRITE.buffer_Full_q_i_1__1\ : label is "soft_lutpair47";
   attribute SOFT_HLUTNM of \data_Exists_I_i_2__1\ : label is "soft_lutpair46";
 begin
@@ -9607,14 +9563,6 @@ begin
       CE => M_READY_I,
       D => \USE_RTL_FIFO.data_srl_reg[31][0]_srl32_n_0\,
       Q => s_axi_rid(0),
-      R => s_axi_aresetn
-    );
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[1]\: unisim.vcomponents.FDRE
-     port map (
-      C => s_axi_aclk,
-      CE => M_READY_I,
-      D => \USE_RTL_FIFO.data_srl_reg[31][1]_srl32_n_0\,
-      Q => s_axi_rid(1),
       R => s_axi_aresetn
     );
 \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_i_1__0\: unisim.vcomponents.LUT3
@@ -9751,21 +9699,9 @@ begin
       A(4 downto 0) => \USE_RTL_ADDR.addr_q_reg__0\(4 downto 0),
       CE => valid_Write,
       CLK => s_axi_aclk,
-      D => \m_payload_i_reg[51]\(0),
+      D => Q(0),
       Q => \USE_RTL_FIFO.data_srl_reg[31][0]_srl32_n_0\,
       Q31 => \NLW_USE_RTL_FIFO.data_srl_reg[31][0]_srl32_Q31_UNCONNECTED\
-    );
-\USE_RTL_FIFO.data_srl_reg[31][1]_srl32\: unisim.vcomponents.SRLC32E
-    generic map(
-      INIT => X"00000000"
-    )
-        port map (
-      A(4 downto 0) => \USE_RTL_ADDR.addr_q_reg__0\(4 downto 0),
-      CE => valid_Write,
-      CLK => s_axi_aclk,
-      D => \m_payload_i_reg[51]\(1),
-      Q => \USE_RTL_FIFO.data_srl_reg[31][1]_srl32_n_0\,
-      Q31 => \NLW_USE_RTL_FIFO.data_srl_reg[31][1]_srl32_Q31_UNCONNECTED\
     );
 \USE_RTL_VALID_WRITE.buffer_Full_q_i_1__1\: unisim.vcomponents.LUT4
     generic map(
@@ -11506,7 +11442,7 @@ begin
       I4 => rd_cmd_packed_wrap,
       O => \M_AXI_RDATA_I_reg[63]\(0)
     );
-\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[1]_i_3\: unisim.vcomponents.LUT6
+\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q[0]_i_3\: unisim.vcomponents.LUT6
     generic map(
       INIT => X"01FDFE02FFFFFFFF"
     )
@@ -12505,9 +12441,10 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer is
   port (
+    s_axi_bid : out STD_LOGIC_VECTOR ( 0 to 0 );
     wr_cmd_valid : out STD_LOGIC;
     \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[7]\ : out STD_LOGIC;
-    Q : out STD_LOGIC_VECTOR ( 18 downto 0 );
+    \USE_RTL_CURR_WORD.current_word_q_reg[1]\ : out STD_LOGIC_VECTOR ( 18 downto 0 );
     \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[56]\ : out STD_LOGIC;
     \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.wdata_wrap_buffer_q_reg[7]\ : out STD_LOGIC;
     \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[48]\ : out STD_LOGIC;
@@ -12535,9 +12472,9 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer is
     s_ready_i_reg : out STD_LOGIC;
     m_axi_awvalid : out STD_LOGIC;
     \USE_REGISTER.M_AXI_WVALID_q_reg_0\ : out STD_LOGIC;
-    s_axi_bid : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s_axi_aresetn : in STD_LOGIC;
+    Q : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_aclk : in STD_LOGIC;
+    s_axi_aresetn : in STD_LOGIC;
     \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ : in STD_LOGIC;
     m_axi_wready : in STD_LOGIC;
     \USE_REGISTER.M_AXI_WVALID_q_reg_1\ : in STD_LOGIC;
@@ -12554,12 +12491,11 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer is
     \USE_RTL_CURR_WORD.pre_next_word_q_reg[2]_0\ : in STD_LOGIC;
     \USE_RTL_CURR_WORD.pre_next_word_q_reg[1]\ : in STD_LOGIC;
     \USE_RTL_CURR_WORD.current_word_q_reg[2]_0\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    \USE_RTL_CURR_WORD.current_word_q_reg[1]\ : in STD_LOGIC;
+    \USE_RTL_CURR_WORD.current_word_q_reg[1]_0\ : in STD_LOGIC;
     m_axi_awready : in STD_LOGIC;
     \out\ : in STD_LOGIC;
     sr_awvalid : in STD_LOGIC;
     \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\ : in STD_LOGIC;
-    \m_payload_i_reg[51]\ : in STD_LOGIC_VECTOR ( 1 downto 0 );
     \in\ : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
 end design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer;
@@ -12570,23 +12506,23 @@ architecture STRUCTURE of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsi
   signal buffer_Full_q_0 : STD_LOGIC;
   signal cmd_push_block : STD_LOGIC;
   signal cmd_push_block0 : STD_LOGIC;
-  signal \gen_id_queue.id_queue_n_1\ : STD_LOGIC;
+  signal \gen_id_queue.id_queue_n_2\ : STD_LOGIC;
   signal valid_Write : STD_LOGIC;
 begin
 \GEN_CMD_QUEUE.cmd_queue\: entity work.\design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo__parameterized0\
      port map (
       D(2 downto 0) => D(2 downto 0),
       E(0) => E(0),
-      Q(18 downto 0) => Q(18 downto 0),
+      Q(18 downto 0) => \USE_RTL_CURR_WORD.current_word_q_reg[1]\(18 downto 0),
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]_0\ => \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\ => \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_1\ => \gen_id_queue.id_queue_n_1\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_1\ => \gen_id_queue.id_queue_n_2\,
       \USE_REGISTER.M_AXI_WVALID_q_reg\ => \USE_REGISTER.M_AXI_WVALID_q_reg\,
       \USE_REGISTER.M_AXI_WVALID_q_reg_0\ => \USE_REGISTER.M_AXI_WVALID_q_reg_0\,
       \USE_REGISTER.M_AXI_WVALID_q_reg_1\ => \USE_REGISTER.M_AXI_WVALID_q_reg_1\,
       \USE_REGISTER.M_AXI_WVALID_q_reg_2\ => \USE_REGISTER.M_AXI_WVALID_q_reg_2\,
       \USE_RTL_ADDR.addr_q_reg[4]_0\ => \GEN_CMD_QUEUE.cmd_queue_n_22\,
-      \USE_RTL_CURR_WORD.current_word_q_reg[1]\ => \USE_RTL_CURR_WORD.current_word_q_reg[1]\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\ => \USE_RTL_CURR_WORD.current_word_q_reg[1]_0\,
       \USE_RTL_CURR_WORD.current_word_q_reg[2]\(2 downto 0) => \USE_RTL_CURR_WORD.current_word_q_reg[2]\(2 downto 0),
       \USE_RTL_CURR_WORD.current_word_q_reg[2]_0\(2 downto 0) => \USE_RTL_CURR_WORD.current_word_q_reg[2]_0\(2 downto 0),
       \USE_RTL_CURR_WORD.first_word_q_reg\ => wr_cmd_valid,
@@ -12644,19 +12580,19 @@ cmd_push_block_reg: unisim.vcomponents.FDRE
     );
 \gen_id_queue.id_queue\: entity work.design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo
      port map (
+      Q(0) => Q(0),
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\ => \GEN_CMD_QUEUE.cmd_queue_n_22\,
-      \USE_RTL_VALID_WRITE.buffer_Full_q_reg_0\ => \gen_id_queue.id_queue_n_1\,
+      \USE_RTL_VALID_WRITE.buffer_Full_q_reg_0\ => \gen_id_queue.id_queue_n_2\,
       buffer_Full_q => buffer_Full_q_0,
       buffer_Full_q_0 => buffer_Full_q,
       cmd_push_block => cmd_push_block,
       m_axi_awready => m_axi_awready,
       m_axi_awvalid => m_axi_awvalid,
       m_axi_bvalid => m_axi_bvalid,
-      \m_payload_i_reg[51]\(1 downto 0) => \m_payload_i_reg[51]\(1 downto 0),
       \out\ => \out\,
       s_axi_aclk => s_axi_aclk,
       s_axi_aresetn => s_axi_aresetn,
-      s_axi_bid(1 downto 0) => s_axi_bid(1 downto 0),
+      s_axi_bid(0) => s_axi_bid(0),
       s_axi_bready => s_axi_bready,
       s_ready_i_reg => s_ready_i_reg,
       sr_awvalid => sr_awvalid,
@@ -12669,6 +12605,7 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity \design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0\ is
   port (
+    s_axi_rid : out STD_LOGIC_VECTOR ( 0 to 0 );
     rd_cmd_valid : out STD_LOGIC;
     \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ : out STD_LOGIC;
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -12676,7 +12613,7 @@ entity \design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer__parameterized
     \m_payload_i_reg[0]\ : out STD_LOGIC_VECTOR ( 0 to 0 );
     use_wrap_buffer_reg : out STD_LOGIC;
     \current_word_1_reg[2]\ : out STD_LOGIC_VECTOR ( 2 downto 0 );
-    Q : out STD_LOGIC_VECTOR ( 12 downto 0 );
+    \current_word_1_reg[1]\ : out STD_LOGIC_VECTOR ( 12 downto 0 );
     \s_axi_rdata[31]\ : out STD_LOGIC;
     first_word_reg : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -12684,9 +12621,10 @@ entity \design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer__parameterized
     s_axi_rvalid : out STD_LOGIC;
     s_ready_i_reg : out STD_LOGIC;
     m_axi_arvalid : out STD_LOGIC;
-    s_axi_rid : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s_axi_aresetn : in STD_LOGIC;
+    Q : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_aclk : in STD_LOGIC;
+    s_axi_aresetn : in STD_LOGIC;
+    M_READY_I : in STD_LOGIC;
     wrap_buffer_available : in STD_LOGIC;
     \USE_RTL_LENGTH.length_counter_q_reg[7]\ : in STD_LOGIC;
     use_wrap_buffer : in STD_LOGIC;
@@ -12696,7 +12634,6 @@ entity \design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer__parameterized
     first_word : in STD_LOGIC;
     \current_word_1_reg[2]_0\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
     wrap_buffer_available_reg_0 : in STD_LOGIC;
-    M_READY_I : in STD_LOGIC;
     use_wrap_buffer_reg_0 : in STD_LOGIC;
     \pre_next_word_1_reg[2]\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
     \pre_next_word_1_reg[2]_0\ : in STD_LOGIC;
@@ -12705,7 +12642,6 @@ entity \design_1_auto_us_0_axi_dwidth_converter_v2_1_10_a_upsizer__parameterized
     m_axi_arready : in STD_LOGIC;
     \out\ : in STD_LOGIC;
     sr_arvalid : in STD_LOGIC;
-    \m_payload_i_reg[51]\ : in STD_LOGIC_VECTOR ( 1 downto 0 );
     \in\ : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
@@ -12727,7 +12663,7 @@ begin
       D(2 downto 0) => D(2 downto 0),
       E(0) => E(0),
       \M_AXI_RDATA_I_reg[63]\(0) => \M_AXI_RDATA_I_reg[63]\(0),
-      Q(12 downto 0) => Q(12 downto 0),
+      Q(12 downto 0) => \current_word_1_reg[1]\(12 downto 0),
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]_0\ => \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\ => \^use_ff_out.use_rtl_output_pipeline.m_valid_q_reg\,
       \USE_RTL_ADDR.addr_q_reg[4]_0\ => \GEN_CMD_QUEUE.cmd_queue_n_24\,
@@ -12774,6 +12710,7 @@ cmd_push_block_reg: unisim.vcomponents.FDRE
 \gen_id_queue.id_queue\: entity work.design_1_auto_us_0_generic_baseblocks_v2_1_0_command_fifo_0
      port map (
       M_READY_I => M_READY_I,
+      Q(0) => Q(0),
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\ => \^use_ff_out.use_rtl_output_pipeline.m_valid_q_reg\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_1\ => \GEN_CMD_QUEUE.cmd_queue_n_24\,
       buffer_Full_q => buffer_Full_q_0,
@@ -12781,11 +12718,10 @@ cmd_push_block_reg: unisim.vcomponents.FDRE
       cmd_push_block => cmd_push_block,
       m_axi_arready => m_axi_arready,
       m_axi_arvalid => m_axi_arvalid,
-      \m_payload_i_reg[51]\(1 downto 0) => \m_payload_i_reg[51]\(1 downto 0),
       \out\ => \out\,
       s_axi_aclk => s_axi_aclk,
       s_axi_aresetn => s_axi_aresetn,
-      s_axi_rid(1 downto 0) => s_axi_rid(1 downto 0),
+      s_axi_rid(0) => s_axi_rid(0),
       s_ready_i_reg => s_ready_i_reg,
       sr_arvalid => sr_arvalid,
       valid_Write => valid_Write
@@ -12854,8 +12790,8 @@ entity \design_1_auto_us_0_axi_register_slice_v2_1_10_axi_register_slice__parame
     m_axi_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_arready : out STD_LOGIC;
     s_axi_awready : out STD_LOGIC;
-    Q : out STD_LOGIC_VECTOR ( 14 downto 0 );
-    \m_axi_arqos[3]\ : out STD_LOGIC_VECTOR ( 14 downto 0 );
+    Q : out STD_LOGIC_VECTOR ( 13 downto 0 );
+    \m_axi_arqos[3]\ : out STD_LOGIC_VECTOR ( 13 downto 0 );
     m_axi_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     m_axi_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_aresetn : in STD_LOGIC;
@@ -12864,8 +12800,8 @@ entity \design_1_auto_us_0_axi_register_slice_v2_1_10_axi_register_slice__parame
     s_axi_arvalid : in STD_LOGIC;
     cmd_push_block_reg_0 : in STD_LOGIC;
     s_axi_awvalid : in STD_LOGIC;
-    D : in STD_LOGIC_VECTOR ( 55 downto 0 );
-    \s_axi_arqos[3]\ : in STD_LOGIC_VECTOR ( 55 downto 0 )
+    D : in STD_LOGIC_VECTOR ( 54 downto 0 );
+    \s_axi_arqos[3]\ : in STD_LOGIC_VECTOR ( 54 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of \design_1_auto_us_0_axi_register_slice_v2_1_10_axi_register_slice__parameterized0\ : entity is "axi_register_slice_v2_1_10_axi_register_slice";
@@ -12890,11 +12826,11 @@ ar_pipe: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_10_axic_registe
       cmd_push_block_reg => cmd_push_block_reg,
       m_axi_araddr(31 downto 0) => m_axi_araddr(31 downto 0),
       m_axi_arburst(1 downto 0) => m_axi_arburst(1 downto 0),
-      \m_axi_arqos[3]\(14 downto 0) => \m_axi_arqos[3]\(14 downto 0),
+      \m_axi_arqos[3]\(13 downto 0) => \m_axi_arqos[3]\(13 downto 0),
       m_axi_arsize(2 downto 0) => m_axi_arsize(2 downto 0),
       s_axi_aclk => s_axi_aclk,
       s_axi_aresetn => s_axi_aresetn,
-      \s_axi_arqos[3]\(55 downto 0) => \s_axi_arqos[3]\(55 downto 0),
+      \s_axi_arqos[3]\(54 downto 0) => \s_axi_arqos[3]\(54 downto 0),
       s_axi_arready => s_axi_arready,
       s_axi_arvalid => s_axi_arvalid,
       s_ready_i_reg_0 => \^s_ready_i_reg\,
@@ -12902,8 +12838,8 @@ ar_pipe: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_10_axic_registe
     );
 aw_pipe: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_10_axic_register_slice__parameterized3\
      port map (
-      D(55 downto 0) => D(55 downto 0),
-      Q(14 downto 0) => Q(14 downto 0),
+      D(54 downto 0) => D(54 downto 0),
+      Q(13 downto 0) => Q(13 downto 0),
       \aresetn_d_reg[1]\ => \^aresetn_d_reg[1]\,
       \aresetn_d_reg[1]_0\ => \^s_ready_i_reg\,
       cmd_push_block_reg => cmd_push_block_reg_0,
@@ -12933,11 +12869,11 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_upsizer is
     m_axi_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_arlen : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axi_wdata : out STD_LOGIC_VECTOR ( 63 downto 0 );
-    s_axi_bid : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_bid : out STD_LOGIC_VECTOR ( 0 to 0 );
     Q : out STD_LOGIC_VECTOR ( 12 downto 0 );
     m_axi_rready : out STD_LOGIC;
     s_axi_rlast : out STD_LOGIC;
-    s_axi_rid : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_rid : out STD_LOGIC_VECTOR ( 0 to 0 );
     \m_axi_arqos[3]\ : out STD_LOGIC_VECTOR ( 12 downto 0 );
     s_axi_awready : out STD_LOGIC;
     s_axi_arready : out STD_LOGIC;
@@ -12958,11 +12894,11 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_upsizer is
     \out\ : in STD_LOGIC;
     s_axi_aclk : in STD_LOGIC;
     s_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    D : in STD_LOGIC_VECTOR ( 55 downto 0 );
+    D : in STD_LOGIC_VECTOR ( 54 downto 0 );
     m_axi_rlast : in STD_LOGIC;
     m_axi_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_rdata : in STD_LOGIC_VECTOR ( 63 downto 0 );
-    \s_axi_arqos[3]\ : in STD_LOGIC_VECTOR ( 55 downto 0 );
+    \s_axi_arqos[3]\ : in STD_LOGIC_VECTOR ( 54 downto 0 );
     s_axi_awvalid : in STD_LOGIC;
     s_axi_arvalid : in STD_LOGIC;
     s_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -13045,21 +12981,21 @@ architecture STRUCTURE of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_up
   signal \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_49\ : STD_LOGIC;
   signal \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_5\ : STD_LOGIC;
   signal \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_6\ : STD_LOGIC;
-  signal \USE_READ.read_addr_inst_n_1\ : STD_LOGIC;
-  signal \USE_READ.read_addr_inst_n_13\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_14\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_15\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_16\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_17\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_18\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_19\ : STD_LOGIC;
+  signal \USE_READ.read_addr_inst_n_2\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_20\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_21\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_22\ : STD_LOGIC;
   signal \USE_READ.read_addr_inst_n_23\ : STD_LOGIC;
-  signal \USE_READ.read_addr_inst_n_29\ : STD_LOGIC;
-  signal \USE_READ.read_addr_inst_n_3\ : STD_LOGIC;
-  signal \USE_READ.read_addr_inst_n_5\ : STD_LOGIC;
+  signal \USE_READ.read_addr_inst_n_24\ : STD_LOGIC;
+  signal \USE_READ.read_addr_inst_n_30\ : STD_LOGIC;
+  signal \USE_READ.read_addr_inst_n_4\ : STD_LOGIC;
+  signal \USE_READ.read_addr_inst_n_6\ : STD_LOGIC;
   signal \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_1\ : STD_LOGIC;
   signal \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_14\ : STD_LOGIC;
   signal \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_15\ : STD_LOGIC;
@@ -13067,14 +13003,13 @@ architecture STRUCTURE of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_up
   signal \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_17\ : STD_LOGIC;
   signal \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_18\ : STD_LOGIC;
   signal \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_22\ : STD_LOGIC;
-  signal \USE_WRITE.write_addr_inst_n_1\ : STD_LOGIC;
-  signal \USE_WRITE.write_addr_inst_n_13\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_14\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_15\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_16\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_17\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_18\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_19\ : STD_LOGIC;
+  signal \USE_WRITE.write_addr_inst_n_2\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_20\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_21\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_22\ : STD_LOGIC;
@@ -13086,11 +13021,12 @@ architecture STRUCTURE of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_up
   signal \USE_WRITE.write_addr_inst_n_28\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_29\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_30\ : STD_LOGIC;
-  signal \USE_WRITE.write_addr_inst_n_43\ : STD_LOGIC;
-  signal \USE_WRITE.write_addr_inst_n_47\ : STD_LOGIC;
+  signal \USE_WRITE.write_addr_inst_n_31\ : STD_LOGIC;
+  signal \USE_WRITE.write_addr_inst_n_44\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_48\ : STD_LOGIC;
   signal \USE_WRITE.write_addr_inst_n_49\ : STD_LOGIC;
-  signal \USE_WRITE.write_addr_inst_n_51\ : STD_LOGIC;
+  signal \USE_WRITE.write_addr_inst_n_50\ : STD_LOGIC;
+  signal \USE_WRITE.write_addr_inst_n_52\ : STD_LOGIC;
   signal cmd_complete_wrap_i : STD_LOGIC;
   signal cmd_first_word_i : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal cmd_first_word_i_4 : STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -13153,9 +13089,9 @@ architecture STRUCTURE of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_up
   signal si_register_slice_inst_n_77 : STD_LOGIC;
   signal si_register_slice_inst_n_78 : STD_LOGIC;
   signal si_register_slice_inst_n_79 : STD_LOGIC;
-  signal sr_arid : STD_LOGIC_VECTOR ( 1 downto 0 );
+  signal sr_arid : STD_LOGIC;
   signal sr_arvalid : STD_LOGIC;
-  signal sr_awid : STD_LOGIC_VECTOR ( 1 downto 0 );
+  signal sr_awid : STD_LOGIC;
   signal sr_awvalid : STD_LOGIC;
   signal use_wrap_buffer : STD_LOGIC;
   signal wr_cmd_first_word : STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -13325,25 +13261,25 @@ begin
       Q(1) => \USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst_n_68\,
       Q(0) => \USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst_n_69\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[13]\(2 downto 0) => next_word(2 downto 0),
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[25]\ => \USE_READ.read_addr_inst_n_22\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\ => \USE_READ.read_addr_inst_n_5\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[25]\ => \USE_READ.read_addr_inst_n_23\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\ => \USE_READ.read_addr_inst_n_6\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(12) => rd_cmd_fix,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(11) => rd_cmd_first_word(2),
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(10 downto 9) => rd_cmd_next_word(2 downto 1),
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(8) => \USE_READ.read_addr_inst_n_13\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(7) => \USE_READ.read_addr_inst_n_14\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(6) => \USE_READ.read_addr_inst_n_15\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(5) => \USE_READ.read_addr_inst_n_16\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(4) => \USE_READ.read_addr_inst_n_17\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(3) => \USE_READ.read_addr_inst_n_18\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(2) => \USE_READ.read_addr_inst_n_19\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(1) => \USE_READ.read_addr_inst_n_20\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(0) => \USE_READ.read_addr_inst_n_21\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_READ.read_addr_inst_n_1\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(8) => \USE_READ.read_addr_inst_n_14\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(7) => \USE_READ.read_addr_inst_n_15\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(6) => \USE_READ.read_addr_inst_n_16\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(5) => \USE_READ.read_addr_inst_n_17\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(4) => \USE_READ.read_addr_inst_n_18\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(3) => \USE_READ.read_addr_inst_n_19\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(2) => \USE_READ.read_addr_inst_n_20\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(1) => \USE_READ.read_addr_inst_n_21\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(0) => \USE_READ.read_addr_inst_n_22\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_READ.read_addr_inst_n_2\,
       \USE_RTL_ADDR.addr_q_reg[4]\ => \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_49\,
-      \current_word_1_reg[0]_0\ => \USE_READ.read_addr_inst_n_23\,
+      \current_word_1_reg[0]_0\ => \USE_READ.read_addr_inst_n_24\,
       \current_word_1_reg[2]_0\(2 downto 0) => pre_next_word_1(2 downto 0),
-      \current_word_1_reg[2]_1\ => \USE_READ.read_addr_inst_n_3\,
+      \current_word_1_reg[2]_1\ => \USE_READ.read_addr_inst_n_4\,
       first_mi_word_q => first_mi_word_q,
       first_word => first_word,
       first_word_reg_0(2 downto 0) => current_word_1(2 downto 0),
@@ -13371,26 +13307,27 @@ begin
       E(0) => p_15_in,
       \M_AXI_RDATA_I_reg[63]\(0) => p_7_in,
       M_READY_I => \gen_id_queue.id_queue/M_READY_I\,
-      Q(12) => rd_cmd_fix,
-      Q(11) => rd_cmd_first_word(2),
-      Q(10 downto 9) => rd_cmd_next_word(2 downto 1),
-      Q(8) => \USE_READ.read_addr_inst_n_13\,
-      Q(7) => \USE_READ.read_addr_inst_n_14\,
-      Q(6) => \USE_READ.read_addr_inst_n_15\,
-      Q(5) => \USE_READ.read_addr_inst_n_16\,
-      Q(4) => \USE_READ.read_addr_inst_n_17\,
-      Q(3) => \USE_READ.read_addr_inst_n_18\,
-      Q(2) => \USE_READ.read_addr_inst_n_19\,
-      Q(1) => \USE_READ.read_addr_inst_n_20\,
-      Q(0) => \USE_READ.read_addr_inst_n_21\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\ => \USE_READ.read_addr_inst_n_3\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_READ.read_addr_inst_n_1\,
+      Q(0) => sr_arid,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\ => \USE_READ.read_addr_inst_n_4\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_READ.read_addr_inst_n_2\,
       \USE_RTL_LENGTH.length_counter_q_reg[7]\ => \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_6\,
+      \current_word_1_reg[1]\(12) => rd_cmd_fix,
+      \current_word_1_reg[1]\(11) => rd_cmd_first_word(2),
+      \current_word_1_reg[1]\(10 downto 9) => rd_cmd_next_word(2 downto 1),
+      \current_word_1_reg[1]\(8) => \USE_READ.read_addr_inst_n_14\,
+      \current_word_1_reg[1]\(7) => \USE_READ.read_addr_inst_n_15\,
+      \current_word_1_reg[1]\(6) => \USE_READ.read_addr_inst_n_16\,
+      \current_word_1_reg[1]\(5) => \USE_READ.read_addr_inst_n_17\,
+      \current_word_1_reg[1]\(4) => \USE_READ.read_addr_inst_n_18\,
+      \current_word_1_reg[1]\(3) => \USE_READ.read_addr_inst_n_19\,
+      \current_word_1_reg[1]\(2) => \USE_READ.read_addr_inst_n_20\,
+      \current_word_1_reg[1]\(1) => \USE_READ.read_addr_inst_n_21\,
+      \current_word_1_reg[1]\(0) => \USE_READ.read_addr_inst_n_22\,
       \current_word_1_reg[2]\(2 downto 0) => next_word(2 downto 0),
       \current_word_1_reg[2]_0\(2 downto 0) => current_word_1(2 downto 0),
       first_mi_word_q => first_mi_word_q,
       first_word => first_word,
-      first_word_reg => \USE_READ.read_addr_inst_n_23\,
+      first_word_reg => \USE_READ.read_addr_inst_n_24\,
       \in\(23) => cmd_fix_i,
       \in\(22) => cmd_modified_i,
       \in\(21) => cmd_complete_wrap_i,
@@ -13407,7 +13344,6 @@ begin
       m_axi_arready => m_axi_arready,
       m_axi_arvalid => m_axi_arvalid,
       \m_payload_i_reg[0]\(0) => \r_pipe/p_1_in\,
-      \m_payload_i_reg[51]\(1 downto 0) => sr_arid(1 downto 0),
       mr_rvalid => mr_rvalid,
       \out\ => \out\,
       \pre_next_word_1_reg[1]\ => \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_48\,
@@ -13416,14 +13352,14 @@ begin
       rd_cmd_valid => rd_cmd_valid,
       s_axi_aclk => s_axi_aclk,
       s_axi_aresetn => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_1\,
-      \s_axi_rdata[31]\ => \USE_READ.read_addr_inst_n_22\,
-      s_axi_rid(1 downto 0) => s_axi_rid(1 downto 0),
+      \s_axi_rdata[31]\ => \USE_READ.read_addr_inst_n_23\,
+      s_axi_rid(0) => s_axi_rid(0),
       s_axi_rready => s_axi_rready,
       s_axi_rvalid => s_axi_rvalid,
-      s_ready_i_reg => \USE_READ.read_addr_inst_n_29\,
+      s_ready_i_reg => \USE_READ.read_addr_inst_n_30\,
       sr_arvalid => sr_arvalid,
       use_wrap_buffer => use_wrap_buffer,
-      use_wrap_buffer_reg => \USE_READ.read_addr_inst_n_5\,
+      use_wrap_buffer_reg => \USE_READ.read_addr_inst_n_6\,
       use_wrap_buffer_reg_0 => \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_40\,
       wrap_buffer_available => wrap_buffer_available,
       wrap_buffer_available_reg => \USE_READ.gen_non_fifo_r_upsizer.read_data_inst_n_5\,
@@ -13439,30 +13375,30 @@ begin
       Q(15 downto 13) => wr_cmd_first_word(2 downto 0),
       Q(12 downto 11) => wr_cmd_next_word(2 downto 1),
       Q(10 downto 8) => cmd_last_word(2 downto 0),
-      Q(7) => \USE_WRITE.write_addr_inst_n_13\,
-      Q(6) => \USE_WRITE.write_addr_inst_n_14\,
-      Q(5) => \USE_WRITE.write_addr_inst_n_15\,
-      Q(4) => \USE_WRITE.write_addr_inst_n_16\,
-      Q(3) => \USE_WRITE.write_addr_inst_n_17\,
-      Q(2) => \USE_WRITE.write_addr_inst_n_18\,
-      Q(1) => \USE_WRITE.write_addr_inst_n_19\,
-      Q(0) => \USE_WRITE.write_addr_inst_n_20\,
+      Q(7) => \USE_WRITE.write_addr_inst_n_14\,
+      Q(6) => \USE_WRITE.write_addr_inst_n_15\,
+      Q(5) => \USE_WRITE.write_addr_inst_n_16\,
+      Q(4) => \USE_WRITE.write_addr_inst_n_17\,
+      Q(3) => \USE_WRITE.write_addr_inst_n_18\,
+      Q(2) => \USE_WRITE.write_addr_inst_n_19\,
+      Q(1) => \USE_WRITE.write_addr_inst_n_20\,
+      Q(0) => \USE_WRITE.write_addr_inst_n_21\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[13]\(2 downto 0) => next_word_1(2 downto 0),
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[16]\ => \USE_WRITE.write_addr_inst_n_22\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[17]\ => \USE_WRITE.write_addr_inst_n_47\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[18]\ => \USE_WRITE.write_addr_inst_n_48\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\ => \USE_WRITE.write_addr_inst_n_43\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]\ => \USE_WRITE.write_addr_inst_n_21\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_0\ => \USE_WRITE.write_addr_inst_n_23\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_1\ => \USE_WRITE.write_addr_inst_n_24\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_2\ => \USE_WRITE.write_addr_inst_n_25\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_3\ => \USE_WRITE.write_addr_inst_n_26\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_4\ => \USE_WRITE.write_addr_inst_n_27\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_5\ => \USE_WRITE.write_addr_inst_n_28\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_6\ => \USE_WRITE.write_addr_inst_n_29\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[16]\ => \USE_WRITE.write_addr_inst_n_23\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[17]\ => \USE_WRITE.write_addr_inst_n_48\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[18]\ => \USE_WRITE.write_addr_inst_n_49\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\ => \USE_WRITE.write_addr_inst_n_44\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]\ => \USE_WRITE.write_addr_inst_n_22\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_0\ => \USE_WRITE.write_addr_inst_n_24\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_1\ => \USE_WRITE.write_addr_inst_n_25\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_2\ => \USE_WRITE.write_addr_inst_n_26\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_3\ => \USE_WRITE.write_addr_inst_n_27\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_4\ => \USE_WRITE.write_addr_inst_n_28\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_5\ => \USE_WRITE.write_addr_inst_n_29\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[28]_6\ => \USE_WRITE.write_addr_inst_n_30\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_14\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_WRITE.write_addr_inst_n_51\,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\(0) => \USE_WRITE.write_addr_inst_n_30\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_WRITE.write_addr_inst_n_52\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0\(0) => \USE_WRITE.write_addr_inst_n_31\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_1\(0) => p_41_out,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_2\(0) => p_71_out,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_3\(0) => p_102_out,
@@ -13470,7 +13406,7 @@ begin
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_5\(0) => p_160_out,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_6\(0) => p_189_out,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_7\(0) => p_222_out,
-      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_8\ => \USE_WRITE.write_addr_inst_n_1\,
+      \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_8\ => \USE_WRITE.write_addr_inst_n_2\,
       \USE_REGISTER.M_AXI_WLAST_q_reg_0\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_1\,
       \USE_REGISTER.M_AXI_WVALID_q_reg_0\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_16\,
       \USE_RTL_CURR_WORD.current_word_q_reg[2]_0\(2 downto 0) => pre_next_word_q(2 downto 0),
@@ -13499,52 +13435,53 @@ begin
      port map (
       D(2 downto 0) => pre_next_word_2(2 downto 0),
       E(0) => pop_si_data,
-      Q(18) => wr_cmd_fix,
-      Q(17) => wr_cmd_modified,
-      Q(16) => wr_cmd_packed_wrap,
-      Q(15 downto 13) => wr_cmd_first_word(2 downto 0),
-      Q(12 downto 11) => wr_cmd_next_word(2 downto 1),
-      Q(10 downto 8) => cmd_last_word(2 downto 0),
-      Q(7) => \USE_WRITE.write_addr_inst_n_13\,
-      Q(6) => \USE_WRITE.write_addr_inst_n_14\,
-      Q(5) => \USE_WRITE.write_addr_inst_n_15\,
-      Q(4) => \USE_WRITE.write_addr_inst_n_16\,
-      Q(3) => \USE_WRITE.write_addr_inst_n_17\,
-      Q(2) => \USE_WRITE.write_addr_inst_n_18\,
-      Q(1) => \USE_WRITE.write_addr_inst_n_19\,
-      Q(0) => \USE_WRITE.write_addr_inst_n_20\,
+      Q(0) => sr_awid,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[27]\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_16\,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_14\,
-      \USE_REGISTER.M_AXI_WVALID_q_reg\ => \USE_WRITE.write_addr_inst_n_48\,
-      \USE_REGISTER.M_AXI_WVALID_q_reg_0\ => \USE_WRITE.write_addr_inst_n_51\,
+      \USE_REGISTER.M_AXI_WVALID_q_reg\ => \USE_WRITE.write_addr_inst_n_49\,
+      \USE_REGISTER.M_AXI_WVALID_q_reg_0\ => \USE_WRITE.write_addr_inst_n_52\,
       \USE_REGISTER.M_AXI_WVALID_q_reg_1\ => \^m_axi_wvalid\,
       \USE_REGISTER.M_AXI_WVALID_q_reg_2\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_15\,
-      \USE_RTL_CURR_WORD.current_word_q_reg[1]\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_17\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(18) => wr_cmd_fix,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(17) => wr_cmd_modified,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(16) => wr_cmd_packed_wrap,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(15 downto 13) => wr_cmd_first_word(2 downto 0),
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(12 downto 11) => wr_cmd_next_word(2 downto 1),
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(10 downto 8) => cmd_last_word(2 downto 0),
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(7) => \USE_WRITE.write_addr_inst_n_14\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(6) => \USE_WRITE.write_addr_inst_n_15\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(5) => \USE_WRITE.write_addr_inst_n_16\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(4) => \USE_WRITE.write_addr_inst_n_17\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(3) => \USE_WRITE.write_addr_inst_n_18\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(2) => \USE_WRITE.write_addr_inst_n_19\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(1) => \USE_WRITE.write_addr_inst_n_20\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]\(0) => \USE_WRITE.write_addr_inst_n_21\,
+      \USE_RTL_CURR_WORD.current_word_q_reg[1]_0\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_17\,
       \USE_RTL_CURR_WORD.current_word_q_reg[2]\(2 downto 0) => next_word_1(2 downto 0),
       \USE_RTL_CURR_WORD.current_word_q_reg[2]_0\(2 downto 0) => current_word_q(2 downto 0),
       \USE_RTL_CURR_WORD.pre_next_word_q_reg[1]\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_22\,
       \USE_RTL_CURR_WORD.pre_next_word_q_reg[2]\(2 downto 0) => pre_next_word_q(2 downto 0),
       \USE_RTL_CURR_WORD.pre_next_word_q_reg[2]_0\ => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_18\,
-      \USE_RTL_LENGTH.first_mi_word_q_reg\ => \USE_WRITE.write_addr_inst_n_43\,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[0]\ => \USE_WRITE.write_addr_inst_n_29\,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[0]_0\ => \USE_WRITE.write_addr_inst_n_47\,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[7]\ => \USE_WRITE.write_addr_inst_n_1\,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.wdata_wrap_buffer_q_reg[7]\ => \USE_WRITE.write_addr_inst_n_22\,
+      \USE_RTL_LENGTH.first_mi_word_q_reg\ => \USE_WRITE.write_addr_inst_n_44\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[0]\ => \USE_WRITE.write_addr_inst_n_30\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[0]_0\ => \USE_WRITE.write_addr_inst_n_48\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[7]\ => \USE_WRITE.write_addr_inst_n_2\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.wdata_wrap_buffer_q_reg[7]\ => \USE_WRITE.write_addr_inst_n_23\,
       \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.wdata_wrap_buffer_q_reg[7]_0\(0) => p_222_out,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[8]\ => \USE_WRITE.write_addr_inst_n_28\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[8]\ => \USE_WRITE.write_addr_inst_n_29\,
       \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.wdata_wrap_buffer_q_reg[15]\(0) => p_189_out,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[16]\ => \USE_WRITE.write_addr_inst_n_27\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[16]\ => \USE_WRITE.write_addr_inst_n_28\,
       \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.wdata_wrap_buffer_q_reg[23]\(0) => p_160_out,
-      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[24]\ => \USE_WRITE.write_addr_inst_n_26\,
+      \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[24]\ => \USE_WRITE.write_addr_inst_n_27\,
       \WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.wdata_wrap_buffer_q_reg[31]\(0) => p_131_out,
-      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[32]\ => \USE_WRITE.write_addr_inst_n_25\,
+      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[32]\ => \USE_WRITE.write_addr_inst_n_26\,
       \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.wdata_wrap_buffer_q_reg[39]\(0) => p_102_out,
-      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[40]\ => \USE_WRITE.write_addr_inst_n_24\,
+      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[40]\ => \USE_WRITE.write_addr_inst_n_25\,
       \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.wdata_wrap_buffer_q_reg[47]\(0) => p_71_out,
-      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[48]\ => \USE_WRITE.write_addr_inst_n_23\,
+      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[48]\ => \USE_WRITE.write_addr_inst_n_24\,
       \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.wdata_wrap_buffer_q_reg[55]\(0) => p_41_out,
-      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[56]\ => \USE_WRITE.write_addr_inst_n_21\,
-      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.wdata_wrap_buffer_q_reg[63]\(0) => \USE_WRITE.write_addr_inst_n_30\,
+      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[56]\ => \USE_WRITE.write_addr_inst_n_22\,
+      \WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.wdata_wrap_buffer_q_reg[63]\(0) => \USE_WRITE.write_addr_inst_n_31\,
       first_word_q => first_word_q,
       \in\(23) => cmd_fix_i_7,
       \in\(22) => cmd_modified_i_6,
@@ -13565,27 +13502,26 @@ begin
       m_axi_awvalid => m_axi_awvalid,
       m_axi_bvalid => m_axi_bvalid,
       m_axi_wready => m_axi_wready,
-      \m_payload_i_reg[51]\(1 downto 0) => sr_awid(1 downto 0),
       \out\ => \out\,
       p_251_in => p_251_in,
       s_axi_aclk => s_axi_aclk,
       s_axi_aresetn => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_1\,
-      s_axi_bid(1 downto 0) => s_axi_bid(1 downto 0),
+      s_axi_bid(0) => s_axi_bid(0),
       s_axi_bready => s_axi_bready,
       s_axi_wlast => s_axi_wlast,
       s_axi_wready => s_axi_wready,
       s_axi_wstrb(3 downto 0) => s_axi_wstrb(3 downto 0),
       s_axi_wvalid => s_axi_wvalid,
-      s_ready_i_reg => \USE_WRITE.write_addr_inst_n_49\,
+      s_ready_i_reg => \USE_WRITE.write_addr_inst_n_50\,
       sr_awvalid => sr_awvalid,
       wr_cmd_valid => wr_cmd_valid,
       wrap_buffer_available => wrap_buffer_available_0
     );
 si_register_slice_inst: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_10_axi_register_slice__parameterized0\
      port map (
-      D(55 downto 0) => D(55 downto 0),
-      Q(14 downto 11) => Q(12 downto 9),
-      Q(10 downto 9) => sr_awid(1 downto 0),
+      D(54 downto 0) => D(54 downto 0),
+      Q(13 downto 10) => Q(12 downto 9),
+      Q(9) => sr_awid,
       Q(8 downto 0) => Q(8 downto 0),
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(23) => cmd_fix_i,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(22) => cmd_modified_i,
@@ -13601,8 +13537,8 @@ si_register_slice_inst: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(4) => si_register_slice_inst_n_79,
       \USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_MESG_Q_reg[29]\(3 downto 0) => \^m_axi_arlen\(3 downto 0),
       \aresetn_d_reg[1]\ => si_register_slice_inst_n_1,
-      cmd_push_block_reg => \USE_READ.read_addr_inst_n_29\,
-      cmd_push_block_reg_0 => \USE_WRITE.write_addr_inst_n_49\,
+      cmd_push_block_reg => \USE_READ.read_addr_inst_n_30\,
+      cmd_push_block_reg_0 => \USE_WRITE.write_addr_inst_n_50\,
       \in\(23) => cmd_fix_i_7,
       \in\(22) => cmd_modified_i_6,
       \in\(21) => si_register_slice_inst_n_6,
@@ -13620,8 +13556,8 @@ si_register_slice_inst: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_
       \in\(3 downto 0) => \^m_axi_awlen\(3 downto 0),
       m_axi_araddr(31 downto 0) => m_axi_araddr(31 downto 0),
       m_axi_arburst(1 downto 0) => m_axi_arburst(1 downto 0),
-      \m_axi_arqos[3]\(14 downto 11) => \m_axi_arqos[3]\(12 downto 9),
-      \m_axi_arqos[3]\(10 downto 9) => sr_arid(1 downto 0),
+      \m_axi_arqos[3]\(13 downto 10) => \m_axi_arqos[3]\(12 downto 9),
+      \m_axi_arqos[3]\(9) => sr_arid,
       \m_axi_arqos[3]\(8 downto 0) => \m_axi_arqos[3]\(8 downto 0),
       m_axi_arsize(2 downto 0) => m_axi_arsize(2 downto 0),
       m_axi_awaddr(31 downto 0) => m_axi_awaddr(31 downto 0),
@@ -13629,7 +13565,7 @@ si_register_slice_inst: entity work.\design_1_auto_us_0_axi_register_slice_v2_1_
       m_axi_awsize(2 downto 0) => m_axi_awsize(2 downto 0),
       s_axi_aclk => s_axi_aclk,
       s_axi_aresetn => \USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst_n_1\,
-      \s_axi_arqos[3]\(55 downto 0) => \s_axi_arqos[3]\(55 downto 0),
+      \s_axi_arqos[3]\(54 downto 0) => \s_axi_arqos[3]\(54 downto 0),
       s_axi_arready => s_axi_arready,
       s_axi_arvalid => s_axi_arvalid,
       s_axi_awready => s_axi_awready,
@@ -13647,7 +13583,7 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
-    s_axi_awid : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_awid : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awlen : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_awsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -13664,11 +13600,11 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top is
     s_axi_wlast : in STD_LOGIC;
     s_axi_wvalid : in STD_LOGIC;
     s_axi_wready : out STD_LOGIC;
-    s_axi_bid : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_bid : out STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_bvalid : out STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
-    s_axi_arid : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_arid : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_arlen : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_arsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -13680,7 +13616,7 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top is
     s_axi_arqos : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_arvalid : in STD_LOGIC;
     s_axi_arready : out STD_LOGIC;
-    s_axi_rid : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_rid : out STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rlast : out STD_LOGIC;
@@ -13763,7 +13699,7 @@ entity design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top is
   attribute C_S_AXI_DATA_WIDTH : integer;
   attribute C_S_AXI_DATA_WIDTH of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top : entity is 32;
   attribute C_S_AXI_ID_WIDTH : integer;
-  attribute C_S_AXI_ID_WIDTH of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top : entity is 2;
+  attribute C_S_AXI_ID_WIDTH of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top : entity is 1;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top : entity is "yes";
   attribute P_AXI3 : integer;
@@ -13804,8 +13740,8 @@ GND: unisim.vcomponents.GND
     );
 \gen_upsizer.gen_full_upsizer.axi_upsizer_inst\: entity work.design_1_auto_us_0_axi_dwidth_converter_v2_1_10_axi_upsizer
      port map (
-      D(55 downto 52) => s_axi_awqos(3 downto 0),
-      D(51 downto 50) => s_axi_awid(1 downto 0),
+      D(54 downto 51) => s_axi_awqos(3 downto 0),
+      D(50) => s_axi_awid(0),
       D(49 downto 48) => s_axi_awlock(1 downto 0),
       D(47 downto 44) => s_axi_awlen(3 downto 0),
       D(43 downto 40) => s_axi_awcache(3 downto 0),
@@ -13846,8 +13782,8 @@ GND: unisim.vcomponents.GND
       m_axi_wvalid => m_axi_wvalid,
       \out\ => s_axi_aresetn,
       s_axi_aclk => s_axi_aclk,
-      \s_axi_arqos[3]\(55 downto 52) => s_axi_arqos(3 downto 0),
-      \s_axi_arqos[3]\(51 downto 50) => s_axi_arid(1 downto 0),
+      \s_axi_arqos[3]\(54 downto 51) => s_axi_arqos(3 downto 0),
+      \s_axi_arqos[3]\(50) => s_axi_arid(0),
       \s_axi_arqos[3]\(49 downto 48) => s_axi_arlock(1 downto 0),
       \s_axi_arqos[3]\(47 downto 44) => s_axi_arlen(3 downto 0),
       \s_axi_arqos[3]\(43 downto 40) => s_axi_arcache(3 downto 0),
@@ -13859,10 +13795,10 @@ GND: unisim.vcomponents.GND
       s_axi_arvalid => s_axi_arvalid,
       s_axi_awready => s_axi_awready,
       s_axi_awvalid => s_axi_awvalid,
-      s_axi_bid(1 downto 0) => s_axi_bid(1 downto 0),
+      s_axi_bid(0) => s_axi_bid(0),
       s_axi_bready => \^s_axi_bready\,
       s_axi_rdata(31 downto 0) => s_axi_rdata(31 downto 0),
-      s_axi_rid(1 downto 0) => s_axi_rid(1 downto 0),
+      s_axi_rid(0) => s_axi_rid(0),
       s_axi_rlast => s_axi_rlast,
       s_axi_rready => s_axi_rready,
       s_axi_rresp(1 downto 0) => s_axi_rresp(1 downto 0),
@@ -13882,7 +13818,7 @@ entity design_1_auto_us_0 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
-    s_axi_awid : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_awid : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_awlen : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_awsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -13898,11 +13834,11 @@ entity design_1_auto_us_0 is
     s_axi_wlast : in STD_LOGIC;
     s_axi_wvalid : in STD_LOGIC;
     s_axi_wready : out STD_LOGIC;
-    s_axi_bid : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_bid : out STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_bvalid : out STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
-    s_axi_arid : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_arid : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_araddr : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_arlen : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_arsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -13913,7 +13849,7 @@ entity design_1_auto_us_0 is
     s_axi_arqos : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_arvalid : in STD_LOGIC;
     s_axi_arready : out STD_LOGIC;
-    s_axi_rid : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s_axi_rid : out STD_LOGIC_VECTOR ( 0 to 0 );
     s_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
     s_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rlast : out STD_LOGIC;
@@ -14005,7 +13941,7 @@ architecture STRUCTURE of design_1_auto_us_0 is
   attribute C_S_AXI_DATA_WIDTH : integer;
   attribute C_S_AXI_DATA_WIDTH of inst : label is 32;
   attribute C_S_AXI_ID_WIDTH : integer;
-  attribute C_S_AXI_ID_WIDTH of inst : label is 2;
+  attribute C_S_AXI_ID_WIDTH of inst : label is 1;
   attribute DowngradeIPIdentifiedWarnings of inst : label is "yes";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of inst : label is 1;
@@ -14062,7 +13998,7 @@ inst: entity work.design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top
       s_axi_arburst(1 downto 0) => s_axi_arburst(1 downto 0),
       s_axi_arcache(3 downto 0) => s_axi_arcache(3 downto 0),
       s_axi_aresetn => s_axi_aresetn,
-      s_axi_arid(1 downto 0) => s_axi_arid(1 downto 0),
+      s_axi_arid(0) => s_axi_arid(0),
       s_axi_arlen(3 downto 0) => s_axi_arlen(3 downto 0),
       s_axi_arlock(1 downto 0) => s_axi_arlock(1 downto 0),
       s_axi_arprot(2 downto 0) => s_axi_arprot(2 downto 0),
@@ -14074,7 +14010,7 @@ inst: entity work.design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top
       s_axi_awaddr(31 downto 0) => s_axi_awaddr(31 downto 0),
       s_axi_awburst(1 downto 0) => s_axi_awburst(1 downto 0),
       s_axi_awcache(3 downto 0) => s_axi_awcache(3 downto 0),
-      s_axi_awid(1 downto 0) => s_axi_awid(1 downto 0),
+      s_axi_awid(0) => s_axi_awid(0),
       s_axi_awlen(3 downto 0) => s_axi_awlen(3 downto 0),
       s_axi_awlock(1 downto 0) => s_axi_awlock(1 downto 0),
       s_axi_awprot(2 downto 0) => s_axi_awprot(2 downto 0),
@@ -14083,12 +14019,12 @@ inst: entity work.design_1_auto_us_0_axi_dwidth_converter_v2_1_10_top
       s_axi_awregion(3 downto 0) => B"0000",
       s_axi_awsize(2 downto 0) => s_axi_awsize(2 downto 0),
       s_axi_awvalid => s_axi_awvalid,
-      s_axi_bid(1 downto 0) => s_axi_bid(1 downto 0),
+      s_axi_bid(0) => s_axi_bid(0),
       s_axi_bready => s_axi_bready,
       s_axi_bresp(1 downto 0) => s_axi_bresp(1 downto 0),
       s_axi_bvalid => s_axi_bvalid,
       s_axi_rdata(31 downto 0) => s_axi_rdata(31 downto 0),
-      s_axi_rid(1 downto 0) => s_axi_rid(1 downto 0),
+      s_axi_rid(0) => s_axi_rid(0),
       s_axi_rlast => s_axi_rlast,
       s_axi_rready => s_axi_rready,
       s_axi_rresp(1 downto 0) => s_axi_rresp(1 downto 0),

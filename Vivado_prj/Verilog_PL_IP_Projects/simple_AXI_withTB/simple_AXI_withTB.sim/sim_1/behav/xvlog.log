@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_AXI_withTB
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWID, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:182]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWADDR, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:183]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWLEN, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:184]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWSIZE, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:185]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWBURST, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:186]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWLOCK, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:187]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWCACHE, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:188]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWPROT, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:189]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWQOS, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:190]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWUSER, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:191]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWVALID, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:192]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WDATA, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:194]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WSTRB, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:195]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WLAST, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:196]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WUSER, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:197]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WVALID, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:198]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_BREADY, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:200]
+INFO: [VRFC 10-2458] undeclared symbol write_size_bytes, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:219]
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sim_1/new/simple_AXI_withTB_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_AXI_withTB_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

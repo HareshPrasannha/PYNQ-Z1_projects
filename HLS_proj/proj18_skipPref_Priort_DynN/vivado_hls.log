@@ -1,0 +1,128 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Haresh Prasannha' on host 'desktop-u9mk50b' (Windows NT_amd64 version 6.2) on Wed Aug 19 16:15:16 +0800 2020
+INFO: [HLS 200-10] In directory 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj18_skipPref_Priort_DynN'
+INFO: [HLS 200-10] Opening project 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj18_skipPref_Priort_DynN/skipprefetch_Nelem'.
+INFO: [HLS 200-10] Adding design file 'skipprefetch_Nelem.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'skipprefetch_Nelem_test.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj18_skipPref_Priort_DynN/skipprefetch_Nelem/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [HLS 200-10] Analyzing design file 'skipprefetch_Nelem.cpp' ... 
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 93.055 ; gain = 43.281
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 93.074 ; gain = 43.301
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 94.789 ; gain = 45.016
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-77] The top function 'skipprefetch_Nelem' (skipprefetch_Nelem.cpp:17) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 94.789 ; gain = 45.016
+INFO: [XFORM 203-1101] Packing variable 'a' (skipprefetch_Nelem.cpp:17) into a 64-bit variable.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 116.512 ; gain = 66.738
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-2' (skipprefetch_Nelem.cpp:43:15) in function 'skipprefetch_Nelem'.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-3' (skipprefetch_Nelem.cpp:55:15) in function 'skipprefetch_Nelem' : 
+WARNING: [XFORM 203-542] the outer loop is not a perfect loop because either the parent loop or the sub loop has no computeable trip count.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-4' (skipprefetch_Nelem.cpp:68:15) in function 'skipprefetch_Nelem' : 
+WARNING: [XFORM 203-542] the outer loop is not a perfect loop because either the parent loop or the sub loop has no computeable trip count.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-5' (skipprefetch_Nelem.cpp:80:15) in function 'skipprefetch_Nelem'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 116.645 ; gain = 66.871
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'skipprefetch_Nelem' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'skipprefetch_Nelem' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 9, Depth: 9.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 3.1'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 9, Depth: 9.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 4.1'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 9, Depth: 9.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 5'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 and 'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 9, Depth: 9.
+WARNING: [SCHED 204-21] Estimated clock period (13.9ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path consists of the following:
+	'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26 (2.71 ns)
+	'add' operation ('a2_sum', skipprefetch_Nelem.cpp:50) (2.44 ns)
+	'getelementptr' operation ('A_BUS_addr_1', skipprefetch_Nelem.cpp:50) (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) (8.75 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 7.053 seconds; current allocated memory: 76.464 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.426 seconds; current allocated memory: 76.486 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'skipprefetch_Nelem' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/A_BUS' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/PREF_WINDOW' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/a' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/n' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'skipprefetch_Nelem' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'a' and 'n' to AXI-Lite port CFG.
+INFO: [SYN 201-210] Renamed object name 'skipprefetch_Nelem_buff' to 'skipprefetch_Nelebkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'skipprefetch_Nelem_mul_34ns_32s_65_6' to 'skipprefetch_Nelecud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'skipprefetch_Nelem_mul_27ns_7ns_33_3' to 'skipprefetch_NeledEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'skipprefetch_Nelecud': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'skipprefetch_NeledEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'skipprefetch_Nelem'.
+INFO: [HLS 200-111]  Elapsed time: 0.349 seconds; current allocated memory: 78.290 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'skipprefetch_Nelecud_MulnS_0'
+INFO: [RTMG 210-282] Generating pipelined core: 'skipprefetch_NeledEe_Mul3S_0'
+INFO: [RTMG 210-278] Implementing memory 'skipprefetch_Nelebkb_ram' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 121.594 ; gain = 71.820
+INFO: [SYSC 207-301] Generating SystemC RTL for skipprefetch_Nelem.
+INFO: [VHDL 208-304] Generating VHDL RTL for skipprefetch_Nelem.
+INFO: [VLOG 209-307] Generating Verilog RTL for skipprefetch_Nelem.
+INFO: [HLS 200-112] Total elapsed time: 10.003 seconds; peak allocated memory: 78.290 MB.

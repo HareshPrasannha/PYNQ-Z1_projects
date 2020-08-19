@@ -1,0 +1,2319 @@
+20:16:32 **** Build of project test_ip_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/skipprefetch_Nelem_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/skipprefetch_Nelem_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/skipprefetch_Nelem_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/skipprefetch_Nelem_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling skipprefetch_Nelem"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+20:17:05 **** Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:17:07 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:17:08 **** Clean-only build of configuration Debug for project test_ip ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  test_ip.elf.size  test_ip.elf
+' '
+20:17:09 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22252	   1148	  22568	  45968	   b390	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:17:23 **** Clean-only build of configuration Debug for project test_ip ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  test_ip.elf.size  test_ip.elf
+' '
+20:17:23 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22252	   1148	209721384	209744784	c807390	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:17:44 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81952	   2596	209722160	209806708	c816574	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:21:09 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:22:07 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:22:11 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:22:37 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81952	   2596	209722160	209806708	c816574	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:25:20 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:25:26 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:27:02 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:27:05 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:34:51 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81856	   2596	209722160	209806612	c816514	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:34:56 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:36:25 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2596	209722160	209806440	c816468	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:36:28 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:36:35 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:37:35 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:37:45 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:37:49 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:37:53 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:37:59 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:38:10 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:38:26 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81780	   2596	209722160	209806536	c8164c8	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:38:30 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:38:44 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:39:10 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81952	   2596	209722160	209806708	c816574	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:39:32 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:40:04 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:54:11 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81848	   2596	209722160	209806604	c81650c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:54:14 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:58:39 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:58:48 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81856	   2596	209722160	209806612	c816514	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+20:58:52 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:02:11 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81864	   2596	209722160	209806620	c81651c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:02:14 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81856	   2596	209722160	209806612	c816514	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:02:24 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81856	   2596	209722160	209806612	c816514	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:02:28 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81856	   2596	209722160	209806612	c816514	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:02:52 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81856	   2596	209722160	209806612	c816514	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:02:55 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:03:17 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2596	209722160	209806756	c8165a4	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:03:20 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:04:32 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = prefetch_intr;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:124:15: warning: variable 'prefetch_startaddrs' set but not used [-Wunused-but-set-variable]
+  struct node *prefetch_startaddrs[n/prefetch_intr];
+               ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   2596	209722160	209806668	c81654c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:04:51 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 6000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:124:15: warning: variable 'prefetch_startaddrs' set but not used [-Wunused-but-set-variable]
+  struct node *prefetch_startaddrs[n/prefetch_intr];
+               ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   2596	209722160	209806668	c81654c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:04:58 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:06:01 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:06:12 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 1000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:124:15: warning: variable 'prefetch_startaddrs' set but not used [-Wunused-but-set-variable]
+  struct node *prefetch_startaddrs[n/prefetch_intr];
+               ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   2596	209722160	209806668	c81654c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:06:14 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:07:10 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 1000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:124:15: warning: variable 'prefetch_startaddrs' set but not used [-Wunused-but-set-variable]
+  struct node *prefetch_startaddrs[n/prefetch_intr];
+               ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81912	   2596	209722160	209806668	c81654c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:07:13 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:07:47 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 1000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81980	   2596	209722160	209806736	c816590	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:07:50 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:04 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 1000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81980	   2596	209722160	209806736	c816590	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:08:07 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:26 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 6000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81980	   2596	209722160	209806736	c816590	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:08:29 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:44 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:207:21: error: 'prefetch_n' undeclared (first use in this function)
+  *prefetch_window = prefetch_n;
+                     ^
+../src/helloworld.c:207:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 6000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+21:08:50 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:207:22: error: 'prefetch_n' undeclared (first use in this function)
+  *prefetch_window = &prefetch_n;
+                      ^
+../src/helloworld.c:207:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'pref_n' [-Wunused-variable]
+  int pref_n = 6000;
+      ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+21:09:04 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81980	   2596	209722160	209806736	c816590	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:09:08 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:09:31 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81936	   2596	209722160	209806692	c816564	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:09:34 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:10:14 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:10:17 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:12:53 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:207:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:13:16 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:14:40 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:247:4: error: 'new_temp1' undeclared (first use in this function)
+    new_temp1 = prefetch_startaddrs[3];
+    ^
+../src/helloworld.c:247:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:203:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+21:15:10 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81920	   2596	209722160	209806676	c816554	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:15:21 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:17:28 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:18:14 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:18:17 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:18:53 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:203:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81920	   2596	209722160	209806676	c816554	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:19:15 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:19:37 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:203:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:19:40 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:20:46 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:203:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:20:49 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:21:35 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81872	   2596	209722160	209806628	c816524	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:21:41 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:22:26 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81884	   2596	209722160	209806640	c816530	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:22:28 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:22:43 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81884	   2596	209722160	209806640	c816530	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:22:48 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:23:27 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81928	   2596	209722160	209806684	c81655c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:23:37 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:208:19: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  *prefetch_window = &pref_n;
+                   ^
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = &pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81936	   2596	209722160	209806692	c816564	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:23:39 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:24:23 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:208:19: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  *prefetch_window = &pref_n;
+                   ^
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = &pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82008	   2596	209722160	209806764	c8165ac	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:24:26 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:24:49 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2596	209722160	209806756	c8165a4	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:24:53 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:25:04 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:205:6: warning: unused variable 'node_count' [-Wunused-variable]
+  int node_count = 0;
+      ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:202:15: warning: unused variable 'old_temp1' [-Wunused-variable]
+  struct node *old_temp1 = head;
+               ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81956	   2596	209722160	209806712	c816578	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:25:07 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:25:27 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2596	209722160	209806756	c8165a4	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:25:31 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:25:52 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:230:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:204:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:208:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81988	   2596	209722160	209806744	c816598	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:25:54 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:34:49 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:150:4: error: 'elem_400' undeclared (first use in this function)
+    elem_400 = newnode;
+    ^
+../src/helloworld.c:150:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:233:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:207:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+21:35:01 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:208:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:125:15: warning: variable 'elem_400' set but not used [-Wunused-but-set-variable]
+  struct node *elem_400;
+               ^
+../src/helloworld.c:212:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81988	   2596	209722160	209806744	c816598	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:35:57 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:208:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:212:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+../src/helloworld.c:263:5: warning: 'elem_400' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(new_temp1));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81936	   2596	209722160	209806692	c816564	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:36:21 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:36:59 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:208:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:212:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+../src/helloworld.c:263:5: warning: 'elem_400' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     XSkipprefetch_nelem_Set_a(&copiaMem,(u32)(new_temp1));
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81936	   2596	209722160	209806692	c816564	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:37:14 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:37:39 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:151:13: error: assignment to expression with array type
+    elem_400 = newnode;
+             ^
+../src/helloworld.c:234:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:262:15: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+     new_temp1 = elem_400;
+               ^
+../src/helloworld.c:208:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+make: *** [src/helloworld.o] Error 1
+21:40:15 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:262:15: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+     new_temp1 = elem_400;
+               ^
+../src/helloworld.c:208:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:212:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81992	   2596	209722160	209806748	c81659c	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:40:35 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:263:15: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+     new_temp1 = elem_400;
+               ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81964	   2596	209722160	209806720	c816580	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:41:50 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:263:15: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+     new_temp1 = elem_400;
+               ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81968	   2596	209722160	209806724	c816584	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:42:22 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81968	   2596	209722160	209806724	c816584	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:42:29 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81972	   2596	209722160	209806728	c816588	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:42:51 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82024	   2596	209722160	209806780	c8165bc	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:42:58 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:43:20 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81972	   2596	209722160	209806728	c816588	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:43:25 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:44:55 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81972	   2596	209722160	209806728	c816588	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+21:44:57 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:46:30 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:46:56 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:47:02 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:47:10 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:47:21 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:47:25 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:48:20 **** Auto Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:235:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:209:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:213:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_ip_bsp/ps7_cortexa9_0/lib -o "test_ip.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_ip.elf  |tee "test_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82024	   2596	209722160	209806780	c8165bc	test_ip.elf
+'Finished building: test_ip.elf.size'
+' '
+11:48:36 **** Incremental Build of configuration Debug for project test_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

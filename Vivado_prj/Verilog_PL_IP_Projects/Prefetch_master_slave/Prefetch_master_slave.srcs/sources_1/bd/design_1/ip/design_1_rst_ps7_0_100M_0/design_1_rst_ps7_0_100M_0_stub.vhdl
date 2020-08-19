@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
 -- Date        : Fri Jul 24 20:07:29 2020
 -- Host        : DESKTOP-U9MK50B running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_rst_ps7_0_100M_0 -prefix
+--               design_1_rst_ps7_0_100M_0_ design_1_rst_ps7_0_100M_0_stub.vhdl
 -- Design      : design_1_rst_ps7_0_100M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

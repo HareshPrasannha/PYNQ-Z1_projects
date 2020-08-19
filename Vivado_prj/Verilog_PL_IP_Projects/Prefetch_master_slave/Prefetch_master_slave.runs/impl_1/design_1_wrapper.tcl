@@ -53,42 +53,37 @@ set rc [catch {
   set_property board_part www.digilentinc.com:pynq-z1:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.cache/wt [current_project]
-  set_property parent.project_path A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.xpr [current_project]
-  set_property ip_repo_paths {
-  A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/ip_repo/Prefetch_master_slave/Prefetch_M_S_IP_1.0
-  A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/ip_repo/Prefetch_master_slave/Prefetch_master_slave_1.0
-} [current_project]
-  set_property ip_output_repo A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.cache/ip [current_project]
+  set_property webtalk.parent_dir A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.cache/wt [current_project]
+  set_property parent.project_path A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.xpr [current_project]
+  set_property ip_repo_paths A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/ip_repo/Prefetch_master_slave/Prefetch_M_S_IP_1.0 [current_project]
+  set_property ip_output_repo A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.runs/synth_1/design_1_wrapper.dcp
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_Prefetch_M_S_IP_0_1/design_1_Prefetch_M_S_IP_0_1.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_Prefetch_M_S_IP_0_1/design_1_Prefetch_M_S_IP_0_1.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_s00_data_fifo_0/design_1_s00_data_fifo_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_s00_data_fifo_0/design_1_s00_data_fifo_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0.dcp]
-  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp
-  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp]
-  read_xdc -ref design_1_processing_system7_0_0 -cells inst a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
-  set_property processing_order EARLY [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
-  read_xdc -prop_thru_buffers -ref design_1_rst_ps7_0_100M_0 -cells U0 a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc
-  set_property processing_order EARLY [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc]
-  read_xdc -ref design_1_rst_ps7_0_100M_0 -cells U0 a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc
-  set_property processing_order EARLY [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc]
-  read_xdc -ref design_1_auto_us_0 -cells inst a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc
-  set_property processing_order LATE [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
+  add_files -quiet A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_Prefetch_M_S_IP_0_0/design_1_Prefetch_M_S_IP_0_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_Prefetch_M_S_IP_0_0/design_1_Prefetch_M_S_IP_0_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0.dcp]
+  add_files -quiet a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp
+  set_property netlist_only true [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp]
+  read_xdc -ref design_1_processing_system7_0_0 -cells inst a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
+  set_property processing_order EARLY [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref design_1_rst_ps7_0_100M_0 -cells U0 a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc
+  set_property processing_order EARLY [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc]
+  read_xdc -ref design_1_rst_ps7_0_100M_0 -cells U0 a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc
+  set_property processing_order EARLY [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc]
+  read_xdc -ref design_1_auto_us_0 -cells inst a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc
+  set_property processing_order LATE [get_files a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
   link_design -top design_1_wrapper -part xc7z020clg400-1
   write_hwdef -file design_1_wrapper.hwdef
   close_msg_db -file init_design.pb

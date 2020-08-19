@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Aug 16 18:18:24 2020
+# Process ID: 13824
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3388 A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Verilog_PL_IP_Projects\simple_AXI_withTB\simple_AXI_withTB.xpr
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/vivado.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'simple_AXI_withTB_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.sim/sim_1/behav'
+"xvlog -m64 --relax -prj simple_AXI_withTB_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_AXI_withTB
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWID, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:182]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWADDR, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:183]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWLEN, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:184]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWSIZE, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:185]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWBURST, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:186]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWLOCK, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:187]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWCACHE, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:188]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWPROT, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:189]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWQOS, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:190]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWUSER, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:191]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_AWVALID, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:192]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WDATA, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:194]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WSTRB, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:195]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WLAST, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:196]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WUSER, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:197]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_WVALID, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:198]
+INFO: [VRFC 10-2458] undeclared symbol M_AXI_BREADY, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:200]
+INFO: [VRFC 10-2458] undeclared symbol write_size_bytes, assumed default net type wire [A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sources_1/new/simple_AXI_withTB.v:219]
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.srcs/sim_1/new/simple_AXI_withTB_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_AXI_withTB_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto c86e0e71d38a4edaaea8059e8350bba6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simple_AXI_withTB_test_behav xil_defaultlib.simple_AXI_withTB_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_AXI_withTB(C_M_TARGET_SLA...
+Compiling module xil_defaultlib.simple_AXI_withTB_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simple_AXI_withTB_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.sim/sim_1/behav/xsim.dir/simple_AXI_withTB_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Aug 16 18:19:10 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/simple_AXI_withTB/simple_AXI_withTB.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simple_AXI_withTB_test_behav -key {Behavioral:sim_1:Functional:simple_AXI_withTB_test} -tclbatch {simple_AXI_withTB_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source simple_AXI_withTB_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simple_AXI_withTB_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 805.520 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 16 18:20:21 2020...

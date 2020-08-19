@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Prefetch_master_slave\Prefetch_master_slave.sdk\design_1_wrapper_hw_platform_0" key="program_fpga_view_bit_bmm_browse_key"/>
-	<item value="A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Prefetch_master_slave\Prefetch_master_slave.sdk\design_1_wrapper_hw_platform_0" key="last_stored_selection"/>
+	<item value="A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Verilog_PL_IP_Projects\Prefetch_master_slave\Prftch_MS_NonSeqAccess_Size1M.sdk\design_1_wrapper_hw_platform_0" key="program_fpga_view_bit_bmm_browse_key"/>
+	<item value="A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Verilog_PL_IP_Projects\Prefetch_master_slave\Prftch_MS_NonSeqAccess_Size1M.sdk\design_1_wrapper_hw_platform_0" key="last_stored_selection"/>
 </section>

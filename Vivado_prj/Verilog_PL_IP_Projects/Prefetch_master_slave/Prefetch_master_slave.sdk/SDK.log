@@ -1,0 +1,17 @@
+21:54:14 INFO  : Registering command handlers for SDK TCF services
+21:54:15 INFO  : Launching XSCT server: xsct.bat -interactive A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Verilog_PL_IP_Projects\Prefetch_master_slave\Prefetch_master_slave.sdk\temp_xsdb_launch_script.tcl
+21:54:18 INFO  : XSCT server has started successfully.
+21:54:18 INFO  : Successfully done setting XSCT server connection channel  
+21:54:19 INFO  : Processing command line option -hwspec A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.sdk/design_1_wrapper.hdf.
+21:54:19 INFO  : Successfully done setting SDK workspace  
+21:55:57 INFO  : Inferring section assignments and sizes from elf file: A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Verilog_PL_IP_Projects\Prefetch_master_slave\Prefetch_master_slave.sdk\test_ip\Debug\test_ip.elf
+21:56:12 INFO  : Successfully generated A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\Verilog_PL_IP_Projects\Prefetch_master_slave\Prefetch_master_slave.sdk\test_ip\src\lscript.ld.
+21:56:12 INFO  : Applying linker script to all configurations of project test_ip.
+21:56:12 INFO  : Setting rebuild state to true for all configurations of project test_ip.
+21:56:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:56:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E019A" && level==0} -index 1' command is executed.
+21:56:50 INFO  : FPGA configured successfully with bitstream "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/Prefetch_master_slave/Prefetch_master_slave.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:57:43 INFO  : ps7_init is completed.
+21:57:43 INFO  : ps7_post_config is completed.
+21:57:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:58:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

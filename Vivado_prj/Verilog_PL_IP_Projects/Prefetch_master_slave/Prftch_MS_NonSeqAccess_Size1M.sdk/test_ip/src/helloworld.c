@@ -57,8 +57,8 @@
 #include "xl2cc.h"
 #include "xtime_l.h"
 
-#define PS 1
-#define PL 0
+#define PS 0
+#define PL 1
 
 #define debug 0
 

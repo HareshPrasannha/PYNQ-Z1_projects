@@ -1,2 +1,3 @@
 Vivado Simulator 2016.3
 Time resolution is 1 ps
+$finish called at time : 3 us : File "A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/1ARREADY_for4addrs_prefetch/1ARREADY_for4addrs_prefetch.srcs/sim_1/new/simple_AXI_TestBench.v" Line 286

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_auto_pc_2_synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/design_1_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_prefetch_M_S_IP_0_1_synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/design_1_prefetch_M_S_IP_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_1_1_synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/design_1_xlconstant_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_0_1_synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/design_1_xlconstant_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_us_1_synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/design_1_auto_us_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_processing_system7_0_1_synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/design_1_processing_system7_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_auto_pc_2_synth_1"/>
+		<Parent Id="design_1_prefetch_M_S_IP_0_1_synth_1"/>
+		<Parent Id="design_1_xlconstant_1_1_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_1_synth_1"/>
+		<Parent Id="design_1_auto_us_1_synth_1"/>
+		<Parent Id="design_1_processing_system7_0_1_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/Verilog_PL_IP_Projects/prefetch_NoMeasrs/prefetch_NoMeasrs.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_1_auto_pc_2_synth_1"/>
+		<Parent Id="design_1_prefetch_M_S_IP_0_1_synth_1"/>
+		<Parent Id="design_1_xlconstant_1_1_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_1_synth_1"/>
+		<Parent Id="design_1_auto_us_1_synth_1"/>
+		<Parent Id="design_1_processing_system7_0_1_synth_1"/>
+	</Run>
+</Runs>
+

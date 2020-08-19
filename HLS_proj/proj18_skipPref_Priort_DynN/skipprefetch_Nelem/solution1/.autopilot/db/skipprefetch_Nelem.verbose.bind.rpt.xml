@@ -1,0 +1,52 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'skipprefetch_Nelem'" level="0">
+<item name = "Date">Wed Aug 19 16:15:23 2020
+</item>
+<item name = "Version">2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)</item>
+<item name = "Project">skipprefetch_Nelem</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 13.90, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">?, ?, ?, ?, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">0, 472446392, 11, -, -, 0 ~ 42949672, no</column>
+<column name="- Loop 2">0, 4735201338, 9, 9, 1, 0 ~ 526133482, yes</column>
+<column name="- Loop 3">?, ?, ?, -, -, 49, no</column>
+<column name=" + Loop 3.1">?, ?, 9, 9, 1, ?, yes</column>
+<column name="- Loop 4">?, ?, ?, -, -, 49, no</column>
+<column name=" + Loop 4.1">?, ?, 9, 9, 1, ?, yes</column>
+<column name="- Loop 5">?, ?, 9, 9, 1, ?, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

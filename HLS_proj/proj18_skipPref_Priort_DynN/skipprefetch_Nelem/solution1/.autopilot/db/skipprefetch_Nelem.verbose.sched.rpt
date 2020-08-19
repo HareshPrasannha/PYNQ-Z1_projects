@@ -1,0 +1,1507 @@
+
+
+================================================================
+== Vivado HLS Report for 'skipprefetch_Nelem'
+================================================================
+* Date:           Wed Aug 19 16:15:22 2020
+
+* Version:        2016.3 (Build 1682563 on Mon Oct 10 19:41:59 MDT 2016)
+* Project:        skipprefetch_Nelem
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     13.90|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+------------+----------+-----------+-----------+---------------+----------+
+        |             |      Latency     | Iteration|  Initiation Interval  |      Trip     |          |
+        |  Loop Name  | min |     max    |  Latency |  achieved |   target  |     Count     | Pipelined|
+        +-------------+-----+------------+----------+-----------+-----------+---------------+----------+
+        |- Loop 1     |    0|   472446392|        11|          -|          -|  0 ~ 42949672 |    no    |
+        |- Loop 2     |    0|  4735201338|         9|          9|          1| 0 ~ 526133482 |    yes   |
+        |- Loop 3     |    ?|           ?|         ?|          -|          -|             49|    no    |
+        | + Loop 3.1  |    ?|           ?|         9|          9|          1|              ?|    yes   |
+        |- Loop 4     |    ?|           ?|         ?|          -|          -|             49|    no    |
+        | + Loop 4.1  |    ?|           ?|         9|          9|          1|              ?|    yes   |
+        |- Loop 5     |    ?|           ?|         9|          9|          1|              ?|    yes   |
+        +-------------+-----+------------+----------+-----------+-----------+---------------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 9, depth = 9
+  * Pipeline-1: initiation interval (II) = 9, depth = 9
+  * Pipeline-2: initiation interval (II) = 9, depth = 9
+  * Pipeline-3: initiation interval (II) = 9, depth = 9
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 72
+* Pipeline: 4
+  Pipeline-0: II = 9, D = 9, States = { 28 29 30 31 32 33 34 35 36 }
+  Pipeline-1: II = 9, D = 9, States = { 39 40 41 42 43 44 45 46 47 }
+  Pipeline-2: II = 9, D = 9, States = { 50 51 52 53 54 55 56 57 58 }
+  Pipeline-3: II = 9, D = 9, States = { 63 64 65 66 67 68 69 70 71 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	11  / true
+11 --> 
+	12  / true
+12 --> 
+	13  / true
+13 --> 
+	14  / true
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / (tmp)
+	28  / (!tmp)
+18 --> 
+	19  / true
+19 --> 
+	20  / true
+20 --> 
+	21  / true
+21 --> 
+	22  / true
+22 --> 
+	23  / true
+23 --> 
+	24  / true
+24 --> 
+	25  / true
+25 --> 
+	26  / true
+26 --> 
+	27  / true
+27 --> 
+	17  / true
+28 --> 
+	37  / (exitcond_flatten)
+	29  / (!exitcond_flatten)
+29 --> 
+	30  / true
+30 --> 
+	31  / true
+31 --> 
+	32  / true
+32 --> 
+	33  / true
+33 --> 
+	34  / true
+34 --> 
+	35  / true
+35 --> 
+	36  / true
+36 --> 
+	28  / true
+37 --> 
+	38  / true
+38 --> 
+	39  / (!exitcond2)
+	49  / (exitcond2)
+39 --> 
+	48  / (!tmp_4)
+	40  / (tmp_4)
+40 --> 
+	41  / true
+41 --> 
+	42  / true
+42 --> 
+	43  / true
+43 --> 
+	44  / true
+44 --> 
+	45  / true
+45 --> 
+	46  / true
+46 --> 
+	47  / true
+47 --> 
+	39  / true
+48 --> 
+	38  / true
+49 --> 
+	60  / (exitcond1)
+	50  / (!exitcond1)
+50 --> 
+	59  / (!tmp_8)
+	51  / (tmp_8)
+51 --> 
+	52  / true
+52 --> 
+	53  / true
+53 --> 
+	54  / true
+54 --> 
+	55  / true
+55 --> 
+	56  / true
+56 --> 
+	57  / true
+57 --> 
+	58  / true
+58 --> 
+	50  / true
+59 --> 
+	49  / true
+60 --> 
+	61  / true
+61 --> 
+	62  / true
+62 --> 
+	63  / true
+63 --> 
+	72  / (exitcond_flatten9)
+	64  / (!exitcond_flatten9)
+64 --> 
+	65  / true
+65 --> 
+	66  / true
+66 --> 
+	67  / true
+67 --> 
+	68  / true
+68 --> 
+	69  / true
+69 --> 
+	70  / true
+70 --> 
+	71  / true
+71 --> 
+	63  / true
+72 --> 
+* FSM state operations: 
+
+ <State 1>: 1.00ns
+ST_1: n_read (5)  [1/1] 1.00ns
+:0  %n_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %n)
+
+ST_1: a_read (6)  [1/1] 1.00ns
+:1  %a_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %a)
+
+ST_1: n3 (7)  [1/1] 0.00ns
+:2  %n3 = call i30 @_ssdm_op_PartSelect.i30.i32.i32.i32(i32 %n_read, i32 2, i32 31)
+
+ST_1: a1 (10)  [1/1] 0.00ns
+:5  %a1 = call i29 @_ssdm_op_PartSelect.i29.i32.i32.i32(i32 %a_read, i32 3, i32 31)
+
+ST_1: buff (15)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:26
+:10  %buff = alloca [10000 x i32], align 4
+
+ST_1: sz (16)  [1/1] 0.00ns
+:11  %sz = alloca i32, align 4
+
+
+ <State 2>: 8.75ns
+ST_2: tmp_12 (8)  [1/1] 0.00ns
+:3  %tmp_12 = zext i30 %n3 to i32
+
+ST_2: PREF_WINDOW_addr (9)  [1/1] 0.00ns
+:4  %PREF_WINDOW_addr = getelementptr i32* %PREF_WINDOW, i32 %tmp_12
+
+ST_2: sz_1_req (22)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 3>: 8.75ns
+ST_3: sz_1_req (22)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 4>: 8.75ns
+ST_4: sz_1_req (22)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 5>: 8.75ns
+ST_5: sz_1_req (22)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 6>: 8.75ns
+ST_6: sz_1_req (22)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 7>: 8.75ns
+ST_7: sz_1_req (22)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 8>: 8.75ns
+ST_8: sz_1_req (22)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:17  %sz_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i32P(i32* %PREF_WINDOW_addr, i32 1)
+
+
+ <State 9>: 8.75ns
+ST_9: sz_1 (23)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:27
+:18  %sz_1 = call i32 @_ssdm_op_Read.m_axi.volatile.i32P(i32* %PREF_WINDOW_addr)
+
+ST_9: StgValue_89 (24)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:27
+:19  store volatile i32 %sz_1, i32* %sz, align 4
+
+
+ <State 10>: 6.08ns
+ST_10: sz_load (25)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:28
+:20  %sz_load = load volatile i32* %sz, align 4
+
+ST_10: sext5_cast (26)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:28
+:21  %sext5_cast = sext i32 %sz_load to i65
+
+ST_10: mul6 (27)  [6/6] 6.08ns  loc: skipprefetch_Nelem.cpp:28
+:22  %mul6 = mul i65 5497558139, %sext5_cast
+
+ST_10: tmp_26 (29)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:28
+:24  %tmp_26 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %sz_load, i32 31)
+
+
+ <State 11>: 6.08ns
+ST_11: mul6 (27)  [5/6] 6.08ns  loc: skipprefetch_Nelem.cpp:28
+:22  %mul6 = mul i65 5497558139, %sext5_cast
+
+
+ <State 12>: 6.08ns
+ST_12: mul6 (27)  [4/6] 6.08ns  loc: skipprefetch_Nelem.cpp:28
+:22  %mul6 = mul i65 5497558139, %sext5_cast
+
+
+ <State 13>: 6.08ns
+ST_13: mul6 (27)  [3/6] 6.08ns  loc: skipprefetch_Nelem.cpp:28
+:22  %mul6 = mul i65 5497558139, %sext5_cast
+
+
+ <State 14>: 6.08ns
+ST_14: mul6 (27)  [2/6] 6.08ns  loc: skipprefetch_Nelem.cpp:28
+:22  %mul6 = mul i65 5497558139, %sext5_cast
+
+
+ <State 15>: 6.08ns
+ST_15: mul6 (27)  [1/6] 6.08ns  loc: skipprefetch_Nelem.cpp:28
+:22  %mul6 = mul i65 5497558139, %sext5_cast
+
+ST_15: tmp_28 (31)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:28
+:26  %tmp_28 = call i27 @_ssdm_op_PartSelect.i27.i65.i32.i32(i65 %mul6, i32 38, i32 64)
+
+ST_15: tmp_32 (37)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:31
+:32  %tmp_32 = call i25 @_ssdm_op_PartSelect.i25.i65.i32.i32(i65 %mul6, i32 40, i32 64)
+
+
+ <State 16>: 7.21ns
+ST_16: tmp_25 (11)  [1/1] 0.00ns
+:6  %tmp_25 = zext i29 %a1 to i32
+
+ST_16: StgValue_102 (12)  [1/1] 0.00ns
+:7  call void (...)* @_ssdm_op_SpecBitsMap(i32* %PREF_WINDOW), !map !24
+
+ST_16: StgValue_103 (13)  [1/1] 0.00ns
+:8  call void (...)* @_ssdm_op_SpecBitsMap(i64* %A_BUS), !map !28
+
+ST_16: StgValue_104 (14)  [1/1] 0.00ns
+:9  call void (...)* @_ssdm_op_SpecTopModule([19 x i8]* @skipprefetch_Nelem_s) nounwind
+
+ST_16: StgValue_105 (17)  [1/1] 0.00ns
+:12  call void (...)* @_ssdm_op_SpecInterface(i64* %A_BUS, [6 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [6 x i8]* @p_str3, [6 x i8]* @p_str4, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
+
+ST_16: StgValue_106 (18)  [1/1] 0.00ns
+:13  call void (...)* @_ssdm_op_SpecInterface(i32 %a, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle, [6 x i8]* @p_str4, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
+
+ST_16: StgValue_107 (19)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:21
+:14  call void (...)* @_ssdm_op_SpecInterface(i32* %PREF_WINDOW, [6 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [12 x i8]* @p_str5, [6 x i8]* @p_str4, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
+
+ST_16: StgValue_108 (20)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:21
+:15  call void (...)* @_ssdm_op_SpecInterface(i32 %n, [10 x i8]* @mode1, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @bundle2, [6 x i8]* @p_str4, [1 x i8]* @p_str, i32 16, i32 16, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
+
+ST_16: StgValue_109 (21)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:22
+:16  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str6, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [4 x i8]* @p_str7, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str) nounwind
+
+ST_16: neg_mul7 (28)  [1/1] 3.52ns  loc: skipprefetch_Nelem.cpp:28
+:23  %neg_mul7 = sub i65 0, %mul6
+
+ST_16: tmp_27 (30)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:28 (grouped into LUT with out node neg_ti1)
+:25  %tmp_27 = call i27 @_ssdm_op_PartSelect.i27.i65.i32.i32(i65 %neg_mul7, i32 38, i32 64)
+
+ST_16: p_v_v (32)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:28 (grouped into LUT with out node neg_ti1)
+:27  %p_v_v = select i1 %tmp_26, i27 %tmp_27, i27 %tmp_28
+
+ST_16: neg_ti1 (33)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:28 (out node of the LUT)
+:28  %neg_ti1 = sub i27 0, %p_v_v
+
+ST_16: tmp_29 (34)  [1/1] 1.37ns  loc: skipprefetch_Nelem.cpp:28
+:29  %tmp_29 = select i1 %tmp_26, i27 %neg_ti1, i27 %tmp_28
+
+ST_16: tmp_30 (35)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:31 (grouped into LUT with out node neg_ti)
+:30  %tmp_30 = call i25 @_ssdm_op_PartSelect.i25.i65.i32.i32(i65 %neg_mul7, i32 40, i32 64)
+
+ST_16: tmp_31 (36)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:31 (grouped into LUT with out node neg_ti)
+:31  %tmp_31 = sext i25 %tmp_30 to i32
+
+ST_16: tmp_33 (38)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:31
+:33  %tmp_33 = sext i25 %tmp_32 to i32
+
+ST_16: tmp_34 (39)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:31 (grouped into LUT with out node neg_ti)
+:34  %tmp_34 = select i1 %tmp_26, i32 %tmp_31, i32 %tmp_33
+
+ST_16: neg_ti (40)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:31 (out node of the LUT)
+:35  %neg_ti = sub i32 0, %tmp_34
+
+ST_16: i_9 (41)  [1/1] 1.37ns  loc: skipprefetch_Nelem.cpp:31
+:36  %i_9 = select i1 %tmp_26, i32 %neg_ti, i32 %tmp_33
+
+ST_16: tmp_35 (42)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+:37  %tmp_35 = trunc i32 %i_9 to i27
+
+ST_16: tmp_36 (43)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+:38  %tmp_36 = trunc i32 %i_9 to i25
+
+ST_16: StgValue_123 (44)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:34
+:39  br label %1
+
+
+ <State 17>: 6.38ns
+ST_17: i (46)  [1/1] 0.00ns
+:0  %i = phi i26 [ 0, %0 ], [ %i_1, %2 ]
+
+ST_17: cum_offs (47)  [1/1] 0.00ns
+:1  %cum_offs = phi i32 [ 0, %0 ], [ %cum_offs_1, %2 ]
+
+ST_17: i_cast4 (48)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:34
+:2  %i_cast4 = zext i26 %i to i32
+
+ST_17: i_cast (49)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:34
+:3  %i_cast = zext i26 %i to i27
+
+ST_17: tmp (50)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:34
+:4  %tmp = icmp slt i27 %i_cast, %tmp_29
+
+ST_17: empty (51)  [1/1] 0.00ns
+:5  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 0, i64 42949672, i64 0)
+
+ST_17: i_1 (52)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:34
+:6  %i_1 = add i26 %i, 1
+
+ST_17: StgValue_131 (53)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:34
+:7  br i1 %tmp, label %2, label %.preheader8.preheader
+
+ST_17: a2_sum1 (55)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:37
+:0  %a2_sum1 = add i32 %tmp_25, %cum_offs
+
+ST_17: cast1 (71)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+.preheader8.preheader:0  %cast1 = zext i25 %tmp_36 to i31
+
+ST_17: bound (72)  [1/1] 6.38ns  loc: skipprefetch_Nelem.cpp:56
+.preheader8.preheader:1  %bound = mul i31 %cast1, 49
+
+ST_17: StgValue_135 (73)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:43
+.preheader8.preheader:2  br label %.preheader7
+
+
+ <State 18>: 8.75ns
+ST_18: A_BUS_addr (56)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:37
+:1  %A_BUS_addr = getelementptr i64* %A_BUS, i32 %a2_sum1
+
+ST_18: A_BUS_load_req (57)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 19>: 8.75ns
+ST_19: A_BUS_load_req (57)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+ST_19: A_BUS_load_1_req (64)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 20>: 8.75ns
+ST_20: A_BUS_load_req (57)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+ST_20: A_BUS_load_1_req (64)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 21>: 8.75ns
+ST_21: A_BUS_load_req (57)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+ST_21: A_BUS_load_1_req (64)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 22>: 8.75ns
+ST_22: A_BUS_load_req (57)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+ST_22: A_BUS_load_1_req (64)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 23>: 8.75ns
+ST_23: A_BUS_load_req (57)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+ST_23: A_BUS_load_1_req (64)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 24>: 8.75ns
+ST_24: A_BUS_load_req (57)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:2  %A_BUS_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+ST_24: A_BUS_load_1_req (64)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 25>: 8.75ns
+ST_25: A_BUS_addr_read (58)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:37
+:3  %A_BUS_addr_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr)
+
+ST_25: tmp_15 (59)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:37
+:4  %tmp_15 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_read, i32 32, i32 47)
+
+ST_25: A_BUS_load_1_req (64)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:9  %A_BUS_load_1_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr, i32 1)
+
+
+ <State 26>: 8.75ns
+ST_26: tmp_1 (60)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:37
+:5  %tmp_1 = sext i16 %tmp_15 to i32
+
+ST_26: tmp_2 (61)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:37
+:6  %tmp_2 = add nsw i32 %cum_offs, %tmp_1
+
+ST_26: buff_addr (62)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:37
+:7  %buff_addr = getelementptr inbounds [10000 x i32]* %buff, i32 0, i32 %i_cast4
+
+ST_26: StgValue_156 (63)  [1/1] 2.71ns  loc: skipprefetch_Nelem.cpp:37
+:8  store i32 %tmp_2, i32* %buff_addr, align 4
+
+ST_26: A_BUS_addr_read_1 (65)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:38
+:10  %A_BUS_addr_read_1 = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr)
+
+ST_26: tmp_16 (66)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:38
+:11  %tmp_16 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_read_1, i32 48, i32 63)
+
+
+ <State 27>: 2.44ns
+ST_27: tmp_3 (67)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:38
+:12  %tmp_3 = sext i16 %tmp_16 to i32
+
+ST_27: cum_offs_1 (68)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:38
+:13  %cum_offs_1 = add nsw i32 %tmp_3, %cum_offs
+
+ST_27: StgValue_161 (69)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:34
+:14  br label %1
+
+
+ <State 28>: 6.50ns
+ST_28: indvar_flatten (75)  [1/1] 0.00ns
+.preheader7:0  %indvar_flatten = phi i31 [ 0, %.preheader8.preheader ], [ %indvar_flatten_next, %.preheader8 ]
+
+ST_28: i1 (76)  [1/1] 0.00ns
+.preheader7:1  %i1 = phi i24 [ 0, %.preheader8.preheader ], [ %i_4, %.preheader8 ]
+
+ST_28: i1_cast (77)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:44
+.preheader7:2  %i1_cast = zext i24 %i1 to i25
+
+ST_28: tmp_7 (78)  [1/1] 2.42ns  loc: skipprefetch_Nelem.cpp:44
+.preheader7:3  %tmp_7 = icmp slt i25 %i1_cast, %tmp_36
+
+ST_28: exitcond_flatten (79)  [1/1] 2.50ns  loc: skipprefetch_Nelem.cpp:56
+.preheader7:4  %exitcond_flatten = icmp eq i31 %indvar_flatten, %bound
+
+ST_28: indvar_flatten_next (80)  [1/1] 2.44ns
+.preheader7:5  %indvar_flatten_next = add i31 %indvar_flatten, 1
+
+ST_28: StgValue_168 (81)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+.preheader7:6  br i1 %exitcond_flatten, label %.preheader6.preheader, label %.preheader8
+
+ST_28: i1_mid2 (84)  [1/1] 1.37ns  loc: skipprefetch_Nelem.cpp:44
+.preheader8:1  %i1_mid2 = select i1 %tmp_7, i24 %i1, i24 0
+
+ST_28: i1_cast3 (85)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:44
+.preheader8:2  %i1_cast3 = zext i24 %i1_mid2 to i32
+
+ST_28: buff_addr_1 (88)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:5  %buff_addr_1 = getelementptr inbounds [10000 x i32]* %buff, i32 0, i32 %i1_cast3
+
+ST_28: buff_load (89)  [2/2] 2.71ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:6  %buff_load = load i32* %buff_addr_1, align 4
+
+ST_28: i_4 (99)  [1/1] 2.20ns  loc: skipprefetch_Nelem.cpp:44
+.preheader8:16  %i_4 = add i24 %i1_mid2, 1
+
+
+ <State 29>: 13.90ns
+ST_29: buff_load (89)  [1/2] 2.71ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:6  %buff_load = load i32* %buff_addr_1, align 4
+
+ST_29: a2_sum (90)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:7  %a2_sum = add i32 %tmp_25, %buff_load
+
+ST_29: A_BUS_addr_1 (91)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:8  %A_BUS_addr_1 = getelementptr i64* %A_BUS, i32 %a2_sum
+
+ST_29: A_BUS_load_2_req (92)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 30>: 8.75ns
+ST_30: A_BUS_load_2_req (92)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 31>: 8.75ns
+ST_31: A_BUS_load_2_req (92)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 32>: 8.75ns
+ST_32: A_BUS_load_2_req (92)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 33>: 8.75ns
+ST_33: A_BUS_load_2_req (92)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 34>: 8.75ns
+ST_34: A_BUS_load_2_req (92)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 35>: 8.75ns
+ST_35: A_BUS_load_2_req (92)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:9  %A_BUS_load_2_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_1, i32 1)
+
+
+ <State 36>: 13.90ns
+ST_36: empty_9 (83)  [1/1] 0.00ns
+.preheader8:0  %empty_9 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 0, i64 526133482, i64 0)
+
+ST_36: tmp_17 (86)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:44
+.preheader8:3  %tmp_17 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str8)
+
+ST_36: StgValue_186 (87)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:45
+.preheader8:4  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_36: A_BUS_addr_1_read (93)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:10  %A_BUS_addr_1_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr_1)
+
+ST_36: tmp_18 (94)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:11  %tmp_18 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_1_read, i32 32, i32 47)
+
+ST_36: tmp_9 (95)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:12  %tmp_9 = sext i16 %tmp_18 to i32
+
+ST_36: tmp_s (96)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:13  %tmp_s = add nsw i32 %buff_load, %tmp_9
+
+ST_36: StgValue_191 (97)  [1/1] 2.71ns  loc: skipprefetch_Nelem.cpp:50
+.preheader8:14  store i32 %tmp_s, i32* %buff_addr_1, align 4
+
+ST_36: empty_10 (98)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:52
+.preheader8:15  %empty_10 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str8, i32 %tmp_17)
+
+ST_36: StgValue_193 (100)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:44
+.preheader8:17  br label %.preheader7
+
+
+ <State 37>: 1.57ns
+ST_37: i_2 (102)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+.preheader6.preheader:0  %i_2 = call i26 @_ssdm_op_BitConcatenate.i26.i25.i1(i25 %tmp_36, i1 false)
+
+ST_37: StgValue_195 (103)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:55
+.preheader6.preheader:1  br label %.preheader6
+
+
+ <State 38>: 3.31ns
+ST_38: j2 (105)  [1/1] 0.00ns
+.preheader6:0  %j2 = phi i6 [ 0, %.preheader6.preheader ], [ %j, %.preheader6.loopexit ]
+
+ST_38: exitcond2 (106)  [1/1] 1.94ns  loc: skipprefetch_Nelem.cpp:55
+.preheader6:1  %exitcond2 = icmp eq i6 %j2, -15
+
+ST_38: j (107)  [1/1] 1.72ns  loc: skipprefetch_Nelem.cpp:55
+.preheader6:2  %j = add i6 %j2, 1
+
+ST_38: StgValue_199 (108)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:55
+.preheader6:3  br i1 %exitcond2, label %.preheader4.preheader, label %.preheader5.preheader
+
+ST_38: empty_11 (110)  [1/1] 0.00ns
+.preheader5.preheader:0  %empty_11 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
+
+ST_38: StgValue_201 (111)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:56
+.preheader5.preheader:1  br label %.preheader5
+
+ST_38: p_shl (137)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69
+.preheader4.preheader:0  %p_shl = call i27 @_ssdm_op_BitConcatenate.i27.i25.i2(i25 %tmp_36, i2 0)
+
+ST_38: i_3 (138)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:69
+.preheader4.preheader:1  %i_3 = sub i27 %p_shl, %tmp_35
+
+ST_38: StgValue_204 (139)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:68
+.preheader4.preheader:2  br label %.preheader4
+
+
+ <State 39>: 3.80ns
+ST_39: i3 (113)  [1/1] 0.00ns
+.preheader5:0  %i3 = phi i25 [ %i_5, %3 ], [ %tmp_36, %.preheader5.preheader ]
+
+ST_39: i3_cast (114)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+.preheader5:1  %i3_cast = sext i25 %i3 to i26
+
+ST_39: tmp_4 (115)  [1/1] 2.43ns  loc: skipprefetch_Nelem.cpp:56
+.preheader5:2  %tmp_4 = icmp slt i26 %i3_cast, %i_2
+
+ST_39: StgValue_208 (116)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+.preheader5:3  br i1 %tmp_4, label %3, label %.preheader6.loopexit
+
+ST_39: i3_cast2 (118)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+:0  %i3_cast2 = sext i25 %i3 to i32
+
+ST_39: buff_addr_2 (121)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:62
+:3  %buff_addr_2 = getelementptr inbounds [10000 x i32]* %buff, i32 0, i32 %i3_cast2
+
+ST_39: buff_load_1 (122)  [2/2] 2.71ns  loc: skipprefetch_Nelem.cpp:62
+:4  %buff_load_1 = load i32* %buff_addr_2, align 4
+
+ST_39: i_5 (132)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:56
+:14  %i_5 = add i25 %i3, 1
+
+
+ <State 40>: 13.90ns
+ST_40: buff_load_1 (122)  [1/2] 2.71ns  loc: skipprefetch_Nelem.cpp:62
+:4  %buff_load_1 = load i32* %buff_addr_2, align 4
+
+ST_40: a2_sum2 (123)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:62
+:5  %a2_sum2 = add i32 %tmp_25, %buff_load_1
+
+ST_40: A_BUS_addr_2 (124)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:62
+:6  %A_BUS_addr_2 = getelementptr i64* %A_BUS, i32 %a2_sum2
+
+ST_40: A_BUS_load_3_req (125)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 41>: 8.75ns
+ST_41: A_BUS_load_3_req (125)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 42>: 8.75ns
+ST_42: A_BUS_load_3_req (125)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 43>: 8.75ns
+ST_43: A_BUS_load_3_req (125)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 44>: 8.75ns
+ST_44: A_BUS_load_3_req (125)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 45>: 8.75ns
+ST_45: A_BUS_load_3_req (125)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 46>: 8.75ns
+ST_46: A_BUS_load_3_req (125)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:7  %A_BUS_load_3_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_2, i32 1)
+
+
+ <State 47>: 13.90ns
+ST_47: tmp_19 (119)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+:1  %tmp_19 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str9)
+
+ST_47: StgValue_224 (120)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:57
+:2  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_47: A_BUS_addr_2_read (126)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:62
+:8  %A_BUS_addr_2_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr_2)
+
+ST_47: tmp_20 (127)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:62
+:9  %tmp_20 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_2_read, i32 32, i32 47)
+
+ST_47: tmp_5 (128)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:62
+:10  %tmp_5 = sext i16 %tmp_20 to i32
+
+ST_47: tmp_6 (129)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:62
+:11  %tmp_6 = add nsw i32 %buff_load_1, %tmp_5
+
+ST_47: StgValue_229 (130)  [1/1] 2.71ns  loc: skipprefetch_Nelem.cpp:62
+:12  store i32 %tmp_6, i32* %buff_addr_2, align 4
+
+ST_47: empty_12 (131)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:64
+:13  %empty_12 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str9, i32 %tmp_19)
+
+ST_47: StgValue_231 (133)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:56
+:15  br label %.preheader5
+
+
+ <State 48>: 0.00ns
+ST_48: StgValue_232 (135)  [1/1] 0.00ns
+.preheader6.loopexit:0  br label %.preheader6
+
+
+ <State 49>: 3.31ns
+ST_49: j4 (141)  [1/1] 0.00ns
+.preheader4:0  %j4 = phi i6 [ 0, %.preheader4.preheader ], [ %j_1, %.preheader4.loopexit ]
+
+ST_49: exitcond1 (142)  [1/1] 1.94ns  loc: skipprefetch_Nelem.cpp:68
+.preheader4:1  %exitcond1 = icmp eq i6 %j4, -15
+
+ST_49: j_1 (143)  [1/1] 1.72ns  loc: skipprefetch_Nelem.cpp:68
+.preheader4:2  %j_1 = add i6 %j4, 1
+
+ST_49: StgValue_236 (144)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:68
+.preheader4:3  br i1 %exitcond1, label %.preheader.preheader, label %.preheader10.preheader
+
+ST_49: empty_13 (146)  [1/1] 0.00ns
+.preheader10.preheader:0  %empty_13 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
+
+ST_49: StgValue_238 (147)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:69
+.preheader10.preheader:1  br label %.preheader10
+
+ST_49: tmp_37 (173)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:69
+.preheader.preheader:0  %tmp_37 = icmp sgt i27 %i_3, 200
+
+
+ <State 50>: 3.81ns
+ST_50: i5 (149)  [1/1] 0.00ns
+.preheader10:0  %i5 = phi i26 [ %i_6, %4 ], [ %i_2, %.preheader10.preheader ]
+
+ST_50: i5_cast (150)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69
+.preheader10:1  %i5_cast = sext i26 %i5 to i27
+
+ST_50: tmp_8 (151)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:69
+.preheader10:2  %tmp_8 = icmp slt i27 %i5_cast, %i_3
+
+ST_50: StgValue_243 (152)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69
+.preheader10:3  br i1 %tmp_8, label %4, label %.preheader4.loopexit
+
+ST_50: i5_cast1 (154)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69
+:0  %i5_cast1 = sext i26 %i5 to i32
+
+ST_50: buff_addr_3 (157)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:75
+:3  %buff_addr_3 = getelementptr inbounds [10000 x i32]* %buff, i32 0, i32 %i5_cast1
+
+ST_50: buff_load_2 (158)  [2/2] 2.71ns  loc: skipprefetch_Nelem.cpp:75
+:4  %buff_load_2 = load i32* %buff_addr_3, align 4
+
+ST_50: i_6 (168)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:69
+:14  %i_6 = add i26 %i5, 1
+
+
+ <State 51>: 13.90ns
+ST_51: buff_load_2 (158)  [1/2] 2.71ns  loc: skipprefetch_Nelem.cpp:75
+:4  %buff_load_2 = load i32* %buff_addr_3, align 4
+
+ST_51: a2_sum4 (159)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:75
+:5  %a2_sum4 = add i32 %tmp_25, %buff_load_2
+
+ST_51: A_BUS_addr_4 (160)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:75
+:6  %A_BUS_addr_4 = getelementptr i64* %A_BUS, i32 %a2_sum4
+
+ST_51: A_BUS_load_5_req (161)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 52>: 8.75ns
+ST_52: A_BUS_load_5_req (161)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 53>: 8.75ns
+ST_53: A_BUS_load_5_req (161)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 54>: 8.75ns
+ST_54: A_BUS_load_5_req (161)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 55>: 8.75ns
+ST_55: A_BUS_load_5_req (161)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 56>: 8.75ns
+ST_56: A_BUS_load_5_req (161)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 57>: 8.75ns
+ST_57: A_BUS_load_5_req (161)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:7  %A_BUS_load_5_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_4, i32 1)
+
+
+ <State 58>: 13.90ns
+ST_58: tmp_21 (155)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69
+:1  %tmp_21 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str10)
+
+ST_58: StgValue_259 (156)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:70
+:2  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_58: A_BUS_addr_4_read (162)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:75
+:8  %A_BUS_addr_4_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr_4)
+
+ST_58: tmp_22 (163)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:75
+:9  %tmp_22 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_4_read, i32 32, i32 47)
+
+ST_58: tmp_10 (164)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:75
+:10  %tmp_10 = sext i16 %tmp_22 to i32
+
+ST_58: tmp_11 (165)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:75
+:11  %tmp_11 = add nsw i32 %buff_load_2, %tmp_10
+
+ST_58: StgValue_264 (166)  [1/1] 2.71ns  loc: skipprefetch_Nelem.cpp:75
+:12  store i32 %tmp_11, i32* %buff_addr_3, align 4
+
+ST_58: empty_14 (167)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:77
+:13  %empty_14 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str10, i32 %tmp_21)
+
+ST_58: StgValue_266 (169)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69
+:15  br label %.preheader10
+
+
+ <State 59>: 0.00ns
+ST_59: StgValue_267 (171)  [1/1] 0.00ns
+.preheader4.loopexit:0  br label %.preheader4
+
+
+ <State 60>: 8.40ns
+ST_60: smax (174)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:69 (grouped into LUT with out node tmp_38)
+.preheader.preheader:1  %smax = select i1 %tmp_37, i27 %i_3, i27 200
+
+ST_60: tmp_38 (175)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:80 (out node of the LUT)
+.preheader.preheader:2  %tmp_38 = sub i27 %smax, %i_3
+
+ST_60: cast4 (176)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:80
+.preheader.preheader:3  %cast4 = zext i27 %tmp_38 to i33
+
+ST_60: bound5 (177)  [3/3] 6.08ns  loc: skipprefetch_Nelem.cpp:80
+.preheader.preheader:4  %bound5 = mul i33 %cast4, 49
+
+
+ <State 61>: 6.08ns
+ST_61: bound5 (177)  [2/3] 6.08ns  loc: skipprefetch_Nelem.cpp:80
+.preheader.preheader:4  %bound5 = mul i33 %cast4, 49
+
+
+ <State 62>: 6.08ns
+ST_62: bound5 (177)  [1/3] 6.08ns  loc: skipprefetch_Nelem.cpp:80
+.preheader.preheader:4  %bound5 = mul i33 %cast4, 49
+
+ST_62: StgValue_274 (178)  [1/1] 1.57ns  loc: skipprefetch_Nelem.cpp:80
+.preheader.preheader:5  br label %.preheader9
+
+
+ <State 63>: 6.52ns
+ST_63: indvar_flatten7 (180)  [1/1] 0.00ns
+.preheader9:0  %indvar_flatten7 = phi i33 [ 0, %.preheader.preheader ], [ %indvar_flatten_next8, %.preheader ]
+
+ST_63: i7 (181)  [1/1] 0.00ns
+.preheader9:1  %i7 = phi i27 [ %i_3, %.preheader.preheader ], [ %i_7, %.preheader ]
+
+ST_63: exitcond_flatten9 (182)  [1/1] 2.52ns  loc: skipprefetch_Nelem.cpp:80
+.preheader9:2  %exitcond_flatten9 = icmp eq i33 %indvar_flatten7, %bound5
+
+ST_63: indvar_flatten_next8 (183)  [1/1] 2.56ns
+.preheader9:3  %indvar_flatten_next8 = add i33 %indvar_flatten7, 1
+
+ST_63: StgValue_279 (184)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:80
+.preheader9:4  br i1 %exitcond_flatten9, label %5, label %.preheader
+
+ST_63: tmp_39 (186)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:81
+.preheader:0  %tmp_39 = icmp slt i27 %i7, 200
+
+ST_63: i7_mid2 (187)  [1/1] 1.37ns  loc: skipprefetch_Nelem.cpp:81
+.preheader:1  %i7_mid2 = select i1 %tmp_39, i27 %i7, i27 %i_3
+
+ST_63: i7_cast (188)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:81
+.preheader:2  %i7_cast = sext i27 %i7_mid2 to i32
+
+ST_63: buff_addr_4 (191)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:5  %buff_addr_4 = getelementptr inbounds [10000 x i32]* %buff, i32 0, i32 %i7_cast
+
+ST_63: buff_load_3 (192)  [2/2] 2.71ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:6  %buff_load_3 = load i32* %buff_addr_4, align 4
+
+ST_63: i_7 (202)  [1/1] 2.32ns  loc: skipprefetch_Nelem.cpp:81
+.preheader:16  %i_7 = add i27 %i7_mid2, 1
+
+
+ <State 64>: 13.90ns
+ST_64: buff_load_3 (192)  [1/2] 2.71ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:6  %buff_load_3 = load i32* %buff_addr_4, align 4
+
+ST_64: a2_sum3 (193)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:7  %a2_sum3 = add i32 %tmp_25, %buff_load_3
+
+ST_64: A_BUS_addr_3 (194)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:8  %A_BUS_addr_3 = getelementptr i64* %A_BUS, i32 %a2_sum3
+
+ST_64: A_BUS_load_4_req (195)  [7/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 65>: 8.75ns
+ST_65: A_BUS_load_4_req (195)  [6/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 66>: 8.75ns
+ST_66: A_BUS_load_4_req (195)  [5/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 67>: 8.75ns
+ST_67: A_BUS_load_4_req (195)  [4/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 68>: 8.75ns
+ST_68: A_BUS_load_4_req (195)  [3/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 69>: 8.75ns
+ST_69: A_BUS_load_4_req (195)  [2/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 70>: 8.75ns
+ST_70: A_BUS_load_4_req (195)  [1/7] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:9  %A_BUS_load_4_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %A_BUS_addr_3, i32 1)
+
+
+ <State 71>: 13.90ns
+ST_71: tmp_23 (189)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:81
+.preheader:3  %tmp_23 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str11)
+
+ST_71: StgValue_297 (190)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:82
+.preheader:4  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_71: A_BUS_addr_3_read (196)  [1/1] 8.75ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:10  %A_BUS_addr_3_read = call i64 @_ssdm_op_Read.m_axi.volatile.i64P(i64* %A_BUS_addr_3)
+
+ST_71: tmp_24 (197)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:11  %tmp_24 = call i16 @_ssdm_op_PartSelect.i16.i64.i32.i32(i64 %A_BUS_addr_3_read, i32 32, i32 47)
+
+ST_71: tmp_13 (198)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:12  %tmp_13 = sext i16 %tmp_24 to i32
+
+ST_71: tmp_14 (199)  [1/1] 2.44ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:13  %tmp_14 = add nsw i32 %buff_load_3, %tmp_13
+
+ST_71: StgValue_302 (200)  [1/1] 2.71ns  loc: skipprefetch_Nelem.cpp:87
+.preheader:14  store i32 %tmp_14, i32* %buff_addr_4, align 4
+
+ST_71: empty_15 (201)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:89
+.preheader:15  %empty_15 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str11, i32 %tmp_23)
+
+ST_71: StgValue_304 (203)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:81
+.preheader:17  br label %.preheader9
+
+
+ <State 72>: 0.00ns
+ST_72: StgValue_305 (205)  [1/1] 0.00ns  loc: skipprefetch_Nelem.cpp:92
+:0  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1ns
+The critical path consists of the following:
+	s_axi read on port 'n' [5]  (1 ns)
+
+ <State 2>: 8.75ns
+The critical path consists of the following:
+	'getelementptr' operation ('PREF_WINDOW_addr') [9]  (0 ns)
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 3>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 4>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 5>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 6>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 7>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 8>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [22]  (8.75 ns)
+
+ <State 9>: 8.75ns
+The critical path consists of the following:
+	bus read on port 'PREF_WINDOW' (skipprefetch_Nelem.cpp:27) [23]  (8.75 ns)
+	'store' operation (skipprefetch_Nelem.cpp:27) of variable 'sz', skipprefetch_Nelem.cpp:27 on local variable 'sz' [24]  (0 ns)
+
+ <State 10>: 6.08ns
+The critical path consists of the following:
+	'load' operation ('sz_load', skipprefetch_Nelem.cpp:28) on local variable 'sz' [25]  (0 ns)
+	'mul' operation ('mul6', skipprefetch_Nelem.cpp:28) [27]  (6.08 ns)
+
+ <State 11>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('mul6', skipprefetch_Nelem.cpp:28) [27]  (6.08 ns)
+
+ <State 12>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('mul6', skipprefetch_Nelem.cpp:28) [27]  (6.08 ns)
+
+ <State 13>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('mul6', skipprefetch_Nelem.cpp:28) [27]  (6.08 ns)
+
+ <State 14>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('mul6', skipprefetch_Nelem.cpp:28) [27]  (6.08 ns)
+
+ <State 15>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('mul6', skipprefetch_Nelem.cpp:28) [27]  (6.08 ns)
+
+ <State 16>: 7.21ns
+The critical path consists of the following:
+	'sub' operation ('neg_mul7', skipprefetch_Nelem.cpp:28) [28]  (3.52 ns)
+	'select' operation ('tmp_34', skipprefetch_Nelem.cpp:31) [39]  (0 ns)
+	'sub' operation ('neg_ti', skipprefetch_Nelem.cpp:31) [40]  (2.32 ns)
+	'select' operation ('i', skipprefetch_Nelem.cpp:31) [41]  (1.37 ns)
+
+ <State 17>: 6.38ns
+The critical path consists of the following:
+	'mul' operation ('bound', skipprefetch_Nelem.cpp:56) [72]  (6.38 ns)
+
+ <State 18>: 8.75ns
+The critical path consists of the following:
+	'getelementptr' operation ('A_BUS_addr', skipprefetch_Nelem.cpp:37) [56]  (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 19>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 20>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 21>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 22>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 23>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 24>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [57]  (8.75 ns)
+
+ <State 25>: 8.75ns
+The critical path consists of the following:
+	bus read on port 'A_BUS' (skipprefetch_Nelem.cpp:37) [58]  (8.75 ns)
+
+ <State 26>: 8.75ns
+The critical path consists of the following:
+	bus read on port 'A_BUS' (skipprefetch_Nelem.cpp:38) [65]  (8.75 ns)
+
+ <State 27>: 2.44ns
+The critical path consists of the following:
+	'add' operation ('cum_offs', skipprefetch_Nelem.cpp:38) [68]  (2.44 ns)
+
+ <State 28>: 6.5ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', skipprefetch_Nelem.cpp:44) [76]  (0 ns)
+	'icmp' operation ('tmp_7', skipprefetch_Nelem.cpp:44) [78]  (2.42 ns)
+	'select' operation ('i1_mid2', skipprefetch_Nelem.cpp:44) [84]  (1.37 ns)
+	'getelementptr' operation ('buff_addr_1', skipprefetch_Nelem.cpp:50) [88]  (0 ns)
+	'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26 [89]  (2.71 ns)
+
+ <State 29>: 13.9ns
+The critical path consists of the following:
+	'load' operation ('buff_load', skipprefetch_Nelem.cpp:50) on array 'buff', skipprefetch_Nelem.cpp:26 [89]  (2.71 ns)
+	'add' operation ('a2_sum', skipprefetch_Nelem.cpp:50) [90]  (2.44 ns)
+	'getelementptr' operation ('A_BUS_addr_1', skipprefetch_Nelem.cpp:50) [91]  (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 30>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 31>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 32>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 33>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 34>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 35>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [92]  (8.75 ns)
+
+ <State 36>: 13.9ns
+The critical path consists of the following:
+	bus read on port 'A_BUS' (skipprefetch_Nelem.cpp:50) [93]  (8.75 ns)
+	'add' operation ('tmp_s', skipprefetch_Nelem.cpp:50) [96]  (2.44 ns)
+	'store' operation (skipprefetch_Nelem.cpp:50) of variable 'tmp_s', skipprefetch_Nelem.cpp:50 on array 'buff', skipprefetch_Nelem.cpp:26 [97]  (2.71 ns)
+
+ <State 37>: 1.57ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('j') with incoming values : ('j', skipprefetch_Nelem.cpp:55) [105]  (1.57 ns)
+
+ <State 38>: 3.31ns
+The critical path consists of the following:
+	'icmp' operation ('exitcond2', skipprefetch_Nelem.cpp:55) [106]  (1.94 ns)
+	blocking operation 1.37 ns on control path)
+
+ <State 39>: 3.8ns
+The critical path consists of the following:
+	'icmp' operation ('tmp_4', skipprefetch_Nelem.cpp:56) [115]  (2.43 ns)
+	blocking operation 1.37 ns on control path)
+
+ <State 40>: 13.9ns
+The critical path consists of the following:
+	'load' operation ('buff_load_1', skipprefetch_Nelem.cpp:62) on array 'buff', skipprefetch_Nelem.cpp:26 [122]  (2.71 ns)
+	'add' operation ('a2_sum2', skipprefetch_Nelem.cpp:62) [123]  (2.44 ns)
+	'getelementptr' operation ('A_BUS_addr_2', skipprefetch_Nelem.cpp:62) [124]  (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 41>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 42>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 43>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 44>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 45>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 46>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [125]  (8.75 ns)
+
+ <State 47>: 13.9ns
+The critical path consists of the following:
+	bus read on port 'A_BUS' (skipprefetch_Nelem.cpp:62) [126]  (8.75 ns)
+	'add' operation ('tmp_6', skipprefetch_Nelem.cpp:62) [129]  (2.44 ns)
+	'store' operation (skipprefetch_Nelem.cpp:62) of variable 'tmp_6', skipprefetch_Nelem.cpp:62 on array 'buff', skipprefetch_Nelem.cpp:26 [130]  (2.71 ns)
+
+ <State 48>: 0ns
+The critical path consists of the following:
+
+ <State 49>: 3.31ns
+The critical path consists of the following:
+	'icmp' operation ('exitcond1', skipprefetch_Nelem.cpp:68) [142]  (1.94 ns)
+	blocking operation 1.37 ns on control path)
+
+ <State 50>: 3.81ns
+The critical path consists of the following:
+	'icmp' operation ('tmp_8', skipprefetch_Nelem.cpp:69) [151]  (2.44 ns)
+	blocking operation 1.37 ns on control path)
+
+ <State 51>: 13.9ns
+The critical path consists of the following:
+	'load' operation ('buff_load_2', skipprefetch_Nelem.cpp:75) on array 'buff', skipprefetch_Nelem.cpp:26 [158]  (2.71 ns)
+	'add' operation ('a2_sum4', skipprefetch_Nelem.cpp:75) [159]  (2.44 ns)
+	'getelementptr' operation ('A_BUS_addr_4', skipprefetch_Nelem.cpp:75) [160]  (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 52>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 53>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 54>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 55>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 56>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 57>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [161]  (8.75 ns)
+
+ <State 58>: 13.9ns
+The critical path consists of the following:
+	bus read on port 'A_BUS' (skipprefetch_Nelem.cpp:75) [162]  (8.75 ns)
+	'add' operation ('tmp_11', skipprefetch_Nelem.cpp:75) [165]  (2.44 ns)
+	'store' operation (skipprefetch_Nelem.cpp:75) of variable 'tmp_11', skipprefetch_Nelem.cpp:75 on array 'buff', skipprefetch_Nelem.cpp:26 [166]  (2.71 ns)
+
+ <State 59>: 0ns
+The critical path consists of the following:
+
+ <State 60>: 8.4ns
+The critical path consists of the following:
+	'select' operation ('smax', skipprefetch_Nelem.cpp:69) [174]  (0 ns)
+	'sub' operation ('tmp_38', skipprefetch_Nelem.cpp:80) [175]  (2.32 ns)
+	'mul' operation ('bound5', skipprefetch_Nelem.cpp:80) [177]  (6.08 ns)
+
+ <State 61>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('bound5', skipprefetch_Nelem.cpp:80) [177]  (6.08 ns)
+
+ <State 62>: 6.08ns
+The critical path consists of the following:
+	'mul' operation ('bound5', skipprefetch_Nelem.cpp:80) [177]  (6.08 ns)
+
+ <State 63>: 6.52ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', skipprefetch_Nelem.cpp:69) ('i', skipprefetch_Nelem.cpp:81) [181]  (0 ns)
+	'icmp' operation ('tmp_39', skipprefetch_Nelem.cpp:81) [186]  (2.44 ns)
+	'select' operation ('i7_mid2', skipprefetch_Nelem.cpp:81) [187]  (1.37 ns)
+	'getelementptr' operation ('buff_addr_4', skipprefetch_Nelem.cpp:87) [191]  (0 ns)
+	'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26 [192]  (2.71 ns)
+
+ <State 64>: 13.9ns
+The critical path consists of the following:
+	'load' operation ('buff_load_3', skipprefetch_Nelem.cpp:87) on array 'buff', skipprefetch_Nelem.cpp:26 [192]  (2.71 ns)
+	'add' operation ('a2_sum3', skipprefetch_Nelem.cpp:87) [193]  (2.44 ns)
+	'getelementptr' operation ('A_BUS_addr_3', skipprefetch_Nelem.cpp:87) [194]  (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 65>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 66>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 67>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 68>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 69>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 70>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [195]  (8.75 ns)
+
+ <State 71>: 13.9ns
+The critical path consists of the following:
+	bus read on port 'A_BUS' (skipprefetch_Nelem.cpp:87) [196]  (8.75 ns)
+	'add' operation ('tmp_14', skipprefetch_Nelem.cpp:87) [199]  (2.44 ns)
+	'store' operation (skipprefetch_Nelem.cpp:87) of variable 'tmp_14', skipprefetch_Nelem.cpp:87 on array 'buff', skipprefetch_Nelem.cpp:26 [200]  (2.71 ns)
+
+ <State 72>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
+	State 34
+	State 35
+	State 36
+	State 37
+	State 38
+	State 39
+	State 40
+	State 41
+	State 42
+	State 43
+	State 44
+	State 45
+	State 46
+	State 47
+	State 48
+	State 49
+	State 50
+	State 51
+	State 52
+	State 53
+	State 54
+	State 55
+	State 56
+	State 57
+	State 58
+	State 59
+	State 60
+	State 61
+	State 62
+	State 63
+	State 64
+	State 65
+	State 66
+	State 67
+	State 68
+	State 69
+	State 70
+	State 71
+	State 72
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -106,6 +106,7 @@ module simple_AXI_TestBench();
     integer break = 0;
     integer n = 3;
     integer rid_set = 0;
+    integer flag = 0;
     
     simple_AXI # (
         .C_M_TARGET_SLAVE_BASE_ADDR(C_M_TARGET_SLAVE_BASE_ADDR),
@@ -189,7 +190,19 @@ module simple_AXI_TestBench();
                 M_AXI_ARREADY <= 1'b0;
               end
             else
-              M_AXI_ARREADY <= 1'b1;
+              begin
+              if (flag <= 10)
+                begin
+                  M_AXI_ARREADY <= 1'b0;
+                  flag = flag + 1;
+                end
+              else
+                begin
+                  M_AXI_ARREADY <= 1'b1;
+                  flag = 0;
+                end
+                //M_AXI_ARREADY <= 1'b1;
+              end
           end
         else if ((M_AXI_ARREADY) && (M_AXI_ARVALID == 1'b1))
           begin

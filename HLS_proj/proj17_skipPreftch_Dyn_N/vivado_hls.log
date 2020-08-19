@@ -1,0 +1,76 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Haresh Prasannha' on host 'desktop-u9mk50b' (Windows NT_amd64 version 6.2) on Mon Aug 17 20:13:36 +0800 2020
+INFO: [HLS 200-10] In directory 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N'
+INFO: [HLS 200-10] Opening project 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem'.
+INFO: [HLS 200-10] Adding design file 'skipprefetch_Nelem.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'skipprefetch_Nelem_test.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [HLS 200-10] Analyzing design file 'skipprefetch_Nelem.cpp' ... 
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 92.699 ; gain = 43.855
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 92.719 ; gain = 43.875
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 94.348 ; gain = 45.504
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-77] The top function 'skipprefetch_Nelem' (skipprefetch_Nelem.cpp:17) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 94.828 ; gain = 45.984
+INFO: [XFORM 203-1101] Packing variable 'a' (skipprefetch_Nelem.cpp:17) into a 64-bit variable.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 115.230 ; gain = 66.387
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2' (skipprefetch_Nelem.cpp:40:15) in function 'skipprefetch_Nelem' : 
+WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop.
+WARNING: [XFORM 203-562] Loop 'Loop-2.1' (skipprefetch_Nelem.cpp:41) in function 'skipprefetch_Nelem' has unknown bound because it has multiple exiting blocks.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 115.230 ; gain = 66.387
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'skipprefetch_Nelem' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'skipprefetch_Nelem' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2.1'.
+WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('icmp' operation ('tmp_6')) in the first II cycles (II = 1).
+WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('icmp' operation ('tmp_6')) in the first II cycles (II = 2).
+WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('icmp' operation ('tmp_6')) in the first II cycles (II = 3).
+WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('icmp' operation ('tmp_6')) in the first II cycles (II = 4).
+WARNING: [SCHED 204-64] Unable to schedule the loop exit test ('icmp' operation ('tmp_6')) in the first II cycles (II = 7).
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 1)
+   between 'store' operation (skipprefetch_Nelem.cpp:46) of variable 'tmp_s', skipprefetch_Nelem.cpp:46 on array 'buff', skipprefetch_Nelem.cpp:27 and 'load' operation ('buff_load', skipprefetch_Nelem.cpp:46) on array 'buff', skipprefetch_Nelem.cpp:27.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 9, Depth: 17.
+WARNING: [SCHED 204-21] Estimated clock period (13.9ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path consists of the following:
+	'load' operation ('buff_load', skipprefetch_Nelem.cpp:46) on array 'buff', skipprefetch_Nelem.cpp:27 (2.71 ns)
+	'add' operation ('a2_sum', skipprefetch_Nelem.cpp:46) (2.44 ns)
+	'getelementptr' operation ('A_BUS_addr_1', skipprefetch_Nelem.cpp:46) (0 ns)
+	bus request on port 'A_BUS' (skipprefetch_Nelem.cpp:46) (8.75 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 6.773 seconds; current allocated memory: 74.601 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.261 seconds; current allocated memory: 74.564 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'skipprefetch_Nelem' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/A_BUS' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/PREF_WINDOW' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/a' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/n' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'skipprefetch_Nelem/vb' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'skipprefetch_Nelem' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'a', 'n' and 'vb' to AXI-Lite port CFG.
+INFO: [SYN 201-210] Renamed object name 'skipprefetch_Nelem_buff' to 'skipprefetch_Nelebkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'skipprefetch_Nelem_mul_34ns_32s_65_6' to 'skipprefetch_Nelecud' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'skipprefetch_Nelecud': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'skipprefetch_Nelem'.
+INFO: [HLS 200-111]  Elapsed time: 0.242 seconds; current allocated memory: 75.728 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'skipprefetch_Nelecud_MulnS_0'
+INFO: [RTMG 210-278] Implementing memory 'skipprefetch_Nelebkb_ram' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 117.820 ; gain = 68.977
+INFO: [SYSC 207-301] Generating SystemC RTL for skipprefetch_Nelem.
+INFO: [VHDL 208-304] Generating VHDL RTL for skipprefetch_Nelem.
+INFO: [VLOG 209-307] Generating Verilog RTL for skipprefetch_Nelem.
+INFO: [HLS 200-112] Total elapsed time: 8.776 seconds; peak allocated memory: 75.728 MB.

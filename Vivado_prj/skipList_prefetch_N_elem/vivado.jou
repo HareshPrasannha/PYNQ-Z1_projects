@@ -1,0 +1,258 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Aug 17 14:54:46 2020
+# Process ID: 16312
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14684 A:\COMP_ARCH\PYNQ_Projects\Vivado_prj\skipList_prefetch_N_elem\skipList_prefetch_N_elem.xpr
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/vivado.log
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.xpr
+open_bd_design {A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipList_prefetch_N_elem/skipList_prefetch_N_elem.srcs/sources_1/bd/design_1/design_1.bd}
+close_project
+create_project skipprefetch_Dynamic_N A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N -part xc7z020clg400-1
+set_property board_part www.digilentinc.com:pynq-z1:part0:1.0 [current_project]
+create_bd_design "design_1"
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {1} CONFIG.PCW_USE_DEFAULT_ACP_USER_VAL {1}] [get_bd_cells processing_system7_0]
+endgroup
+set_property  ip_repo_paths  A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+set_property location {1 55 106} [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_cells skipprefetch_Nelem_0]
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  A:/COMP_ARCH/PYNQ_Projects/HLS_proj/proj17_skipPreftch_Dyn_N/skipprefetch_Nelem/solution1/impl/ip [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+set_property location {1 95 62} [get_bd_cells skipprefetch_Nelem_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_ACP]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/s_axi_CFG]
+endgroup
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {1}] [get_bd_cells axi_mem_intercon]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_ACP" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {4} CONFIG.CONST_VAL {15}] [get_bd_cells xlconstant_0]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_ARCACHE]
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_AWCACHE] [get_bd_pins xlconstant_0/dout]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_1
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {5} CONFIG.CONST_VAL {31}] [get_bd_cells xlconstant_1]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER]
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER] [get_bd_pins xlconstant_1/dout]
+startgroup
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_IOP]
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_M_AXI_GP0]
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/design_1.bd] -fileset [get_filesets sources_1] -inst_template
+make_wrapper -files [get_files A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+file mkdir A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk
+file copy -force A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.runs/impl_1/design_1_wrapper.sysdef A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk -hwspec A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/skipprefetch_Dynamic_N/skipprefetch_Dynamic_N.sdk/design_1_wrapper.hdf
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_HP0 {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.NUM_MI {2}] [get_bd_cells axi_mem_intercon]
+endgroup
+delete_bd_objs [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_ACP" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+endgroup
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_QSPI_LINEAR]
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_DDR_LOWOCM]
+validate_bd_design
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+validate_bd_design
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_HIGH_OCM {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+endgroup
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets axi_mem_intercon_M00_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW] [get_bd_intf_nets axi_mem_intercon_M01_AXI] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_A_BUS]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_nets xlconstant_1_dout] [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells xlconstant_0] [get_bd_cells xlconstant_1] [get_bd_cells rst_ps7_0_100M] [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_cells axi_mem_intercon] [get_bd_cells ps7_0_axi_periph]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {1} CONFIG.PCW_USE_S_AXI_HP0 {1} CONFIG.PCW_USE_HIGH_OCM {1} CONFIG.PCW_USE_DEFAULT_ACP_USER_VAL {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+set_property location {0.5 -46 -68} [get_bd_cells skipprefetch_Nelem_0]
+set_property location {1 -171 -75} [get_bd_cells skipprefetch_Nelem_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+copy_bd_objs /  [get_bd_cells {xlconstant_0}]
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {4} CONFIG.CONST_VAL {15}] [get_bd_cells xlconstant_0]
+endgroup
+set_property location {1 -50 435} [get_bd_cells xlconstant_1]
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {5} CONFIG.CONST_VAL {31}] [get_bd_cells xlconstant_1]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER]
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER] [get_bd_pins xlconstant_1/dout]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_ARCACHE]
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_AWCACHE] [get_bd_pins xlconstant_0/dout]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/s_axi_CFG]
+endgroup
+regenerate_bd_layout
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+undo
+delete_bd_objs [get_bd_intf_nets axi_mem_intercon_M00_AXI]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_mem_intercon/M00_AXI] [get_bd_intf_pins processing_system7_0/S_AXI_ACP]
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {2}] [get_bd_cells axi_mem_intercon]
+endgroup
+regenerate_bd_layout
+connect_bd_intf_net [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW] -boundary_type upper [get_bd_intf_pins axi_mem_intercon/S01_AXI]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_mem_intercon/M01_AXI] [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+assign_bd_address [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] -target_address_space /skipprefetch_Nelem_0/Data_m_axi_A_BUS
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_HP0_HIGH_OCM]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_A_BUS]
+delete_bd_objs [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_HIGH_OCM]
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets axi_mem_intercon_M00_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW] [get_bd_intf_nets axi_mem_intercon_M01_AXI] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_A_BUS]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_nets xlconstant_1_dout] [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells xlconstant_0] [get_bd_cells xlconstant_1] [get_bd_cells rst_ps7_0_100M] [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_cells axi_mem_intercon] [get_bd_cells ps7_0_axi_periph]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {1} CONFIG.PCW_USE_DEFAULT_ACP_USER_VAL {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:skipprefetch_Nelem:1.0 skipprefetch_Nelem_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_ACP]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/s_axi_CFG]
+endgroup
+regenerate_bd_layout
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_IOP]
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_M_AXI_GP0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_HP0 {1} CONFIG.PCW_USE_HIGH_OCM {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {2}] [get_bd_cells axi_mem_intercon]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/skipprefetch_Nelem_0/m_axi_A_BUS" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_ACP" Clk "Auto" }  [get_bd_intf_pins skipprefetch_Nelem_0/m_axi_PREF_WINDOW]
+endgroup
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_QSPI_LINEAR]
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_DDR_LOWOCM]
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+exclude_bd_addr_seg [get_bd_addr_segs processing_system7_0/S_AXI_HP0/HP0_HIGH_OCM] -target_address_space [get_bd_addr_spaces skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW]
+include_bd_addr_seg [get_bd_addr_segs -excluded skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_HP0_HIGH_OCM]
+exclude_bd_addr_seg [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_HIGH_OCM]
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_HP0_DDR_LOWOCM]
+assign_bd_address [get_bd_addr_segs {processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM }]
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_HIGH_OCM]
+assign_bd_address [get_bd_addr_segs {processing_system7_0/S_AXI_ACP/ACP_HIGH_OCM }]
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_A_BUS/SEG_processing_system7_0_ACP_HIGH_OCM]
+validate_bd_design
+delete_bd_objs [get_bd_addr_segs skipprefetch_Nelem_0/Data_m_axi_PREF_WINDOW/SEG_processing_system7_0_ACP_HIGH_OCM]
+validate_bd_design
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {4} CONFIG.CONST_VAL {15}] [get_bd_cells xlconstant_0]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_1
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONST_WIDTH {5} CONFIG.CONST_VAL {31}] [get_bd_cells xlconstant_1]
+endgroup
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_AWLEN]
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_ARLEN] [get_bd_pins xlconstant_0/dout]
+connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins processing_system7_0/S_AXI_ACP_ARUSER]
+connect_bd_net [get_bd_pins processing_system7_0/S_AXI_ACP_AWUSER] [get_bd_pins xlconstant_1/dout]
+regenerate_bd_layout
+validate_bd_design
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets axi_mem_intercon_M00_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_PREF_WINDOW] [get_bd_intf_nets axi_mem_intercon_M01_AXI] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets skipprefetch_Nelem_0_m_axi_A_BUS]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_nets xlconstant_1_dout] [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells xlconstant_0] [get_bd_cells xlconstant_1] [get_bd_cells rst_ps7_0_100M] [get_bd_cells skipprefetch_Nelem_0]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_cells axi_mem_intercon] [get_bd_cells ps7_0_axi_periph]
+endgroup
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
