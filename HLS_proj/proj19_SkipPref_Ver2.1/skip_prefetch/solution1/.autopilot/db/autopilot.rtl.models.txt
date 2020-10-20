@@ -1,0 +1,6 @@
+skip_prefetch_mulbkb
+skip_prefetch_buff
+skip_prefetch_CFG_s_axi
+skip_prefetch_A_BUS_m_axi
+skip_prefetch_PREF_WINDOW_m_axi
+skip_prefetch

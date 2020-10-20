@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;'sub' operation ('neg_mul', skip_prefetch.cpp:43) (3.52 ns)&#xD;&#xA;&#x9;'select' operation ('tmp_13', skip_prefetch.cpp:43) (0 ns)&#xD;&#xA;&#x9;'sub' operation ('neg_ti', skip_prefetch.cpp:43) (2.44 ns)&#xD;&#xA;&#x9;'select' operation ('tmp_6', skip_prefetch.cpp:43) (0 ns)&#xD;&#xA;&#x9;'icmp' operation ('tmp_7', skip_prefetch.cpp:43) (2.52 ns)&#xD;&#xA;&#x9;blocking operation 1.37 ns on control path)" projectName="skip_prefetch" solutionName="solution1" date="2020-10-20T15:46:23.794+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (9.85ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="skip_prefetch" solutionName="solution1" date="2020-10-20T15:46:23.767+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic in the loop header." projectName="skip_prefetch" solutionName="solution1" date="2020-10-20T15:46:23.450+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-2' (skip_prefetch.cpp:43:16) in function 'skip_prefetch' : " projectName="skip_prefetch" solutionName="solution1" date="2020-10-20T15:46:23.189+0800" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-77] The top function 'skip_prefetch' (skip_prefetch.cpp:17) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops." projectName="skip_prefetch" solutionName="solution1" date="2020-10-20T15:46:22.644+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

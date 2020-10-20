@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Oct 20 16:05:40 2020
+# Process ID: 10412
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.runs/design_1_auto_us_0_synth_1
+# Command line: vivado.exe -log design_1_auto_us_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_us_0.tcl
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.runs/design_1_auto_us_0_synth_1/design_1_auto_us_0.vds
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.runs/design_1_auto_us_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_us_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 348.445 ; gain = 138.809
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_us_0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_top' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_axi_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_w_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_w_upsizer' (1#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (2#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer' (3#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_r_upsizer' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_r_upsizer' (4#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (5#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' (6#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (7#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' (8#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_axi_upsizer' (9#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_top' (10#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_us_0' (11#1) [a:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/synth/design_1_auto_us_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:02:47 ; elapsed = 00:03:06 . Memory (MB): peak = 468.387 ; gain = 258.750
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:47 ; elapsed = 00:03:06 . Memory (MB): peak = 468.387 ; gain = 258.750
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.180 . Memory (MB): peak = 714.195 ; gain = 0.199
+Finished Constraint Validation : Time (s): cpu = 00:03:06 ; elapsed = 00:03:27 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished Loading Part and Timing Information : Time (s): cpu = 00:03:06 ; elapsed = 00:03:27 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:06 ; elapsed = 00:03:27 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:08 ; elapsed = 00:03:29 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:20 ; elapsed = 00:03:42 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:39 ; elapsed = 00:04:01 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished Timing Optimization : Time (s): cpu = 00:03:41 ; elapsed = 00:04:03 . Memory (MB): peak = 714.195 ; gain = 504.559
+Finished Technology Mapping : Time (s): cpu = 00:03:42 ; elapsed = 00:04:04 . Memory (MB): peak = 725.176 ; gain = 515.539
+Finished IO Insertion : Time (s): cpu = 00:03:43 ; elapsed = 00:04:05 . Memory (MB): peak = 725.176 ; gain = 515.539
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:43 ; elapsed = 00:04:05 . Memory (MB): peak = 725.176 ; gain = 515.539
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:43 ; elapsed = 00:04:05 . Memory (MB): peak = 725.176 ; gain = 515.539
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:43 ; elapsed = 00:04:05 . Memory (MB): peak = 725.176 ; gain = 515.539
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:43 ; elapsed = 00:04:06 . Memory (MB): peak = 725.176 ; gain = 515.539
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:43 ; elapsed = 00:04:06 . Memory (MB): peak = 725.176 ; gain = 515.539
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     6|
+|2     |LUT2    |    33|
+|3     |LUT3    |   109|
+|4     |LUT4    |    40|
+|5     |LUT5    |   134|
+|6     |LUT6    |   213|
+|7     |SRLC32E |    56|
+|8     |FDRE    |   581|
+|9     |FDSE    |     4|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:43 ; elapsed = 00:04:06 . Memory (MB): peak = 725.176 ; gain = 515.539
+synth_design: Time (s): cpu = 00:03:38 ; elapsed = 00:03:54 . Memory (MB): peak = 729.988 ; gain = 469.566

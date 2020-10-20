@@ -1,0 +1,1922 @@
+16:26:10 **** Build of project skip_prefetch_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/skip_prefetch_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/skip_prefetch_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/skip_prefetch_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/skip_prefetch_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling skip_prefetch"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+16:26:54 **** Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22332	   1148	  22568	  46048	   b3e0	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:26:58 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:28:11 **** Clean-only build of configuration Debug for project skip_prefetch ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  skip_prefetch.elf.size  skip_prefetch.elf
+' '
+16:28:12 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22252	   1148	  22568	  45968	   b390	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:28:30 **** Clean-only build of configuration Debug for project skip_prefetch ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  skip_prefetch.elf.size  skip_prefetch.elf
+' '
+16:28:30 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22252	   1148	209721384	209744784	c807390	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:34:23 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:221:32: error: 'start_value' undeclared (first use in this function)
+  int pref_n = prefetch_intr - (start_value);
+                                ^
+../src/helloworld.c:221:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:263:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:293:7: error: 'p' undeclared (first use in this function)
+      *p = *p + 1;
+       ^
+../src/helloworld.c:278:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:219:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:218:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+16:34:40 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:148:18: warning: operation on 'skip_prevnode' may be undefined [-Wsequence-point]
+    skip_prevnode = skip_prevnode = skip_prevnode + skip_prevnode->offs[0];
+                  ^
+../src/helloworld.c:148:18: warning: operation on 'skip_prevnode' may be undefined [-Wsequence-point]
+../src/helloworld.c:221:32: error: 'start_value' undeclared (first use in this function)
+  int pref_n = prefetch_intr - (start_value);
+                                ^
+../src/helloworld.c:221:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:263:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:293:7: error: 'p' undeclared (first use in this function)
+      *p = *p + 1;
+       ^
+../src/helloworld.c:278:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:219:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:218:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+16:34:58 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:221:32: error: 'start_value' undeclared (first use in this function)
+  int pref_n = prefetch_intr - (start_value);
+                                ^
+../src/helloworld.c:221:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:263:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:293:7: error: 'p' undeclared (first use in this function)
+      *p = *p + 1;
+       ^
+../src/helloworld.c:278:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:219:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:218:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+16:35:26 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:221:32: error: 'start_value' undeclared (first use in this function)
+  int pref_n = prefetch_intr - (start_value);
+                                ^
+../src/helloworld.c:221:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:263:12: error: 'prefetch_startaddrs' undeclared (first use in this function)
+    temp1 = prefetch_startaddrs[idx];
+            ^
+../src/helloworld.c:293:7: error: 'p' undeclared (first use in this function)
+      *p = *p + 1;
+       ^
+../src/helloworld.c:278:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:219:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:218:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+16:37:45 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80548	   2596	209722160	209805304	c815ff8	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:38:20 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80544	   2596	209722160	209805300	c815ff4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:41:56 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:42:25 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:43:12 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80548	   2596	209722160	209805304	c815ff8	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:43:15 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:43:39 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80548	   2596	209722160	209805304	c815ff8	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+16:43:43 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:05:04 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:195:54: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
+   printf("pref_wind values: %d\n",prefetch_startaddrs[i]->val);
+                                                      ^
+../src/helloworld.c:194:2: note: containing loop
+  for (int i=0;i<n/skip_intr;i++){
+  ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80652	   2596	209722160	209805408	c816060	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:05:20 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:195:54: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
+   printf("pref_wind values: %d\n",prefetch_startaddrs[i]->val);
+                                                      ^
+../src/helloworld.c:194:2: note: containing loop
+  for (int i=0;i<(n/skip_intr);i++){
+  ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80652	   2596	209722160	209805408	c816060	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:05:27 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:195:58: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
+   xil_printf("pref_wind values: %d\n",prefetch_startaddrs[i]->val);
+                                                          ^
+../src/helloworld.c:194:2: note: containing loop
+  for (int i=0;i<(n/skip_intr);i++){
+  ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80652	   2596	209722160	209805408	c816060	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:06:15 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:08:00 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79912	   2596	209722160	209804668	c815d7c	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:08:05 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:09:18 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:10:08 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79916	   2596	209722160	209804672	c815d80	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:10:17 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:18: warning: unused variable 'stop' [-Wunused-variable]
+     XTime start, stop;
+                  ^
+../src/helloworld.c:118:11: warning: unused variable 'start' [-Wunused-variable]
+     XTime start, stop;
+           ^
+../src/helloworld.c:117:10: warning: unused variable 'l1_measrs' [-Wunused-variable]
+     int *l1_measrs = malloc(6*sizeof(int));
+          ^
+../src/helloworld.c:116:10: warning: unused variable 'req_count' [-Wunused-variable]
+     int *req_count = malloc(1*sizeof(int));
+          ^
+../src/helloworld.c:115:10: warning: unused variable 'hit_count' [-Wunused-variable]
+     int *hit_count = malloc(1*sizeof(int));
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79916	   2596	209722160	209804672	c815d80	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:10:21 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:11:38 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:225:32: error: 'start_value' undeclared (first use in this function)
+  int pref_n = prefetch_intr - (start_value);
+                                ^
+../src/helloworld.c:225:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:297:7: error: 'p' undeclared (first use in this function)
+      *p = *p + 1;
+       ^
+../src/helloworld.c:282:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+17:13:11 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:297:7: error: 'p' undeclared (first use in this function)
+      *p = *p + 1;
+       ^
+../src/helloworld.c:297:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:282:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+17:13:46 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:282:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:316:34: error: 'p' undeclared (first use in this function)
+     xil_printf("P value = %d\n",*p);
+                                  ^
+../src/helloworld.c:316:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+17:13:52 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:282:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+../src/helloworld.c:239:3: warning: 'n_PL' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   XSkip_prefetch_Set_n(&copiaMem,(u32)n_PL);
+   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81916	   2596	209722160	209806672	c816550	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:14:33 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:282:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81824	   2596	209722160	209806580	c8164f4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:15:32 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:268:4: error: 'temp' undeclared (first use in this function)
+    temp = (prefetch_startaddrs[i] + prefetch_startaddrs[i]->offs[0]);
+    ^
+../src/helloworld.c:268:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:268:32: error: 'i' undeclared (first use in this function)
+    temp = (prefetch_startaddrs[i] + prefetch_startaddrs[i]->offs[0]);
+                                ^
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:130:15: warning: variable 'prefetch_startaddrs' set but not used [-Wunused-but-set-variable]
+  struct node *prefetch_startaddrs[n/prefetch_intr];
+               ^
+make: *** [src/helloworld.o] Error 1
+17:15:45 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:268:4: error: 'temp' undeclared (first use in this function)
+    temp = (prefetch_startaddrs[idx] + prefetch_startaddrs[idx]->offs[0]);
+    ^
+../src/helloworld.c:268:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+17:15:51 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:268:4: error: 'temp' undeclared (first use in this function)
+    temp = (prefetch_startaddrs[idx] + prefetch_startaddrs[idx]->offs[0]);
+    ^
+../src/helloworld.c:268:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+make: *** [src/helloworld.o] Error 1
+17:16:03 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81868	   2596	209722160	209806624	c816520	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:16:38 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:17:15 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:18:27 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82004	   2596	209722160	209806760	c8165a8	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:18:31 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:19:50 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82064	   2596	209722160	209806820	c8165e4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:19:52 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:22:31 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82064	   2596	209722160	209806820	c8165e4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:22:34 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:22:57 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82064	   2596	209722160	209806820	c8165e4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:23:00 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:24:49 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:284:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:24:53 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:284:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:24:57 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:25:25 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:284:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:25:28 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:25:51 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:284:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:25:54 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:26:27 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:284:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:227:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = prefetch_intr;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:27:03 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+../src/helloworld.c:228:19: warning: 'prefetch_window' is used uninitialized in this function [-Wuninitialized]
+  *prefetch_window = pref_n;
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:27:16 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:29:23 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2596	209722160	209806868	c816614	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:29:27 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:29:59 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81956	   2596	209722160	209806712	c816578	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:30:03 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:30:22 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81892	   2596	209722160	209806648	c816538	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:30:25 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:31:02 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:31:46 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:31:50 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:31:56 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:01 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:32 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81808	   2596	209722160	209806564	c8164e4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:32:49 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81864	   2596	209722160	209806620	c81651c	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:32:53 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:33:23 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81864	   2596	209722160	209806620	c81651c	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:33:26 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:33:41 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81808	   2596	209722160	209806564	c8164e4	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:33:44 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:34:17 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:34:25 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:35:44 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81924	   2596	209722160	209806680	c816558	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:36:15 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81984	   2596	209722160	209806740	c816594	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:36:35 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:37:21 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81876	   2596	209722160	209806632	c816528	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:37:25 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:38:02 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81932	   2596	209722160	209806688	c816560	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:38:12 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:39:33 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81948	   2596	209722160	209806704	c816570	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:39:36 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:39:50 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81904	   2596	209722160	209806660	c816544	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:39:54 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:40:11 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81876	   2596	209722160	209806632	c816528	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:40:21 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:34 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:39 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:46:08 **** Auto Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../skip_prefetch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:285:10: warning: unused variable 'idx' [-Wunused-variable]
+      int idx = 0;
+          ^
+../src/helloworld.c:223:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum = 0;
+      ^
+../src/helloworld.c:222:15: warning: unused variable 'new_temp1' [-Wunused-variable]
+  struct node *new_temp1;
+               ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: skip_prefetch.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../skip_prefetch_bsp/ps7_cortexa9_0/lib -o "skip_prefetch.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: skip_prefetch.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size skip_prefetch.elf  |tee "skip_prefetch.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81904	   2596	209722160	209806660	c816544	skip_prefetch.elf
+'Finished building: skip_prefetch.elf.size'
+' '
+17:46:11 **** Incremental Build of configuration Debug for project skip_prefetch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

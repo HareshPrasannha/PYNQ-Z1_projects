@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Oct 20 16:07:55 2020
+# Process ID: 15336
+# Current directory: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.runs/design_1_auto_pc_1_synth_1
+# Command line: vivado.exe -log design_1_auto_pc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_1.tcl
+# Log file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.runs/design_1_auto_pc_1_synth_1/design_1_auto_pc_1.vds
+# Journal file: A:/COMP_ARCH/PYNQ_Projects/Vivado_prj/SkipListPref_Version2.1/skiplistPref_ver2.1/skiplistPref_ver2.1.runs/design_1_auto_pc_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_pc_1.tcl -notrace
